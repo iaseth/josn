@@ -1,5 +1,5 @@
 {
-  "name": "@iaseth/josn",
+  "name": "josn-cli",
   "version": "0.1.0",
   "description": "JOSN is a JSON viewer.",
   "main": "index.js",
