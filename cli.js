@@ -54,6 +54,13 @@ function main () {
 	let currentJo = jo;
 	for (const key of keys) {
 		const isArray = currentJo.constructor === Array;
+		const isObject = currentJo.constructor === Object;
+		const isPrimitive = !isArray && !isObject;
+
+		if (isPrimitive) {
+			console.log(`Ignored key: '${key}'`);
+			continue;
+		}
 
 		const idx = isArray ? parseInt(key) : 0;
 		// using at() because idx can also be negative
