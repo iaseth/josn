@@ -2,6 +2,34 @@
 
 const fs = require("fs");
 
+function isNumeric (x) {
+	if (typeof x != "string") {
+		return false;
+	}
+
+	return !isNaN(x) && !isNaN(parseFloat(x));
+}
+
+function isObjectKey (x) {
+	if (x[0] !== "-") {
+		return true;
+	}
+	return false;
+}
+
+function isSingleFlag (x) {
+	if (x[0] === "-" && x[1] !== "-" && !isNumeric(x.slice(1))) {
+		return true;
+	}
+	return false;
+}
+
+function isDoubleFlag (x) {
+	if (x[0] === "-" && x[1] === "-") {
+		return true;
+	}
+	return false;
+}
 
 function main () {
 	const [,, filepath, ...args] = process.argv;
@@ -18,14 +46,19 @@ function main () {
 		return;
 	}
 
-	const keys = args.filter(a => a[0] !== "-");
-	const singleFlags = args.filter(a => a[0] === "-" && a[1] !== "-").map(a => a.slice(1));
-	const doubleFlags = args.filter(a => a[0] === "-" && a[1] === "-").map(a => a.slice(2));
+	const keys = args.filter(a =>  isObjectKey(a) || isNumeric(a));
+	const singleFlags = args.filter(isSingleFlag).map(a => a.slice(1));
+	const doubleFlags = args.filter(isDoubleFlag).map(a => a.slice(2));
 
 	const jo = JSON.parse(fs.readFileSync(filepath, 'utf8'));
 	let currentJo = jo;
 	for (const key of keys) {
-		const newJo = currentJo[key];
+		const isArray = currentJo.constructor === Array;
+
+		const idx = isArray ? parseInt(key) : 0;
+		// using at() because idx can also be negative
+		const newJo = isArray ? currentJo.at(idx) : currentJo[key];
+
 		if (newJo === undefined) {
 			console.log(`Key NOT Found: '${key}'`);
 			return;
