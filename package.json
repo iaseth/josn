@@ -1,0 +1,21 @@
+{
+  "name": "@iaseth/josn",
+  "version": "0.1.0",
+  "description": "JOSN is a JSON viewer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "josn": "./cli.js"
+  },
+  "keywords": [
+    "json",
+    "viewer",
+    "browser"
+  ],
+  "author": "iaseth",
+  "homepage": "https://github.com/iaseth/josn",
+  "repository": "iaseth/josn",
+  "license": "MIT"
+}
