@@ -1,35 +1,9 @@
 #!/usr/bin/env node
 
 const fs = require("fs");
+const utils = require("./src/utils");
 
-function isNumeric (x) {
-	if (typeof x != "string") {
-		return false;
-	}
 
-	return !isNaN(x) && !isNaN(parseFloat(x));
-}
-
-function isObjectKey (x) {
-	if (x[0] !== "-") {
-		return true;
-	}
-	return false;
-}
-
-function isSingleFlag (x) {
-	if (x[0] === "-" && x[1] !== "-" && !isNumeric(x.slice(1))) {
-		return true;
-	}
-	return false;
-}
-
-function isDoubleFlag (x) {
-	if (x[0] === "-" && x[1] === "-") {
-		return true;
-	}
-	return false;
-}
 
 function main () {
 	const [,, filepath, ...args] = process.argv;
@@ -46,9 +20,9 @@ function main () {
 		return;
 	}
 
-	const keys = args.filter(a =>  isObjectKey(a) || isNumeric(a));
-	const singleFlags = args.filter(isSingleFlag).map(a => a.slice(1));
-	const doubleFlags = args.filter(isDoubleFlag).map(a => a.slice(2));
+	const keys = args.filter(a =>  utils.isObjectKey(a) || utils.isNumeric(a));
+	const singleFlags = args.filter(utils.isSingleFlag).map(a => a.slice(1));
+	const doubleFlags = args.filter(utils.isDoubleFlag).map(a => a.slice(2));
 
 	const jo = JSON.parse(fs.readFileSync(filepath, 'utf8'));
 	let currentJo = jo;
