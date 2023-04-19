@@ -52,6 +52,8 @@ function findSimilarKey (object, key) {
 	return key;
 }
 
+
+
 module.exports = {
 	isDoubleFlag,
 	isNumeric,
@@ -59,5 +61,3 @@ module.exports = {
 	isSingleFlag,
 	findSimilarKey,
 };
-
-
