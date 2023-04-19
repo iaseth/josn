@@ -36,9 +36,16 @@ function main () {
 			continue;
 		}
 
-		const idx = isArray ? parseInt(key) : 0;
-		// using at() because idx can also be negative
-		const newJo = isArray ? currentJo.at(idx) : currentJo[key];
+		let newJo = null;
+
+		if (isArray) {
+			const idx = isArray ? parseInt(key) : 0;
+			// using at() because idx can also be negative
+			newJo = currentJo.at(idx);
+		} else if (isObject) {
+			const actualKey = utils.findSimilarKey(currentJo, key);
+			newJo = currentJo[actualKey];
+		}
 
 		if (newJo === undefined) {
 			console.log(`Key NOT Found: '${key}'`);

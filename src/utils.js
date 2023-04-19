@@ -30,11 +30,29 @@ function isDoubleFlag (x) {
 	return false;
 }
 
+function findSimilarKey (object, key) {
+	const objectKeys = [...Object.keys(object)];
+	if (objectKeys.find(k => k === key)) {
+		return key;
+	}
+
+	const lowKey = key.toLowerCase();
+	const objectKeysLower = objectKeys.map(k => k.toLowerCase());
+	const lowKeyIndex = objectKeysLower.findIndex(k => k === lowKey);
+	if (lowKeyIndex !== -1) {
+		// returns key with correct case
+		return objectKeys[lowKeyIndex];
+	}
+
+	return key;
+}
+
 module.exports = {
 	isDoubleFlag,
 	isNumeric,
 	isObjectKey,
 	isSingleFlag,
+	findSimilarKey,
 };
 
 
