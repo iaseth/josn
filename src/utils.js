@@ -44,6 +44,11 @@ function findSimilarKey (object, key) {
 		return objectKeys[lowKeyIndex];
 	}
 
+	const prefixKeyIndex = objectKeysLower.findIndex(k => k.startsWith(lowKey));
+	if (prefixKeyIndex !== -1) {
+		return objectKeys[prefixKeyIndex];
+	}
+
 	return key;
 }
 
