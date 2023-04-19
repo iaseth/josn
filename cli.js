@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const fs = require("fs");
-const utils = require("./src/utils");
+const utils = require("./dist/utils");
 
 
 

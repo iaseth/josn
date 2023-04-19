@@ -1,36 +1,36 @@
 
 
 
-function isNumeric (x) {
+export function isNumeric (x: any) {
 	if (typeof x != "string") {
 		return false;
 	}
 
-	return !isNaN(x) && !isNaN(parseFloat(x));
+	return !isNaN(x as any) && !isNaN(parseFloat(x));
 }
 
-function isObjectKey (x) {
+export function isObjectKey (x: string) {
 	if (x[0] !== "-") {
 		return true;
 	}
 	return false;
 }
 
-function isSingleFlag (x) {
+export function isSingleFlag (x: string) {
 	if (x[0] === "-" && x[1] !== "-" && !isNumeric(x.slice(1))) {
 		return true;
 	}
 	return false;
 }
 
-function isDoubleFlag (x) {
+export function isDoubleFlag (x: string) {
 	if (x[0] === "-" && x[1] === "-") {
 		return true;
 	}
 	return false;
 }
 
-function findSimilarKey (object, key) {
+export function findSimilarKey (object: any, key: string) {
 	const objectKeys = [...Object.keys(object)];
 	if (objectKeys.find(k => k === key)) {
 		return key;
@@ -53,11 +53,3 @@ function findSimilarKey (object, key) {
 }
 
 
-
-module.exports = {
-	isDoubleFlag,
-	isNumeric,
-	isObjectKey,
-	isSingleFlag,
-	findSimilarKey,
-};
