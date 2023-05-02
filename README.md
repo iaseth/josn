@@ -1,6 +1,6 @@
 
 # josn
-[`josn-cli`](https://www.npmjs.com/package/josn-cli) is a command-line `JSON` inspector.
+[`josn-cli`](https://www.npmjs.com/package/josn-cli) is a command-line `JSON` viewer.
 
 
 

@@ -1,6 +1,6 @@
 {
   "name": "josn-cli",
-  "version": "0.6.3",
+  "version": "0.6.4",
   "description": "JOSN is a command line JSON viewer.",
   "main": "index.js",
   "scripts": {

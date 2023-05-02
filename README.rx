@@ -1,6 +1,6 @@
 
 # josn
-{{ "josn-cli" | NpmLink }} is a command-line `JSON` inspector.
+{{ "josn-cli" | NpmLink }} is a command-line `JSON` viewer.
 
 
 
