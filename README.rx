@@ -1,0 +1,20 @@
+
+# josn
+{{ "josn-cli" | NpmLink }} is a command-line `JSON` inspector.
+
+
+
+## Installation
+You can install {{ "josn-cli" | NpmLink }} with the following command:
+=> npm i -g josn-cli
+
+Now you should be able to run the `josn` command in your terminal.
+
+
+
+## License
+{{ "LICENSE.md" | File }}
+
+
+{{ giveCredit() }}
+
