@@ -17,6 +17,16 @@ export function isObjectKey (x: string) {
 	return false;
 }
 
+
+export function isFlag (arg: string) : boolean {
+	return arg.startsWith("-") ? true : false;
+}
+
+export function isNotFlag (arg: string) : boolean {
+	return !isFlag(arg);
+}
+
+
 export function isSingleFlag (x: string) {
 	if (x.length > 1 && x[0] === "-" && x[1] !== "-" && !isArrayIndex(x.slice(1))) {
 		return true;

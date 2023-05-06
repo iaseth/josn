@@ -10,8 +10,8 @@ function main () {
 	const [,, inputPath, ...args] = process.argv;
 
 	const keys = args.filter(a =>  josnlib.isObjectKey(a) || josnlib.isArrayIndex(a));
-	const singleFlags = args.filter(josnlib.isSingleFlag).map(a => a.slice(1));
-	const doubleFlags = args.filter(josnlib.isDoubleFlag).map(a => a.slice(2));
+	const flagArgs = args.filter(josnlib.isFlag);
+	const cmdOptions = josnlib.getCmdOptions(flagArgs);
 
 	if (inputPath === undefined) {
 		console.log("Input path NOT provided!");
