@@ -24,7 +24,7 @@ export function isSingleFlag (x: string) {
 }
 
 export function isDoubleFlag (x: string) {
-	if (x[0] === "-" && x[1] === "-" && x[2] !== "-") {
+	if (x.length > 2 && x[0] === "-" && x[1] === "-" && x[2] !== "-") {
 		return true;
 	}
 	return false;
