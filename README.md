@@ -23,21 +23,55 @@ Now you should be able to run the `josn` command in your terminal.
 
 
 ## Usage
-* Printing whole files:
-    ```
-    josn filename.json
-    ```
+* **Printing whole files**
 
-* Printing an object:
-    ```
-    josn tsconfig.json compilerOptions
-    ```
+    Provide the `filepath` as the first argument.
+    * This will print the whole file as indented JSON:
+        ```
+        josn filename.json
+        ```
+    * When you supply a `path` that is a directory, `josn` will automatically select the `package.json` inside that directory:
+        ```
+        josn reactapp
+        ```
+        This is equivalent to writing:
+        ```
+        josn reactapp/package.json
+        ```
 
-* Printing an array element:
-    ```
-    josn data.json data 0
-    ```
-    This will print the first element of the data array.
+* **Printing an object**
+
+    You can use the `keyName` to traverse inside an object.
+    * This will print the `dependencies` object inside `package.json`:
+        ```
+        josn package.json dependencies
+        ```
+    * `josn` is case insensitive, so you might as well write this:
+        ```
+        josn package.json Dependencies
+        ```
+    * Or even this:
+        ```
+        josn package.json DEPENDENCIES
+        ```
+    * And you can skip parts of the key name if it is unique enough:
+        ```
+        josn package.json dep
+        ```
+        This will print the first `key` while starts with the prefix `dep`.
+
+* **Printing an array element**
+
+    You can use numbers to select array elements.
+    * This will print the first element of the data array:
+        ```
+        josn data.json data 0
+        ```
+    * You can also use negative indices to select an element from the end:
+        ```
+        josn data.json data -1
+        ```
+        This will print last element of `data` array.
 
 
 ## Package details
@@ -45,7 +79,7 @@ Now you should be able to run the `josn` command in your terminal.
 | ------------- | ------------------------------------- |
 | `Name`        | `josn-cli`                            |
 | `Description` | `JOSN is a command line JSON viewer.` |
-| `Version`     | `0.7.0`                               |
+| `Version`     | `0.8.0`                               |
 | `Author`      | `iaseth`                              |
 | `Homepage`    | `https://github.com/iaseth/josn`      |
 | `Repository`  | `iaseth/josn`                         |
