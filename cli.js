@@ -2,8 +2,19 @@
 
 const fs = require("fs");
 const path = require("path");
+const JSON5 = require("json5");
 const utils = require("./dist/utils");
 
+
+function parseJsonFile (jsonPath) {
+	try {
+		const jo = JSON.parse(fs.readFileSync(jsonPath, 'utf8'));
+		return jo;
+	} catch (e) {
+		const jo = JSON5.parse(fs.readFileSync(jsonPath, 'utf8'));
+		return jo;
+	}
+}
 
 
 function main () {
@@ -51,7 +62,7 @@ function main () {
 		}
 	}
 
-	const jo = JSON.parse(fs.readFileSync(jsonPath, 'utf8'));
+	const jo = parseJsonFile(jsonPath);
 	let currentJo = jo;
 	for (const key of keys) {
 		const isArray = currentJo.constructor === Array;

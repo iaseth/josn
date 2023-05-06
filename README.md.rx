@@ -3,6 +3,9 @@
 {{ "josn-cli" | NpmLink }} is a command-line `JSON` viewer.
 
 
+## Table of contents
+{{ tableofcontents(doc) }}
+
 
 ## Installation
 You can install {{ "josn-cli" | NpmLink }} with the following command:
@@ -10,6 +13,17 @@ You can install {{ "josn-cli" | NpmLink }} with the following command:
 
 Now you should be able to run the `josn` command in your terminal.
 
+
+## Package details
+{{ npm.packageDetails() }}
+
+
+## Dependencies
+{{ npm.dependencyTable() }}
+
+
+## Dev dependencies
+{{ npm.devDependencyTable() }}
 
 
 ## License

@@ -3,6 +3,15 @@
 [`josn-cli`](https://www.npmjs.com/package/josn-cli) is a command-line `JSON` viewer.
 
 
+## Table of contents
+* [josn](#josn)
+    * [Table of contents](#table-of-contents)
+    * [Installation](#installation)
+    * [Package details](#package-details)
+    * [Dependencies](#dependencies)
+    * [Dev dependencies](#dev-dependencies)
+    * [License](#license)
+
 
 ## Installation
 You can install [`josn-cli`](https://www.npmjs.com/package/josn-cli) with the following command:
@@ -12,6 +21,29 @@ npm i -g josn-cli
 
 Now you should be able to run the `josn` command in your terminal.
 
+
+## Package details
+| `Name`        | `Value`                               |
+| ------------- | ------------------------------------- |
+| `Name`        | `josn-cli`                            |
+| `Description` | `JOSN is a command line JSON viewer.` |
+| `Version`     | `0.7.0`                               |
+| `Author`      | `iaseth`                              |
+| `Homepage`    | `https://github.com/iaseth/josn`      |
+| `Repository`  | `iaseth/josn`                         |
+| `License`     | `MIT`                                 |
+
+
+
+## Dependencies
+|     | `Package`   | `Version`   |
+| --- | ----------- | ----------- |
+| 1   | `json5`     | `^2.2.3`    |
+
+
+
+## Dev dependencies
+This package has no devDependencies.
 
 
 ## License
