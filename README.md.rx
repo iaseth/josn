@@ -4,14 +4,25 @@
 
 
 ## Table of contents
-{{ tableofcontents(doc) }}
+{{ tableOfContents(doc) }}
 
 
 ## Installation
 You can install {{ "josn-cli" | NpmLink }} with the following command:
 => npm i -g josn-cli
-
 Now you should be able to run the `josn` command in your terminal.
+
+
+## Usage
+* Printing whole files:
+	=> josn filename.json
+
+* Printing an object:
+	=> josn tsconfig.json compilerOptions
+
+* Printing an array element:
+	=> josn data.json data 0
+	This will print the first element of the data array.
 
 
 ## Package details

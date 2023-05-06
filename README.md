@@ -7,6 +7,7 @@
 * [josn](#josn)
     * [Table of contents](#table-of-contents)
     * [Installation](#installation)
+    * [Usage](#usage)
     * [Package details](#package-details)
     * [Dependencies](#dependencies)
     * [Dev dependencies](#dev-dependencies)
@@ -18,8 +19,25 @@ You can install [`josn-cli`](https://www.npmjs.com/package/josn-cli) with the fo
 ```
 npm i -g josn-cli
 ```
-
 Now you should be able to run the `josn` command in your terminal.
+
+
+## Usage
+* Printing whole files:
+    ```
+    josn filename.json
+    ```
+
+* Printing an object:
+    ```
+    josn tsconfig.json compilerOptions
+    ```
+
+* Printing an array element:
+    ```
+    josn data.json data 0
+    ```
+    This will print the first element of the data array.
 
 
 ## Package details
