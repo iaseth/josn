@@ -45,6 +45,10 @@ Now you should be able to run the `josn` command in your terminal.
         ```
         josn reactapp/package.json
         ```
+    * When you supply a `path` that is a directory but it does not contain a `package.json`, `josn` will try to find a `json` file in that directory:
+        ```
+        josn mydata/
+        ```
 
 * **Printing an object**
 
