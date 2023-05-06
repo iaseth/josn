@@ -1,5 +1,7 @@
 const josnlib = require("../dist");
 
+
+
 test("isSingleFlag", () => {
 	const { isSingleFlag } = josnlib;
 
