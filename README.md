@@ -1,11 +1,13 @@
 
 # josn
 [`josn-cli`](https://www.npmjs.com/package/josn-cli) is a command-line `JSON` viewer, written in `JavaScript` and `TypeScript`.
-I felt the need for `josn` when I was working on [`iaseth/top-100-yc-companies`](https://github.com/iaseth/top-100-yc-companies).
-I have created a similar tool ([`iaseth/jsonplus`](https://github.com/iaseth/jsonplus)) in `C++`.
 
-I am using [`readmix`](https://github.com/iaseth/readmix) for generating this README file.
-You can view the source [here](https://github.com/iaseth/josn/blob/master/README.md.rx).
+I felt the need for a JSON browser when I was working on [`iaseth/top-100-yc-companies`](https://github.com/iaseth/top-100-yc-companies).
+I primarily use it to verify the JSON data collected in my web scraping projects.
+I have created a similar tool ([`jsonplus`](https://github.com/iaseth/jsonplus)) in `C++`.
+
+I am using [`readmix`](https://github.com/iaseth/readmix) for generating this README.
+You can view the source file [here](https://github.com/iaseth/josn/blob/master/README.md.rx).
 
 
 ## Table of contents
@@ -63,7 +65,7 @@ Now you should be able to run the `josn` command in your terminal.
         ```
         josn package.json dep
         ```
-        This will print the first `key` while starts with the prefix `dep`.
+        This will print the first `key` that starts with the prefix `dep`.
 
 * **Printing an array element**
 
@@ -84,7 +86,7 @@ Now you should be able to run the `josn` command in your terminal.
 | ------------- | ------------------------------------- |
 | `Name`        | `josn-cli`                            |
 | `Description` | `JOSN is a command line JSON viewer.` |
-| `Version`     | `0.8.1`                               |
+| `Version`     | `0.8.2`                               |
 | `Author`      | `iaseth`                              |
 | `Homepage`    | `https://github.com/iaseth/josn`      |
 | `Repository`  | `iaseth/josn`                         |
