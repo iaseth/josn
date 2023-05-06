@@ -24,3 +24,23 @@ test("isDoubleFlag", () => {
 	expect(isDoubleFlag("---")).toBe(false);
 	expect(isDoubleFlag("---foo")).toBe(false);
 });
+
+test("isTripleFlag", () => {
+	const { isTripleFlag } = josnlib;
+
+	expect(isTripleFlag("---x")).toBe(true);
+	expect(isTripleFlag("---Foo")).toBe(true);
+	expect(isTripleFlag("---1")).toBe(true);
+
+	expect(isTripleFlag("-")).toBe(false);
+	expect(isTripleFlag("-x")).toBe(false);
+	expect(isTripleFlag("-foo")).toBe(false);
+
+	expect(isTripleFlag("--")).toBe(false);
+	expect(isTripleFlag("--a")).toBe(false);
+	expect(isTripleFlag("--bar")).toBe(false);
+
+	expect(isTripleFlag("---")).toBe(false);
+	expect(isTripleFlag("----")).toBe(false);
+	expect(isTripleFlag("----foo")).toBe(false);
+});
