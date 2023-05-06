@@ -44,3 +44,17 @@ test("isTripleFlag", () => {
 	expect(isTripleFlag("----")).toBe(false);
 	expect(isTripleFlag("----foo")).toBe(false);
 });
+
+
+
+test("isArrayIndex", () => {
+	const { isArrayIndex } = josnlib;
+
+	expect(isArrayIndex("0")).toBe(true);
+	expect(isArrayIndex("240")).toBe(true);
+	expect(isArrayIndex("-10")).toBe(true);
+
+	expect(isArrayIndex("-")).toBe(false);
+	expect(isArrayIndex("x")).toBe(false);
+	expect(isArrayIndex("foo")).toBe(false);
+});

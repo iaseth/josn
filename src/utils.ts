@@ -1,7 +1,7 @@
 
 
 
-export function isNumeric (x: any) {
+export function isArrayIndex (x: any) {
 	if (typeof x != "string") {
 		return false;
 	}
@@ -10,6 +10,7 @@ export function isNumeric (x: any) {
 }
 
 export function isObjectKey (x: string) {
+	// basically anything that isn't a flag can be an ovject key
 	if (x[0] !== "-") {
 		return true;
 	}
@@ -17,7 +18,7 @@ export function isObjectKey (x: string) {
 }
 
 export function isSingleFlag (x: string) {
-	if (x.length > 1 && x[0] === "-" && x[1] !== "-" && !isNumeric(x.slice(1))) {
+	if (x.length > 1 && x[0] === "-" && x[1] !== "-" && !isArrayIndex(x.slice(1))) {
 		return true;
 	}
 	return false;

@@ -20,7 +20,7 @@ function parseJsonFile (jsonPath) {
 function main () {
 	const [,, inputPath, ...args] = process.argv;
 
-	const keys = args.filter(a =>  josnlib.isObjectKey(a) || josnlib.isNumeric(a));
+	const keys = args.filter(a =>  josnlib.isObjectKey(a) || josnlib.isArrayIndex(a));
 	const singleFlags = args.filter(josnlib.isSingleFlag).map(a => a.slice(1));
 	const doubleFlags = args.filter(josnlib.isDoubleFlag).map(a => a.slice(2));
 
