@@ -3,7 +3,7 @@
 const fs = require("fs");
 const path = require("path");
 const JSON5 = require("json5");
-const utils = require("./dist/utils");
+const josnlib = require("./dist");
 
 
 function parseJsonFile (jsonPath) {
@@ -20,9 +20,9 @@ function parseJsonFile (jsonPath) {
 function main () {
 	const [,, inputPath, ...args] = process.argv;
 
-	const keys = args.filter(a =>  utils.isObjectKey(a) || utils.isNumeric(a));
-	const singleFlags = args.filter(utils.isSingleFlag).map(a => a.slice(1));
-	const doubleFlags = args.filter(utils.isDoubleFlag).map(a => a.slice(2));
+	const keys = args.filter(a =>  josnlib.isObjectKey(a) || josnlib.isNumeric(a));
+	const singleFlags = args.filter(josnlib.isSingleFlag).map(a => a.slice(1));
+	const doubleFlags = args.filter(josnlib.isDoubleFlag).map(a => a.slice(2));
 
 	if (inputPath === undefined) {
 		console.log("Input path NOT provided!");
@@ -81,7 +81,7 @@ function main () {
 			// using at() because idx can also be negative
 			newJo = currentJo.at(idx);
 		} else if (isObject) {
-			const actualKey = utils.findSimilarKey(currentJo, key);
+			const actualKey = josnlib.findSimilarKey(currentJo, key);
 			newJo = currentJo[actualKey];
 		}
 

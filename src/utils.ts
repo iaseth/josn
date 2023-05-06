@@ -17,14 +17,21 @@ export function isObjectKey (x: string) {
 }
 
 export function isSingleFlag (x: string) {
-	if (x[0] === "-" && x[1] !== "-" && !isNumeric(x.slice(1))) {
+	if (x.length > 1 && x[0] === "-" && x[1] !== "-" && !isNumeric(x.slice(1))) {
 		return true;
 	}
 	return false;
 }
 
 export function isDoubleFlag (x: string) {
-	if (x[0] === "-" && x[1] === "-") {
+	if (x[0] === "-" && x[1] === "-" && x[2] !== "-") {
+		return true;
+	}
+	return false;
+}
+
+export function isTripleFlag (x: string) {
+	if (x[0] === "-" && x[1] === "-" && x[2] === "-" && x[3] !== "-") {
 		return true;
 	}
 	return false;

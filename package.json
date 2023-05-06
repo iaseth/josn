@@ -4,7 +4,8 @@
   "description": "JOSN is a command line JSON viewer.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "testwatch": "jest --watchAll --verbose"
   },
   "bin": {
     "josn": "./cli.js"
@@ -20,5 +21,8 @@
   "license": "MIT",
   "dependencies": {
     "json5": "^2.2.3"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
   }
 }
