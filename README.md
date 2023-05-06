@@ -86,7 +86,7 @@ Now you should be able to run the `josn` command in your terminal.
 | ------------- | ------------------------------------- |
 | `Name`        | `josn-cli`                            |
 | `Description` | `JOSN is a command line JSON viewer.` |
-| `Version`     | `0.8.2`                               |
+| `Version`     | `0.8.3`                               |
 | `Author`      | `iaseth`                              |
 | `Homepage`    | `https://github.com/iaseth/josn`      |
 | `Repository`  | `iaseth/josn`                         |
@@ -102,7 +102,11 @@ Now you should be able to run the `josn` command in your terminal.
 
 
 ## Dev dependencies
-This package has no devDependencies.
+|     | `Package`     | `Version`   |
+| --- | ------------- | ----------- |
+| 1   | `@types/jest` | `^29.5.1`   |
+| 2   | `jest`        | `^29.5.0`   |
+
 
 
 ## License

@@ -2,19 +2,8 @@
 
 const fs = require("fs");
 const path = require("path");
-const JSON5 = require("json5");
 const josnlib = require("./dist");
 
-
-function parseJsonFile (jsonPath) {
-	try {
-		const jo = JSON.parse(fs.readFileSync(jsonPath, 'utf8'));
-		return jo;
-	} catch (e) {
-		const jo = JSON5.parse(fs.readFileSync(jsonPath, 'utf8'));
-		return jo;
-	}
-}
 
 
 function main () {
@@ -37,7 +26,7 @@ function main () {
 	}
 
 	let jsonPath = inputPath;
-	const stat = fs.lstatSync(inputPath);
+	const stat = fs.statSync(inputPath);
 	if (stat.isDirectory()) {
 		console.log(`Input path is a directory: '${inputPath}'`);
 		const packageJsonPath = path.join(inputPath, "package.json");
@@ -62,7 +51,7 @@ function main () {
 		}
 	}
 
-	const jo = parseJsonFile(jsonPath);
+	const jo = josnlib.parseJsonFile(jsonPath);
 	let currentJo = jo;
 	for (const key of keys) {
 		const isArray = currentJo.constructor === Array;
