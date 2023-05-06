@@ -1,6 +1,11 @@
 
 # josn
-{{ "josn-cli" | NpmLink }} is a command-line `JSON` viewer.
+{{ "josn-cli" | NpmLink }} is a command-line `JSON` viewer, written in `JavaScript` and `TypeScript`.
+I felt the need for `josn` when I was working on {{ gh.link("iaseth/top-100-yc-companies") }}.
+I have created a similar tool ({{ gh.link("iaseth/jsonplus") }}) in `C++`.
+
+I am using {{ gh.link("iaseth/readmix", "readmix") }} for generating this README file.
+You can view the source [here](https://github.com/iaseth/josn/blob/master/README.md.rx).
 
 
 ## Table of contents
