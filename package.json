@@ -1,8 +1,9 @@
 {
   "name": "josn-cli",
-  "version": "0.8.3",
+  "version": "0.8.4",
   "description": "JOSN is a command line JSON viewer.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "jest",
     "testwatch": "jest --watchAll --verbose"
