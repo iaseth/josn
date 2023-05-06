@@ -58,3 +58,15 @@ test("isArrayIndex", () => {
 	expect(isArrayIndex("x")).toBe(false);
 	expect(isArrayIndex("foo")).toBe(false);
 });
+
+test("isObjectKey", () => {
+	const { isObjectKey } = josnlib;
+
+	expect(isObjectKey("x")).toBe(true);
+	expect(isObjectKey("foo")).toBe(true);
+	expect(isObjectKey("200")).toBe(true);
+
+	expect(isObjectKey("-")).toBe(false);
+	expect(isObjectKey("--")).toBe(false);
+	expect(isObjectKey("---")).toBe(false);
+});
