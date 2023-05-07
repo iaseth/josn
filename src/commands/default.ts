@@ -89,6 +89,9 @@ export function defaultCommand (cmdOptions: CmdOptions, nonFlagArgs: string[]) {
 
 	if (cmdOptions.table) {
 		console.table(currentJo);
+	} else if (cmdOptions.listKeys) {
+		const keys = Object.keys(currentJo);
+		console.log(keys);
 	} else {
 		const currentJoString = JSON.stringify(currentJo, null, indentation);
 		console.log(currentJoString);
