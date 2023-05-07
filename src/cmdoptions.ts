@@ -4,6 +4,7 @@ import { isDoubleFlag, isSingleFlag } from "./utils";
 
 export class CmdOptions {
 	debug: boolean = false;          // debug mode on/off
+	exact: boolean = false;          // exact mode on/off
 	force: boolean = false;          // force update even if output file exists and is newer than input file
 	ignoreCase: boolean = false;
 	list: boolean = false;           // just list all the input files
@@ -30,6 +31,7 @@ export interface FlagType {
 
 export const flags: FlagType[] = [
 	{isCommand: false, name: "debug", singleFlag: "-D", doubleFlag: "--debug", description: "Turns debug mode ON."},
+	{isCommand: false, name: "exact", singleFlag: "-E", doubleFlag: "--exact", description: "Turns exact mode ON."},
 	{isCommand: false, name: "force", singleFlag: "-F", doubleFlag: "--force", description: "Force update files."},
 	{isCommand: false, name: "ignoreCase", singleFlag: "-i", doubleFlag: "--ignore-case", description: "Ignore case (default)."},
 	{isCommand: true, name: "list", singleFlag: "-L", doubleFlag: "--list", description: "List all input files."},

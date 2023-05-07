@@ -70,7 +70,7 @@ function main () {
 			// using at() because idx can also be negative
 			newJo = currentJo.at(idx);
 		} else if (isObject) {
-			const actualKey = josnlib.findSimilarKey(currentJo, key);
+			const actualKey = josnlib.findSimilarKey(currentJo, key, cmdOptions);
 			newJo = currentJo[actualKey];
 		}
 
