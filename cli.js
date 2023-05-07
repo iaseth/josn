@@ -82,8 +82,10 @@ function main () {
 	}
 
 	let indentation = "\t";
-	if (cmdOptions.spaces2) indentation = 2;
+	if (cmdOptions.minify) indentation = 0;
+	else if (cmdOptions.spaces2) indentation = 2;
 	else if (cmdOptions.spaces4) indentation = 4;
+	else if (cmdOptions.tabs) indentation = "\t";
 
 	const currentJoString = JSON.stringify(currentJo, null, indentation);
 	console.log(currentJoString);
