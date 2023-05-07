@@ -90,7 +90,7 @@ Now you should be able to run the `josn` command in your terminal.
 | ------------- | ------------------------------------- |
 | `Name`        | `josn-cli`                            |
 | `Description` | `JOSN is a command line JSON viewer.` |
-| `Version`     | `0.8.5`                               |
+| `Version`     | `0.8.6`                               |
 | `Author`      | `iaseth`                              |
 | `Homepage`    | `https://github.com/iaseth/josn`      |
 | `Repository`  | `iaseth/josn`                         |

@@ -87,6 +87,10 @@ export function defaultCommand (cmdOptions: CmdOptions, nonFlagArgs: string[]) {
 	else if (cmdOptions.spaces4) indentation = 4;
 	else if (cmdOptions.tabs) indentation = "\t";
 
-	const currentJoString = JSON.stringify(currentJo, null, indentation);
-	console.log(currentJoString);
+	if (cmdOptions.table) {
+		console.table(currentJo);
+	} else {
+		const currentJoString = JSON.stringify(currentJo, null, indentation);
+		console.log(currentJoString);
+	}
 }
