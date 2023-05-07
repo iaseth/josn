@@ -27,6 +27,10 @@ export function isNotFlag (arg: string) : boolean {
 	return !isFlag(arg);
 }
 
+export function hasAColon (arg: string) : boolean {
+	return arg.includes(":");
+}
+
 
 export function isSingleFlag (x: string) {
 	if (x.length > 1 && x[0] === "-" && x[1] !== "-" && !isArrayIndex(x.slice(1))) {

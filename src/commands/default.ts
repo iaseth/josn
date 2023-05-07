@@ -3,12 +3,12 @@ import path from 'path';
 
 import { CmdOptions } from "../cmdoptions";
 import { parseJsonFile } from '../parse';
-import { findSimilarKey } from '../utils';
+import { findSimilarKey, hasAColon } from '../utils';
 
 
 
 export function defaultCommand (cmdOptions: CmdOptions, nonFlagArgs: string[]) {
-	const [inputPath=null, ...keys] = nonFlagArgs;
+	const [inputPath=null, ...keyArgs] = nonFlagArgs;
 
 	if (inputPath === null) {
 		console.log("Input path NOT provided!");
@@ -53,29 +53,34 @@ export function defaultCommand (cmdOptions: CmdOptions, nonFlagArgs: string[]) {
 
 	const jo: any = parseJsonFile(jsonPath);
 	let currentJo = jo;
-	for (const key of keys) {
+	for (const keyArg of keyArgs) {
 		const isArray = currentJo.constructor === Array;
 		const isObject = currentJo.constructor === Object;
 		const isPrimitive = !isArray && !isObject;
 
 		if (isPrimitive) {
-			console.log(`Ignored key: '${key}'`);
+			console.log(`Ignored key because value is primitive: '${keyArg}'`);
 			continue;
 		}
 
 		let newJo = null;
 
-		if (isArray) {
-			const idx = isArray ? parseInt(key) : 0;
-			// using at() because idx can also be negative
-			newJo = currentJo.at(idx);
-		} else if (isObject) {
-			const actualKey = findSimilarKey(currentJo, key, cmdOptions);
-			newJo = currentJo[actualKey];
+		if (hasAColon(keyArg)) {
+			const [lhs, rhs] = keyArg.split(':');
+			console.log(`Found a colon arg: "${keyArg}"`);
+		} else {
+			if (isArray) {
+				const idx = isArray ? parseInt(keyArg) : 0;
+				// using at() because idx can also be negative
+				newJo = currentJo.at(idx);
+			} else if (isObject) {
+				const actualKey = findSimilarKey(currentJo, keyArg, cmdOptions);
+				newJo = currentJo[actualKey];
+			}
 		}
 
 		if (newJo === undefined) {
-			console.log(`Key NOT Found: '${key}'`);
+			console.log(`Key NOT Found: '${keyArg}'`);
 			return;
 		}
 		currentJo = newJo;
