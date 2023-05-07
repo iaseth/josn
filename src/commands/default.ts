@@ -66,6 +66,7 @@ export function defaultCommand (cmdOptions: CmdOptions, nonFlagArgs: string[]) {
 		let newJo = null;
 
 		if (hasAColon(keyArg)) {
+			// keyArg has a colon somewhere, like ":keys" or "5:10" or "map:name"
 			switch (keyArg) {
 				case ":keys":
 				case ":k":
