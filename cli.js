@@ -14,7 +14,7 @@ function main () {
 	const cmdOptions = josnlib.getCmdOptions(flagArgs);
 
 	if (cmdOptions.printFlags) {
-		console.log(cmdOptions);
+		josnlib.printFlagsCommand(cmdOptions);
 	}
 
 	if (inputPath === undefined) {
