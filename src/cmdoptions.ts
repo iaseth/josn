@@ -36,7 +36,7 @@ export const flags: FlagType[] = [
 	{isCommand: false, name: "quiet", singleFlag: "-Q", doubleFlag: "--quiet", description: "Turns quiet mode ON."},
 
 	{isCommand: false, name: "spaces2", singleFlag: "-s", doubleFlag: "--spaces2", description: "Indent with 2 spaces."},
-	{isCommand: false, name: "spaces4", singleFlag: "-S", doubleFlag: "--spaces2", description: "Indent with 2 spaces."},
+	{isCommand: false, name: "spaces4", singleFlag: "-S", doubleFlag: "--spaces4", description: "Indent with 4 spaces."},
 	{isCommand: false, name: "table", singleFlag: "-t", doubleFlag: "--table", description: "Print output as a table."},
 	{isCommand: false, name: "tabs", singleFlag: "-T", doubleFlag: "--tabs", description: "Indent with Tabs."},
 

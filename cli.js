@@ -81,7 +81,11 @@ function main () {
 		currentJo = newJo;
 	}
 
-	const currentJoString = JSON.stringify(currentJo, null, "\t");
+	let indentation = "\t";
+	if (cmdOptions.spaces2) indentation = 2;
+	else if (cmdOptions.spaces4) indentation = 4;
+
+	const currentJoString = JSON.stringify(currentJo, null, indentation);
 	console.log(currentJoString);
 }
 
