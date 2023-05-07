@@ -68,10 +68,35 @@ export function defaultCommand (cmdOptions: CmdOptions, nonFlagArgs: string[]) {
 		if (hasAColon(keyArg)) {
 			// keyArg has a colon somewhere, like ":keys" or "5:10" or "map:name"
 			switch (keyArg) {
+				case ":array":
+				case ":a":
+					break;
+
+				case ":bool":
+				case ":b":
+					break;
+
+				case ":char":
+				case ":c":
+					break;
+
+				case ":int":
+				case ":i":
+					break;
+
 				case ":keys":
 				case ":k":
 					newJo = Object.keys(currentJo);
 					break;
+
+				case ":number":
+				case ":n":
+					break;
+
+				case ":string":
+				case ":s":
+					break;
+
 				case ":values":
 				case ":v":
 					newJo = Object.values(currentJo);
