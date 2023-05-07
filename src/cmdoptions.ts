@@ -6,6 +6,7 @@ export class CmdOptions {
 	debug: boolean = false;          // debug mode on/off
 	exact: boolean = false;          // exact mode on/off
 	force: boolean = false;          // force update even if output file exists and is newer than input file
+	help: boolean = false;
 	ignoreCase: boolean = false;
 	list: boolean = false;           // just list all the input files
 	minify: boolean = false;
@@ -34,6 +35,7 @@ export const flags: FlagType[] = [
 	{isCommand: false, name: "debug", singleFlag: "-D", doubleFlag: "--debug", description: "Turns debug mode ON."},
 	{isCommand: false, name: "exact", singleFlag: "-E", doubleFlag: "--exact", description: "Turns exact mode ON."},
 	{isCommand: false, name: "force", singleFlag: "-F", doubleFlag: "--force", description: "Force update files."},
+	{isCommand: true, name: "help", singleFlag: "-H", doubleFlag: "--help", description: "Show help."},
 	{isCommand: false, name: "ignoreCase", singleFlag: "-i", doubleFlag: "--ignore-case", description: "Ignore case (default)."},
 	{isCommand: true, name: "list", singleFlag: "-L", doubleFlag: "--list", description: "List all input files."},
 	{isCommand: false, name: "minify", singleFlag: "-m", doubleFlag: "--minify", description: "Minify the output."},
