@@ -66,8 +66,19 @@ export function defaultCommand (cmdOptions: CmdOptions, nonFlagArgs: string[]) {
 		let newJo = null;
 
 		if (hasAColon(keyArg)) {
-			const [lhs, rhs] = keyArg.split(':');
-			console.log(`Found a colon arg: "${keyArg}"`);
+			const [lhs, rhs] = keyArg.split(':').map(x => x.trim());
+
+			if (lhs.length === 0) {
+				switch (rhs) {
+					case "keys":
+						newJo = Object.keys(currentJo); // when keyArg is ":keys"
+						break;
+					default:
+						// nothing
+				}
+			} else {
+				console.log(`Found a colon arg: "${keyArg}"`);
+			}
 		} else {
 			if (isArray) {
 				const idx = isArray ? parseInt(keyArg) : 0;
@@ -94,9 +105,8 @@ export function defaultCommand (cmdOptions: CmdOptions, nonFlagArgs: string[]) {
 
 	if (cmdOptions.table) {
 		console.table(currentJo);
-	} else if (cmdOptions.listKeys) {
-		const keys = Object.keys(currentJo);
-		console.log(keys);
+	} else if (cmdOptions.console) {
+		console.log(currentJo);
 	} else {
 		const currentJoString = JSON.stringify(currentJo, null, indentation);
 		console.log(currentJoString);
