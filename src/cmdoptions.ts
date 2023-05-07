@@ -11,6 +11,7 @@ export class CmdOptions {
 	list: boolean = false;           // just list all the input files
 	minify: boolean = false;
 	noIgnoreCase: boolean = false;
+	printArgs: boolean = false;
 	printFlags: boolean = false;
 	quiet: boolean = false;          // Quiet mode on/off
 	spaces2: boolean = false;
@@ -40,6 +41,7 @@ export const flags: FlagType[] = [
 	{isCommand: true, name: "list", singleFlag: "-L", doubleFlag: "--list", description: "List all input files."},
 	{isCommand: false, name: "minify", singleFlag: "-m", doubleFlag: "--minify", description: "Minify the output."},
 	{isCommand: false, name: "noIgnoreCase", singleFlag: "-n", doubleFlag: "--no-ignore-case", description: "Do not ignore case."},
+	{isCommand: true, name: "printArgs", singleFlag: "", doubleFlag: "--print-args", description: "Just print the arguments."},
 	{isCommand: true, name: "printFlags", singleFlag: "", doubleFlag: "--print-flags", description: "Just print the flags."},
 	{isCommand: false, name: "quiet", singleFlag: "-Q", doubleFlag: "--quiet", description: "Turns quiet mode ON."},
 

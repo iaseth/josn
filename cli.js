@@ -22,7 +22,9 @@ function main () {
 		return;
 	}
 
-	if (cmdOptions.printFlags) {
+	if (cmdOptions.printArgs) {
+		josnlib.printArgsCommand(cmdOptions, args);
+	} else if (cmdOptions.printFlags) {
 		josnlib.printFlagsCommand(cmdOptions);
 	} else if (cmdOptions.help) {
 		josnlib.helpCommand(cmdOptions);
