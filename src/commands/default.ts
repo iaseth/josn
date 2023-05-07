@@ -66,18 +66,21 @@ export function defaultCommand (cmdOptions: CmdOptions, nonFlagArgs: string[]) {
 		let newJo = null;
 
 		if (hasAColon(keyArg)) {
-			const [lhs, rhs] = keyArg.split(':').map(x => x.trim());
-
-			if (lhs.length === 0) {
-				switch (rhs) {
-					case "keys":
-						newJo = Object.keys(currentJo); // when keyArg is ":keys"
-						break;
-					default:
-						// nothing
-				}
-			} else {
-				console.log(`Found a colon arg: "${keyArg}"`);
+			switch (keyArg) {
+				case ":keys":
+				case ":k":
+					newJo = Object.keys(currentJo);
+					break;
+				case ":values":
+				case ":v":
+					newJo = Object.values(currentJo);
+					break;
+				default:
+					if (isArray) {
+						// keyArg is like python array slice syntax
+						const [lhs, rhs] = keyArg.split(':').map(x => x.trim());
+						console.log(`Found a array slice arg: "${keyArg}"`);
+					}
 			}
 		} else {
 			if (isArray) {
