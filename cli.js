@@ -13,6 +13,10 @@ function main () {
 	const flagArgs = args.filter(josnlib.isFlag);
 	const cmdOptions = josnlib.getCmdOptions(flagArgs);
 
+	if (cmdOptions.printFlags) {
+		console.log(cmdOptions);
+	}
+
 	if (inputPath === undefined) {
 		console.log("Input path NOT provided!");
 		console.log("Usage:");
@@ -46,6 +50,9 @@ function main () {
 				jsonPath = loneJsonPath;
 			} else {
 				console.log(`Found ${jsonFiles.length} JSON files in directory: ${inputPath}`);
+				jsonFiles.forEach((jsonFile, idx) => {
+					console.log(`\tFile #${idx+1} => ${jsonFile}`);
+				});
 				return;
 			}
 		}
