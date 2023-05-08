@@ -1,4 +1,4 @@
-const josnlib = require("../dist");
+const josnlib = require("../../dist");
 
 
 
