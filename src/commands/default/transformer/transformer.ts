@@ -65,6 +65,7 @@ export class Transformer {
 			case "objects": case "o": this.modifier = "objects"; break;
 			case "strings": case "s": this.modifier = "strings"; break;
 			case "texts": case "t": this.modifier = "texts"; break;
+			case "urls": case "u": this.modifier = "urls"; break;
 			default: this.modifier = this.rhs; break;
 		}
 	}
@@ -91,18 +92,28 @@ export class Transformer {
 		return this.element;
 	}
 
+	selectInArray () : any {
+		switch (this.modifier) {
+			case "even": return this.element.filter((x: any, i: number) => i%2 === 0);
+			case "odd": return this.element.filter((x: any, i: number) => i%2 === 1);
+			case "keys": return Object.keys(this.element);
+
+			case "arrays": return this.element.filter(typechecks.isArray);
+			case "booleans": return this.element.filter(typechecks.isBoolean);
+			case "chars": return this.element.filter(typechecks.isChar);
+			case "numbers": return this.element.filter(typechecks.isNumber);
+			case "objects": return this.element.filter(typechecks.isObject);
+			case "strings": return this.element.filter(typechecks.isString);
+			case "texts": return this.element.filter(typechecks.isString);
+			case "urls": return this.element.filter(typechecks.isURL);
+		}
+	}
+
 	transformArray () : any {
 		switch (this.command) {
 
 		case "select":
-			if (this.modifier === "even") {
-				return this.element.filter((x: any, i: number) => i%2 === 0);
-			} else if (this.modifier === "odd") {
-				return this.element.filter((x: any, i: number) => i%2 === 1);
-			} else if (this.modifier === "keys") {
-				return Object.keys(this.element);
-			}
-			break;
+			return this.selectInArray();
 
 		case "flat":
 			return this.element.flat();
