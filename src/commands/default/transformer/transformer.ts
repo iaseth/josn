@@ -18,12 +18,14 @@ export class Transformer {
 		[this.lhs, this.rhs, ...this.rest] = this.parts;
 
 		switch (this.lhs) {
-			case "select": case "s": this.func = "select"; break;
+			// stuff that comes before the first colon
 			case "drop": case "d": this.func = "drop"; break;
 			case "flat": case "f": this.func = "flat"; break;
 			case "map": case "m": this.func = "map"; break;
+			case "nth": case "n": this.func = "nth"; break;
 			case "order": case "o": this.func = "order"; break;
 			case "reverse": case "r": this.func = "reverse"; break;
+			case "select": case "s": this.func = "select"; break;
 
 			// work on array of strings
 			case "capital": this.func = "capital"; break;
@@ -36,9 +38,24 @@ export class Transformer {
 		}
 
 		switch (this.rhs) {
+			// stuff that comes after the first colon
+			// only work on arrays
+			case "even": this.operands = "even"; break;
+			case "odd": this.operands = "odd"; break;
+
+			// only work on objects
 			case "keys": case "k": this.operands = "keys"; break;
 			case "values": case "v": this.operands = "values"; break;
-			default: this.operands = "all"; break;
+
+			// work on arrays/objects
+			case "arrays": case "a": this.operands = "arrays"; break;
+			case "booleans": case "b": this.operands = "booleans"; break;
+			case "chars": case "c": this.operands = "chars"; break;
+			case "numbers": case "n": this.operands = "numbers"; break;
+			case "objects": case "o": this.operands = "objects"; break;
+			case "strings": case "s": this.operands = "strings"; break;
+			case "texts": case "t": this.operands = "texts"; break;
+			default: this.operands = this.rhs; break;
 		}
 	}
 
@@ -65,6 +82,19 @@ export class Transformer {
 	}
 
 	transformArray () : any {
+		switch (this.func) {
+
+		case "select":
+			if (this.operands === "even") {
+				return this.element.filter((x: any, i: number) => i%2 === 0);
+			} else if (this.operands === "odd") {
+				return this.element.filter((x: any, i: number) => i%2 === 1);
+			}
+			break;
+
+		default:
+			// nothing to do by default
+		}
 		return this.element;
 	}
 
