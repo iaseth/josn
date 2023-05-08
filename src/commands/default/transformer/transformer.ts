@@ -94,6 +94,9 @@ export class Transformer {
 			}
 			break;
 
+		case "order":
+			return this.element.sort();
+
 		case "reverse":
 			return this.element.reverse();
 
