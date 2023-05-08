@@ -1,0 +1,5204 @@
+{
+	"palettes": [
+		{
+			"rank": 1,
+			"name": "Reddit",
+			"codeName": "reddit",
+			"jsonName": "reddit.json",
+			"pngName": "reddit.png",
+			"logoPngName": "reddit.logo.png",
+			"metaJsonName": "reddit.meta.json",
+			"batch": "S05",
+			"category": "Entertainment",
+			"description": "The frontpage of the internet.",
+			"alexaRank": 19,
+			"pageURL": "https://www.ycdb.co/company/reddit",
+			"website": "http://www.reddit.com",
+			"palette": [
+				[
+					251,
+					68,
+					4
+				],
+				[
+					249,
+					242,
+					236
+				],
+				[
+					240,
+					136,
+					94
+				],
+				[
+					244,
+					164,
+					124
+				],
+				[
+					236,
+					108,
+					56
+				]
+			],
+			"hexPalette": [
+				"#fb4404",
+				"#f9f2ec",
+				"#f0885e",
+				"#f4a47c",
+				"#ec6c38"
+			],
+			"metaJsonPath": "meta/reddit.meta.json",
+			"logoPngPath": "logos/reddit.logo.png",
+			"palettePngPath": "palettes/reddit.palette.png"
+		},
+		{
+			"rank": 2,
+			"name": "Twitch",
+			"codeName": "twitch",
+			"jsonName": "twitch.json",
+			"pngName": "twitch.png",
+			"logoPngName": "twitch.logo.png",
+			"metaJsonName": "twitch.meta.json",
+			"batch": "W07",
+			"category": "Entertainment",
+			"description": "Video game live streaming",
+			"alexaRank": 32,
+			"pageURL": "https://www.ycdb.co/company/twitch",
+			"website": "http://www.twitch.tv",
+			"palette": [
+				[
+					147,
+					68,
+					251
+				],
+				[
+					5,
+					5,
+					7
+				],
+				[
+					204,
+					204,
+					204
+				],
+				[
+					156,
+					156,
+					156
+				],
+				[
+					68,
+					36,
+					124
+				]
+			],
+			"hexPalette": [
+				"#9344fb",
+				"#050507",
+				"#cccccc",
+				"#9c9c9c",
+				"#44247c"
+			],
+			"metaJsonPath": "meta/twitch.meta.json",
+			"logoPngPath": "logos/twitch.logo.png",
+			"palettePngPath": "palettes/twitch.palette.png"
+		},
+		{
+			"rank": 3,
+			"name": "Dropbox",
+			"codeName": "dropbox",
+			"jsonName": "dropbox.json",
+			"pngName": "dropbox.png",
+			"logoPngName": "dropbox.logo.png",
+			"metaJsonName": "dropbox.meta.json",
+			"batch": "S07",
+			"category": "Other SaaS",
+			"description": "Backup and share files in the cloud.",
+			"alexaRank": 65,
+			"pageURL": "https://www.ycdb.co/company/dropbox",
+			"website": "http://www.dropbox.com",
+			"palette": [
+				[
+					241,
+					242,
+					244
+				],
+				[
+					4,
+					100,
+					252
+				],
+				[
+					96,
+					153,
+					252
+				],
+				[
+					122,
+					172,
+					252
+				],
+				[
+					60,
+					132,
+					252
+				]
+			],
+			"hexPalette": [
+				"#f1f2f4",
+				"#0464fc",
+				"#6099fc",
+				"#7aacfc",
+				"#3c84fc"
+			],
+			"metaJsonPath": "meta/dropbox.meta.json",
+			"logoPngPath": "logos/dropbox.logo.png",
+			"palettePngPath": "palettes/dropbox.palette.png"
+		},
+		{
+			"rank": 4,
+			"name": "Padlet",
+			"codeName": "padlet",
+			"jsonName": "padlet.json",
+			"pngName": "padlet.png",
+			"logoPngName": "padlet.logo.png",
+			"metaJsonName": "padlet.meta.json",
+			"batch": "W13",
+			"category": "Other SaaS",
+			"description": "Papyrus \u2192 Parchment \u2192 Paper \u2192 Padlet",
+			"alexaRank": 177,
+			"pageURL": "https://www.ycdb.co/company/padlet",
+			"website": "http://www.padlet.com",
+			"palette": [
+				[
+					164,
+					203,
+					60
+				],
+				[
+					95,
+					87,
+					92
+				],
+				[
+					233,
+					5,
+					139
+				],
+				[
+					120,
+					134,
+					78
+				],
+				[
+					172,
+					36,
+					116
+				]
+			],
+			"hexPalette": [
+				"#a4cb3c",
+				"#5f575c",
+				"#e9058b",
+				"#78864e",
+				"#ac2474"
+			],
+			"metaJsonPath": "meta/padlet.meta.json",
+			"logoPngPath": "logos/padlet.logo.png",
+			"palettePngPath": "palettes/padlet.palette.png"
+		},
+		{
+			"rank": 5,
+			"name": "Scribd",
+			"codeName": "scribd",
+			"jsonName": "scribd.json",
+			"pngName": "scribd.png",
+			"logoPngName": "scribd.logo.png",
+			"metaJsonName": "scribd.meta.json",
+			"batch": "S06",
+			"category": "Entertainment",
+			"description": "World's largest online library.",
+			"alexaRank": 264,
+			"pageURL": "https://www.ycdb.co/company/scribd",
+			"website": "http://www.scribd.com",
+			"palette": [
+				[
+					200,
+					224,
+					227
+				],
+				[
+					37,
+					132,
+					140
+				],
+				[
+					116,
+					180,
+					186
+				],
+				[
+					108,
+					172,
+					180
+				],
+				[
+					84,
+					156,
+					164
+				]
+			],
+			"hexPalette": [
+				"#c8e0e3",
+				"#25848c",
+				"#74b4ba",
+				"#6cacb4",
+				"#549ca4"
+			],
+			"metaJsonPath": "meta/scribd.meta.json",
+			"logoPngPath": "logos/scribd.logo.png",
+			"palettePngPath": "palettes/scribd.palette.png"
+		},
+		{
+			"rank": 6,
+			"name": "Weebly",
+			"codeName": "weebly",
+			"jsonName": "weebly.json",
+			"pngName": "weebly.png",
+			"logoPngName": "weebly.logo.png",
+			"metaJsonName": "weebly.meta.json",
+			"batch": "W07",
+			"category": "Other SaaS",
+			"description": "Web site editing platform.  Over 40M people have launched their business on Weebly and every month 3...",
+			"alexaRank": 293,
+			"pageURL": "https://www.ycdb.co/company/weebly",
+			"website": "http://www.weebly.com",
+			"palette": [
+				[
+					44,
+					148,
+					236
+				],
+				[
+					48,
+					148,
+					236
+				],
+				[
+					48,
+					148,
+					236
+				],
+				[
+					48,
+					148,
+					236
+				],
+				[
+					48,
+					148,
+					236
+				]
+			],
+			"hexPalette": [
+				"#2c94ec",
+				"#3094ec",
+				"#3094ec",
+				"#3094ec",
+				"#3094ec"
+			],
+			"metaJsonPath": "meta/weebly.meta.json",
+			"logoPngPath": "logos/weebly.logo.png",
+			"palettePngPath": "palettes/weebly.palette.png"
+		},
+		{
+			"rank": 7,
+			"name": "9gag",
+			"codeName": "9gag",
+			"jsonName": "9gag.json",
+			"pngName": "9gag.png",
+			"logoPngName": "9gag.logo.png",
+			"metaJsonName": "9gag.meta.json",
+			"batch": "S12",
+			"category": "Entertainment",
+			"description": "Make the world happier.",
+			"alexaRank": 378,
+			"pageURL": "https://www.ycdb.co/company/9gag",
+			"website": "http://www.9gag.com",
+			"palette": [
+				[
+					7,
+					7,
+					7
+				],
+				[
+					181,
+					181,
+					181
+				],
+				[
+					86,
+					86,
+					86
+				],
+				[
+					116,
+					116,
+					116
+				],
+				[
+					108,
+					108,
+					108
+				]
+			],
+			"hexPalette": [
+				"#070707",
+				"#b5b5b5",
+				"#565656",
+				"#747474",
+				"#6c6c6c"
+			],
+			"metaJsonPath": "meta/9gag.meta.json",
+			"logoPngPath": "logos/9gag.logo.png",
+			"palettePngPath": "palettes/9gag.palette.png"
+		},
+		{
+			"rank": 8,
+			"name": "Genius",
+			"codeName": "genius",
+			"jsonName": "genius.json",
+			"pngName": "genius.png",
+			"logoPngName": "genius.logo.png",
+			"metaJsonName": "genius.meta.json",
+			"batch": "S11",
+			"category": "Entertainment",
+			"description": "Music Intelligence",
+			"alexaRank": 406,
+			"pageURL": "https://www.ycdb.co/company/genius",
+			"website": "http://www.genius.com",
+			"palette": [
+				[
+					10,
+					10,
+					6
+				],
+				[
+					251,
+					251,
+					99
+				],
+				[
+					166,
+					166,
+					64
+				],
+				[
+					132,
+					132,
+					52
+				],
+				[
+					196,
+					196,
+					76
+				]
+			],
+			"hexPalette": [
+				"#0a0a06",
+				"#fbfb63",
+				"#a6a640",
+				"#848434",
+				"#c4c44c"
+			],
+			"metaJsonPath": "meta/genius.meta.json",
+			"logoPngPath": "logos/genius.logo.png",
+			"palettePngPath": "palettes/genius.palette.png"
+		},
+		{
+			"rank": 9,
+			"name": "Airbnb",
+			"codeName": "airbnb",
+			"jsonName": "airbnb.json",
+			"pngName": "airbnb.png",
+			"logoPngName": "airbnb.logo.png",
+			"metaJsonName": "airbnb.meta.json",
+			"batch": "W09",
+			"category": "Consumer",
+			"description": "Book accommodations around the world",
+			"alexaRank": 514,
+			"pageURL": "https://www.ycdb.co/company/airbnb",
+			"website": "http://www.airbnb.com",
+			"palette": [
+				[
+					251,
+					59,
+					92
+				],
+				[
+					247,
+					238,
+					241
+				],
+				[
+					242,
+					128,
+					151
+				],
+				[
+					240,
+					152,
+					172
+				],
+				[
+					240,
+					108,
+					132
+				]
+			],
+			"hexPalette": [
+				"#fb3b5c",
+				"#f7eef1",
+				"#f28097",
+				"#f098ac",
+				"#f06c84"
+			],
+			"metaJsonPath": "meta/airbnb.meta.json",
+			"logoPngPath": "logos/airbnb.logo.png",
+			"palettePngPath": "palettes/airbnb.palette.png"
+		},
+		{
+			"rank": 10,
+			"name": "Loom",
+			"codeName": "loom",
+			"jsonName": "loom.json",
+			"pngName": "loom.png",
+			"logoPngName": "loom.logo.png",
+			"metaJsonName": "loom.meta.json",
+			"batch": "W12",
+			"category": "Entertainment",
+			"description": "Cloud storage for photos and videos (acquired by Dropbox).",
+			"alexaRank": 644,
+			"pageURL": "https://www.ycdb.co/company/loom",
+			"website": "http://www.loom.com",
+			"palette": [
+				[
+					84,
+					108,
+					244
+				],
+				[
+					208,
+					214,
+					251
+				],
+				[
+					148,
+					164,
+					244
+				],
+				[
+					164,
+					180,
+					248
+				],
+				[
+					124,
+					148,
+					244
+				]
+			],
+			"hexPalette": [
+				"#546cf4",
+				"#d0d6fb",
+				"#94a4f4",
+				"#a4b4f8",
+				"#7c94f4"
+			],
+			"metaJsonPath": "meta/loom.meta.json",
+			"logoPngPath": "logos/loom.logo.png",
+			"palettePngPath": "palettes/loom.palette.png"
+		},
+		{
+			"rank": 11,
+			"name": "Disqus",
+			"codeName": "disqus",
+			"jsonName": "disqus.json",
+			"pngName": "disqus.png",
+			"logoPngName": "disqus.logo.png",
+			"metaJsonName": "disqus.meta.json",
+			"batch": "S07",
+			"category": "Dev Tools",
+			"description": "Add comments to your website.",
+			"alexaRank": 1065,
+			"pageURL": "https://www.ycdb.co/company/disqus",
+			"website": "http://www.disqus.com",
+			"palette": [
+				[
+					44,
+					156,
+					252
+				],
+				[
+					202,
+					230,
+					252
+				],
+				[
+					122,
+					196,
+					252
+				],
+				[
+					84,
+					180,
+					252
+				],
+				[
+					80,
+					172,
+					252
+				]
+			],
+			"hexPalette": [
+				"#2c9cfc",
+				"#cae6fc",
+				"#7ac4fc",
+				"#54b4fc",
+				"#50acfc"
+			],
+			"metaJsonPath": "meta/disqus.meta.json",
+			"logoPngPath": "logos/disqus.logo.png",
+			"palettePngPath": "palettes/disqus.palette.png"
+		},
+		{
+			"rank": 12,
+			"name": "1000Memories",
+			"codeName": "1000memories",
+			"jsonName": "1000memories.json",
+			"pngName": "1000memories.png",
+			"logoPngName": "1000memories.logo.png",
+			"metaJsonName": "1000memories.meta.json",
+			"batch": "S10",
+			"category": "Consumer",
+			"description": "Memorial sites.",
+			"alexaRank": 1358,
+			"pageURL": "https://www.ycdb.co/company/1000memories",
+			"website": "http://www.ancestry.com",
+			"palette": [
+				[
+					156,
+					188,
+					51
+				],
+				[
+					84,
+					84,
+					77
+				],
+				[
+					60,
+					60,
+					60
+				],
+				[
+					160,
+					172,
+					64
+				],
+				[
+					120,
+					116,
+					64
+				]
+			],
+			"hexPalette": [
+				"#9cbc33",
+				"#54544d",
+				"#3c3c3c",
+				"#a0ac40",
+				"#787440"
+			],
+			"metaJsonPath": "meta/1000memories.meta.json",
+			"logoPngPath": "logos/1000memories.logo.png",
+			"palettePngPath": "palettes/1000memories.palette.png"
+		},
+		{
+			"rank": 13,
+			"name": "Coinbase",
+			"codeName": "coinbase",
+			"jsonName": "coinbase.json",
+			"pngName": "coinbase.png",
+			"logoPngName": "coinbase.logo.png",
+			"metaJsonName": "coinbase.meta.json",
+			"batch": "S12",
+			"category": "Fintech",
+			"description": "Coinbase is a secure platform that makes it easy to buy and sell cryptocurrency",
+			"alexaRank": 1435,
+			"pageURL": "https://www.ycdb.co/company/coinbase",
+			"website": "http://www.coinbase.com",
+			"palette": [
+				[
+					4,
+					84,
+					252
+				],
+				[
+					196,
+					216,
+					252
+				],
+				[
+					89,
+					143,
+					252
+				],
+				[
+					124,
+					164,
+					252
+				],
+				[
+					60,
+					124,
+					252
+				]
+			],
+			"hexPalette": [
+				"#0454fc",
+				"#c4d8fc",
+				"#598ffc",
+				"#7ca4fc",
+				"#3c7cfc"
+			],
+			"metaJsonPath": "meta/coinbase.meta.json",
+			"logoPngPath": "logos/coinbase.logo.png",
+			"palettePngPath": "palettes/coinbase.palette.png"
+		},
+		{
+			"rank": 14,
+			"name": "Teespring",
+			"codeName": "teespring",
+			"jsonName": "teespring.json",
+			"pngName": "teespring.png",
+			"logoPngName": "teespring.logo.png",
+			"metaJsonName": "teespring.meta.json",
+			"batch": "W13",
+			"category": "Consumer",
+			"description": "Retail quality products on-demand. Teespring is a platform that enables anyone to create and sell un...",
+			"alexaRank": 1642,
+			"pageURL": "https://www.ycdb.co/company/teespring",
+			"website": "http://www.teespring.com",
+			"palette": [
+				[
+					4,
+					4,
+					4
+				],
+				[
+					196,
+					196,
+					196
+				],
+				[
+					108,
+					108,
+					108
+				],
+				[
+					85,
+					85,
+					85
+				],
+				[
+					116,
+					116,
+					116
+				]
+			],
+			"hexPalette": [
+				"#040404",
+				"#c4c4c4",
+				"#6c6c6c",
+				"#555555",
+				"#747474"
+			],
+			"metaJsonPath": "meta/teespring.meta.json",
+			"logoPngPath": "logos/teespring.logo.png",
+			"palettePngPath": "palettes/teespring.palette.png"
+		},
+		{
+			"rank": 15,
+			"name": "DoorDash",
+			"codeName": "doordash",
+			"jsonName": "doordash.json",
+			"pngName": "doordash.png",
+			"logoPngName": "doordash.logo.png",
+			"metaJsonName": "doordash.meta.json",
+			"batch": "S13",
+			"category": "Consumer",
+			"description": "Restaurant delivery.",
+			"alexaRank": 1676,
+			"pageURL": "https://www.ycdb.co/company/doordash",
+			"website": "http://www.doordash.com",
+			"palette": [
+				[
+					246,
+					233,
+					227
+				],
+				[
+					250,
+					45,
+					12
+				],
+				[
+					230,
+					60,
+					25
+				],
+				[
+					220,
+					164,
+					124
+				],
+				[
+					220,
+					132,
+					116
+				]
+			],
+			"hexPalette": [
+				"#f6e9e3",
+				"#fa2d0c",
+				"#e63c19",
+				"#dca47c",
+				"#dc8474"
+			],
+			"metaJsonPath": "meta/doordash.meta.json",
+			"logoPngPath": "logos/doordash.logo.png",
+			"palettePngPath": "palettes/doordash.palette.png"
+		},
+		{
+			"rank": 16,
+			"name": "Creative Market",
+			"codeName": "creativemarket",
+			"jsonName": "creativemarket.json",
+			"pngName": "creativemarket.png",
+			"logoPngName": "creativemarket.logo.png",
+			"metaJsonName": "creativemarket.meta.json",
+			"batch": "W10",
+			"category": "Dev Tools",
+			"description": "Marketplace for ready-to-use design assets from independent creators around the world. Acquired by A...",
+			"alexaRank": 1709,
+			"pageURL": "https://www.ycdb.co/company/creative-market",
+			"website": "http://www.creativemarket.com",
+			"palette": [
+				[
+					59,
+					179,
+					172
+				],
+				[
+					228,
+					244,
+					244
+				],
+				[
+					142,
+					214,
+					206
+				],
+				[
+					108,
+					196,
+					188
+				],
+				[
+					44,
+					188,
+					180
+				]
+			],
+			"hexPalette": [
+				"#3bb3ac",
+				"#e4f4f4",
+				"#8ed6ce",
+				"#6cc4bc",
+				"#2cbcb4"
+			],
+			"metaJsonPath": "meta/creativemarket.meta.json",
+			"logoPngPath": "logos/creativemarket.logo.png",
+			"palettePngPath": "palettes/creativemarket.palette.png"
+		},
+		{
+			"rank": 17,
+			"name": "Codecademy",
+			"codeName": "codecademy",
+			"jsonName": "codecademy.json",
+			"pngName": "codecademy.png",
+			"logoPngName": "codecademy.logo.png",
+			"metaJsonName": "codecademy.meta.json",
+			"batch": "S11",
+			"category": "Education",
+			"description": "Codecademy teaches the world the skills they need to find jobs",
+			"alexaRank": 1713,
+			"pageURL": "https://www.ycdb.co/company/codecademy",
+			"website": "http://www.codecademy.com",
+			"palette": [
+				[
+					19,
+					20,
+					44
+				],
+				[
+					240,
+					231,
+					221
+				],
+				[
+					100,
+					92,
+					108
+				],
+				[
+					116,
+					108,
+					124
+				],
+				[
+					84,
+					84,
+					100
+				]
+			],
+			"hexPalette": [
+				"#13142c",
+				"#f0e7dd",
+				"#645c6c",
+				"#746c7c",
+				"#545464"
+			],
+			"metaJsonPath": "meta/codecademy.meta.json",
+			"logoPngPath": "logos/codecademy.logo.png",
+			"palettePngPath": "palettes/codecademy.palette.png"
+		},
+		{
+			"rank": 18,
+			"name": "Instacart",
+			"codeName": "instacart",
+			"jsonName": "instacart.json",
+			"pngName": "instacart.png",
+			"logoPngName": "instacart.logo.png",
+			"metaJsonName": "instacart.meta.json",
+			"batch": "S12",
+			"category": "Consumer",
+			"description": "The North American leader in online grocery",
+			"alexaRank": 1936,
+			"pageURL": "https://www.ycdb.co/company/instacart",
+			"website": "http://www.instacart.com",
+			"palette": [
+				[
+					250,
+					243,
+					227
+				],
+				[
+					14,
+					172,
+					13
+				],
+				[
+					251,
+					116,
+					12
+				],
+				[
+					244,
+					188,
+					134
+				],
+				[
+					116,
+					188,
+					116
+				]
+			],
+			"hexPalette": [
+				"#faf3e3",
+				"#0eac0d",
+				"#fb740c",
+				"#f4bc86",
+				"#74bc74"
+			],
+			"metaJsonPath": "meta/instacart.meta.json",
+			"logoPngPath": "logos/instacart.logo.png",
+			"palettePngPath": "palettes/instacart.palette.png"
+		},
+		{
+			"rank": 19,
+			"name": "Clever",
+			"codeName": "clever",
+			"jsonName": "clever.json",
+			"pngName": "clever.png",
+			"logoPngName": "clever.logo.png",
+			"metaJsonName": "clever.meta.json",
+			"batch": "S12",
+			"category": "Education",
+			"description": "Clever is the platform that powers technology in the classroom.",
+			"alexaRank": 1954,
+			"pageURL": "https://www.ycdb.co/company/clever",
+			"website": "http://www.clever.com",
+			"palette": [
+				[
+					214,
+					224,
+					252
+				],
+				[
+					68,
+					116,
+					244
+				],
+				[
+					156,
+					188,
+					252
+				],
+				[
+					132,
+					164,
+					252
+				],
+				[
+					108,
+					148,
+					252
+				]
+			],
+			"hexPalette": [
+				"#d6e0fc",
+				"#4474f4",
+				"#9cbcfc",
+				"#84a4fc",
+				"#6c94fc"
+			],
+			"metaJsonPath": "meta/clever.meta.json",
+			"logoPngPath": "logos/clever.logo.png",
+			"palettePngPath": "palettes/clever.palette.png"
+		},
+		{
+			"rank": 20,
+			"name": "ClearTax",
+			"codeName": "cleartax",
+			"jsonName": "cleartax.json",
+			"pngName": "cleartax.png",
+			"logoPngName": "cleartax.logo.png",
+			"metaJsonName": "cleartax.meta.json",
+			"batch": "W14",
+			"category": "Fintech",
+			"description": "Intuit of India.",
+			"alexaRank": 2183,
+			"pageURL": "https://www.ycdb.co/company/cleartax",
+			"website": "http://www.cleartax.in",
+			"palette": [
+				[
+					52,
+					68,
+					92
+				],
+				[
+					203,
+					208,
+					213
+				],
+				[
+					120,
+					132,
+					148
+				],
+				[
+					148,
+					156,
+					164
+				],
+				[
+					140,
+					148,
+					164
+				]
+			],
+			"hexPalette": [
+				"#34445c",
+				"#cbd0d5",
+				"#788494",
+				"#949ca4",
+				"#8c94a4"
+			],
+			"metaJsonPath": "meta/cleartax.meta.json",
+			"logoPngPath": "logos/cleartax.logo.png",
+			"palettePngPath": "palettes/cleartax.palette.png"
+		},
+		{
+			"rank": 21,
+			"name": "HackerRank",
+			"codeName": "hackerrank",
+			"jsonName": "hackerrank.json",
+			"pngName": "hackerrank.png",
+			"logoPngName": "hackerrank.logo.png",
+			"metaJsonName": "hackerrank.meta.json",
+			"batch": "S11",
+			"category": "Other SaaS",
+			"description": "Programmer IQ",
+			"alexaRank": 2338,
+			"pageURL": "https://www.ycdb.co/company/hackerrank",
+			"website": "http://www.hackerrank.com",
+			"palette": [
+				[
+					12,
+					20,
+					28
+				],
+				[
+					4,
+					229,
+					98
+				],
+				[
+					112,
+					112,
+					120
+				],
+				[
+					12,
+					122,
+					60
+				],
+				[
+					68,
+					68,
+					76
+				]
+			],
+			"hexPalette": [
+				"#0c141c",
+				"#04e562",
+				"#707078",
+				"#0c7a3c",
+				"#44444c"
+			],
+			"metaJsonPath": "meta/hackerrank.meta.json",
+			"logoPngPath": "logos/hackerrank.logo.png",
+			"palettePngPath": "palettes/hackerrank.palette.png"
+		},
+		{
+			"rank": 22,
+			"name": "OneSignal",
+			"codeName": "onesignal",
+			"jsonName": "onesignal.json",
+			"pngName": "onesignal.png",
+			"logoPngName": "onesignal.logo.png",
+			"metaJsonName": "onesignal.meta.json",
+			"batch": "S11",
+			"category": "Dev Tools",
+			"description": "Making engagement simple across push notifications, in-app, and email.",
+			"alexaRank": 2654,
+			"pageURL": "https://www.ycdb.co/company/onesignal",
+			"website": "http://www.onesignal.com",
+			"palette": [
+				[
+					227,
+					76,
+					76
+				],
+				[
+					247,
+					234,
+					233
+				],
+				[
+					229,
+					150,
+					150
+				],
+				[
+					232,
+					164,
+					172
+				],
+				[
+					224,
+					116,
+					124
+				]
+			],
+			"hexPalette": [
+				"#e34c4c",
+				"#f7eae9",
+				"#e59696",
+				"#e8a4ac",
+				"#e0747c"
+			],
+			"metaJsonPath": "meta/onesignal.meta.json",
+			"logoPngPath": "logos/onesignal.logo.png",
+			"palettePngPath": "palettes/onesignal.palette.png"
+		},
+		{
+			"rank": 23,
+			"name": "GitLab",
+			"codeName": "gitlab",
+			"jsonName": "gitlab.json",
+			"pngName": "gitlab.png",
+			"logoPngName": "gitlab.logo.png",
+			"metaJsonName": "gitlab.meta.json",
+			"batch": "W15",
+			"category": "Dev Tools",
+			"description": "GitLab is a complete DevOps platform, delivered as a single application.",
+			"alexaRank": 2938,
+			"pageURL": "https://www.ycdb.co/company/gitlab",
+			"website": "http://www.gitlab.com",
+			"palette": [
+				[
+					227,
+					67,
+					43
+				],
+				[
+					252,
+					163,
+					36
+				],
+				[
+					250,
+					106,
+					36
+				],
+				[
+					163,
+					68,
+					26
+				],
+				[
+					228,
+					76,
+					44
+				]
+			],
+			"hexPalette": [
+				"#e3432b",
+				"#fca324",
+				"#fa6a24",
+				"#a3441a",
+				"#e44c2c"
+			],
+			"metaJsonPath": "meta/gitlab.meta.json",
+			"logoPngPath": "logos/gitlab.logo.png",
+			"palettePngPath": "palettes/gitlab.palette.png"
+		},
+		{
+			"rank": 24,
+			"name": "Docker",
+			"codeName": "docker",
+			"jsonName": "docker.json",
+			"pngName": "docker.png",
+			"logoPngName": "docker.logo.png",
+			"metaJsonName": "docker.meta.json",
+			"batch": "S10",
+			"category": "Other SaaS",
+			"description": "App store for server configurations.",
+			"alexaRank": 3170,
+			"pageURL": "https://www.ycdb.co/company/docker",
+			"website": "http://www.docker.com",
+			"palette": [
+				[
+					228,
+					244,
+					245
+				],
+				[
+					16,
+					147,
+					208
+				],
+				[
+					105,
+					173,
+					199
+				],
+				[
+					144,
+					196,
+					215
+				],
+				[
+					66,
+					156,
+					192
+				]
+			],
+			"hexPalette": [
+				"#e4f4f5",
+				"#1093d0",
+				"#69adc7",
+				"#90c4d7",
+				"#429cc0"
+			],
+			"metaJsonPath": "meta/docker.meta.json",
+			"logoPngPath": "logos/docker.logo.png",
+			"palettePngPath": "palettes/docker.palette.png"
+		},
+		{
+			"rank": 25,
+			"name": "Stripe",
+			"codeName": "stripe",
+			"jsonName": "stripe.json",
+			"pngName": "stripe.png",
+			"logoPngName": "stripe.logo.png",
+			"metaJsonName": "stripe.meta.json",
+			"batch": "S09",
+			"category": "Fintech",
+			"description": "Online payments.",
+			"alexaRank": 3266,
+			"pageURL": "https://www.ycdb.co/company/stripe",
+			"website": "http://www.stripe.com",
+			"palette": [
+				[
+					100,
+					92,
+					251
+				],
+				[
+					231,
+					230,
+					246
+				],
+				[
+					164,
+					164,
+					232
+				],
+				[
+					134,
+					126,
+					236
+				],
+				[
+					148,
+					148,
+					244
+				]
+			],
+			"hexPalette": [
+				"#645cfb",
+				"#e7e6f6",
+				"#a4a4e8",
+				"#867eec",
+				"#9494f4"
+			],
+			"metaJsonPath": "meta/stripe.meta.json",
+			"logoPngPath": "logos/stripe.logo.png",
+			"palettePngPath": "palettes/stripe.palette.png"
+		},
+		{
+			"rank": 26,
+			"name": "Repl.it",
+			"codeName": "replit",
+			"jsonName": "replit.json",
+			"pngName": "replit.png",
+			"logoPngName": "replit.logo.png",
+			"metaJsonName": "replit.meta.json",
+			"batch": "W18",
+			"category": "Dev Tools",
+			"description": "In 2 seconds, boot up an online programming environment for your favorite language.",
+			"alexaRank": 3406,
+			"pageURL": "https://www.ycdb.co/company/repl-it",
+			"website": "http://www.repl.it",
+			"palette": [
+				[
+					242,
+					100,
+					7
+				],
+				[
+					12,
+					20,
+					35
+				],
+				[
+					99,
+					49,
+					28
+				],
+				[
+					17,
+					28,
+					36
+				],
+				[
+					142,
+					68,
+					28
+				]
+			],
+			"hexPalette": [
+				"#f26407",
+				"#0c1423",
+				"#63311c",
+				"#111c24",
+				"#8e441c"
+			],
+			"metaJsonPath": "meta/replit.meta.json",
+			"logoPngPath": "logos/replit.logo.png",
+			"palettePngPath": "palettes/replit.palette.png"
+		},
+		{
+			"rank": 27,
+			"name": "Our World in Data",
+			"codeName": "ourworldindata",
+			"jsonName": "ourworldindata.json",
+			"pngName": "ourworldindata.png",
+			"logoPngName": "ourworldindata.logo.png",
+			"metaJsonName": "ourworldindata.meta.json",
+			"batch": "W19",
+			"category": "Education",
+			"description": "Research and data to make progress against the world\u2019s largest problems",
+			"alexaRank": 3435,
+			"pageURL": "https://www.ycdb.co/company/our-world-in-data",
+			"website": "http://www.ourworldindata.org",
+			"palette": [
+				[
+					23,
+					38,
+					69
+				],
+				[
+					187,
+					61,
+					53
+				],
+				[
+					215,
+					219,
+					221
+				],
+				[
+					132,
+					148,
+					156
+				],
+				[
+					132,
+					136,
+					156
+				]
+			],
+			"hexPalette": [
+				"#172645",
+				"#bb3d35",
+				"#d7dbdd",
+				"#84949c",
+				"#84889c"
+			],
+			"metaJsonPath": "meta/ourworldindata.meta.json",
+			"logoPngPath": "logos/ourworldindata.logo.png",
+			"palettePngPath": "palettes/ourworldindata.palette.png"
+		},
+		{
+			"rank": 28,
+			"name": "Font Awesome",
+			"codeName": "fontawesome",
+			"jsonName": "fontawesome.json",
+			"pngName": "fontawesome.png",
+			"logoPngName": "fontawesome.logo.png",
+			"metaJsonName": "fontawesome.meta.json",
+			"batch": "S15",
+			"category": "Dev Tools",
+			"description": "Icons and social logos for your website.",
+			"alexaRank": 3555,
+			"pageURL": "https://www.ycdb.co/company/font-awesome",
+			"website": "http://www.fontawesome.com",
+			"palette": [
+				[
+					84,
+					140,
+					212
+				],
+				[
+					211,
+					227,
+					245
+				],
+				[
+					140,
+					180,
+					228
+				],
+				[
+					132,
+					172,
+					228
+				],
+				[
+					118,
+					169,
+					225
+				]
+			],
+			"hexPalette": [
+				"#548cd4",
+				"#d3e3f5",
+				"#8cb4e4",
+				"#84ace4",
+				"#76a9e1"
+			],
+			"metaJsonPath": "meta/fontawesome.meta.json",
+			"logoPngPath": "logos/fontawesome.logo.png",
+			"palettePngPath": "palettes/fontawesome.palette.png"
+		},
+		{
+			"rank": 29,
+			"name": "Zapier",
+			"codeName": "zapier",
+			"jsonName": "zapier.json",
+			"pngName": "zapier.png",
+			"logoPngName": "zapier.logo.png",
+			"metaJsonName": "zapier.meta.json",
+			"batch": "S12",
+			"category": "Other SaaS",
+			"description": "The easiest way to automate your work",
+			"alexaRank": 4626,
+			"pageURL": "https://www.ycdb.co/company/zapier",
+			"website": "http://www.zapier.com",
+			"palette": [
+				[
+					252,
+					76,
+					4
+				],
+				[
+					36,
+					20,
+					20
+				],
+				[
+					256,
+					48,
+					12
+				],
+				[
+					92,
+					48,
+					12
+				],
+				[
+					36,
+					52,
+					12
+				]
+			],
+			"hexPalette": [
+				"#fc4c04",
+				"#241414",
+				"#ff300c",
+				"#5c300c",
+				"#24340c"
+			],
+			"metaJsonPath": "meta/zapier.meta.json",
+			"logoPngPath": "logos/zapier.logo.png",
+			"palettePngPath": "palettes/zapier.palette.png"
+		},
+		{
+			"rank": 30,
+			"name": "Strikingly",
+			"codeName": "strikingly",
+			"jsonName": "strikingly.json",
+			"pngName": "strikingly.png",
+			"logoPngName": "strikingly.logo.png",
+			"metaJsonName": "strikingly.meta.json",
+			"batch": "W13",
+			"category": "Other SaaS",
+			"description": "The easiest way to create a beautiful, mobile optimized website.",
+			"alexaRank": 4674,
+			"pageURL": "https://www.ycdb.co/company/strikingly",
+			"website": "http://www.strikingly.com",
+			"palette": [
+				[
+					108,
+					76,
+					148
+				],
+				[
+					231,
+					227,
+					236
+				],
+				[
+					164,
+					148,
+					186
+				],
+				[
+					151,
+					133,
+					180
+				],
+				[
+					144,
+					126,
+					170
+				]
+			],
+			"hexPalette": [
+				"#6c4c94",
+				"#e7e3ec",
+				"#a494ba",
+				"#9785b4",
+				"#907eaa"
+			],
+			"metaJsonPath": "meta/strikingly.meta.json",
+			"logoPngPath": "logos/strikingly.logo.png",
+			"palettePngPath": "palettes/strikingly.palette.png"
+		},
+		{
+			"rank": 31,
+			"name": "SmartAsset",
+			"codeName": "smartasset",
+			"jsonName": "smartasset.json",
+			"pngName": "smartasset.png",
+			"logoPngName": "smartasset.logo.png",
+			"metaJsonName": "smartasset.meta.json",
+			"batch": "S12",
+			"category": "Fintech",
+			"description": "The easiest way to make and understand important personal finance decisions.",
+			"alexaRank": 4764,
+			"pageURL": "https://www.ycdb.co/company/smartasset",
+			"website": "http://www.smartasset.com",
+			"palette": [
+				[
+					212,
+					224,
+					228
+				],
+				[
+					58,
+					144,
+					186
+				],
+				[
+					34,
+					35,
+					35
+				],
+				[
+					148,
+					200,
+					224
+				],
+				[
+					100,
+					100,
+					100
+				]
+			],
+			"hexPalette": [
+				"#d4e0e4",
+				"#3a90ba",
+				"#222323",
+				"#94c8e0",
+				"#646464"
+			],
+			"metaJsonPath": "meta/smartasset.meta.json",
+			"logoPngPath": "logos/smartasset.logo.png",
+			"palettePngPath": "palettes/smartasset.palette.png"
+		},
+		{
+			"rank": 32,
+			"name": "The Muse",
+			"codeName": "themuse",
+			"jsonName": "themuse.json",
+			"pngName": "themuse.png",
+			"logoPngName": "themuse.logo.png",
+			"metaJsonName": "themuse.meta.json",
+			"batch": "W12",
+			"category": "Other SaaS",
+			"description": "The Muse is the ultimate career destination offering exciting job opportunities, expert advice, and ...",
+			"alexaRank": 4815,
+			"pageURL": "https://www.ycdb.co/company/the-muse",
+			"website": "http://www.themuse.com",
+			"palette": [
+				[
+					113,
+					193,
+					216
+				],
+				[
+					214,
+					226,
+					229
+				],
+				[
+					55,
+					55,
+					55
+				],
+				[
+					116,
+					116,
+					116
+				],
+				[
+					140,
+					140,
+					140
+				]
+			],
+			"hexPalette": [
+				"#71c1d8",
+				"#d6e2e5",
+				"#373737",
+				"#747474",
+				"#8c8c8c"
+			],
+			"metaJsonPath": "meta/themuse.meta.json",
+			"logoPngPath": "logos/themuse.logo.png",
+			"palettePngPath": "palettes/themuse.palette.png"
+		},
+		{
+			"rank": 33,
+			"name": "Paystack",
+			"codeName": "paystack",
+			"jsonName": "paystack.json",
+			"pngName": "paystack.png",
+			"logoPngName": "paystack.logo.png",
+			"metaJsonName": "paystack.meta.json",
+			"batch": "W16",
+			"category": "Fintech",
+			"description": "Modern payments infrastructure for Africa",
+			"alexaRank": 4865,
+			"pageURL": "https://www.ycdb.co/company/paystack",
+			"website": "http://www.paystack.com",
+			"palette": [
+				[
+					4,
+					161,
+					216
+				],
+				[
+					4,
+					28,
+					51
+				],
+				[
+					5,
+					84,
+					124
+				],
+				[
+					4,
+					100,
+					133
+				],
+				[
+					12,
+					60,
+					92
+				]
+			],
+			"hexPalette": [
+				"#04a1d8",
+				"#041c33",
+				"#05547c",
+				"#046485",
+				"#0c3c5c"
+			],
+			"metaJsonPath": "meta/paystack.meta.json",
+			"logoPngPath": "logos/paystack.logo.png",
+			"palettePngPath": "palettes/paystack.palette.png"
+		},
+		{
+			"rank": 34,
+			"name": "Razorpay",
+			"codeName": "razorpay",
+			"jsonName": "razorpay.json",
+			"pngName": "razorpay.png",
+			"logoPngName": "razorpay.logo.png",
+			"metaJsonName": "razorpay.meta.json",
+			"batch": "W15",
+			"category": "Fintech",
+			"description": "A full stack payment platform for India",
+			"alexaRank": 4916,
+			"pageURL": "https://www.ycdb.co/company/razorpay",
+			"website": "http://www.razorpay.com",
+			"palette": [
+				[
+					234,
+					243,
+					244
+				],
+				[
+					57,
+					149,
+					247
+				],
+				[
+					6,
+					37,
+					83
+				],
+				[
+					102,
+					118,
+					137
+				],
+				[
+					148,
+					196,
+					236
+				]
+			],
+			"hexPalette": [
+				"#eaf3f4",
+				"#3995f7",
+				"#062553",
+				"#667689",
+				"#94c4ec"
+			],
+			"metaJsonPath": "meta/razorpay.meta.json",
+			"logoPngPath": "logos/razorpay.logo.png",
+			"palettePngPath": "palettes/razorpay.palette.png"
+		},
+		{
+			"rank": 35,
+			"name": "Heroku",
+			"codeName": "heroku",
+			"jsonName": "heroku.json",
+			"pngName": "heroku.png",
+			"logoPngName": "heroku.logo.png",
+			"metaJsonName": "heroku.meta.json",
+			"batch": "W08",
+			"category": "Other SaaS",
+			"description": "Heroku is a multi-language cloud application platform that enables developers to deploy, scale, and manage their applications.",
+			"alexaRank": 5430,
+			"pageURL": "https://www.ycdb.co/company/heroku",
+			"website": "http://www.heroku.com",
+			"palette": [
+				[
+					68,
+					4,
+					155
+				],
+				[
+					36,
+					4,
+					76
+				],
+				[
+					52,
+					4,
+					116
+				],
+				[
+					72,
+					4,
+					144
+				],
+				[
+					72,
+					4,
+					144
+				]
+			],
+			"hexPalette": [
+				"#44049b",
+				"#24044c",
+				"#340474",
+				"#480490",
+				"#480490"
+			],
+			"metaJsonPath": "meta/heroku.meta.json",
+			"logoPngPath": "logos/heroku.logo.png",
+			"palettePngPath": "palettes/heroku.palette.png"
+		},
+		{
+			"rank": 36,
+			"name": "Coub",
+			"codeName": "coub",
+			"jsonName": "coub.json",
+			"pngName": "coub.png",
+			"logoPngName": "coub.logo.png",
+			"metaJsonName": "coub.meta.json",
+			"batch": "S16",
+			"category": "Entertainment",
+			"description": "Coub is YouTube for video loops. You can take any video from YouTube, Facebook or upload your own. T...",
+			"alexaRank": 5439,
+			"pageURL": "https://www.ycdb.co/company/coub",
+			"website": "http://www.coub.com",
+			"palette": [
+				[
+					27,
+					52,
+					251
+				],
+				[
+					236,
+					239,
+					247
+				],
+				[
+					110,
+					125,
+					228
+				],
+				[
+					65,
+					84,
+					225
+				],
+				[
+					140,
+					156,
+					236
+				]
+			],
+			"hexPalette": [
+				"#1b34fb",
+				"#eceff7",
+				"#6e7de4",
+				"#4154e1",
+				"#8c9cec"
+			],
+			"metaJsonPath": "meta/coub.meta.json",
+			"logoPngPath": "logos/coub.logo.png",
+			"palettePngPath": "palettes/coub.palette.png"
+		},
+		{
+			"rank": 37,
+			"name": "Lever",
+			"codeName": "lever",
+			"jsonName": "lever.json",
+			"pngName": "lever.png",
+			"logoPngName": "lever.logo.png",
+			"metaJsonName": "lever.meta.json",
+			"batch": "S12",
+			"category": "Other SaaS",
+			"description": "Lever is a Talent Acquisition Suite that combines ATS + Talent CRM",
+			"alexaRank": 5455,
+			"pageURL": "https://www.ycdb.co/company/lever",
+			"website": "http://www.lever.co",
+			"palette": [
+				[
+					220,
+					220,
+					220
+				],
+				[
+					172,
+					172,
+					172
+				],
+				[
+					239,
+					239,
+					239
+				],
+				[
+					212,
+					212,
+					212
+				],
+				[
+					204,
+					204,
+					204
+				]
+			],
+			"hexPalette": [
+				"#dcdcdc",
+				"#acacac",
+				"#efefef",
+				"#d4d4d4",
+				"#cccccc"
+			],
+			"metaJsonPath": "meta/lever.meta.json",
+			"logoPngPath": "logos/lever.logo.png",
+			"palettePngPath": "palettes/lever.palette.png"
+		},
+		{
+			"rank": 38,
+			"name": "Y Combinator",
+			"codeName": "ycombinator",
+			"jsonName": "ycombinator.json",
+			"pngName": "ycombinator.png",
+			"logoPngName": "ycombinator.logo.png",
+			"metaJsonName": "ycombinator.meta.json",
+			"batch": "S05",
+			"category": "",
+			"description": "Not your average fixed point combinator.",
+			"alexaRank": 5583,
+			"pageURL": "https://www.ycdb.co/company/y-combinator",
+			"website": "http://www.ycombinator.com",
+			"palette": [
+				[
+					252,
+					100,
+					28
+				],
+				[
+					252,
+					222,
+					207
+				],
+				[
+					252,
+					149,
+					100
+				],
+				[
+					252,
+					172,
+					132
+				],
+				[
+					252,
+					124,
+					60
+				]
+			],
+			"hexPalette": [
+				"#fc641c",
+				"#fcdecf",
+				"#fc9564",
+				"#fcac84",
+				"#fc7c3c"
+			],
+			"metaJsonPath": "meta/ycombinator.meta.json",
+			"logoPngPath": "logos/ycombinator.logo.png",
+			"palettePngPath": "palettes/ycombinator.palette.png"
+		},
+		{
+			"rank": 39,
+			"name": "Wufoo",
+			"codeName": "wufoo",
+			"jsonName": "wufoo.json",
+			"pngName": "wufoo.png",
+			"logoPngName": "wufoo.logo.png",
+			"metaJsonName": "wufoo.meta.json",
+			"batch": "W06",
+			"category": "Other SaaS",
+			"description": "Online form builder.",
+			"alexaRank": 5733,
+			"pageURL": "https://www.ycdb.co/company/wufoo",
+			"website": "http://www.wufoo.com",
+			"palette": [
+				[
+					228,
+					101,
+					99
+				],
+				[
+					248,
+					237,
+					235
+				],
+				[
+					228,
+					153,
+					151
+				],
+				[
+					236,
+					180,
+					172
+				],
+				[
+					236,
+					140,
+					132
+				]
+			],
+			"hexPalette": [
+				"#e46563",
+				"#f8edeb",
+				"#e49997",
+				"#ecb4ac",
+				"#ec8c84"
+			],
+			"metaJsonPath": "meta/wufoo.meta.json",
+			"logoPngPath": "logos/wufoo.logo.png",
+			"palettePngPath": "palettes/wufoo.palette.png"
+		},
+		{
+			"rank": 40,
+			"name": "GOAT Group",
+			"codeName": "goatgroup",
+			"jsonName": "goatgroup.json",
+			"pngName": "goatgroup.png",
+			"logoPngName": "goatgroup.logo.png",
+			"metaJsonName": "goatgroup.meta.json",
+			"batch": "W11",
+			"category": "Consumer",
+			"description": "GOAT Group represents the leading platforms for authentic sneakers, apparel, and accessories.",
+			"alexaRank": 5930,
+			"pageURL": "https://www.ycdb.co/company/goat-group",
+			"website": "http://www.goat.com",
+			"palette": [
+				[
+					4,
+					4,
+					4
+				],
+				[
+					172,
+					172,
+					172
+				],
+				[
+					124,
+					124,
+					124
+				],
+				[
+					116,
+					116,
+					116
+				],
+				[
+					92,
+					92,
+					92
+				]
+			],
+			"hexPalette": [
+				"#040404",
+				"#acacac",
+				"#7c7c7c",
+				"#747474",
+				"#5c5c5c"
+			],
+			"metaJsonPath": "meta/goatgroup.meta.json",
+			"logoPngPath": "logos/goatgroup.logo.png",
+			"palettePngPath": "palettes/goatgroup.palette.png"
+		},
+		{
+			"rank": 41,
+			"name": "Apollo.io",
+			"codeName": "apolloio",
+			"jsonName": "apolloio.json",
+			"pngName": "apolloio.png",
+			"logoPngName": "apolloio.logo.png",
+			"metaJsonName": "apolloio.meta.json",
+			"batch": "W16",
+			"category": "Other SaaS",
+			"description": "Apollo is the foundation of your entire go-to-market strategy.",
+			"alexaRank": 6068,
+			"pageURL": "https://www.ycdb.co/company/apollo-io",
+			"website": "http://www.apollo.io",
+			"palette": [
+				[
+					251,
+					204,
+					68
+				],
+				[
+					8,
+					7,
+					6
+				],
+				[
+					159,
+					132,
+					56
+				],
+				[
+					128,
+					100,
+					48
+				],
+				[
+					188,
+					156,
+					68
+				]
+			],
+			"hexPalette": [
+				"#fbcc44",
+				"#080706",
+				"#9f8438",
+				"#806430",
+				"#bc9c44"
+			],
+			"metaJsonPath": "meta/apolloio.meta.json",
+			"logoPngPath": "logos/apolloio.logo.png",
+			"palettePngPath": "palettes/apolloio.palette.png"
+		},
+		{
+			"rank": 42,
+			"name": "MatterPort",
+			"codeName": "matterport",
+			"jsonName": "matterport.json",
+			"pngName": "matterport.png",
+			"logoPngName": "matterport.logo.png",
+			"metaJsonName": "matterport.meta.json",
+			"batch": "W12",
+			"category": "Entertainment",
+			"description": "Turn physical objects and environments into 3D models in seconds.",
+			"alexaRank": 6115,
+			"pageURL": "https://www.ycdb.co/company/matterport",
+			"website": "http://www.matterport.com",
+			"palette": [
+				[
+					243,
+					243,
+					243
+				],
+				[
+					115,
+					47,
+					62
+				],
+				[
+					179,
+					152,
+					155
+				],
+				[
+					132,
+					132,
+					132
+				],
+				[
+					140,
+					132,
+					132
+				]
+			],
+			"hexPalette": [
+				"#f3f3f3",
+				"#732f3e",
+				"#b3989b",
+				"#848484",
+				"#8c8484"
+			],
+			"metaJsonPath": "meta/matterport.meta.json",
+			"logoPngPath": "logos/matterport.logo.png",
+			"palettePngPath": "palettes/matterport.palette.png"
+		},
+		{
+			"rank": 43,
+			"name": "Front",
+			"codeName": "front",
+			"jsonName": "front.json",
+			"pngName": "front.png",
+			"logoPngName": "front.logo.png",
+			"metaJsonName": "front.meta.json",
+			"batch": "S14",
+			"category": "Other SaaS",
+			"description": "Collaborative Inbox for Companies",
+			"alexaRank": 6128,
+			"pageURL": "https://www.ycdb.co/company/front",
+			"website": "http://www.frontapp.com",
+			"palette": [
+				[
+					11,
+					27,
+					60
+				],
+				[
+					222,
+					29,
+					100
+				],
+				[
+					224,
+					220,
+					229
+				],
+				[
+					100,
+					116,
+					132
+				],
+				[
+					116,
+					124,
+					140
+				]
+			],
+			"hexPalette": [
+				"#0b1b3c",
+				"#de1d64",
+				"#e0dce5",
+				"#647484",
+				"#747c8c"
+			],
+			"metaJsonPath": "meta/front.meta.json",
+			"logoPngPath": "logos/front.logo.png",
+			"palettePngPath": "palettes/front.palette.png"
+		},
+		{
+			"rank": 44,
+			"name": "The Athletic",
+			"codeName": "theathletic",
+			"jsonName": "theathletic.json",
+			"pngName": "theathletic.png",
+			"logoPngName": "theathletic.logo.png",
+			"metaJsonName": "theathletic.meta.json",
+			"batch": "S16",
+			"category": "Entertainment",
+			"description": "Subscription sports media.",
+			"alexaRank": 6476,
+			"pageURL": "https://www.ycdb.co/company/the-athletic",
+			"website": "http://www.theathletic.com",
+			"palette": [
+				[
+					4,
+					4,
+					4
+				],
+				[
+					225,
+					229,
+					223
+				],
+				[
+					87,
+					87,
+					85
+				],
+				[
+					116,
+					116,
+					116
+				],
+				[
+					124,
+					124,
+					124
+				]
+			],
+			"hexPalette": [
+				"#040404",
+				"#e1e5df",
+				"#575755",
+				"#747474",
+				"#7c7c7c"
+			],
+			"metaJsonPath": "meta/theathletic.meta.json",
+			"logoPngPath": "logos/theathletic.logo.png",
+			"palettePngPath": "palettes/theathletic.palette.png"
+		},
+		{
+			"rank": 45,
+			"name": "Cambly",
+			"codeName": "cambly",
+			"jsonName": "cambly.json",
+			"pngName": "cambly.png",
+			"logoPngName": "cambly.logo.png",
+			"metaJsonName": "cambly.meta.json",
+			"batch": "W14",
+			"category": "Entertainment",
+			"description": "On-demand access to English tutors over video chat.",
+			"alexaRank": 6839,
+			"pageURL": "https://www.ycdb.co/company/cambly",
+			"website": "http://www.cambly.com",
+			"palette": [
+				[
+					219,
+					59,
+					39
+				],
+				[
+					53,
+					52,
+					51
+				],
+				[
+					251,
+					201,
+					44
+				],
+				[
+					249,
+					209,
+					201
+				],
+				[
+					158,
+					134,
+					54
+				]
+			],
+			"hexPalette": [
+				"#db3b27",
+				"#353433",
+				"#fbc92c",
+				"#f9d1c9",
+				"#9e8636"
+			],
+			"metaJsonPath": "meta/cambly.meta.json",
+			"logoPngPath": "logos/cambly.logo.png",
+			"palettePngPath": "palettes/cambly.palette.png"
+		},
+		{
+			"rank": 46,
+			"name": "Amplitude",
+			"codeName": "amplitude",
+			"jsonName": "amplitude.json",
+			"pngName": "amplitude.png",
+			"logoPngName": "amplitude.logo.png",
+			"metaJsonName": "amplitude.meta.json",
+			"batch": "W12",
+			"category": "Other SaaS",
+			"description": "Amplitude is the comprehensive product analytics software for web and mobile",
+			"alexaRank": 7074,
+			"pageURL": "https://www.ycdb.co/company/amplitude",
+			"website": "http://www.amplitude.com",
+			"palette": [
+				[
+					28,
+					99,
+					243
+				],
+				[
+					241,
+					246,
+					248
+				],
+				[
+					105,
+					148,
+					226
+				],
+				[
+					137,
+					172,
+					236
+				],
+				[
+					76,
+					132,
+					224
+				]
+			],
+			"hexPalette": [
+				"#1c63f3",
+				"#f1f6f8",
+				"#6994e2",
+				"#89acec",
+				"#4c84e0"
+			],
+			"metaJsonPath": "meta/amplitude.meta.json",
+			"logoPngPath": "logos/amplitude.logo.png",
+			"palettePngPath": "palettes/amplitude.palette.png"
+		},
+		{
+			"rank": 47,
+			"name": "Webflow",
+			"codeName": "webflow",
+			"jsonName": "webflow.json",
+			"pngName": "webflow.png",
+			"logoPngName": "webflow.logo.png",
+			"metaJsonName": "webflow.meta.json",
+			"batch": "S13",
+			"category": "Dev Tools",
+			"description": "Professional website design and publishing platform.",
+			"alexaRank": 7540,
+			"pageURL": "https://www.ycdb.co/company/webflow",
+			"website": "http://www.webflow.com",
+			"palette": [
+				[
+					68,
+					84,
+					252
+				],
+				[
+					207,
+					212,
+					252
+				],
+				[
+					138,
+					148,
+					252
+				],
+				[
+					148,
+					164,
+					252
+				],
+				[
+					108,
+					124,
+					252
+				]
+			],
+			"hexPalette": [
+				"#4454fc",
+				"#cfd4fc",
+				"#8a94fc",
+				"#94a4fc",
+				"#6c7cfc"
+			],
+			"metaJsonPath": "meta/webflow.meta.json",
+			"logoPngPath": "logos/webflow.logo.png",
+			"palettePngPath": "palettes/webflow.palette.png"
+		},
+		{
+			"rank": 48,
+			"name": "Bitnami",
+			"codeName": "bitnami",
+			"jsonName": "bitnami.json",
+			"pngName": "bitnami.png",
+			"logoPngName": "bitnami.logo.png",
+			"metaJsonName": "bitnami.meta.json",
+			"batch": "W13",
+			"category": "Other SaaS",
+			"description": "The App Store for Server Software",
+			"alexaRank": 7716,
+			"pageURL": "https://www.ycdb.co/company/bitnami",
+			"website": "http://www.bitnami.com",
+			"palette": [
+				[
+					219,
+					222,
+					222
+				],
+				[
+					22,
+					60,
+					90
+				],
+				[
+					116,
+					121,
+					124
+				],
+				[
+					142,
+					166,
+					178
+				],
+				[
+					106,
+					133,
+					156
+				]
+			],
+			"hexPalette": [
+				"#dbdede",
+				"#163c5a",
+				"#74797c",
+				"#8ea6b2",
+				"#6a859c"
+			],
+			"metaJsonPath": "meta/bitnami.meta.json",
+			"logoPngPath": "logos/bitnami.logo.png",
+			"palettePngPath": "palettes/bitnami.palette.png"
+		},
+		{
+			"rank": 49,
+			"name": "WorkFlowy",
+			"codeName": "workflowy",
+			"jsonName": "workflowy.json",
+			"pngName": "workflowy.png",
+			"logoPngName": "workflowy.logo.png",
+			"metaJsonName": "workflowy.meta.json",
+			"batch": "S10",
+			"category": "Other SaaS",
+			"description": "WorkFlowy is a better way to manage information. It provides a simple mechanism - zoomable, searchab...",
+			"alexaRank": 7807,
+			"pageURL": "https://www.ycdb.co/company/workflowy",
+			"website": "http://www.workflowy.com",
+			"palette": [
+				[
+					84,
+					140,
+					172
+				],
+				[
+					162,
+					187,
+					211
+				],
+				[
+					230,
+					238,
+					243
+				],
+				[
+					124,
+					164,
+					196
+				],
+				[
+					156,
+					196,
+					212
+				]
+			],
+			"hexPalette": [
+				"#548cac",
+				"#a2bbd3",
+				"#e6eef3",
+				"#7ca4c4",
+				"#9cc4d4"
+			],
+			"metaJsonPath": "meta/workflowy.meta.json",
+			"logoPngPath": "logos/workflowy.logo.png",
+			"palettePngPath": "palettes/workflowy.palette.png"
+		},
+		{
+			"rank": 50,
+			"name": "Substack",
+			"codeName": "substack",
+			"jsonName": "substack.json",
+			"pngName": "substack.png",
+			"logoPngName": "substack.logo.png",
+			"metaJsonName": "substack.meta.json",
+			"batch": "W18",
+			"category": "Other SaaS",
+			"description": "A place for independent writing",
+			"alexaRank": 8468,
+			"pageURL": "https://www.ycdb.co/company/substack",
+			"website": "http://www.substack.com",
+			"palette": [
+				[
+					252,
+					100,
+					28
+				],
+				[
+					244,
+					100,
+					28
+				],
+				[
+					164,
+					68,
+					20
+				],
+				[
+					252,
+					108,
+					28
+				],
+				[
+					252,
+					104,
+					24
+				]
+			],
+			"hexPalette": [
+				"#fc641c",
+				"#f4641c",
+				"#a44414",
+				"#fc6c1c",
+				"#fc6818"
+			],
+			"metaJsonPath": "meta/substack.meta.json",
+			"logoPngPath": "logos/substack.logo.png",
+			"palettePngPath": "palettes/substack.palette.png"
+		},
+		{
+			"rank": 51,
+			"name": "Zeplin",
+			"codeName": "zeplin",
+			"jsonName": "zeplin.json",
+			"pngName": "zeplin.png",
+			"logoPngName": "zeplin.logo.png",
+			"metaJsonName": "zeplin.meta.json",
+			"batch": "S15",
+			"category": "Dev Tools",
+			"description": "Zeplin is a connected space for product teams where they can share designs, generate specs, assets a...",
+			"alexaRank": 8826,
+			"pageURL": "https://www.ycdb.co/company/zeplin",
+			"website": "http://www.zeplin.io",
+			"palette": [
+				[
+					249,
+					236,
+					213
+				],
+				[
+					246,
+					159,
+					56
+				],
+				[
+					251,
+					184,
+					132
+				],
+				[
+					123,
+					244,
+					244
+				],
+				[
+					250,
+					141,
+					129
+				]
+			],
+			"hexPalette": [
+				"#f9ecd5",
+				"#f69f38",
+				"#fbb884",
+				"#7bf4f4",
+				"#fa8d81"
+			],
+			"metaJsonPath": "meta/zeplin.meta.json",
+			"logoPngPath": "logos/zeplin.logo.png",
+			"palettePngPath": "palettes/zeplin.palette.png"
+		},
+		{
+			"rank": 52,
+			"name": "Chartio",
+			"codeName": "chartio",
+			"jsonName": "chartio.json",
+			"pngName": "chartio.png",
+			"logoPngName": "chartio.logo.png",
+			"metaJsonName": "chartio.meta.json",
+			"batch": "S10",
+			"category": "Other SaaS",
+			"description": "Chartio is changing how companies work by building the best visualization interface to data. We make...",
+			"alexaRank": 8837,
+			"pageURL": "https://www.ycdb.co/company/chartio",
+			"website": "http://www.chartio.com",
+			"palette": [
+				[
+					244,
+					243,
+					235
+				],
+				[
+					249,
+					211,
+					101
+				],
+				[
+					72,
+					129,
+					182
+				],
+				[
+					151,
+					133,
+					165
+				],
+				[
+					177,
+					177,
+					194
+				]
+			],
+			"hexPalette": [
+				"#f4f3eb",
+				"#f9d365",
+				"#4881b6",
+				"#9785a5",
+				"#b1b1c2"
+			],
+			"metaJsonPath": "meta/chartio.meta.json",
+			"logoPngPath": "logos/chartio.logo.png",
+			"palettePngPath": "palettes/chartio.palette.png"
+		},
+		{
+			"rank": 53,
+			"name": "Pushbullet",
+			"codeName": "pushbullet",
+			"jsonName": "pushbullet.json",
+			"pngName": "pushbullet.png",
+			"logoPngName": "pushbullet.logo.png",
+			"metaJsonName": "pushbullet.meta.json",
+			"batch": "W14",
+			"category": "Consumer",
+			"description": "Push things to your other things.",
+			"alexaRank": 8872,
+			"pageURL": "https://www.ycdb.co/company/pushbullet",
+			"website": "http://www.pushbullet.com",
+			"palette": [
+				[
+					84,
+					181,
+					113
+				],
+				[
+					224,
+					243,
+					232
+				],
+				[
+					168,
+					220,
+					180
+				],
+				[
+					149,
+					210,
+					164
+				],
+				[
+					128,
+					204,
+					152
+				]
+			],
+			"hexPalette": [
+				"#54b571",
+				"#e0f3e8",
+				"#a8dcb4",
+				"#95d2a4",
+				"#80cc98"
+			],
+			"metaJsonPath": "meta/pushbullet.meta.json",
+			"logoPngPath": "logos/pushbullet.logo.png",
+			"palettePngPath": "palettes/pushbullet.palette.png"
+		},
+		{
+			"rank": 54,
+			"name": "Optimizely",
+			"codeName": "optimizely",
+			"jsonName": "optimizely.json",
+			"pngName": "optimizely.png",
+			"logoPngName": "optimizely.logo.png",
+			"metaJsonName": "optimizely.meta.json",
+			"batch": "W10",
+			"category": "Dev Tools",
+			"description": "A/B testing.",
+			"alexaRank": 9006,
+			"pageURL": "https://www.ycdb.co/company/optimizely",
+			"website": "http://www.optimizely.com",
+			"palette": [
+				[
+					252,
+					132,
+					20
+				],
+				[
+					60,
+					228,
+					132
+				],
+				[
+					4,
+					52,
+					252
+				],
+				[
+					4,
+					203,
+					252
+				],
+				[
+					132,
+					28,
+					252
+				]
+			],
+			"hexPalette": [
+				"#fc8414",
+				"#3ce484",
+				"#0434fc",
+				"#04cbfc",
+				"#841cfc"
+			],
+			"metaJsonPath": "meta/optimizely.meta.json",
+			"logoPngPath": "logos/optimizely.logo.png",
+			"palettePngPath": "palettes/optimizely.palette.png"
+		},
+		{
+			"rank": 55,
+			"name": "Submittable",
+			"codeName": "submittable",
+			"jsonName": "submittable.json",
+			"pngName": "submittable.png",
+			"logoPngName": "submittable.logo.png",
+			"metaJsonName": "submittable.meta.json",
+			"batch": "S12",
+			"category": "Dev Tools",
+			"description": "Submittable is the best way for organizations to create, promote, and manage their calls for submiss...",
+			"alexaRank": 9027,
+			"pageURL": "https://www.ycdb.co/company/submittable",
+			"website": "http://www.submittable.com",
+			"palette": [
+				[
+					252,
+					92,
+					52
+				],
+				[
+					256,
+					92,
+					52
+				],
+				[
+					256,
+					92,
+					52
+				],
+				[
+					256,
+					92,
+					52
+				],
+				[
+					256,
+					92,
+					52
+				]
+			],
+			"hexPalette": [
+				"#fc5c34",
+				"#ff5c34",
+				"#ff5c34",
+				"#ff5c34",
+				"#ff5c34"
+			],
+			"metaJsonPath": "meta/submittable.meta.json",
+			"logoPngPath": "logos/submittable.logo.png",
+			"palettePngPath": "palettes/submittable.palette.png"
+		},
+		{
+			"rank": 56,
+			"name": "Flutterwave",
+			"codeName": "flutterwave",
+			"jsonName": "flutterwave.json",
+			"pngName": "flutterwave.png",
+			"logoPngName": "flutterwave.logo.png",
+			"metaJsonName": "flutterwave.meta.json",
+			"batch": "S16",
+			"category": "Fintech",
+			"description": "We help businesses to make and accept payments from anywhere in Africa",
+			"alexaRank": 9239,
+			"pageURL": "https://www.ycdb.co/company/flutterwave",
+			"website": "http://www.flutterwave.com",
+			"palette": [
+				[
+					44,
+					53,
+					100
+				],
+				[
+					238,
+					138,
+					77
+				],
+				[
+					10,
+					148,
+					74
+				],
+				[
+					126,
+					90,
+					70
+				],
+				[
+					100,
+					108,
+					148
+				]
+			],
+			"hexPalette": [
+				"#2c3564",
+				"#ee8a4d",
+				"#0a944a",
+				"#7e5a46",
+				"#646c94"
+			],
+			"metaJsonPath": "meta/flutterwave.meta.json",
+			"logoPngPath": "logos/flutterwave.logo.png",
+			"palettePngPath": "palettes/flutterwave.palette.png"
+		},
+		{
+			"rank": 57,
+			"name": "Segment",
+			"codeName": "segment",
+			"jsonName": "segment.json",
+			"pngName": "segment.png",
+			"logoPngName": "segment.logo.png",
+			"metaJsonName": "segment.meta.json",
+			"batch": "S11",
+			"category": "Other SaaS",
+			"description": "Segment is the analytics infrastructure that helps collect and organize data so businesses make bett...",
+			"alexaRank": 9622,
+			"pageURL": "https://www.ycdb.co/company/segment",
+			"website": "http://www.segment.com",
+			"palette": [
+				[
+					84,
+					188,
+					148
+				],
+				[
+					88,
+					188,
+					148
+				],
+				[
+					88,
+					188,
+					148
+				],
+				[
+					88,
+					188,
+					148
+				],
+				[
+					88,
+					188,
+					148
+				]
+			],
+			"hexPalette": [
+				"#54bc94",
+				"#58bc94",
+				"#58bc94",
+				"#58bc94",
+				"#58bc94"
+			],
+			"metaJsonPath": "meta/segment.meta.json",
+			"logoPngPath": "logos/segment.logo.png",
+			"palettePngPath": "palettes/segment.palette.png"
+		},
+		{
+			"rank": 58,
+			"name": "Product Hunt",
+			"codeName": "producthunt",
+			"jsonName": "producthunt.json",
+			"pngName": "producthunt.png",
+			"logoPngName": "producthunt.logo.png",
+			"metaJsonName": "producthunt.meta.json",
+			"batch": "S14",
+			"category": "Entertainment",
+			"description": "Hacker News for Products",
+			"alexaRank": 9817,
+			"pageURL": "https://www.ycdb.co/company/product-hunt",
+			"website": "http://www.producthunt.com",
+			"palette": [
+				[
+					219,
+					84,
+					44
+				],
+				[
+					244,
+					204,
+					192
+				],
+				[
+					220,
+					92,
+					60
+				],
+				[
+					130,
+					50,
+					26
+				],
+				[
+					175,
+					69,
+					36
+				]
+			],
+			"hexPalette": [
+				"#db542c",
+				"#f4ccc0",
+				"#dc5c3c",
+				"#82321a",
+				"#af4524"
+			],
+			"metaJsonPath": "meta/producthunt.meta.json",
+			"logoPngPath": "logos/producthunt.logo.png",
+			"palettePngPath": "palettes/producthunt.palette.png"
+		},
+		{
+			"rank": 59,
+			"name": "Close",
+			"codeName": "close",
+			"jsonName": "close.json",
+			"pngName": "close.png",
+			"logoPngName": "close.logo.png",
+			"metaJsonName": "close.meta.json",
+			"batch": "W11",
+			"category": "Other SaaS",
+			"description": "Inside Sales and Sales Automation CRM for SMBs",
+			"alexaRank": 10034,
+			"pageURL": "https://www.ycdb.co/company/close",
+			"website": "http://www.close.com",
+			"palette": [
+				[
+					241,
+					180,
+					100
+				],
+				[
+					69,
+					178,
+					124
+				],
+				[
+					91,
+					172,
+					204
+				],
+				[
+					44,
+					84,
+					124
+				],
+				[
+					150,
+					172,
+					142
+				]
+			],
+			"hexPalette": [
+				"#f1b464",
+				"#45b27c",
+				"#5baccc",
+				"#2c547c",
+				"#96ac8e"
+			],
+			"metaJsonPath": "meta/close.meta.json",
+			"logoPngPath": "logos/close.logo.png",
+			"palettePngPath": "palettes/close.palette.png"
+		},
+		{
+			"rank": 60,
+			"name": "Zenefits",
+			"codeName": "zenefits",
+			"jsonName": "zenefits.json",
+			"pngName": "zenefits.png",
+			"logoPngName": "zenefits.logo.png",
+			"metaJsonName": "zenefits.meta.json",
+			"batch": "W13",
+			"category": "Other SaaS",
+			"description": "HR for small businesses: onboarding, payroll and benefits.",
+			"alexaRank": 10093,
+			"pageURL": "https://www.ycdb.co/company/zenefits",
+			"website": "http://www.zenefits.com",
+			"palette": [
+				[
+					4,
+					116,
+					204
+				],
+				[
+					252,
+					84,
+					67
+				],
+				[
+					252,
+					92,
+					76
+				],
+				[
+					196,
+					68,
+					52
+				],
+				[
+					60,
+					92,
+					208
+				]
+			],
+			"hexPalette": [
+				"#0474cc",
+				"#fc5443",
+				"#fc5c4c",
+				"#c44434",
+				"#3c5cd0"
+			],
+			"metaJsonPath": "meta/zenefits.meta.json",
+			"logoPngPath": "logos/zenefits.logo.png",
+			"palettePngPath": "palettes/zenefits.palette.png"
+		},
+		{
+			"rank": 61,
+			"name": "Prolific",
+			"codeName": "prolific",
+			"jsonName": "prolific.json",
+			"pngName": "prolific.png",
+			"logoPngName": "prolific.logo.png",
+			"metaJsonName": "prolific.meta.json",
+			"batch": "S19",
+			"category": "Other SaaS",
+			"description": "Infrastructure for research on the internet.",
+			"alexaRank": 10181,
+			"pageURL": "https://www.ycdb.co/company/prolific",
+			"website": "http://www.prolific.co",
+			"palette": [
+				[
+					6,
+					150,
+					215
+				],
+				[
+					233,
+					246,
+					247
+				],
+				[
+					110,
+					205,
+					244
+				],
+				[
+					88,
+					180,
+					215
+				],
+				[
+					132,
+					188,
+					212
+				]
+			],
+			"hexPalette": [
+				"#0696d7",
+				"#e9f6f7",
+				"#6ecdf4",
+				"#58b4d7",
+				"#84bcd4"
+			],
+			"metaJsonPath": "meta/prolific.meta.json",
+			"logoPngPath": "logos/prolific.logo.png",
+			"palettePngPath": "palettes/prolific.palette.png"
+		},
+		{
+			"rank": 62,
+			"name": "Algolia",
+			"codeName": "algolia",
+			"jsonName": "algolia.json",
+			"pngName": "algolia.png",
+			"logoPngName": "algolia.logo.png",
+			"metaJsonName": "algolia.meta.json",
+			"batch": "W14",
+			"category": "Dev Tools",
+			"description": "Algolia offers a developer-friendly and enterprise-grade search API",
+			"alexaRank": 10272,
+			"pageURL": "https://www.ycdb.co/company/algolia",
+			"website": "http://www.algolia.com",
+			"palette": [
+				[
+					4,
+					60,
+					252
+				],
+				[
+					4,
+					44,
+					196
+				],
+				[
+					4,
+					56,
+					256
+				],
+				[
+					4,
+					56,
+					256
+				],
+				[
+					4,
+					56,
+					256
+				]
+			],
+			"hexPalette": [
+				"#043cfc",
+				"#042cc4",
+				"#0438ff",
+				"#0438ff",
+				"#0438ff"
+			],
+			"metaJsonPath": "meta/algolia.meta.json",
+			"logoPngPath": "logos/algolia.logo.png",
+			"palettePngPath": "palettes/algolia.palette.png"
+		},
+		{
+			"rank": 63,
+			"name": "ShipBob",
+			"codeName": "shipbob",
+			"jsonName": "shipbob.json",
+			"pngName": "shipbob.png",
+			"logoPngName": "shipbob.logo.png",
+			"metaJsonName": "shipbob.meta.json",
+			"batch": "S14",
+			"category": "Other SaaS",
+			"description": "Providing Amazon level logistics to e-commerce businesses.",
+			"alexaRank": 10380,
+			"pageURL": "https://www.ycdb.co/company/shipbob",
+			"website": "http://www.shipbob.com",
+			"palette": [
+				[
+					20,
+					92,
+					252
+				],
+				[
+					213,
+					226,
+					252
+				],
+				[
+					108,
+					152,
+					252
+				],
+				[
+					132,
+					172,
+					252
+				],
+				[
+					76,
+					132,
+					252
+				]
+			],
+			"hexPalette": [
+				"#145cfc",
+				"#d5e2fc",
+				"#6c98fc",
+				"#84acfc",
+				"#4c84fc"
+			],
+			"metaJsonPath": "meta/shipbob.meta.json",
+			"logoPngPath": "logos/shipbob.logo.png",
+			"palettePngPath": "palettes/shipbob.palette.png"
+		},
+		{
+			"rank": 64,
+			"name": "Buy Me A Coffee",
+			"codeName": "buymeacoffee",
+			"jsonName": "buymeacoffee.json",
+			"pngName": "buymeacoffee.png",
+			"logoPngName": "buymeacoffee.logo.png",
+			"metaJsonName": "buymeacoffee.meta.json",
+			"batch": "W19",
+			"category": "Entertainment",
+			"description": "Helping creators monetize",
+			"alexaRank": 10754,
+			"pageURL": "https://www.ycdb.co/company/buy-me-a-coffee",
+			"website": "http://www.buymeacoffee.com",
+			"palette": [
+				[
+					250,
+					219,
+					4
+				],
+				[
+					12,
+					12,
+					35
+				],
+				[
+					156,
+					132,
+					4
+				],
+				[
+					8,
+					4,
+					20
+				],
+				[
+					68,
+					120,
+					20
+				]
+			],
+			"hexPalette": [
+				"#fadb04",
+				"#0c0c23",
+				"#9c8404",
+				"#080414",
+				"#447814"
+			],
+			"metaJsonPath": "meta/buymeacoffee.meta.json",
+			"logoPngPath": "logos/buymeacoffee.logo.png",
+			"palettePngPath": "palettes/buymeacoffee.palette.png"
+		},
+		{
+			"rank": 65,
+			"name": "Chatfuel",
+			"codeName": "chatfuel",
+			"jsonName": "chatfuel.json",
+			"pngName": "chatfuel.png",
+			"logoPngName": "chatfuel.logo.png",
+			"metaJsonName": "chatfuel.meta.json",
+			"batch": "W16",
+			"category": "Dev Tools",
+			"description": "Platform to easily create chatbots to engage with audiences on messengers.",
+			"alexaRank": 10795,
+			"pageURL": "https://www.ycdb.co/company/chatfuel",
+			"website": "http://www.chatfuel.com",
+			"palette": [
+				[
+					4,
+					139,
+					243
+				],
+				[
+					206,
+					236,
+					252
+				],
+				[
+					95,
+					187,
+					252
+				],
+				[
+					124,
+					204,
+					252
+				],
+				[
+					52,
+					172,
+					246
+				]
+			],
+			"hexPalette": [
+				"#048bf3",
+				"#ceecfc",
+				"#5fbbfc",
+				"#7cccfc",
+				"#34acf6"
+			],
+			"metaJsonPath": "meta/chatfuel.meta.json",
+			"logoPngPath": "logos/chatfuel.logo.png",
+			"palettePngPath": "palettes/chatfuel.palette.png"
+		},
+		{
+			"rank": 66,
+			"name": "Expo",
+			"codeName": "expo",
+			"jsonName": "expo.json",
+			"pngName": "expo.png",
+			"logoPngName": "expo.logo.png",
+			"metaJsonName": "expo.meta.json",
+			"batch": "S16",
+			"category": "Other SaaS",
+			"description": "Expo brings together the best of web (development speed, fast iteration cycles, easy deploys, and au...",
+			"alexaRank": 10809,
+			"pageURL": "https://www.ycdb.co/company/expo",
+			"website": "http://www.expo.io",
+			"palette": [
+				[
+					12,
+					12,
+					20
+				],
+				[
+					204,
+					205,
+					205
+				],
+				[
+					132,
+					132,
+					132
+				],
+				[
+					108,
+					116,
+					116
+				],
+				[
+					76,
+					76,
+					80
+				]
+			],
+			"hexPalette": [
+				"#0c0c14",
+				"#cccdcd",
+				"#848484",
+				"#6c7474",
+				"#4c4c50"
+			],
+			"metaJsonPath": "meta/expo.meta.json",
+			"logoPngPath": "logos/expo.logo.png",
+			"palettePngPath": "palettes/expo.palette.png"
+		},
+		{
+			"rank": 67,
+			"name": "Groww",
+			"codeName": "groww",
+			"jsonName": "groww.json",
+			"pngName": "groww.png",
+			"logoPngName": "groww.logo.png",
+			"metaJsonName": "groww.meta.json",
+			"batch": "W18",
+			"category": "Fintech",
+			"description": "Investing made simple for everyone in India",
+			"alexaRank": 11088,
+			"pageURL": "https://www.ycdb.co/company/groww",
+			"website": "http://www.groww.in",
+			"palette": [
+				[
+					82,
+					102,
+					247
+				],
+				[
+					5,
+					10,
+					12
+				],
+				[
+					6,
+					223,
+					173
+				],
+				[
+					31,
+					184,
+					140
+				],
+				[
+					52,
+					52,
+					148
+				]
+			],
+			"hexPalette": [
+				"#5266f7",
+				"#050a0c",
+				"#06dfad",
+				"#1fb88c",
+				"#343494"
+			],
+			"metaJsonPath": "meta/groww.meta.json",
+			"logoPngPath": "logos/groww.logo.png",
+			"palettePngPath": "palettes/groww.palette.png"
+		},
+		{
+			"rank": 68,
+			"name": "Thunkable",
+			"codeName": "thunkable",
+			"jsonName": "thunkable.json",
+			"pngName": "thunkable.png",
+			"logoPngName": "thunkable.logo.png",
+			"metaJsonName": "thunkable.meta.json",
+			"batch": "W16",
+			"category": "Other SaaS",
+			"description": "Thunkable is a drag and drop tool to build native Android and iOS Apps",
+			"alexaRank": 11498,
+			"pageURL": "https://www.ycdb.co/company/thunkable",
+			"website": "http://www.thunkable.com",
+			"palette": [
+				[
+					236,
+					82,
+					74
+				],
+				[
+					249,
+					227,
+					227
+				],
+				[
+					46,
+					40,
+					94
+				],
+				[
+					217,
+					148,
+					148
+				],
+				[
+					140,
+					140,
+					172
+				]
+			],
+			"hexPalette": [
+				"#ec524a",
+				"#f9e3e3",
+				"#2e285e",
+				"#d99494",
+				"#8c8cac"
+			],
+			"metaJsonPath": "meta/thunkable.meta.json",
+			"logoPngPath": "logos/thunkable.logo.png",
+			"palettePngPath": "palettes/thunkable.palette.png"
+		},
+		{
+			"rank": 69,
+			"name": "PartnerStack",
+			"codeName": "partnerstack",
+			"jsonName": "partnerstack.json",
+			"pngName": "partnerstack.png",
+			"logoPngName": "partnerstack.logo.png",
+			"metaJsonName": "partnerstack.meta.json",
+			"batch": "S15",
+			"category": "Other SaaS",
+			"description": "PartnerStack is a full stack solution for partnerships.",
+			"alexaRank": 11663,
+			"pageURL": "https://www.ycdb.co/company/partnerstack",
+			"website": "http://www.partnerstack.com",
+			"palette": [
+				[
+					68,
+					76,
+					228
+				],
+				[
+					180,
+					187,
+					244
+				],
+				[
+					12,
+					20,
+					100
+				],
+				[
+					112,
+					120,
+					216
+				],
+				[
+					132,
+					140,
+					236
+				]
+			],
+			"hexPalette": [
+				"#444ce4",
+				"#b4bbf4",
+				"#0c1464",
+				"#7078d8",
+				"#848cec"
+			],
+			"metaJsonPath": "meta/partnerstack.meta.json",
+			"logoPngPath": "logos/partnerstack.logo.png",
+			"palettePngPath": "palettes/partnerstack.palette.png"
+		},
+		{
+			"rank": 70,
+			"name": "RescueTime",
+			"codeName": "rescuetime",
+			"jsonName": "rescuetime.json",
+			"pngName": "rescuetime.png",
+			"logoPngName": "rescuetime.logo.png",
+			"metaJsonName": "rescuetime.meta.json",
+			"batch": "W08",
+			"category": "Other SaaS",
+			"description": "Ridiculously Easy Time Management",
+			"alexaRank": 12205,
+			"pageURL": "https://www.ycdb.co/company/rescuetime",
+			"website": "http://www.rescuetime.com",
+			"palette": [
+				[
+					225,
+					225,
+					230
+				],
+				[
+					210,
+					36,
+					44
+				],
+				[
+					42,
+					37,
+					37
+				],
+				[
+					156,
+					124,
+					124
+				],
+				[
+					138,
+					142,
+					144
+				]
+			],
+			"hexPalette": [
+				"#e1e1e6",
+				"#d2242c",
+				"#2a2525",
+				"#9c7c7c",
+				"#8a8e90"
+			],
+			"metaJsonPath": "meta/rescuetime.meta.json",
+			"logoPngPath": "logos/rescuetime.logo.png",
+			"palettePngPath": "palettes/rescuetime.palette.png"
+		},
+		{
+			"rank": 71,
+			"name": "Songkick",
+			"codeName": "songkick",
+			"jsonName": "songkick.json",
+			"pngName": "songkick.png",
+			"logoPngName": "songkick.logo.png",
+			"metaJsonName": "songkick.meta.json",
+			"batch": "S07",
+			"category": "Consumer",
+			"description": "Songkick is a ticketing vendor and online database of concerts for music enthusiasts.",
+			"alexaRank": 12922,
+			"pageURL": "https://www.ycdb.co/company/songkick",
+			"website": "http://www.songkick.com",
+			"palette": [
+				[
+					249,
+					244,
+					246
+				],
+				[
+					249,
+					5,
+					68
+				],
+				[
+					238,
+					78,
+					123
+				],
+				[
+					236,
+					132,
+					164
+				],
+				[
+					244,
+					124,
+					164
+				]
+			],
+			"hexPalette": [
+				"#f9f4f6",
+				"#f90544",
+				"#ee4e7b",
+				"#ec84a4",
+				"#f47ca4"
+			],
+			"metaJsonPath": "meta/songkick.meta.json",
+			"logoPngPath": "logos/songkick.logo.png",
+			"palettePngPath": "palettes/songkick.palette.png"
+		},
+		{
+			"rank": 72,
+			"name": "Brex",
+			"codeName": "brex",
+			"jsonName": "brex.json",
+			"pngName": "brex.png",
+			"logoPngName": "brex.logo.png",
+			"metaJsonName": "brex.meta.json",
+			"batch": "W17",
+			"category": "Fintech",
+			"description": "Brex is rebuilding B2B financial products",
+			"alexaRank": 13191,
+			"pageURL": "https://www.ycdb.co/company/brex",
+			"website": "http://www.brex.com",
+			"palette": [
+				[
+					28,
+					28,
+					36
+				],
+				[
+					32,
+					28,
+					36
+				],
+				[
+					32,
+					28,
+					36
+				],
+				[
+					32,
+					28,
+					36
+				],
+				[
+					32,
+					28,
+					36
+				]
+			],
+			"hexPalette": [
+				"#1c1c24",
+				"#201c24",
+				"#201c24",
+				"#201c24",
+				"#201c24"
+			],
+			"metaJsonPath": "meta/brex.meta.json",
+			"logoPngPath": "logos/brex.logo.png",
+			"palettePngPath": "palettes/brex.palette.png"
+		},
+		{
+			"rank": 73,
+			"name": "HelloSign",
+			"codeName": "hellosign",
+			"jsonName": "hellosign.json",
+			"pngName": "hellosign.png",
+			"logoPngName": "hellosign.logo.png",
+			"metaJsonName": "hellosign.meta.json",
+			"batch": "W11",
+			"category": "Other SaaS",
+			"description": "The #1 eSignature Software for Small and Mid-Market Businesses.",
+			"alexaRank": 13819,
+			"pageURL": "https://www.ycdb.co/company/hellosign",
+			"website": "http://www.hellosign.com",
+			"palette": [
+				[
+					4,
+					99,
+					251
+				],
+				[
+					27,
+					27,
+					28
+				],
+				[
+					16,
+					60,
+					140
+				],
+				[
+					28,
+					44,
+					76
+				],
+				[
+					12,
+					76,
+					196
+				]
+			],
+			"hexPalette": [
+				"#0463fb",
+				"#1b1b1c",
+				"#103c8c",
+				"#1c2c4c",
+				"#0c4cc4"
+			],
+			"metaJsonPath": "meta/hellosign.meta.json",
+			"logoPngPath": "logos/hellosign.logo.png",
+			"palettePngPath": "palettes/hellosign.palette.png"
+		},
+		{
+			"rank": 74,
+			"name": "Cratejoy",
+			"codeName": "cratejoy",
+			"jsonName": "cratejoy.json",
+			"pngName": "cratejoy.png",
+			"logoPngName": "cratejoy.logo.png",
+			"metaJsonName": "cratejoy.meta.json",
+			"batch": "S13",
+			"category": "Other SaaS",
+			"description": "Cratejoy is the platform for subscriptions",
+			"alexaRank": 14074,
+			"pageURL": "https://www.ycdb.co/company/cratejoy",
+			"website": "http://www.cratejoy.com",
+			"palette": [
+				[
+					233,
+					245,
+					246
+				],
+				[
+					60,
+					188,
+					195
+				],
+				[
+					138,
+					212,
+					215
+				],
+				[
+					58,
+					189,
+					204
+				],
+				[
+					106,
+					204,
+					204
+				]
+			],
+			"hexPalette": [
+				"#e9f5f6",
+				"#3cbcc3",
+				"#8ad4d7",
+				"#3abdcc",
+				"#6acccc"
+			],
+			"metaJsonPath": "meta/cratejoy.meta.json",
+			"logoPngPath": "logos/cratejoy.logo.png",
+			"palettePngPath": "palettes/cratejoy.palette.png"
+		},
+		{
+			"rank": 75,
+			"name": "EasyPost",
+			"codeName": "easypost",
+			"jsonName": "easypost.json",
+			"pngName": "easypost.png",
+			"logoPngName": "easypost.logo.png",
+			"metaJsonName": "easypost.meta.json",
+			"batch": "S13",
+			"category": "Other SaaS",
+			"description": "Shipping API",
+			"alexaRank": 14234,
+			"pageURL": "https://www.ycdb.co/company/easypost",
+			"website": "http://www.easypost.com",
+			"palette": [
+				[
+					20,
+					76,
+					252
+				],
+				[
+					208,
+					219,
+					252
+				],
+				[
+					102,
+					140,
+					252
+				],
+				[
+					132,
+					164,
+					252
+				],
+				[
+					76,
+					124,
+					252
+				]
+			],
+			"hexPalette": [
+				"#144cfc",
+				"#d0dbfc",
+				"#668cfc",
+				"#84a4fc",
+				"#4c7cfc"
+			],
+			"metaJsonPath": "meta/easypost.meta.json",
+			"logoPngPath": "logos/easypost.logo.png",
+			"palettePngPath": "palettes/easypost.palette.png"
+		},
+		{
+			"rank": 76,
+			"name": "Shogun",
+			"codeName": "shogun",
+			"jsonName": "shogun.json",
+			"pngName": "shogun.png",
+			"logoPngName": "shogun.logo.png",
+			"metaJsonName": "shogun.meta.json",
+			"batch": "W18",
+			"category": "Dev Tools",
+			"description": "Software for building the next generation of online stores.",
+			"alexaRank": 14440,
+			"pageURL": "https://www.ycdb.co/company/shogun",
+			"website": "http://www.getshogun.com",
+			"palette": [
+				[
+					28,
+					36,
+					44
+				],
+				[
+					206,
+					207,
+					209
+				],
+				[
+					110,
+					113,
+					119
+				],
+				[
+					134,
+					140,
+					142
+				],
+				[
+					128,
+					132,
+					140
+				]
+			],
+			"hexPalette": [
+				"#1c242c",
+				"#cecfd1",
+				"#6e7177",
+				"#868c8e",
+				"#80848c"
+			],
+			"metaJsonPath": "meta/shogun.meta.json",
+			"logoPngPath": "logos/shogun.logo.png",
+			"palettePngPath": "palettes/shogun.palette.png"
+		},
+		{
+			"rank": 77,
+			"name": "Vidyard",
+			"codeName": "vidyard",
+			"jsonName": "vidyard.json",
+			"pngName": "vidyard.png",
+			"logoPngName": "vidyard.logo.png",
+			"metaJsonName": "vidyard.meta.json",
+			"batch": "S11",
+			"category": "Other SaaS",
+			"description": "Video for business",
+			"alexaRank": 15139,
+			"pageURL": "https://www.ycdb.co/company/vidyard",
+			"website": "http://www.vidyard.com",
+			"palette": [
+				[
+					227,
+					235,
+					233
+				],
+				[
+					70,
+					219,
+					132
+				],
+				[
+					100,
+					107,
+					130
+				],
+				[
+					152,
+					189,
+					177
+				],
+				[
+					156,
+					236,
+					196
+				]
+			],
+			"hexPalette": [
+				"#e3ebe9",
+				"#46db84",
+				"#646b82",
+				"#98bdb1",
+				"#9cecc4"
+			],
+			"metaJsonPath": "meta/vidyard.meta.json",
+			"logoPngPath": "logos/vidyard.logo.png",
+			"palettePngPath": "palettes/vidyard.palette.png"
+		},
+		{
+			"rank": 78,
+			"name": "UpLabs",
+			"codeName": "uplabs",
+			"jsonName": "uplabs.json",
+			"pngName": "uplabs.png",
+			"logoPngName": "uplabs.logo.png",
+			"metaJsonName": "uplabs.meta.json",
+			"batch": "W16",
+			"category": "Dev Tools",
+			"description": "UpLabs is the #1 marketplace for designers & developers to find design resources.",
+			"alexaRank": 15203,
+			"pageURL": "https://www.ycdb.co/company/uplabs",
+			"website": "http://www.uplabs.com",
+			"palette": [
+				[
+					72,
+					66,
+					227
+				],
+				[
+					223,
+					224,
+					244
+				],
+				[
+					79,
+					124,
+					241
+				],
+				[
+					164,
+					156,
+					228
+				],
+				[
+					140,
+					108,
+					212
+				]
+			],
+			"hexPalette": [
+				"#4842e3",
+				"#dfe0f4",
+				"#4f7cf1",
+				"#a49ce4",
+				"#8c6cd4"
+			],
+			"metaJsonPath": "meta/uplabs.meta.json",
+			"logoPngPath": "logos/uplabs.logo.png",
+			"palettePngPath": "palettes/uplabs.palette.png"
+		},
+		{
+			"rank": 79,
+			"name": "Mixpanel",
+			"codeName": "mixpanel",
+			"jsonName": "mixpanel.json",
+			"pngName": "mixpanel.png",
+			"logoPngName": "mixpanel.logo.png",
+			"metaJsonName": "mixpanel.meta.json",
+			"batch": "S09",
+			"category": "Other SaaS",
+			"description": "Mixpanel is the most advanced analytics platform in the world for mobile & web.",
+			"alexaRank": 15754,
+			"pageURL": "https://www.ycdb.co/company/mixpanel",
+			"website": "http://www.mixpanel.com",
+			"palette": [
+				[
+					116,
+					84,
+					251
+				],
+				[
+					229,
+					222,
+					247
+				],
+				[
+					156,
+					132,
+					236
+				],
+				[
+					140,
+					116,
+					228
+				],
+				[
+					132,
+					108,
+					236
+				]
+			],
+			"hexPalette": [
+				"#7454fb",
+				"#e5def7",
+				"#9c84ec",
+				"#8c74e4",
+				"#846cec"
+			],
+			"metaJsonPath": "meta/mixpanel.meta.json",
+			"logoPngPath": "logos/mixpanel.logo.png",
+			"palettePngPath": "palettes/mixpanel.palette.png"
+		},
+		{
+			"rank": 80,
+			"name": "Mailgun",
+			"codeName": "mailgun",
+			"jsonName": "mailgun.json",
+			"pngName": "mailgun.png",
+			"logoPngName": "mailgun.logo.png",
+			"metaJsonName": "mailgun.meta.json",
+			"batch": "W11",
+			"category": "Dev Tools",
+			"description": "Email API service.",
+			"alexaRank": 16085,
+			"pageURL": "https://www.ycdb.co/company/mailgun",
+			"website": "http://www.mailgun.com",
+			"palette": [
+				[
+					244,
+					108,
+					100
+				],
+				[
+					251,
+					222,
+					221
+				],
+				[
+					244,
+					157,
+					154
+				],
+				[
+					244,
+					180,
+					172
+				],
+				[
+					244,
+					140,
+					132
+				]
+			],
+			"hexPalette": [
+				"#f46c64",
+				"#fbdedd",
+				"#f49d9a",
+				"#f4b4ac",
+				"#f48c84"
+			],
+			"metaJsonPath": "meta/mailgun.meta.json",
+			"logoPngPath": "logos/mailgun.logo.png",
+			"palettePngPath": "palettes/mailgun.palette.png"
+		},
+		{
+			"rank": 81,
+			"name": "Chaldal",
+			"codeName": "chaldal",
+			"jsonName": "chaldal.json",
+			"pngName": "chaldal.png",
+			"logoPngName": "chaldal.logo.png",
+			"metaJsonName": "chaldal.meta.json",
+			"batch": "S15",
+			"category": "Consumer",
+			"description": "Chaldal.com is an online platform for grocery and delivery based in Dhaka, Bangladesh.",
+			"alexaRank": 16420,
+			"pageURL": "https://www.ycdb.co/company/chaldal",
+			"website": "http://www.chaldal.com",
+			"palette": [
+				[
+					251,
+					204,
+					107
+				],
+				[
+					251,
+					249,
+					240
+				],
+				[
+					247,
+					223,
+					164
+				],
+				[
+					244,
+					220,
+					136
+				],
+				[
+					246,
+					209,
+					134
+				]
+			],
+			"hexPalette": [
+				"#fbcc6b",
+				"#fbf9f0",
+				"#f7dfa4",
+				"#f4dc88",
+				"#f6d186"
+			],
+			"metaJsonPath": "meta/chaldal.meta.json",
+			"logoPngPath": "logos/chaldal.logo.png",
+			"palettePngPath": "palettes/chaldal.palette.png"
+		},
+		{
+			"rank": 82,
+			"name": "Podium",
+			"codeName": "podium",
+			"jsonName": "podium.json",
+			"pngName": "podium.png",
+			"logoPngName": "podium.logo.png",
+			"metaJsonName": "podium.meta.json",
+			"batch": "W16",
+			"category": "Other SaaS",
+			"description": "Podium is an interaction platform for local businesses.",
+			"alexaRank": 16583,
+			"pageURL": "https://www.ycdb.co/company/podium",
+			"website": "http://www.podium.com",
+			"palette": [
+				[
+					4,
+					4,
+					4
+				],
+				[
+					199,
+					199,
+					199
+				],
+				[
+					116,
+					116,
+					116
+				],
+				[
+					124,
+					124,
+					124
+				],
+				[
+					52,
+					52,
+					52
+				]
+			],
+			"hexPalette": [
+				"#040404",
+				"#c7c7c7",
+				"#747474",
+				"#7c7c7c",
+				"#343434"
+			],
+			"metaJsonPath": "meta/podium.meta.json",
+			"logoPngPath": "logos/podium.logo.png",
+			"palettePngPath": "palettes/podium.palette.png"
+		},
+		{
+			"rank": 83,
+			"name": "Gusto",
+			"codeName": "gusto",
+			"jsonName": "gusto.json",
+			"pngName": "gusto.png",
+			"logoPngName": "gusto.logo.png",
+			"metaJsonName": "gusto.meta.json",
+			"batch": "W12",
+			"category": "Other SaaS",
+			"description": "Gusto is a modern, online people platform that helps small businesses take care of their teams.",
+			"alexaRank": 18125,
+			"pageURL": "https://www.ycdb.co/company/gusto",
+			"website": "http://www.gusto.com",
+			"palette": [
+				[
+					243,
+					91,
+					75
+				],
+				[
+					249,
+					244,
+					240
+				],
+				[
+					236,
+					157,
+					144
+				],
+				[
+					252,
+					172,
+					156
+				],
+				[
+					236,
+					108,
+					68
+				]
+			],
+			"hexPalette": [
+				"#f35b4b",
+				"#f9f4f0",
+				"#ec9d90",
+				"#fcac9c",
+				"#ec6c44"
+			],
+			"metaJsonPath": "meta/gusto.meta.json",
+			"logoPngPath": "logos/gusto.logo.png",
+			"palettePngPath": "palettes/gusto.palette.png"
+		},
+		{
+			"rank": 84,
+			"name": "OpenSea",
+			"codeName": "opensea",
+			"jsonName": "opensea.json",
+			"pngName": "opensea.png",
+			"logoPngName": "opensea.logo.png",
+			"metaJsonName": "opensea.meta.json",
+			"batch": "W18",
+			"category": "Entertainment",
+			"description": "OpenSea is the first and largest marketplace for digital goods.",
+			"alexaRank": 18410,
+			"pageURL": "https://www.ycdb.co/company/opensea",
+			"website": "http://www.opensea.io",
+			"palette": [
+				[
+					36,
+					132,
+					228
+				],
+				[
+					204,
+					226,
+					249
+				],
+				[
+					57,
+					142,
+					228
+				],
+				[
+					4,
+					20,
+					28
+				],
+				[
+					68,
+					76,
+					84
+				]
+			],
+			"hexPalette": [
+				"#2484e4",
+				"#cce2f9",
+				"#398ee4",
+				"#04141c",
+				"#444c54"
+			],
+			"metaJsonPath": "meta/opensea.meta.json",
+			"logoPngPath": "logos/opensea.logo.png",
+			"palettePngPath": "palettes/opensea.palette.png"
+		},
+		{
+			"rank": 85,
+			"name": "Cashfree",
+			"codeName": "cashfree",
+			"jsonName": "cashfree.json",
+			"pngName": "cashfree.png",
+			"logoPngName": "cashfree.logo.png",
+			"metaJsonName": "cashfree.meta.json",
+			"batch": "S17",
+			"category": "Fintech",
+			"description": "Next-Gen digital payments provider for India.",
+			"alexaRank": 18854,
+			"pageURL": "https://www.ycdb.co/company/cashfree",
+			"website": "http://www.cashfree.com",
+			"palette": [
+				[
+					28,
+					5,
+					76
+				],
+				[
+					241,
+					171,
+					28
+				],
+				[
+					6,
+					171,
+					99
+				],
+				[
+					60,
+					36,
+					100
+				],
+				[
+					46,
+					14,
+					44
+				]
+			],
+			"hexPalette": [
+				"#1c054c",
+				"#f1ab1c",
+				"#06ab63",
+				"#3c2464",
+				"#2e0e2c"
+			],
+			"metaJsonPath": "meta/cashfree.meta.json",
+			"logoPngPath": "logos/cashfree.logo.png",
+			"palettePngPath": "palettes/cashfree.palette.png"
+		},
+		{
+			"rank": 86,
+			"name": "Quero Education",
+			"codeName": "queroeducation",
+			"jsonName": "queroeducation.json",
+			"pngName": "queroeducation.png",
+			"logoPngName": "queroeducation.logo.png",
+			"metaJsonName": "queroeducation.meta.json",
+			"batch": "S16",
+			"category": "Education",
+			"description": "Quero is an online marketplace for college programs in Brazil. It helps students search, compare and...",
+			"alexaRank": 19195,
+			"pageURL": "https://www.ycdb.co/company/quero-education",
+			"website": "http://www.querobolsa.com.br",
+			"palette": [
+				[
+					52,
+					77,
+					250
+				],
+				[
+					239,
+					231,
+					228
+				],
+				[
+					126,
+					146,
+					229
+				],
+				[
+					148,
+					172,
+					228
+				],
+				[
+					140,
+					116,
+					180
+				]
+			],
+			"hexPalette": [
+				"#344dfa",
+				"#efe7e4",
+				"#7e92e5",
+				"#94ace4",
+				"#8c74b4"
+			],
+			"metaJsonPath": "meta/queroeducation.meta.json",
+			"logoPngPath": "logos/queroeducation.logo.png",
+			"palettePngPath": "palettes/queroeducation.palette.png"
+		},
+		{
+			"rank": 87,
+			"name": "Tech in Asia",
+			"codeName": "techinasia",
+			"jsonName": "techinasia.json",
+			"pngName": "techinasia.png",
+			"logoPngName": "techinasia.logo.png",
+			"metaJsonName": "techinasia.meta.json",
+			"batch": "W15",
+			"category": "Entertainment",
+			"description": "Tech in Asia (YC W15) is the largest English-language technology media company that focuses on Asia.",
+			"alexaRank": 19280,
+			"pageURL": "https://www.ycdb.co/company/tech-in-asia",
+			"website": "http://www.techinasia.com",
+			"palette": [
+				[
+					196,
+					28,
+					36
+				],
+				[
+					242,
+					208,
+					210
+				],
+				[
+					217,
+					111,
+					116
+				],
+				[
+					228,
+					140,
+					148
+				],
+				[
+					212,
+					84,
+					92
+				]
+			],
+			"hexPalette": [
+				"#c41c24",
+				"#f2d0d2",
+				"#d96f74",
+				"#e48c94",
+				"#d4545c"
+			],
+			"metaJsonPath": "meta/techinasia.meta.json",
+			"logoPngPath": "logos/techinasia.logo.png",
+			"palettePngPath": "palettes/techinasia.palette.png"
+		},
+		{
+			"rank": 88,
+			"name": "BackerKit",
+			"codeName": "backerkit",
+			"jsonName": "backerkit.json",
+			"pngName": "backerkit.png",
+			"logoPngName": "backerkit.logo.png",
+			"metaJsonName": "backerkit.meta.json",
+			"batch": "S12",
+			"category": "Other SaaS",
+			"description": "BackerKit is crowdfunding software that helps project creators manage their 1000 biggest fans.",
+			"alexaRank": 19367,
+			"pageURL": "https://www.ycdb.co/company/backerkit",
+			"website": "http://www.backerkit.com",
+			"palette": [
+				[
+					56,
+					55,
+					52
+				],
+				[
+					251,
+					203,
+					83
+				],
+				[
+					169,
+					140,
+					70
+				],
+				[
+					198,
+					161,
+					76
+				],
+				[
+					188,
+					152,
+					76
+				]
+			],
+			"hexPalette": [
+				"#383734",
+				"#fbcb53",
+				"#a98c46",
+				"#c6a14c",
+				"#bc984c"
+			],
+			"metaJsonPath": "meta/backerkit.meta.json",
+			"logoPngPath": "logos/backerkit.logo.png",
+			"palettePngPath": "palettes/backerkit.palette.png"
+		},
+		{
+			"rank": 89,
+			"name": "Rappi",
+			"codeName": "rappi",
+			"jsonName": "rappi.json",
+			"pngName": "rappi.png",
+			"logoPngName": "rappi.logo.png",
+			"metaJsonName": "rappi.meta.json",
+			"batch": "W16",
+			"category": "Consumer",
+			"description": "Rappi delivers in minutes groceries, cash, clothing, burgers and more. Everything in Bogot\u00e1 and Mexi...",
+			"alexaRank": 19729,
+			"pageURL": "https://www.ycdb.co/company/rappi",
+			"website": "http://www.rappi.com",
+			"palette": [
+				[
+					252,
+					100,
+					84
+				],
+				[
+					256,
+					100,
+					84
+				],
+				[
+					256,
+					100,
+					84
+				],
+				[
+					256,
+					100,
+					84
+				],
+				[
+					256,
+					100,
+					84
+				]
+			],
+			"hexPalette": [
+				"#fc6454",
+				"#ff6454",
+				"#ff6454",
+				"#ff6454",
+				"#ff6454"
+			],
+			"metaJsonPath": "meta/rappi.meta.json",
+			"logoPngPath": "logos/rappi.logo.png",
+			"palettePngPath": "palettes/rappi.palette.png"
+		},
+		{
+			"rank": 90,
+			"name": "Outschool",
+			"codeName": "outschool",
+			"jsonName": "outschool.json",
+			"pngName": "outschool.png",
+			"logoPngName": "outschool.logo.png",
+			"metaJsonName": "outschool.meta.json",
+			"batch": "W16",
+			"category": "Education",
+			"description": "Marketplace of live online classes for kids",
+			"alexaRank": 19747,
+			"pageURL": "https://www.ycdb.co/company/outschool",
+			"website": "http://www.outschool.com",
+			"palette": [
+				[
+					76,
+					4,
+					212
+				],
+				[
+					211,
+					194,
+					244
+				],
+				[
+					148,
+					105,
+					228
+				],
+				[
+					128,
+					74,
+					224
+				],
+				[
+					108,
+					44,
+					220
+				]
+			],
+			"hexPalette": [
+				"#4c04d4",
+				"#d3c2f4",
+				"#9469e4",
+				"#804ae0",
+				"#6c2cdc"
+			],
+			"metaJsonPath": "meta/outschool.meta.json",
+			"logoPngPath": "logos/outschool.logo.png",
+			"palettePngPath": "palettes/outschool.palette.png"
+		},
+		{
+			"rank": 91,
+			"name": "Caviar",
+			"codeName": "caviar",
+			"jsonName": "caviar.json",
+			"pngName": "caviar.png",
+			"logoPngName": "caviar.logo.png",
+			"metaJsonName": "caviar.meta.json",
+			"batch": "S11",
+			"category": "Consumer",
+			"description": "Uber for food.",
+			"alexaRank": 19946,
+			"pageURL": "https://www.ycdb.co/company/caviar",
+			"website": "http://www.trycaviar.com",
+			"palette": [
+				[
+					249,
+					241,
+					234
+				],
+				[
+					249,
+					107,
+					52
+				],
+				[
+					235,
+					156,
+					122
+				],
+				[
+					236,
+					180,
+					148
+				],
+				[
+					238,
+					132,
+					88
+				]
+			],
+			"hexPalette": [
+				"#f9f1ea",
+				"#f96b34",
+				"#eb9c7a",
+				"#ecb494",
+				"#ee8458"
+			],
+			"metaJsonPath": "meta/caviar.meta.json",
+			"logoPngPath": "logos/caviar.logo.png",
+			"palettePngPath": "palettes/caviar.palette.png"
+		},
+		{
+			"rank": 92,
+			"name": "Streak",
+			"codeName": "streak",
+			"jsonName": "streak.json",
+			"pngName": "streak.png",
+			"logoPngName": "streak.logo.png",
+			"metaJsonName": "streak.meta.json",
+			"batch": "S11",
+			"category": "Other SaaS",
+			"description": "Streak transforms Gmail into a customizable CRM and process management tool. Our products service th...",
+			"alexaRank": 20256,
+			"pageURL": "https://www.ycdb.co/company/streak",
+			"website": "http://www.streak.com",
+			"palette": [
+				[
+					243,
+					113,
+					59
+				],
+				[
+					251,
+					249,
+					248
+				],
+				[
+					244,
+					164,
+					64
+				],
+				[
+					252,
+					196,
+					188
+				],
+				[
+					244,
+					208,
+					188
+				]
+			],
+			"hexPalette": [
+				"#f3713b",
+				"#fbf9f8",
+				"#f4a440",
+				"#fcc4bc",
+				"#f4d0bc"
+			],
+			"metaJsonPath": "meta/streak.meta.json",
+			"logoPngPath": "logos/streak.logo.png",
+			"palettePngPath": "palettes/streak.palette.png"
+		},
+		{
+			"rank": 93,
+			"name": "MessageBird",
+			"codeName": "messagebird",
+			"jsonName": "messagebird.json",
+			"pngName": "messagebird.png",
+			"logoPngName": "messagebird.logo.png",
+			"metaJsonName": "messagebird.meta.json",
+			"batch": "S16",
+			"category": "Dev Tools",
+			"description": "MessageBird is an API for sending Text, Voice & Chat messages. We offer the most advanced messaging ...",
+			"alexaRank": 20494,
+			"pageURL": "https://www.ycdb.co/company/messagebird",
+			"website": "http://www.messagebird.com",
+			"palette": [
+				[
+					231,
+					244,
+					248
+				],
+				[
+					4,
+					139,
+					251
+				],
+				[
+					107,
+					185,
+					234
+				],
+				[
+					52,
+					156,
+					240
+				],
+				[
+					49,
+					148,
+					233
+				]
+			],
+			"hexPalette": [
+				"#e7f4f8",
+				"#048bfb",
+				"#6bb9ea",
+				"#349cf0",
+				"#3194e9"
+			],
+			"metaJsonPath": "meta/messagebird.meta.json",
+			"logoPngPath": "logos/messagebird.logo.png",
+			"palettePngPath": "palettes/messagebird.palette.png"
+		},
+		{
+			"rank": 94,
+			"name": "Platzi",
+			"codeName": "platzi",
+			"jsonName": "platzi.json",
+			"pngName": "platzi.png",
+			"logoPngName": "platzi.logo.png",
+			"metaJsonName": "platzi.meta.json",
+			"batch": "W15",
+			"category": "Education",
+			"description": "Effective online education of coding, marketing and design. Largest player in Latinamerica.",
+			"alexaRank": 21121,
+			"pageURL": "https://www.ycdb.co/company/platzi",
+			"website": "http://www.platzi.com",
+			"palette": [
+				[
+					12,
+					235,
+					140
+				],
+				[
+					18,
+					25,
+					29
+				],
+				[
+					26,
+					166,
+					110
+				],
+				[
+					25,
+					185,
+					116
+				],
+				[
+					28,
+					148,
+					92
+				]
+			],
+			"hexPalette": [
+				"#0ceb8c",
+				"#12191d",
+				"#1aa66e",
+				"#19b974",
+				"#1c945c"
+			],
+			"metaJsonPath": "meta/platzi.meta.json",
+			"logoPngPath": "logos/platzi.logo.png",
+			"palettePngPath": "palettes/platzi.palette.png"
+		},
+		{
+			"rank": 95,
+			"name": "Olark",
+			"codeName": "olark",
+			"jsonName": "olark.json",
+			"pngName": "olark.png",
+			"logoPngName": "olark.logo.png",
+			"metaJsonName": "olark.meta.json",
+			"batch": "W09",
+			"category": "Other SaaS",
+			"description": "The best live chat software on the planet.  We help you build relationships with website visitors, b...",
+			"alexaRank": 21216,
+			"pageURL": "https://www.ycdb.co/company/olark",
+			"website": "http://www.olark.com",
+			"palette": [
+				[
+					197,
+					144,
+					35
+				],
+				[
+					120,
+					166,
+					208
+				],
+				[
+					244,
+					241,
+					232
+				],
+				[
+					106,
+					74,
+					173
+				],
+				[
+					121,
+					183,
+					119
+				]
+			],
+			"hexPalette": [
+				"#c59023",
+				"#78a6d0",
+				"#f4f1e8",
+				"#6a4aad",
+				"#79b777"
+			],
+			"metaJsonPath": "meta/olark.meta.json",
+			"logoPngPath": "logos/olark.logo.png",
+			"palettePngPath": "palettes/olark.palette.png"
+		},
+		{
+			"rank": 96,
+			"name": "StatusPage",
+			"codeName": "statuspage",
+			"jsonName": "statuspage.json",
+			"pngName": "statuspage.png",
+			"logoPngName": "statuspage.logo.png",
+			"metaJsonName": "statuspage.meta.json",
+			"batch": "S13",
+			"category": "Dev Tools",
+			"description": "The best way to communicate with users around downtime.",
+			"alexaRank": 21857,
+			"pageURL": "https://www.ycdb.co/company/statuspage",
+			"website": "http://www.statuspage.io",
+			"palette": [
+				[
+					4,
+					84,
+					204
+				],
+				[
+					196,
+					215,
+					244
+				],
+				[
+					122,
+					164,
+					228
+				],
+				[
+					100,
+					148,
+					225
+				],
+				[
+					60,
+					124,
+					212
+				]
+			],
+			"hexPalette": [
+				"#0454cc",
+				"#c4d7f4",
+				"#7aa4e4",
+				"#6494e1",
+				"#3c7cd4"
+			],
+			"metaJsonPath": "meta/statuspage.meta.json",
+			"logoPngPath": "logos/statuspage.logo.png",
+			"palettePngPath": "palettes/statuspage.palette.png"
+		},
+		{
+			"rank": 97,
+			"name": "Ninite",
+			"codeName": "ninite",
+			"jsonName": "ninite.json",
+			"pngName": "ninite.png",
+			"logoPngName": "ninite.logo.png",
+			"metaJsonName": "ninite.meta.json",
+			"batch": "W08",
+			"category": "Other SaaS",
+			"description": "Simple third-party app patching and deployment for Windows.",
+			"alexaRank": 22540,
+			"pageURL": "https://www.ycdb.co/company/ninite",
+			"website": "http://www.ninite.com",
+			"palette": [
+				[
+					79,
+					120,
+					235
+				],
+				[
+					226,
+					229,
+					230
+				],
+				[
+					151,
+					207,
+					251
+				],
+				[
+					109,
+					172,
+					246
+				],
+				[
+					152,
+					174,
+					216
+				]
+			],
+			"hexPalette": [
+				"#4f78eb",
+				"#e2e5e6",
+				"#97cffb",
+				"#6dacf6",
+				"#98aed8"
+			],
+			"metaJsonPath": "meta/ninite.meta.json",
+			"logoPngPath": "logos/ninite.logo.png",
+			"palettePngPath": "palettes/ninite.palette.png"
+		},
+		{
+			"rank": 98,
+			"name": "Impraise",
+			"codeName": "impraise",
+			"jsonName": "impraise.json",
+			"pngName": "impraise.png",
+			"logoPngName": "impraise.logo.png",
+			"metaJsonName": "impraise.meta.json",
+			"batch": "S14",
+			"category": "Other SaaS",
+			"description": "Platform to manage the performance, development and engagement of employees.",
+			"alexaRank": 23986,
+			"pageURL": "https://www.ycdb.co/company/impraise",
+			"website": "http://www.impraise.com",
+			"palette": [
+				[
+					251,
+					112,
+					18
+				],
+				[
+					250,
+					238,
+					225
+				],
+				[
+					251,
+					170,
+					115
+				],
+				[
+					240,
+					180,
+					128
+				],
+				[
+					244,
+					140,
+					60
+				]
+			],
+			"hexPalette": [
+				"#fb7012",
+				"#faeee1",
+				"#fbaa73",
+				"#f0b480",
+				"#f48c3c"
+			],
+			"metaJsonPath": "meta/impraise.meta.json",
+			"logoPngPath": "logos/impraise.logo.png",
+			"palettePngPath": "palettes/impraise.palette.png"
+		},
+		{
+			"rank": 99,
+			"name": "Goldbelly",
+			"codeName": "goldbelly",
+			"jsonName": "goldbelly.json",
+			"pngName": "goldbelly.png",
+			"logoPngName": "goldbelly.logo.png",
+			"metaJsonName": "goldbelly.meta.json",
+			"batch": "W13",
+			"category": "Consumer",
+			"description": "We make the most regionally famous and downright awesome foods from across the country available for...",
+			"alexaRank": 24608,
+			"pageURL": "https://www.ycdb.co/company/goldbelly",
+			"website": "http://www.goldbelly.com",
+			"palette": [
+				[
+					4,
+					4,
+					4
+				],
+				[
+					8,
+					4,
+					4
+				],
+				[
+					8,
+					4,
+					4
+				],
+				[
+					8,
+					4,
+					4
+				],
+				[
+					8,
+					4,
+					4
+				]
+			],
+			"hexPalette": [
+				"#040404",
+				"#080404",
+				"#080404",
+				"#080404",
+				"#080404"
+			],
+			"metaJsonPath": "meta/goldbelly.meta.json",
+			"logoPngPath": "logos/goldbelly.logo.png",
+			"palettePngPath": "palettes/goldbelly.palette.png"
+		},
+		{
+			"rank": 100,
+			"name": "Apollo",
+			"codeName": "apollo",
+			"jsonName": "apollo.json",
+			"pngName": "apollo.png",
+			"logoPngName": "apollo.logo.png",
+			"metaJsonName": "apollo.meta.json",
+			"batch": "S11",
+			"category": "Other SaaS",
+			"description": "We make Apollo, the leading GraphQL implementation. (We are also the team that built Meteor, the Jav...",
+			"alexaRank": 24760,
+			"pageURL": "https://www.ycdb.co/company/apollo",
+			"website": "http://www.apollographql.com",
+			"palette": [
+				[
+					52,
+					28,
+					132
+				],
+				[
+					212,
+					207,
+					229
+				],
+				[
+					126,
+					114,
+					179
+				],
+				[
+					156,
+					140,
+					196
+				],
+				[
+					148,
+					132,
+					196
+				]
+			],
+			"hexPalette": [
+				"#341c84",
+				"#d4cfe5",
+				"#7e72b3",
+				"#9c8cc4",
+				"#9484c4"
+			],
+			"metaJsonPath": "meta/apollo.meta.json",
+			"logoPngPath": "logos/apollo.logo.png",
+			"palettePngPath": "palettes/apollo.palette.png"
+		}
+	]
+}
