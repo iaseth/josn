@@ -123,6 +123,15 @@ export class Transformer {
 			return arr;
 
 		case "order":
+			if (this.modifier.length > 0) {
+				const key = this.modifier;
+				const sort = (a: any, b: any) => {
+					if (a[key] < b[key]) return -1;
+					if (a[key] > b[key]) return 1;
+					return 0;
+				};
+				this.element.sort(sort)
+			}
 			return this.element.sort();
 
 		case "reverse":
