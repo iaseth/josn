@@ -115,3 +115,26 @@ test("isUndefined", () => {
 	expect(isUndefined({})).toBe(false);
 	expect(isUndefined([])).toBe(false);
 });
+
+
+test("isHttp", () => {
+	const { isHttp } = typechecks;
+
+	expect(isHttp("http://foo.com")).toBe(true);
+	expect(isHttp("https://foo.com")).toBe(false);
+});
+
+test("isHttps", () => {
+	const { isHttps } = typechecks;
+
+	expect(isHttps("https://foo.com")).toBe(true);
+	expect(isHttps("http://foo.com")).toBe(false);
+});
+
+test("isURL", () => {
+	const { isURL } = typechecks;
+
+	expect(isURL("https://foo.com")).toBe(true);
+	expect(isURL("http://foo.com")).toBe(true);
+	expect(isURL("www.foo.com")).toBe(false);
+});
