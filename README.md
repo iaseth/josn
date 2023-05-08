@@ -123,7 +123,7 @@ Now you should be able to run the `josn` command in your terminal.
 | ------------- | ------------------------------------- |
 | `Name`        | `josn-cli`                            |
 | `Description` | `JOSN is a command line JSON viewer.` |
-| `Version`     | `0.8.12`                              |
+| `Version`     | `0.8.13`                              |
 | `Author`      | `iaseth`                              |
 | `Homepage`    | `https://github.com/iaseth/josn`      |
 | `Repository`  | `iaseth/josn`                         |
@@ -135,6 +135,7 @@ Now you should be able to run the `josn` command in your terminal.
 |     | `Package`   | `Version`   |
 | --- | ----------- | ----------- |
 | 1   | `json5`     | `^2.2.3`    |
+| 2   | `whichtype` | `^0.5.0`    |
 
 
 
