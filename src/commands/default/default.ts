@@ -1,9 +1,11 @@
 import fs from 'fs';
 import path from 'path';
 
-import { CmdOptions } from "../cmdoptions";
-import { parseJsonFile } from '../parse';
-import { findSimilarKey, hasAColon } from '../utils';
+import { CmdOptions } from "../../cmdoptions";
+import { parseJsonFile } from '../../parse';
+import { SliceArg } from './slicearg';
+import { Transformer } from './transformer';
+import { findSimilarKey, hasAColon, isSlice } from '../../utils';
 
 
 
@@ -67,46 +69,24 @@ export function defaultCommand (cmdOptions: CmdOptions, nonFlagArgs: string[]) {
 
 		if (hasAColon(keyArg)) {
 			// keyArg has a colon somewhere, like ":keys" or "5:10" or "map:name"
-			switch (keyArg) {
-				case ":array":
-				case ":a":
-					break;
-
-				case ":bool":
-				case ":b":
-					break;
-
-				case ":char":
-				case ":c":
-					break;
-
-				case ":int":
-				case ":i":
-					break;
-
+			if (isSlice(keyArg)) {
+				// do slicing
+				const sliceArg = new SliceArg(keyArg, currentJo);
+				newJo = sliceArg.slice();
+			} else {
+				const transformer = new Transformer(keyArg, currentJo);
+				switch (keyArg) {
 				case ":keys":
 				case ":k":
 					newJo = Object.keys(currentJo);
 					break;
-
-				case ":number":
-				case ":n":
-					break;
-
-				case ":string":
-				case ":s":
-					break;
-
 				case ":values":
 				case ":v":
 					newJo = Object.values(currentJo);
 					break;
 				default:
-					if (isArray) {
-						// keyArg is like python array slice syntax
-						const [lhs, rhs] = keyArg.split(':').map(x => x.trim());
-						console.log(`Found a array slice arg: "${keyArg}"`);
-					}
+					// nothing to do by default
+				}
 			}
 		} else {
 			if (isArray) {

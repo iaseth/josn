@@ -1,12 +1,16 @@
 
 
 
-export function isArrayIndex (x: any) {
-	if (typeof x != "string") {
+export function isNumeric (x: string) {
+	if (typeof x !== "string") {
 		return false;
 	}
 
 	return !isNaN(x as any) && !isNaN(parseFloat(x));
+}
+
+export function isArrayIndex (x: string) {
+	return isNumeric(x);
 }
 
 export function isObjectKey (x: string) {
@@ -17,17 +21,39 @@ export function isObjectKey (x: string) {
 	return false;
 }
 
+
+
 export function isFlag (arg: string) : boolean {
-	return arg.startsWith("-") ? true : false;
+	if (arg.startsWith("-") && !hasAColon(arg)) {
+		return true;
+	}
+	return false;
 }
 
 export function isNotFlag (arg: string) : boolean {
 	return !isFlag(arg);
 }
 
+
+
 export function hasAColon (arg: string) : boolean {
 	return arg.includes(":");
 }
+
+export function isSlice (arg: string) : boolean {
+	const parts = arg.split(":");
+	if (parts.length !== 2) return false;
+
+	const [lhs, rhs] = parts;
+	console.log(lhs, rhs);
+	if (lhs === "" || isNumeric(lhs)) {
+		if (rhs === "" || isNumeric(rhs)) {
+			return true;
+		}
+	}
+	return false;
+}
+
 
 
 export function isSingleFlag (x: string) {
