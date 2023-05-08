@@ -9,6 +9,13 @@ function isBoolean (val: any): boolean {
 	return typeof val === 'boolean';
 }
 
+function isChar (val: any): boolean {
+	if (isString(val) && val.length === 1) {
+		return true;
+	}
+	return false;
+}
+
 function isNumber (val: any): boolean {
 	return typeof val === 'number';
 }
@@ -34,6 +41,7 @@ function isUndefined (val: any): boolean {
 export const typechecks = {
 	isArray,
 	isBoolean,
+	isChar,
 	isNumber,
 	isObject,
 	isString,

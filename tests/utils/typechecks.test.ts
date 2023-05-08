@@ -29,6 +29,22 @@ test("isBoolean", () => {
 	expect(isBoolean([])).toBe(false);
 });
 
+test("isChar", () => {
+	const { isChar } = typechecks;
+
+	expect(isChar("x")).toBe(true);
+	expect(isChar("A")).toBe(true);
+
+	expect(isChar("foo")).toBe(false);
+	expect(isChar("  ")).toBe(false);
+
+	expect(isChar(null)).toBe(false);
+	expect(isChar(false)).toBe(false);
+	expect(isChar(20.5)).toBe(false);
+	expect(isChar({})).toBe(false);
+	expect(isChar([])).toBe(false);
+});
+
 test("isNumber", () => {
 	const { isNumber } = typechecks;
 
