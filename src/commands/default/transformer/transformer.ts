@@ -1,4 +1,6 @@
-import { transforms, typechecks } from "../../../utils";
+import whichtype from 'whichtype';
+
+import { transforms } from "../../../utils";
 
 
 
@@ -108,14 +110,14 @@ export class Transformer {
 			case "odd": return action((x: any, i: number) => i%2 === 1);
 			case "keys": return Object.keys(this.element);
 
-			case "arrays": return action(typechecks.isArray);
-			case "booleans": return action(typechecks.isBoolean);
-			case "chars": return action(typechecks.isChar);
-			case "numbers": return action(typechecks.isNumber);
-			case "objects": return action(typechecks.isObject);
-			case "strings": return action(typechecks.isString);
-			case "texts": return action(typechecks.isString);
-			case "urls": return action(typechecks.isURL);
+			case "arrays": return action(whichtype.isArray);
+			case "booleans": return action(whichtype.isBoolean);
+			case "chars": return action(whichtype.isChar);
+			case "numbers": return action(whichtype.isNumber);
+			case "objects": return action(whichtype.isObject);
+			case "strings": return action(whichtype.isString);
+			case "texts": return action(whichtype.isString);
+			case "urls": return action(whichtype.isURL);
 		}
 	}
 

@@ -21,7 +21,8 @@
   "repository": "iaseth/josn",
   "license": "MIT",
   "dependencies": {
-    "json5": "^2.2.3"
+    "json5": "^2.2.3",
+    "whichtype": "^0.5.0"
   },
   "devDependencies": {
     "@types/jest": "^29.5.1",

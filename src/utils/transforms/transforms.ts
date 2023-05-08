@@ -1,16 +1,17 @@
-import { typechecks } from "../typechecks";
+import whichtype from 'whichtype';
 
 
+const { isString } = whichtype;
 
 function toLower (x: any) {
-	if (typechecks.isString(x)) {
+	if (isString(x)) {
 		return x.toLowerCase();
 	}
 	return x;
 }
 
 function toUpper (x: any) {
-	if (typechecks.isString(x)) {
+	if (isString(x)) {
 		return x.toUpperCase();
 	}
 	return x;
