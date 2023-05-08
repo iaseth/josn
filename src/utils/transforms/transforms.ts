@@ -1,4 +1,4 @@
-import { typechecks } from "./typechecks";
+import { typechecks } from "../typechecks";
 
 
 
