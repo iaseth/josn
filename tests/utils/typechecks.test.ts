@@ -67,3 +67,35 @@ test("isString", () => {
 	expect(isString({})).toBe(false);
 	expect(isString([])).toBe(false);
 });
+
+
+test("isNull", () => {
+	const { isNull } = typechecks;
+
+	expect(isNull(null)).toBe(true);
+
+	expect(isNull()).toBe(false);
+	expect(isNull(undefined)).toBe(false);
+
+	expect(isNull(false)).toBe(false);
+	expect(isNull(20.5)).toBe(false);
+	expect(isNull("foo")).toBe(false);
+
+	expect(isNull({})).toBe(false);
+	expect(isNull([])).toBe(false);
+});
+
+test("isUndefined", () => {
+	const { isUndefined } = typechecks;
+
+	expect(isUndefined()).toBe(true);
+	expect(isUndefined(undefined)).toBe(true);
+
+	expect(isUndefined(null)).toBe(false);
+	expect(isUndefined(false)).toBe(false);
+	expect(isUndefined(20.5)).toBe(false);
+
+	expect(isUndefined("foo")).toBe(false);
+	expect(isUndefined({})).toBe(false);
+	expect(isUndefined([])).toBe(false);
+});
