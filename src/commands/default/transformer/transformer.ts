@@ -74,6 +74,7 @@ export class Transformer {
 		return this.parts.length > 0;
 	}
 
+
 	transformObject () : any {
 		switch (this.command) {
 
@@ -92,28 +93,40 @@ export class Transformer {
 		return this.element;
 	}
 
-	selectInArray () : any {
+
+	selectInArray (actionName: string) : any {
+		const action = (check: Function) => {
+			if (actionName === "select") {
+				return this.element.filter(check);
+			} else if (actionName === "drop") {
+				return this.element.filter((x: any, y: number) => !check(x, y));
+			}
+		};
+
 		switch (this.modifier) {
-			case "even": return this.element.filter((x: any, i: number) => i%2 === 0);
-			case "odd": return this.element.filter((x: any, i: number) => i%2 === 1);
+			case "even": return action((x: any, i: number) => i%2 === 0);
+			case "odd": return action((x: any, i: number) => i%2 === 1);
 			case "keys": return Object.keys(this.element);
 
-			case "arrays": return this.element.filter(typechecks.isArray);
-			case "booleans": return this.element.filter(typechecks.isBoolean);
-			case "chars": return this.element.filter(typechecks.isChar);
-			case "numbers": return this.element.filter(typechecks.isNumber);
-			case "objects": return this.element.filter(typechecks.isObject);
-			case "strings": return this.element.filter(typechecks.isString);
-			case "texts": return this.element.filter(typechecks.isString);
-			case "urls": return this.element.filter(typechecks.isURL);
+			case "arrays": return action(typechecks.isArray);
+			case "booleans": return action(typechecks.isBoolean);
+			case "chars": return action(typechecks.isChar);
+			case "numbers": return action(typechecks.isNumber);
+			case "objects": return action(typechecks.isObject);
+			case "strings": return action(typechecks.isString);
+			case "texts": return action(typechecks.isString);
+			case "urls": return action(typechecks.isURL);
 		}
 	}
+
 
 	transformArray () : any {
 		switch (this.command) {
 
 		case "select":
-			return this.selectInArray();
+			return this.selectInArray("select");
+		case "drop":
+			return this.selectInArray("drop");
 
 		case "flat":
 			return this.element.flat();
