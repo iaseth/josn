@@ -38,9 +38,11 @@ export class Transformer {
 			// work on array of strings
 			case "capital": this.command = "capital"; break;
 			case "lower": this.command = "lower"; break;
+			case "upper": this.command = "upper"; break;
+
 			case "prefix": this.command = "prefix"; break;
 			case "suffix": this.command = "suffix"; break;
-			case "upper": this.command = "upper"; break;
+			case "replace": this.command = "replace"; break;
 
 			default: this.command = "select"; break;
 		}
@@ -145,8 +147,16 @@ export class Transformer {
 			return this.element.map((x: string) => x.toLowerCase());
 		case "upper":
 			return this.element.map((x: string) => x.toUpperCase());
-		case "prefix": break;
-		case "suffix": break;
+		case "prefix":
+			const prefix = this.modifier;
+			return this.element.map((x: string) => prefix + x);
+		case "suffix":
+			const suffix = this.modifier;
+			return this.element.map((x: string) => x + suffix);
+		case "replace":
+			const old = this.modifier;
+			const neo = this.extra;
+			return this.element.map((x: string) => x.replace(old, neo));
 
 		default:
 			// nothing to do by default
