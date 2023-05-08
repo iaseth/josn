@@ -1,4 +1,5 @@
-import whichtype from 'whichtype';
+const whichtype = require('whichtype');
+
 
 
 const { isString } = whichtype;

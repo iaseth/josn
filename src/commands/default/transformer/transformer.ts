@@ -1,4 +1,4 @@
-import whichtype from 'whichtype';
+const whichtype = require('whichtype');
 
 import { transforms } from "../../../utils";
 
