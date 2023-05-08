@@ -34,7 +34,7 @@ export interface FlagType {
 }
 
 export const flags: FlagType[] = [
-	{isCommand: false, name: "console", singleFlag: "-C", doubleFlag: "--console", description: "Use console.log() for printing selected object."},
+	{isCommand: false, name: "console", singleFlag: "-c", doubleFlag: "--console", description: "Use console.log() for printing selected object."},
 	{isCommand: false, name: "debug", singleFlag: "-D", doubleFlag: "--debug", description: "Turns debug mode ON."},
 	{isCommand: false, name: "exact", singleFlag: "-E", doubleFlag: "--exact", description: "Turns exact mode ON."},
 	{isCommand: false, name: "force", singleFlag: "-F", doubleFlag: "--force", description: "Force update files."},
