@@ -22,8 +22,8 @@ export class Transformer {
 
 		switch (this.lhs) {
 			// stuff that comes before the first colon
+			case "select": case "s": case "": this.command = "select"; break;
 			case "drop": case "d": this.command = "drop"; break;
-			case "select": case "s": this.command = "select"; break;
 
 			case "flat": case "f": this.command = "flat"; break;
 			case "group": case "g": this.command = "group"; break;
@@ -44,7 +44,7 @@ export class Transformer {
 			case "suffix": this.command = "suffix"; break;
 			case "replace": this.command = "replace"; break;
 
-			default: this.command = "select"; break;
+			default: this.command = this.lhs; break;
 		}
 
 		switch (this.rhs) {
@@ -168,9 +168,9 @@ export class Transformer {
 
 		case "capital": break;
 		case "lower":
-			return this.element.map((x: string) => x.toLowerCase());
+			return this.element.map(transforms.toLower);
 		case "upper":
-			return this.element.map((x: string) => x.toUpperCase());
+			return this.element.map(transforms.toUpper);
 		case "prefix":
 			const prefix = this.modifier;
 			return this.element.map((x: string) => prefix + x);
