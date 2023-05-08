@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Readmix</title>
+
+	<base href="/">
+
+	<link rel="stylesheet" href="static/css/readmix.css">
+	
+<link rel="stylesheet" href="static/css/github-markdown.css">
+
+</head>
+<body class="bg-slate-200">
+
+	<header class="max-w-md mx-auto grid grid-cols-3 bg-slate-600 text-white rounded-b shadow text-center font-bold select-none ch:px-2 ch:py-2">
+		<a href="https://iaseth.github.io/readmix">Docs</a>
+		<a href="https://github.com/iaseth/readmix">GitHub</a>
+		<a href="https://www.npmjs.com/package/readmix">NPM</a>
+	</header>
+
+	<header class="py-10 text-center">
+		<a class="text-2xl font-bold" href="/">Readmix</a>
+	</header>
+
+	<main class="min-h-screen px-2 py-2">
+	
+<section class="bg-white max-w-5xl mx-auto rounded overflow-hidden shadow">
+	<header class="bg-firebrick-600 text-white text-center flex ch:px-4 ch:py-4">
+		<a href="">
+			<h4></h4>
+			<h5>Prev</h5>
+		</a>
+		<section class="grow bg-firebrick-500">
+			<h2 class="py-2">README.md</h2>
+		</section>
+		<a href="">
+			<h4></h4>
+			<h5>Next</h5>
+		</a>
+	</header>
+
+	<article class="markdown-body px-4 py-6" id="readmix-article">
+		<h1 id="josn">josn</h1>
+<p><a href="https://www.npmjs.com/package/josn-cli"><code>josn-cli</code></a> is a command-line <code>JSON</code> viewer, written in <code>JavaScript</code> and <code>TypeScript</code>.</p>
+<p>I felt the need for a JSON browser when I was working on <a href="https://github.com/iaseth/top-100-yc-companies"><code>iaseth/top-100-yc-companies</code></a>.
+I primarily use it to verify the JSON data collected in my web scraping projects.
+I have created a similar tool (<a href="https://github.com/iaseth/jsonplus"><code>jsonplus</code></a>) in <code>C++</code>.</p>
+<p>I am using <a href="https://github.com/iaseth/readmix"><code>readmix</code></a> for generating this README.
+You can view the source file <a href="https://github.com/iaseth/josn/blob/master/README.md.rx">here</a>.</p>
+<h2 id="table-of-contents">Table of contents</h2>
+<ul>
+<li><a href="#josn">josn</a><ul>
+<li><a href="#table-of-contents">Table of contents</a></li>
+<li><a href="#installation">Installation</a></li>
+<li><a href="#usage">Usage</a></li>
+<li><a href="#package-details">Package details</a></li>
+<li><a href="#dependencies">Dependencies</a></li>
+<li><a href="#dev-dependencies">Dev dependencies</a></li>
+<li><a href="#license">License</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="installation">Installation</h2>
+<p>You can install <a href="https://www.npmjs.com/package/josn-cli"><code>josn-cli</code></a> with the following command:</p>
+<pre><code>npm i -g josn-cli
+</code></pre>
+<p>Now you should be able to run the <code>josn</code> command in your terminal.</p>
+<h2 id="usage">Usage</h2>
+<ul>
+<li><p><strong>Printing whole files</strong></p>
+<p>  Provide the <code>filepath</code> as the first argument.</p>
+<ul>
+<li>This will print the whole file as indented JSON:<pre><code>josn filename.json
+</code></pre>
+</li>
+<li>When you supply a <code>path</code> that is a directory, <code>josn</code> will automatically select the <code>package.json</code> inside that directory:<pre><code>josn reactapp
+</code></pre>
+  This is equivalent to writing:<pre><code>josn reactapp/package.json
+</code></pre>
+</li>
+<li>When you supply a <code>path</code> that is a directory but it does not contain a <code>package.json</code>, <code>josn</code> will try to find a <code>json</code> file in that directory:<pre><code>josn mydata/
+</code></pre>
+</li>
+</ul>
+</li>
+<li><p><strong>Printing an object</strong></p>
+<p>  You can use the <code>keyName</code> to traverse inside an object.</p>
+<ul>
+<li>This will print the <code>dependencies</code> object inside <code>package.json</code>:<pre><code>josn package.json dependencies
+</code></pre>
+</li>
+<li><code>josn</code> is case insensitive, so you might as well write this:<pre><code>josn package.json Dependencies
+</code></pre>
+</li>
+<li>Or even this:<pre><code>josn package.json DEPENDENCIES
+</code></pre>
+</li>
+<li>And you can skip parts of the key name if it is unique enough:<pre><code>josn package.json dep
+</code></pre>
+  This will print the first <code>key</code> that starts with the prefix <code>dep</code>.</li>
+<li>You can use a <code>colonArg</code> for selecting just the <code>keys</code> or <code>values</code> in an object:<pre><code>josn package.json dependencies :keys
+</code></pre>
+<pre><code>josn package.json dependencies :values
+</code></pre>
+  Both, <code>:keys</code> and <code>:values</code> have a shorthand syntax:<pre><code>josn package.json dependencies :k
+</code></pre>
+<pre><code>josn package.json dependencies :v
+</code></pre>
+</li>
+</ul>
+</li>
+<li><p><strong>Printing an array element</strong></p>
+<p>  You can use numbers to select array elements.</p>
+<ul>
+<li>This will print the first element of the data array:<pre><code>josn data.json data 0
+</code></pre>
+</li>
+<li>You can also use negative indices to select an element from the end:<pre><code>josn data.json data -1
+</code></pre>
+  This will print last element of <code>data</code> array.</li>
+<li>You can use a <code>colonArg</code> for selecting just the <code>even</code> or <code>odd</code> elements in an Array:<pre><code>josn data.json data :even
+</code></pre>
+<pre><code>josn data.json data :odd
+</code></pre>
+  Keep in mind that array indexes start at 0, so <code>:even</code> will select elements at <code>0, 2, 4, etc</code> and vice-versa.</li>
+<li>You can use a <code>colonArg</code> for slicing an Array:<pre><code>josn data.json data :10         // select first 10 elements
+</code></pre>
+<pre><code>josn data.json data -10:        // select last 10 elements
+</code></pre>
+<pre><code>josn data.json data 2:5         // select elements from 2 to 4
+</code></pre>
+  The slice syntax is heavily inspired by its counterpart in <code>Python</code>.</li>
+</ul>
+</li>
+</ul>
+<h2 id="package-details">Package details</h2>
+<table>
+<thead>
+<tr>
+<th><code>Name</code></th>
+<th><code>Value</code></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>Name</code></td>
+<td><code>josn-cli</code></td>
+</tr>
+<tr>
+<td><code>Description</code></td>
+<td><code>JOSN is a command line JSON viewer.</code></td>
+</tr>
+<tr>
+<td><code>Version</code></td>
+<td><code>0.8.8</code></td>
+</tr>
+<tr>
+<td><code>Author</code></td>
+<td><code>iaseth</code></td>
+</tr>
+<tr>
+<td><code>Homepage</code></td>
+<td><code>https://github.com/iaseth/josn</code></td>
+</tr>
+<tr>
+<td><code>Repository</code></td>
+<td><code>iaseth/josn</code></td>
+</tr>
+<tr>
+<td><code>License</code></td>
+<td><code>MIT</code></td>
+</tr>
+</tbody></table>
+<h2 id="dependencies">Dependencies</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th><code>Package</code></th>
+<th><code>Version</code></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td><code>json5</code></td>
+<td><code>^2.2.3</code></td>
+</tr>
+</tbody></table>
+<h2 id="dev-dependencies">Dev dependencies</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th><code>Package</code></th>
+<th><code>Version</code></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td><code>@types/jest</code></td>
+<td><code>^29.5.1</code></td>
+</tr>
+<tr>
+<td>2</td>
+<td><code>jest</code></td>
+<td><code>^29.5.0</code></td>
+</tr>
+</tbody></table>
+<h2 id="license">License</h2>
+<p>MIT License</p>
+<p>Copyright (c) Ankur Seth.</p>
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &quot;Software&quot;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:</p>
+<p>The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.</p>
+<p>THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.</p>
+<h2 id="credit">Credit</h2>
+<p>This file was generated using <a href="https://github.com/iaseth/readmix"><code>readmix</code></a>.</p>
+
+	</article>
+
+	<footer class="bg-slate-800 text-white px-4 py-4 text-center">
+		<h4>README.md.rx</h4>
+		<h4>README.md</h4>
+	</footer>
+</section>
+
+	</main>
+
+	<footer class="py-12"></footer>
+
+	<footer class="bg-slate-700 text-white text-center px-4 py-10">
+		<h4>Created by <a href="https://github.com/iaseth">Ankur Seth</a>.</h4>
+	</footer>
+</body>
+</html>
