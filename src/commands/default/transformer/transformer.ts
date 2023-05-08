@@ -44,7 +44,7 @@ export class Transformer {
 			case "odd": this.operands = "odd"; break;
 
 			// only work on objects
-			case "keys": case "k": this.operands = "keys"; break;
+			case "keys": case "k": this.operands = "keys"; break; // returns string indexes for array
 			case "values": case "v": this.operands = "values"; break;
 
 			// work on arrays/objects
@@ -89,8 +89,13 @@ export class Transformer {
 				return this.element.filter((x: any, i: number) => i%2 === 0);
 			} else if (this.operands === "odd") {
 				return this.element.filter((x: any, i: number) => i%2 === 1);
+			} else if (this.operands === "keys") {
+				return Object.keys(this.element);
 			}
 			break;
+
+		case "reverse":
+			return this.element.reverse();
 
 		default:
 			// nothing to do by default
