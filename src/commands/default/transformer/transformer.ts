@@ -3,65 +3,67 @@ import { transforms, typechecks } from "../../../utils";
 
 
 export class Transformer {
-	arg: string;
+	element: any; // can be an object or array
+	fullarg: string;
 	parts: string[];
 	lhs: string;
 	rhs: string;
+
+	command: string = "select";
+	modifier: string;
+	extra: string;
 	rest: string[];
-	func: string = "select";
-	operands: string = "all";
-	element: any; // can be an object or array
 
 	constructor (arg: string, currentJo: any) {
 		this.element = currentJo;
-		this.arg = arg.trim();
-		this.parts = this.arg.split(":");
-		[this.lhs, this.rhs, ...this.rest] = this.parts;
+		this.fullarg = arg.trim();
+		this.parts = this.fullarg.split(":");
+		[this.lhs, this.rhs="", this.extra="", ...this.rest] = this.parts;
 
 		switch (this.lhs) {
 			// stuff that comes before the first colon
-			case "drop": case "d": this.func = "drop"; break;
-			case "select": case "s": this.func = "select"; break;
+			case "drop": case "d": this.command = "drop"; break;
+			case "select": case "s": this.command = "select"; break;
 
-			case "flat": case "f": this.func = "flat"; break;
-			case "group": case "g": this.func = "group"; break;
+			case "flat": case "f": this.command = "flat"; break;
+			case "group": case "g": this.command = "group"; break;
 
-			case "map": case "m": this.func = "map"; break;
-			case "nth": case "n": this.func = "nth"; break;
+			case "map": case "m": this.command = "map"; break;
+			case "nth": case "n": this.command = "nth"; break;
 
-			case "order": case "o": this.func = "order"; break;
-			case "reverse": case "r": this.func = "reverse"; break;
-			case "unique": case "u": this.func = "unique"; break;
+			case "order": case "o": this.command = "order"; break;
+			case "reverse": case "r": this.command = "reverse"; break;
+			case "unique": case "u": this.command = "unique"; break;
 
 			// work on array of strings
-			case "capital": this.func = "capital"; break;
-			case "lower": this.func = "lower"; break;
-			case "prefix": this.func = "prefix"; break;
-			case "suffix": this.func = "suffix"; break;
-			case "upper": this.func = "upper"; break;
+			case "capital": this.command = "capital"; break;
+			case "lower": this.command = "lower"; break;
+			case "prefix": this.command = "prefix"; break;
+			case "suffix": this.command = "suffix"; break;
+			case "upper": this.command = "upper"; break;
 
-			default: this.func = "select"; break;
+			default: this.command = "select"; break;
 		}
 
 		switch (this.rhs) {
 			// stuff that comes after the first colon
 			// only work on arrays
-			case "even": this.operands = "even"; break;
-			case "odd": this.operands = "odd"; break;
+			case "even": this.modifier = "even"; break;
+			case "odd": this.modifier = "odd"; break;
 
 			// only work on objects
-			case "keys": case "k": this.operands = "keys"; break; // returns string indexes for array
-			case "values": case "v": this.operands = "values"; break;
+			case "keys": case "k": this.modifier = "keys"; break; // returns string indexes for array
+			case "values": case "v": this.modifier = "values"; break;
 
 			// work on arrays/objects
-			case "arrays": case "a": this.operands = "arrays"; break;
-			case "booleans": case "b": this.operands = "booleans"; break;
-			case "chars": case "c": this.operands = "chars"; break;
-			case "numbers": case "n": this.operands = "numbers"; break;
-			case "objects": case "o": this.operands = "objects"; break;
-			case "strings": case "s": this.operands = "strings"; break;
-			case "texts": case "t": this.operands = "texts"; break;
-			default: this.operands = this.rhs; break;
+			case "arrays": case "a": this.modifier = "arrays"; break;
+			case "booleans": case "b": this.modifier = "booleans"; break;
+			case "chars": case "c": this.modifier = "chars"; break;
+			case "numbers": case "n": this.modifier = "numbers"; break;
+			case "objects": case "o": this.modifier = "objects"; break;
+			case "strings": case "s": this.modifier = "strings"; break;
+			case "texts": case "t": this.modifier = "texts"; break;
+			default: this.modifier = this.rhs; break;
 		}
 	}
 
@@ -70,12 +72,12 @@ export class Transformer {
 	}
 
 	transformObject () : any {
-		switch (this.func) {
+		switch (this.command) {
 
 		case "select":
-			if (this.operands === "keys") {
+			if (this.modifier === "keys") {
 				return Object.keys(this.element);
-			} else if (this.operands === "values") {
+			} else if (this.modifier === "values") {
 				return Object.values(this.element);
 			}
 			break;
@@ -88,14 +90,14 @@ export class Transformer {
 	}
 
 	transformArray () : any {
-		switch (this.func) {
+		switch (this.command) {
 
 		case "select":
-			if (this.operands === "even") {
+			if (this.modifier === "even") {
 				return this.element.filter((x: any, i: number) => i%2 === 0);
-			} else if (this.operands === "odd") {
+			} else if (this.modifier === "odd") {
 				return this.element.filter((x: any, i: number) => i%2 === 1);
-			} else if (this.operands === "keys") {
+			} else if (this.modifier === "keys") {
 				return Object.keys(this.element);
 			}
 			break;
@@ -104,7 +106,7 @@ export class Transformer {
 			return this.element.flat();
 
 		case "group":
-			const chunkSize = parseInt(this.operands);
+			const chunkSize = parseInt(this.modifier);
 			if (chunkSize > 0 && chunkSize < this.element.length) {
 				const chunks = [];
 				for (let i = 0; i < this.element.length; i += chunkSize) {
@@ -116,7 +118,7 @@ export class Transformer {
 			break;
 
 		case "map":
-			const key = this.operands;
+			const key = this.modifier;
 			const arr = this.element.map((x: any) => x[key]);
 			return arr;
 
