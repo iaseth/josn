@@ -15,18 +15,22 @@ export class Transformer {
 	constructor (arg: string, currentJo: any) {
 		this.element = currentJo;
 		this.arg = arg.trim();
-		this.parts = this.arg.split(":").map(s => s.trim());
+		this.parts = this.arg.split(":");
 		[this.lhs, this.rhs, ...this.rest] = this.parts;
 
 		switch (this.lhs) {
 			// stuff that comes before the first colon
 			case "drop": case "d": this.func = "drop"; break;
+			case "select": case "s": this.func = "select"; break;
+
 			case "flat": case "f": this.func = "flat"; break;
+			case "group": case "g": this.func = "group"; break;
+
 			case "map": case "m": this.func = "map"; break;
 			case "nth": case "n": this.func = "nth"; break;
+
 			case "order": case "o": this.func = "order"; break;
 			case "reverse": case "r": this.func = "reverse"; break;
-			case "select": case "s": this.func = "select"; break;
 
 			// work on array of strings
 			case "capital": this.func = "capital"; break;
@@ -92,6 +96,21 @@ export class Transformer {
 				return this.element.filter((x: any, i: number) => i%2 === 1);
 			} else if (this.operands === "keys") {
 				return Object.keys(this.element);
+			}
+			break;
+
+		case "flat":
+			return this.element.flat();
+
+		case "group":
+			const chunkSize = parseInt(this.operands);
+			if (chunkSize > 0 && chunkSize < this.element.length) {
+				const chunks = [];
+				for (let i = 0; i < this.element.length; i += chunkSize) {
+					const chunk = this.element.slice(i, i + chunkSize);
+					chunks.push(chunk);
+				}
+				return chunks;
 			}
 			break;
 
