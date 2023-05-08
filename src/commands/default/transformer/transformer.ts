@@ -100,6 +100,14 @@ export class Transformer {
 		case "reverse":
 			return this.element.reverse();
 
+		case "capital": break;
+		case "lower":
+			return this.element.map((x: string) => x.toLowerCase());
+		case "upper":
+			return this.element.map((x: string) => x.toUpperCase());
+		case "prefix": break;
+		case "suffix": break;
+
 		default:
 			// nothing to do by default
 		}
