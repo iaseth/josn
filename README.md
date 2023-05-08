@@ -70,6 +70,20 @@ Now you should be able to run the `josn` command in your terminal.
         josn package.json dep
         ```
         This will print the first `key` that starts with the prefix `dep`.
+    * You can use a `colonArg` for selecting just the `keys` or `values` in an object:
+        ```
+        josn package.json dependencies :keys
+        ```
+        ```
+        josn package.json dependencies :values
+        ```
+        Both, `:keys` and `:values` have a shorthand syntax:
+        ```
+        josn package.json dependencies :k
+        ```
+        ```
+        josn package.json dependencies :v
+        ```
 
 * **Printing an array element**
 
@@ -83,6 +97,25 @@ Now you should be able to run the `josn` command in your terminal.
         josn data.json data -1
         ```
         This will print last element of `data` array.
+    * You can use a `colonArg` for selecting just the `even` or `odd` elements in an Array:
+        ```
+        josn data.json data :even
+        ```
+        ```
+        josn data.json data :odd
+        ```
+        Keep in mind that array indexes start at 0, so `:even` will select elements at `0, 2, 4, etc` and vice-versa.
+    * You can use a `colonArg` for slicing an Array:
+        ```
+        josn data.json data :10         // select first 10 elements
+        ```
+        ```
+        josn data.json data -10:        // select last 10 elements
+        ```
+        ```
+        josn data.json data 2:5         // select elements from 2 to 4
+        ```
+        The slice syntax is heavily inspired by its counterpart in `Python`.
 
 
 ## Package details
@@ -90,7 +123,7 @@ Now you should be able to run the `josn` command in your terminal.
 | ------------- | ------------------------------------- |
 | `Name`        | `josn-cli`                            |
 | `Description` | `JOSN is a command line JSON viewer.` |
-| `Version`     | `0.8.7`                               |
+| `Version`     | `0.8.8`                               |
 | `Author`      | `iaseth`                              |
 | `Homepage`    | `https://github.com/iaseth/josn`      |
 | `Repository`  | `iaseth/josn`                         |
