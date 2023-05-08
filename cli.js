@@ -5,7 +5,6 @@ const path = require("path");
 const josnlib = require("./dist");
 
 
-
 function main () {
 	const [,, ...args] = process.argv;
 
@@ -22,14 +21,15 @@ function main () {
 		return;
 	}
 
+	const { commands } = josnlib;
 	if (cmdOptions.printArgs) {
-		josnlib.printArgsCommand(cmdOptions, args);
+		commands.printArgsCommand(cmdOptions, args);
 	} else if (cmdOptions.printFlags) {
-		josnlib.printFlagsCommand(cmdOptions);
+		commands.printFlagsCommand(cmdOptions);
 	} else if (cmdOptions.help) {
-		josnlib.helpCommand(cmdOptions);
+		commands.helpCommand(cmdOptions);
 	} else {
-		josnlib.defaultCommand(cmdOptions, nonFlagArgs);
+		commands.defaultCommand(cmdOptions, nonFlagArgs);
 	}
 }
 

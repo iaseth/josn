@@ -1,5 +1,5 @@
 import { CmdOptions, flags } from "../cmdoptions";
-export { defaultCommand } from "./default";
+import { defaultCommand } from "./default";
 
 
 
@@ -17,3 +17,10 @@ export function helpCommand (cmdOptions: CmdOptions) {
 	console.log(`List of available commands:`);
 	commandFlags.forEach((c, i) => console.log(`\tcommand #${i+1}: ${c.doubleFlag.padEnd(15)} => ${c.description}`));
 }
+
+export const commands = {
+	printArgsCommand,
+	printFlagsCommand,
+	helpCommand,
+	defaultCommand,
+};

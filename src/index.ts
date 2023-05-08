@@ -2,4 +2,4 @@
 export { flags, getCmdOptions } from './cmdoptions';
 export { parseJsonFile } from './parse';
 export * from './utils';
-export * from './commands';
+export { commands } from './commands';
