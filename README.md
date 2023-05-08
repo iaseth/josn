@@ -135,7 +135,7 @@ Now you should be able to run the `josn` command in your terminal.
 |     | `Package`   | `Version`   |
 | --- | ----------- | ----------- |
 | 1   | `json5`     | `^2.2.3`    |
-| 2   | `whichtype` | `^0.7.0`    |
+| 2   | `whichtype` | `^0.9.0`    |
 
 
 
