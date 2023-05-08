@@ -114,6 +114,11 @@ export class Transformer {
 			}
 			break;
 
+		case "map":
+			const key = this.operands;
+			const arr = this.element.map((x: any) => x[key]);
+			return arr;
+
 		case "order":
 			return this.element.sort();
 
