@@ -70,23 +70,12 @@ export function defaultCommand (cmdOptions: CmdOptions, nonFlagArgs: string[]) {
 		if (hasAColon(keyArg)) {
 			// keyArg has a colon somewhere, like ":keys" or "5:10" or "map:name"
 			if (isSlice(keyArg)) {
-				// do slicing
+				// do pythonesque array slicing
 				const sliceArg = new SliceArg(keyArg, currentJo);
 				newJo = sliceArg.slice();
 			} else {
 				const transformer = new Transformer(keyArg, currentJo);
-				switch (keyArg) {
-				case ":keys":
-				case ":k":
-					newJo = Object.keys(currentJo);
-					break;
-				case ":values":
-				case ":v":
-					newJo = Object.values(currentJo);
-					break;
-				default:
-					// nothing to do by default
-				}
+				newJo = transformer.result();
 			}
 		} else {
 			if (isArray) {

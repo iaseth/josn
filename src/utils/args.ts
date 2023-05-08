@@ -45,7 +45,6 @@ export function isSlice (arg: string) : boolean {
 	if (parts.length !== 2) return false;
 
 	const [lhs, rhs] = parts;
-	console.log(lhs, rhs);
 	if (lhs === "" || isNumeric(lhs)) {
 		if (rhs === "" || isNumeric(rhs)) {
 			return true;
