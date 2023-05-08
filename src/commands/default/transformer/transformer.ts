@@ -31,6 +31,7 @@ export class Transformer {
 
 			case "order": case "o": this.func = "order"; break;
 			case "reverse": case "r": this.func = "reverse"; break;
+			case "unique": case "u": this.func = "unique"; break;
 
 			// work on array of strings
 			case "capital": this.func = "capital"; break;
@@ -124,6 +125,9 @@ export class Transformer {
 
 		case "reverse":
 			return this.element.reverse();
+
+		case "unique":
+			return [...new Set(this.element)];
 
 		case "capital": break;
 		case "lower":
