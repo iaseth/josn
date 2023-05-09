@@ -29,6 +29,8 @@ export class Transformer {
 			case "is": this.command = "select"; break;
 			case "not": this.command = "drop"; break;
 
+			case "has": this.command = "has"; break;
+
 			case "flat": case "f": this.command = "flat"; break;
 			case "group": case "g": this.command = "group"; break;
 
@@ -156,6 +158,11 @@ export class Transformer {
 			return this.selectInArray("select");
 		case "drop":
 			return this.selectInArray("drop");
+
+		case "has":
+			if (this.modifier) {
+				return this.element.filter((x: any) => x[this.modifier] !== undefined);
+			}
 
 		case "flat":
 			return this.element.flat();
