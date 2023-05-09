@@ -9,6 +9,8 @@ I have created a similar tool ({{ gh.link("iaseth/jsonplus", "jsonplus") }}) in 
 I am using {{ gh.link("iaseth/readmix", "readmix") }} for generating this README.
 You can view the source file [here](https://github.com/iaseth/josn/blob/master/README.md.rx).
 
+JOSN uses {{ gh.link("iaseth/whichtype", "whichtype") }} for checking types of variables.
+
 
 ## Table of contents
 {{ tableOfContents(doc) }}
@@ -18,6 +20,11 @@ You can view the source file [here](https://github.com/iaseth/josn/blob/master/R
 You can install {{ "josn-cli" | NpmLink }} with the following command:
 => npm i -g josn-cli
 Now you should be able to run the `josn` command in your terminal.
+
+
+## Updating JOSN
+You can update `josn` with the following command:
+=> npm i -g josn-cli@latest
 
 
 ## Usage
@@ -32,6 +39,8 @@ Now you should be able to run the `josn` command in your terminal.
 		=> josn reactapp/package.json
 	* When you supply a `path` that is a directory but it does not contain a `package.json`, `josn` will try to find a `json` file in that directory:
 		=> josn mydata/
+		If the directory contains a single `JSON` file, then `josn` will select it.
+		Otherwise, it will list all the `JSON` files in that directory.
 
 * **Printing an object**
 
@@ -57,7 +66,7 @@ Now you should be able to run the `josn` command in your terminal.
 	You can use numbers to select array elements.
 	* This will print the first element of the data array:
 		=> josn data.json data 0
-	* You can also use negative indices to select an element from the end:
+	* You can also use negative indexes to select an element from the end:
 		=> josn data.json data -1
 		This will print last element of `data` array.
 	* You can use a `colonArg` for selecting just the `even` or `odd` elements in an Array:
@@ -72,7 +81,7 @@ Now you should be able to run the `josn` command in your terminal.
 
 
 ## Demos
-`josn` comes with a bunch of demo JSON files to get you started.
+`JOSN` comes with a bunch of demo JSON files to get you started.
 | Title | Name | Source | Description |
 | ----- | ---- | ------ | ----------- |{% for demo in parse("src/demos.json").demos %}
 | {{ demo.title }} | [`{{ demo.filename }}`](https://github.com/iaseth/josn/tree/master/demojsons/{{ demo.filename }}) | {{ gh.link(demo.repo) }} | {{ demo.description }} |{% endfor %}
@@ -81,6 +90,8 @@ Use the following command to view the list of available demo JSON files in your 
 => josn --print-demos
 You can open a demo file with the `@demoname` syntax:
 => josn @colors.json colors :10 --table
+You can omit the extension `.json` for demos:
+=> josn @colors colors :10 --table
 
 
 ## Package details

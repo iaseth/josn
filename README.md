@@ -9,11 +9,14 @@ I have created a similar tool ([`jsonplus`](https://github.com/iaseth/jsonplus))
 I am using [`readmix`](https://github.com/iaseth/readmix) for generating this README.
 You can view the source file [here](https://github.com/iaseth/josn/blob/master/README.md.rx).
 
+JOSN uses [`whichtype`](https://github.com/iaseth/whichtype) for checking types of variables.
+
 
 ## Table of contents
 * [josn](#josn)
     * [Table of contents](#table-of-contents)
     * [Installation](#installation)
+    * [Updating JOSN](#updating-josn)
     * [Usage](#usage)
     * [Demos](#demos)
     * [Package details](#package-details)
@@ -28,6 +31,13 @@ You can install [`josn-cli`](https://www.npmjs.com/package/josn-cli) with the fo
 npm i -g josn-cli
 ```
 Now you should be able to run the `josn` command in your terminal.
+
+
+## Updating JOSN
+You can update `josn` with the following command:
+```
+npm i -g josn-cli@latest
+```
 
 
 ## Usage
@@ -50,6 +60,8 @@ Now you should be able to run the `josn` command in your terminal.
         ```
         josn mydata/
         ```
+        If the directory contains a single `JSON` file, then `josn` will select it.
+        Otherwise, it will list all the `JSON` files in that directory.
 
 * **Printing an object**
 
@@ -93,7 +105,7 @@ Now you should be able to run the `josn` command in your terminal.
         ```
         josn data.json data 0
         ```
-    * You can also use negative indices to select an element from the end:
+    * You can also use negative indexes to select an element from the end:
         ```
         josn data.json data -1
         ```
@@ -120,7 +132,7 @@ Now you should be able to run the `josn` command in your terminal.
 
 
 ## Demos
-`josn` comes with a bunch of demo JSON files to get you started.
+`JOSN` comes with a bunch of demo JSON files to get you started.
 | Title | Name | Source | Description |
 | ----- | ---- | ------ | ----------- |
 | HTML Colors | [`colors.json`](https://github.com/iaseth/josn/tree/master/demojsons/colors.json) | [`iaseth/html-color-names`](https://github.com/iaseth/html-color-names) |  |
@@ -138,6 +150,10 @@ You can open a demo file with the `@demoname` syntax:
 ```
 josn @colors.json colors :10 --table
 ```
+You can omit the extension `.json` for demos:
+```
+josn @colors colors :10 --table
+```
 
 
 ## Package details
@@ -145,7 +161,7 @@ josn @colors.json colors :10 --table
 | ------------- | ------------------------------------- |
 | `Name`        | `josn-cli`                            |
 | `Description` | `JOSN is a command line JSON viewer.` |
-| `Version`     | `0.8.18`                              |
+| `Version`     | `0.8.19`                              |
 | `Author`      | `iaseth`                              |
 | `Homepage`    | `https://github.com/iaseth/josn`      |
 | `Repository`  | `iaseth/josn`                         |
