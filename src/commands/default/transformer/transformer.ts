@@ -26,6 +26,8 @@ export class Transformer {
 			// stuff that comes before the first colon
 			case "select": case "s": case "": this.command = "select"; break;
 			case "drop": case "d": this.command = "drop"; break;
+			case "is": this.command = "select"; break;
+			case "not": this.command = "drop"; break;
 
 			case "flat": case "f": this.command = "flat"; break;
 			case "group": case "g": this.command = "group"; break;
@@ -63,6 +65,7 @@ export class Transformer {
 			case "arrays": case "a": this.modifier = "arrays"; break;
 			case "booleans": case "b": this.modifier = "booleans"; break;
 			case "chars": case "c": this.modifier = "chars"; break;
+			case "nulls": this.modifier = "nulls"; break;
 			case "numbers": case "n": this.modifier = "numbers"; break;
 			case "objects": case "o": this.modifier = "objects"; break;
 			case "strings": case "s": this.modifier = "strings"; break;
@@ -136,6 +139,7 @@ export class Transformer {
 			case "arrays": return action(whichtype.isArray);
 			case "booleans": return action(whichtype.isBoolean);
 			case "chars": return action(whichtype.isChar);
+			case "nulls": return action(whichtype.isNull);
 			case "numbers": return action(whichtype.isNumber);
 			case "objects": return action(whichtype.isObject);
 			case "strings": return action(whichtype.isString);
