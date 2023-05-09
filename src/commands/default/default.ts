@@ -130,6 +130,8 @@ export function defaultCommand (cmdOptions: CmdOptions, nonFlagArgs: string[]) {
 		console.table(currentJo);
 	} else if (cmdOptions.console) {
 		console.log(currentJo);
+	} else if (cmdOptions.dir) {
+		console.dir(currentJo);
 	} else {
 		const currentJoString = JSON.stringify(currentJo, null, indentation);
 		console.log(currentJoString);

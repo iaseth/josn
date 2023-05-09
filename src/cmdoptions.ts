@@ -4,6 +4,7 @@ import { isDoubleFlag, isSingleFlag } from "./utils";
 
 export class CmdOptions {
 	console: boolean = false;        // use console.log() for printing selected object
+	dir: boolean = false;            // use console.dir() for printing selected object
 	debug: boolean = false;          // debug mode on/off
 	exact: boolean = false;          // exact mode on/off
 	force: boolean = false;          // force update even if output file exists and is newer than input file
@@ -36,6 +37,7 @@ export interface FlagType {
 
 export const flags: FlagType[] = [
 	{isCommand: false, name: "console", singleFlag: "-c", doubleFlag: "--console", description: "Use console.log() for printing selected object."},
+	{isCommand: false, name: "dir", singleFlag: "-d", doubleFlag: "--dir", description: "Use console.dir() for printing selected object."},
 	{isCommand: false, name: "debug", singleFlag: "-D", doubleFlag: "--debug", description: "Turns debug mode ON."},
 	{isCommand: false, name: "exact", singleFlag: "-E", doubleFlag: "--exact", description: "Turns exact mode ON."},
 	{isCommand: false, name: "force", singleFlag: "-F", doubleFlag: "--force", description: "Force update files."},
