@@ -127,6 +127,11 @@ export class Transformer {
 			case "even": return action((x: any, i: number) => i%2 === 0);
 			case "odd": return action((x: any, i: number) => i%2 === 1);
 			case "keys": return Object.keys(this.element);
+			case "values":
+				if (whichtype.isArrayOfObjects(this.element)) {
+					return this.element.map((obj: any) => Object.values(obj));
+				}
+				break;
 
 			case "arrays": return action(whichtype.isArray);
 			case "booleans": return action(whichtype.isBoolean);
@@ -209,9 +214,9 @@ export class Transformer {
 	}
 
 	result () : any {
-		if (Array.isArray(this.element)) {
+		if (whichtype.isArray(this.element)) {
 			return this.transformArray();
-		} else if (typeof this.element === 'object' && this.element !== null) {
+		} else if (whichtype.isObject(this.element)) {
 			return this.transformObject();
 		}
 		return this.element;
