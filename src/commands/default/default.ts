@@ -6,6 +6,7 @@ import { parseJsonFile } from '../../parse';
 import { SliceArg } from './slicearg';
 import { Transformer } from './transformer';
 import { findSimilarKey, hasAColon, isSlice } from '../../utils';
+import { demos } from '../../demos';
 
 
 
@@ -17,6 +18,16 @@ export function defaultCommand (cmdOptions: CmdOptions, nonFlagArgs: string[]) {
 		console.log("Usage:");
 		console.log("\tjosn data.json key1 index1 key2 index2");
 		return;
+	} else if (inputPath.startsWith("@")) {
+		const filename = `${inputPath.slice(1)}.json`;
+		const demo = demos.find(d => d.filename === filename);
+		if (demo) {
+			console.log(`Demo Found: ${filename}`);
+			return;
+		} else {
+			console.log(`Demo NOT Found: ${filename}`);
+			return;
+		}
 	}
 
 	if (!fs.existsSync(inputPath)) {

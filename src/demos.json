@@ -1,0 +1,10 @@
+{
+	"demos": [
+		{"name": "HTML Colors", "filename": "colors.json", "description": "", "repo": "iaseth/html-color-names"},
+		{"name": "HTML Color Palettes", "filename": "colorpalettes.json", "description": "", "repo": "iaseth/html-color-names"},
+		{"name": "YC Company Data", "filename": "yc-companies.json", "description": "", "repo": "iaseth/top-100-yc-companies"},
+		{"name": "YC Color Palettes", "filename": "yc-palettes.json", "description": "", "repo": "iaseth/top-100-yc-companies"},
+		{"name": "YC Tailwind Colors", "filename": "yc-tailwind.json", "description": "", "repo": "iaseth/top-100-yc-companies"},
+		{"name": "Big Tech Market Cap Data", "filename": "bigtech-market-cap.json", "description": "", "repo": "iaseth/bigtech-json-data"}
+	]
+}
