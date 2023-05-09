@@ -1,0 +1,7276 @@
+{
+	"companies": [
+		{
+			"rank": "1",
+			"name": "Apple",
+			"symbol": "AAPL",
+			"marketCap": "2730022404096",
+			"priceUsd": "173.5",
+			"country": "United States"
+		},
+		{
+			"rank": "2",
+			"name": "Microsoft",
+			"symbol": "MSFT",
+			"marketCap": "2294963765248",
+			"priceUsd": "308.65",
+			"country": "United States"
+		},
+		{
+			"rank": "3",
+			"name": "Alphabet (Google)",
+			"symbol": "GOOG",
+			"marketCap": "1369842122752",
+			"priceUsd": "108.24",
+			"country": "United States"
+		},
+		{
+			"rank": "4",
+			"name": "Amazon",
+			"symbol": "AMZN",
+			"marketCap": "1085858185216",
+			"priceUsd": "105.83",
+			"country": "United States"
+		},
+		{
+			"rank": "5",
+			"name": "NVIDIA",
+			"symbol": "NVDA",
+			"marketCap": "720029745152",
+			"priceUsd": "291.51",
+			"country": "United States"
+		},
+		{
+			"rank": "6",
+			"name": "Meta Platforms (Facebook)",
+			"symbol": "META",
+			"marketCap": "597808054272",
+			"priceUsd": "233.27",
+			"country": "United States"
+		},
+		{
+			"rank": "7",
+			"name": "Tesla",
+			"symbol": "TSLA",
+			"marketCap": "544488357888",
+			"priceUsd": "171.79",
+			"country": "United States"
+		},
+		{
+			"rank": "8",
+			"name": "TSMC",
+			"symbol": "TSM",
+			"marketCap": "443617280000",
+			"priceUsd": "85.54",
+			"country": "Taiwan"
+		},
+		{
+			"rank": "9",
+			"name": "Tencent",
+			"symbol": "TCEHY",
+			"marketCap": "414486659072",
+			"priceUsd": "43.23",
+			"country": "China"
+		},
+		{
+			"rank": "10",
+			"name": "Samsung",
+			"symbol": "005930.KS",
+			"marketCap": "329029929523",
+			"priceUsd": "49.36",
+			"country": "South Korea"
+		},
+		{
+			"rank": "11",
+			"name": "Broadcom",
+			"symbol": "AVGO",
+			"marketCap": "262270205952",
+			"priceUsd": "629.06",
+			"country": "United States"
+		},
+		{
+			"rank": "12",
+			"name": "Oracle",
+			"symbol": "ORCL",
+			"marketCap": "261313642496",
+			"priceUsd": "96.79",
+			"country": "United States"
+		},
+		{
+			"rank": "13",
+			"name": "ASML",
+			"symbol": "ASML",
+			"marketCap": "258452504576",
+			"priceUsd": "654.99",
+			"country": "Netherlands"
+		},
+		{
+			"rank": "14",
+			"name": "Alibaba",
+			"symbol": "BABA",
+			"marketCap": "215616274432",
+			"priceUsd": "83.31",
+			"country": "China"
+		},
+		{
+			"rank": "15",
+			"name": "Salesforce",
+			"symbol": "CRM",
+			"marketCap": "193748647936",
+			"priceUsd": "197.9",
+			"country": "United States"
+		},
+		{
+			"rank": "16",
+			"name": "Cisco",
+			"symbol": "CSCO",
+			"marketCap": "189800300544",
+			"priceUsd": "46.34",
+			"country": "United States"
+		},
+		{
+			"rank": "17",
+			"name": "SAP",
+			"symbol": "SAP",
+			"marketCap": "158471553024",
+			"priceUsd": "135.78",
+			"country": "Germany"
+		},
+		{
+			"rank": "18",
+			"name": "Adobe",
+			"symbol": "ADBE",
+			"marketCap": "157820321792",
+			"priceUsd": "344.06",
+			"country": "United States"
+		},
+		{
+			"rank": "19",
+			"name": "AMD",
+			"symbol": "AMD",
+			"marketCap": "153048629248",
+			"priceUsd": "95.04",
+			"country": "United States"
+		},
+		{
+			"rank": "20",
+			"name": "Texas Instruments",
+			"symbol": "TXN",
+			"marketCap": "150507143168",
+			"priceUsd": "164.22",
+			"country": "United States"
+		},
+		{
+			"rank": "21",
+			"name": "Netflix",
+			"symbol": "NFLX",
+			"marketCap": "147236421632",
+			"priceUsd": "331.21",
+			"country": "United States"
+		},
+		{
+			"rank": "22",
+			"name": "Intel",
+			"symbol": "INTC",
+			"marketCap": "128341671936",
+			"priceUsd": "30.77",
+			"country": "United States"
+		},
+		{
+			"rank": "23",
+			"name": "QUALCOMM",
+			"symbol": "QCOM",
+			"marketCap": "120657338368",
+			"priceUsd": "108.31",
+			"country": "United States"
+		},
+		{
+			"rank": "24",
+			"name": "Keyence",
+			"symbol": "6861.T",
+			"marketCap": "120575819709",
+			"priceUsd": "497.17",
+			"country": "Japan"
+		},
+		{
+			"rank": "25",
+			"name": "Intuit",
+			"symbol": "INTU",
+			"marketCap": "119762280448",
+			"priceUsd": "426.89",
+			"country": "United States"
+		},
+		{
+			"rank": "26",
+			"name": "Sony",
+			"symbol": "SONY",
+			"marketCap": "114117181440",
+			"priceUsd": "92.44",
+			"country": "Japan"
+		},
+		{
+			"rank": "27",
+			"name": "IBM",
+			"symbol": "IBM",
+			"marketCap": "112052756480",
+			"priceUsd": "123.4",
+			"country": "United States"
+		},
+		{
+			"rank": "28",
+			"name": "Meituan",
+			"symbol": "3690.HK",
+			"marketCap": "106381142055",
+			"priceUsd": "17.04",
+			"country": "China"
+		},
+		{
+			"rank": "29",
+			"name": "Booking Holdings (Booking.com)",
+			"symbol": "BKNG",
+			"marketCap": "97956798464",
+			"priceUsd": "2639.47",
+			"country": "United States"
+		},
+		{
+			"rank": "30",
+			"name": "Applied Materials",
+			"symbol": "AMAT",
+			"marketCap": "97822408704",
+			"priceUsd": "115.75",
+			"country": "United States"
+		},
+		{
+			"rank": "31",
+			"name": "Schneider Electric",
+			"symbol": "SU.PA",
+			"marketCap": "96425317703",
+			"priceUsd": "172.46",
+			"country": "France"
+		},
+		{
+			"rank": "32",
+			"name": "Analog Devices",
+			"symbol": "ADI",
+			"marketCap": "93340000256",
+			"priceUsd": "184.52",
+			"country": "United States"
+		},
+		{
+			"rank": "33",
+			"name": "ServiceNow",
+			"symbol": "NOW",
+			"marketCap": "89439821824",
+			"priceUsd": "438.99",
+			"country": "United States"
+		},
+		{
+			"rank": "34",
+			"name": "Automatic Data Processing",
+			"symbol": "ADP",
+			"marketCap": "88519868416",
+			"priceUsd": "214.27",
+			"country": "United States"
+		},
+		{
+			"rank": "35",
+			"name": "PayPal",
+			"symbol": "PYPL",
+			"marketCap": "84794605568",
+			"priceUsd": "75.52",
+			"country": "United States"
+		},
+		{
+			"rank": "36",
+			"name": "Shopify",
+			"symbol": "SHOP",
+			"marketCap": "82336858112",
+			"priceUsd": "64.38",
+			"country": "Canada"
+		},
+		{
+			"rank": "37",
+			"name": "Pinduoduo",
+			"symbol": "PDD",
+			"marketCap": "82319433728",
+			"priceUsd": "61.96",
+			"country": "China"
+		},
+		{
+			"rank": "38",
+			"name": "Airbnb",
+			"symbol": "ABNB",
+			"marketCap": "79178981376",
+			"priceUsd": "125.65",
+			"country": "United States"
+		},
+		{
+			"rank": "39",
+			"name": "Uber",
+			"symbol": "UBER",
+			"marketCap": "78585323520",
+			"priceUsd": "38.83",
+			"country": "United States"
+		},
+		{
+			"rank": "40",
+			"name": "Fiserv",
+			"symbol": "FISV",
+			"marketCap": "73768550400",
+			"priceUsd": "119.5",
+			"country": "United States"
+		},
+		{
+			"rank": "41",
+			"name": "Lam Research",
+			"symbol": "LRCX",
+			"marketCap": "70768967680",
+			"priceUsd": "526.79",
+			"country": "United States"
+		},
+		{
+			"rank": "42",
+			"name": "Equinix",
+			"symbol": "EQIX",
+			"marketCap": "69212102656",
+			"priceUsd": "740.12",
+			"country": "United States"
+		},
+		{
+			"rank": "43",
+			"name": "Micron Technology",
+			"symbol": "MU",
+			"marketCap": "67009957888",
+			"priceUsd": "60.87",
+			"country": "United States"
+		},
+		{
+			"rank": "44",
+			"name": "MercadoLibre",
+			"symbol": "MELI",
+			"marketCap": "64491663360",
+			"priceUsd": "1284.5",
+			"country": "Argentina"
+		},
+		{
+			"rank": "45",
+			"name": "Activision Blizzard",
+			"symbol": "ATVI",
+			"marketCap": "59394314240",
+			"priceUsd": "75.55",
+			"country": "United States"
+		},
+		{
+			"rank": "46",
+			"name": "NetEase",
+			"symbol": "NTES",
+			"marketCap": "58819928064",
+			"priceUsd": "91.14",
+			"country": "China"
+		},
+		{
+			"rank": "47",
+			"name": "Palo Alto Networks",
+			"symbol": "PANW",
+			"marketCap": "57955483648",
+			"priceUsd": "191.52",
+			"country": "United States"
+		},
+		{
+			"rank": "48",
+			"name": "Tokyo Electron",
+			"symbol": "8035.T",
+			"marketCap": "57315644271",
+			"priceUsd": "122.67",
+			"country": "Japan"
+		},
+		{
+			"rank": "49",
+			"name": "Synopsys",
+			"symbol": "SNPS",
+			"marketCap": "56616742912",
+			"priceUsd": "371.74",
+			"country": "United States"
+		},
+		{
+			"rank": "50",
+			"name": "Jingdong Mall",
+			"symbol": "JD",
+			"marketCap": "56503373824",
+			"priceUsd": "35.9",
+			"country": "China"
+		},
+		{
+			"rank": "51",
+			"name": "Cadence Design Systems",
+			"symbol": "CDNS",
+			"marketCap": "56052924416",
+			"priceUsd": "205.56",
+			"country": "United States"
+		},
+		{
+			"rank": "52",
+			"name": "KLA",
+			"symbol": "KLAC",
+			"marketCap": "52618563584",
+			"priceUsd": "383.52",
+			"country": "United States"
+		},
+		{
+			"rank": "53",
+			"name": "Vmware",
+			"symbol": "VMW",
+			"marketCap": "52600573952",
+			"priceUsd": "122.76",
+			"country": "United States"
+		},
+		{
+			"rank": "54",
+			"name": "Snowflake",
+			"symbol": "SNOW",
+			"marketCap": "52136501248",
+			"priceUsd": "160.42",
+			"country": "United States"
+		},
+		{
+			"rank": "55",
+			"name": "Dassault Syst\u00e8mes",
+			"symbol": "DSY.PA",
+			"marketCap": "51989400476",
+			"priceUsd": "39.39",
+			"country": "France"
+		},
+		{
+			"rank": "56",
+			"name": "Fortinet",
+			"symbol": "FTNT",
+			"marketCap": "51831435264",
+			"priceUsd": "66.08",
+			"country": "United States"
+		},
+		{
+			"rank": "57",
+			"name": "Nintendo",
+			"symbol": "7974.T",
+			"marketCap": "51668514709",
+			"priceUsd": "44.23",
+			"country": "Japan"
+		},
+		{
+			"rank": "58",
+			"name": "SK Hynix",
+			"symbol": "000660.KS",
+			"marketCap": "49912964224",
+			"priceUsd": "70.48",
+			"country": "South Korea"
+		},
+		{
+			"rank": "59",
+			"name": "Roper Technologies",
+			"symbol": "ROP",
+			"marketCap": "48845783040",
+			"priceUsd": "458.25",
+			"country": "United States"
+		},
+		{
+			"rank": "60",
+			"name": "Adyen",
+			"symbol": "ADYEN.AS",
+			"marketCap": "48586565258",
+			"priceUsd": "1568",
+			"country": "Netherlands"
+		},
+		{
+			"rank": "61",
+			"name": "Foxconn (Hon Hai Precision Industry)",
+			"symbol": "2317.TW",
+			"marketCap": "48066624425",
+			"priceUsd": "3.47",
+			"country": "Taiwan"
+		},
+		{
+			"rank": "62",
+			"name": "Sea (Garena)",
+			"symbol": "SE",
+			"marketCap": "47794786304",
+			"priceUsd": "84.33",
+			"country": "Singapore"
+		},
+		{
+			"rank": "63",
+			"name": "Workday",
+			"symbol": "WDAY",
+			"marketCap": "47003299840",
+			"priceUsd": "179.6",
+			"country": "United States"
+		},
+		{
+			"rank": "64",
+			"name": "Infineon",
+			"symbol": "IFX.DE",
+			"marketCap": "46970865209",
+			"priceUsd": "36.06",
+			"country": "Germany"
+		},
+		{
+			"rank": "65",
+			"name": "NXP Semiconductors",
+			"symbol": "NXPI",
+			"marketCap": "43649814528",
+			"priceUsd": "168.05",
+			"country": "Netherlands"
+		},
+		{
+			"rank": "66",
+			"name": "Baidu",
+			"symbol": "BIDU",
+			"marketCap": "42822135808",
+			"priceUsd": "122.49",
+			"country": "China"
+		},
+		{
+			"rank": "67",
+			"name": "Arista Networks",
+			"symbol": "ANET",
+			"marketCap": "42564636672",
+			"priceUsd": "138.07",
+			"country": "United States"
+		},
+		{
+			"rank": "68",
+			"name": "Constellation Software",
+			"symbol": "CSU.TO",
+			"marketCap": "41729687038",
+			"priceUsd": "1969.17",
+			"country": "Canada"
+		},
+		{
+			"rank": "69",
+			"name": "Autodesk",
+			"symbol": "ADSK",
+			"marketCap": "41236189184",
+			"priceUsd": "191.99",
+			"country": "United States"
+		},
+		{
+			"rank": "70",
+			"name": "Microchip Technology",
+			"symbol": "MCHP",
+			"marketCap": "40684806144",
+			"priceUsd": "74.27",
+			"country": "United States"
+		},
+		{
+			"rank": "71",
+			"name": "TE Connectivity",
+			"symbol": "TEL",
+			"marketCap": "38645702656",
+			"priceUsd": "122.64",
+			"country": "Switzerland"
+		},
+		{
+			"rank": "72",
+			"name": "STMicroelectronics",
+			"symbol": "STM",
+			"marketCap": "38552965120",
+			"priceUsd": "42.77",
+			"country": "Switzerland"
+		},
+		{
+			"rank": "73",
+			"name": "Murata Manufacturing (Murata Seisakusho)",
+			"symbol": "6981.T",
+			"marketCap": "38011010766",
+			"priceUsd": "60.36",
+			"country": "Japan"
+		},
+		{
+			"rank": "74",
+			"name": "Xiaomi",
+			"symbol": "XIACF",
+			"marketCap": "36782366720",
+			"priceUsd": "1.46",
+			"country": "China"
+		},
+		{
+			"rank": "75",
+			"name": "Block",
+			"symbol": "SQ",
+			"marketCap": "35567886336",
+			"priceUsd": "58.8",
+			"country": "United States"
+		},
+		{
+			"rank": "76",
+			"name": "MediaTek",
+			"symbol": "2454.TW",
+			"marketCap": "35484758213",
+			"priceUsd": "22.29",
+			"country": "Taiwan"
+		},
+		{
+			"rank": "77",
+			"name": "Marvell Technology Group",
+			"symbol": "MRVL",
+			"marketCap": "35233984512",
+			"priceUsd": "41.01",
+			"country": "United States"
+		},
+		{
+			"rank": "78",
+			"name": "IQVIA",
+			"symbol": "IQV",
+			"marketCap": "35220910080",
+			"priceUsd": "189.82",
+			"country": "United States"
+		},
+		{
+			"rank": "79",
+			"name": "ON Semiconductor",
+			"symbol": "ON",
+			"marketCap": "34774413312",
+			"priceUsd": "80.52",
+			"country": "United States"
+		},
+		{
+			"rank": "80",
+			"name": "Electronic Arts",
+			"symbol": "EA",
+			"marketCap": "34486915072",
+			"priceUsd": "125.76",
+			"country": "United States"
+		},
+		{
+			"rank": "81",
+			"name": "Dell",
+			"symbol": "DELL",
+			"marketCap": "33650053120",
+			"priceUsd": "46.02",
+			"country": "United States"
+		},
+		{
+			"rank": "82",
+			"name": "Atlassian",
+			"symbol": "TEAM",
+			"marketCap": "33319872512",
+			"priceUsd": "130.01",
+			"country": "Australia"
+		},
+		{
+			"rank": "83",
+			"name": "Fidelity National Information Services",
+			"symbol": "FIS",
+			"marketCap": "33152774144",
+			"priceUsd": "55.96",
+			"country": "United States"
+		},
+		{
+			"rank": "84",
+			"name": "GlobalFoundries",
+			"symbol": "GFS",
+			"marketCap": "32755748864",
+			"priceUsd": "59.8",
+			"country": "United States"
+		},
+		{
+			"rank": "85",
+			"name": "SMIC",
+			"symbol": "0981.HK",
+			"marketCap": "31968675225",
+			"priceUsd": "2.62",
+			"country": "China"
+		},
+		{
+			"rank": "86",
+			"name": "Coupang",
+			"symbol": "CPNG",
+			"marketCap": "31616575488",
+			"priceUsd": "17.78",
+			"country": "South Korea"
+		},
+		{
+			"rank": "87",
+			"name": "Mobileye",
+			"symbol": "MBLY",
+			"marketCap": "31306645504",
+			"priceUsd": "39.04",
+			"country": "Israel"
+		},
+		{
+			"rank": "88",
+			"name": "CrowdStrike",
+			"symbol": "CRWD",
+			"marketCap": "31230752768",
+			"priceUsd": "132.41",
+			"country": "United States"
+		},
+		{
+			"rank": "89",
+			"name": "Amadeus IT Group",
+			"symbol": "AMS.MC",
+			"marketCap": "30682898502",
+			"priceUsd": "68.18",
+			"country": "Spain"
+		},
+		{
+			"rank": "90",
+			"name": "The Trade Desk",
+			"symbol": "TTD",
+			"marketCap": "30602360832",
+			"priceUsd": "64.67",
+			"country": "United States"
+		},
+		{
+			"rank": "91",
+			"name": "Wolters Kluwer",
+			"symbol": "WKL.AS",
+			"marketCap": "30355786557",
+			"priceUsd": "117.51",
+			"country": "Netherlands"
+		},
+		{
+			"rank": "92",
+			"name": "CoStar Group",
+			"symbol": "CSGP",
+			"marketCap": "30354450432",
+			"priceUsd": "74.3",
+			"country": "United States"
+		},
+		{
+			"rank": "93",
+			"name": "HP",
+			"symbol": "HPQ",
+			"marketCap": "29747052544",
+			"priceUsd": "30.19",
+			"country": "United States"
+		},
+		{
+			"rank": "94",
+			"name": "Veeva Systems",
+			"symbol": "VEEV",
+			"marketCap": "28621344768",
+			"priceUsd": "177.5",
+			"country": "United States"
+		},
+		{
+			"rank": "95",
+			"name": "Kuaishou Technology",
+			"symbol": "1024.HK",
+			"marketCap": "28404142896",
+			"priceUsd": "6.56",
+			"country": "China"
+		},
+		{
+			"rank": "96",
+			"name": "Spotify",
+			"symbol": "SPOT",
+			"marketCap": "27954702336",
+			"priceUsd": "144.53",
+			"country": "Sweden"
+		},
+		{
+			"rank": "97",
+			"name": "Global Payments",
+			"symbol": "GPN",
+			"marketCap": "27421239296",
+			"priceUsd": "104.68",
+			"country": "United States"
+		},
+		{
+			"rank": "98",
+			"name": "Delta Electronics",
+			"symbol": "2308.TW",
+			"marketCap": "26121233264",
+			"priceUsd": "10.06",
+			"country": "Taiwan"
+		},
+		{
+			"rank": "99",
+			"name": "DoorDash",
+			"symbol": "DASH",
+			"marketCap": "25938808832",
+			"priceUsd": "66.77",
+			"country": "United States"
+		},
+		{
+			"rank": "100",
+			"name": "Naver",
+			"symbol": "035420.KS",
+			"marketCap": "25807165816",
+			"priceUsd": "171.75",
+			"country": "South Korea"
+		},
+		{
+			"rank": "101",
+			"name": "Renesas Electronics",
+			"symbol": "6723.T",
+			"marketCap": "25743141294",
+			"priceUsd": "14.33",
+			"country": "Japan"
+		},
+		{
+			"rank": "102",
+			"name": "Ansys",
+			"symbol": "ANSS",
+			"marketCap": "25507018752",
+			"priceUsd": "294.33",
+			"country": "United States"
+		},
+		{
+			"rank": "103",
+			"name": "Keysight",
+			"symbol": "KEYS",
+			"marketCap": "25497036800",
+			"priceUsd": "143.13",
+			"country": "United States"
+		},
+		{
+			"rank": "104",
+			"name": "Datadog",
+			"symbol": "DDOG",
+			"marketCap": "25280063488",
+			"priceUsd": "78.54",
+			"country": "United States"
+		},
+		{
+			"rank": "105",
+			"name": "eBay",
+			"symbol": "EBAY",
+			"marketCap": "24699383808",
+			"priceUsd": "46.21",
+			"country": "United States"
+		},
+		{
+			"rank": "106",
+			"name": "Panasonic",
+			"symbol": "6752.T",
+			"marketCap": "23933324419",
+			"priceUsd": "10.25",
+			"country": "Japan"
+		},
+		{
+			"rank": "107",
+			"name": "Align Technology",
+			"symbol": "ALGN",
+			"marketCap": "23487506432",
+			"priceUsd": "306.07",
+			"country": "United States"
+		},
+		{
+			"rank": "108",
+			"name": "Nokia",
+			"symbol": "NOK",
+			"marketCap": "23113652224",
+			"priceUsd": "4.12",
+			"country": "Finland"
+		},
+		{
+			"rank": "109",
+			"name": "JD Health",
+			"symbol": "6618.HK",
+			"marketCap": "22457751685",
+			"priceUsd": "7.06",
+			"country": "China"
+		},
+		{
+			"rank": "110",
+			"name": "Enphase Energy",
+			"symbol": "ENPH",
+			"marketCap": "22377914368",
+			"priceUsd": "163.29",
+			"country": "United States"
+		},
+		{
+			"rank": "111",
+			"name": "HubSpot",
+			"symbol": "HUBS",
+			"marketCap": "22084257792",
+			"priceUsd": "444.9",
+			"country": "United States"
+		},
+		{
+			"rank": "112",
+			"name": "Canon",
+			"symbol": "CAJ",
+			"marketCap": "21965479936",
+			"priceUsd": "21.63",
+			"country": "Japan"
+		},
+		{
+			"rank": "113",
+			"name": "Trip.com",
+			"symbol": "TCOM",
+			"marketCap": "21474105344",
+			"priceUsd": "33.15",
+			"country": "China"
+		},
+		{
+			"rank": "114",
+			"name": "Take 2 Interactive",
+			"symbol": "TTWO",
+			"marketCap": "21200762880",
+			"priceUsd": "125.69",
+			"country": "United States"
+		},
+		{
+			"rank": "115",
+			"name": "Nexon",
+			"symbol": "3659.T",
+			"marketCap": "20489158225",
+			"priceUsd": "23.84",
+			"country": "Japan"
+		},
+		{
+			"rank": "116",
+			"name": "United Microelectronics",
+			"symbol": "UMC",
+			"marketCap": "20480567296",
+			"priceUsd": "8.19",
+			"country": "Taiwan"
+		},
+		{
+			"rank": "117",
+			"name": "Kakao",
+			"symbol": "035720.KS",
+			"marketCap": "20346385189",
+			"priceUsd": "46.56",
+			"country": "South Korea"
+		},
+		{
+			"rank": "118",
+			"name": "Monolithic Power Systems",
+			"symbol": "MPWR",
+			"marketCap": "19852216320",
+			"priceUsd": "418.62",
+			"country": "United States"
+		},
+		{
+			"rank": "119",
+			"name": "Garmin",
+			"symbol": "GRMN",
+			"marketCap": "19809992704",
+			"priceUsd": "103.56",
+			"country": "Switzerland"
+		},
+		{
+			"rank": "120",
+			"name": "Zoom",
+			"symbol": "ZM",
+			"marketCap": "18491099136",
+			"priceUsd": "62.93",
+			"country": "United States"
+		},
+		{
+			"rank": "121",
+			"name": "FICO",
+			"symbol": "FICO",
+			"marketCap": "18405167104",
+			"priceUsd": "736.41",
+			"country": "United States"
+		},
+		{
+			"rank": "122",
+			"name": "ASM International",
+			"symbol": "ASM.AS",
+			"marketCap": "18395289958",
+			"priceUsd": "372.99",
+			"country": "Netherlands"
+		},
+		{
+			"rank": "123",
+			"name": "Hewlett Packard Enterprise",
+			"symbol": "HPE",
+			"marketCap": "18388393984",
+			"priceUsd": "14.19",
+			"country": "United States"
+		},
+		{
+			"rank": "124",
+			"name": "Ericsson",
+			"symbol": "ERIC",
+			"marketCap": "18279587840",
+			"priceUsd": "5.46",
+			"country": "Sweden"
+		},
+		{
+			"rank": "125",
+			"name": "MongoDB",
+			"symbol": "MDB",
+			"marketCap": "17294284800",
+			"priceUsd": "246.93",
+			"country": "United States"
+		},
+		{
+			"rank": "126",
+			"name": "DiDi",
+			"symbol": "DIDIY",
+			"marketCap": "17008320512",
+			"priceUsd": "3.5",
+			"country": "China"
+		},
+		{
+			"rank": "127",
+			"name": "Skyworks Solutions",
+			"symbol": "SWKS",
+			"marketCap": "16749260800",
+			"priceUsd": "105.24",
+			"country": "United States"
+		},
+		{
+			"rank": "128",
+			"name": "Paycom",
+			"symbol": "PAYC",
+			"marketCap": "16543083520",
+			"priceUsd": "274.38",
+			"country": "United States"
+		},
+		{
+			"rank": "129",
+			"name": "Palantir",
+			"symbol": "PLTR",
+			"marketCap": "16393088000",
+			"priceUsd": "7.74",
+			"country": "United States"
+		},
+		{
+			"rank": "130",
+			"name": "Tyler Technologies",
+			"symbol": "TYL",
+			"marketCap": "16236829696",
+			"priceUsd": "387.28",
+			"country": "United States"
+		},
+		{
+			"rank": "131",
+			"name": "M3, Inc",
+			"symbol": "2413.T",
+			"marketCap": "16020854261",
+			"priceUsd": "23.6",
+			"country": "Japan"
+		},
+		{
+			"rank": "132",
+			"name": "Bandai Namco",
+			"symbol": "7832.T",
+			"marketCap": "15883646312",
+			"priceUsd": "24.07",
+			"country": "Japan"
+		},
+		{
+			"rank": "133",
+			"name": "Zscaler",
+			"symbol": "ZS",
+			"marketCap": "15661349888",
+			"priceUsd": "107.92",
+			"country": "United States"
+		},
+		{
+			"rank": "134",
+			"name": "WiseTech Global",
+			"symbol": "WTC.AX",
+			"marketCap": "15654394738",
+			"priceUsd": "47.17",
+			"country": "Australia"
+		},
+		{
+			"rank": "135",
+			"name": "Symbotic",
+			"symbol": "SYM",
+			"marketCap": "15640629248",
+			"priceUsd": "28.1",
+			"country": "United States"
+		},
+		{
+			"rank": "136",
+			"name": "AMEC",
+			"symbol": "688012.SS",
+			"marketCap": "15541680722",
+			"priceUsd": "25.16",
+			"country": "China"
+		},
+		{
+			"rank": "137",
+			"name": "LG Electronics",
+			"symbol": "066570.KS",
+			"marketCap": "15489344940",
+			"priceUsd": "90.77",
+			"country": "South Korea"
+		},
+		{
+			"rank": "138",
+			"name": "FactSet",
+			"symbol": "FDS",
+			"marketCap": "15430113280",
+			"priceUsd": "402.67",
+			"country": "United States"
+		},
+		{
+			"rank": "139",
+			"name": "Cloudflare",
+			"symbol": "NET",
+			"marketCap": "15370845184",
+			"priceUsd": "46.31",
+			"country": "United States"
+		},
+		{
+			"rank": "140",
+			"name": "PTC",
+			"symbol": "PTC",
+			"marketCap": "15337364480",
+			"priceUsd": "129.59",
+			"country": "United States"
+		},
+		{
+			"rank": "141",
+			"name": "ASE Group",
+			"symbol": "ASX",
+			"marketCap": "15223770112",
+			"priceUsd": "7.08",
+			"country": "Taiwan"
+		},
+		{
+			"rank": "142",
+			"name": "Check Point Software",
+			"symbol": "CHKP",
+			"marketCap": "14787306496",
+			"priceUsd": "122.45",
+			"country": "Israel"
+		},
+		{
+			"rank": "143",
+			"name": "Zebra Technologies",
+			"symbol": "ZBRA",
+			"marketCap": "14290422784",
+			"priceUsd": "277.86",
+			"country": "United States"
+		},
+		{
+			"rank": "144",
+			"name": "Chewy",
+			"symbol": "CHWY",
+			"marketCap": "14264265728",
+			"priceUsd": "33.41",
+			"country": "United States"
+		},
+		{
+			"rank": "145",
+			"name": "Splunk",
+			"symbol": "SPLK",
+			"marketCap": "14199900160",
+			"priceUsd": "85.8",
+			"country": "United States"
+		},
+		{
+			"rank": "146",
+			"name": "SS&C Technologies",
+			"symbol": "SSNC",
+			"marketCap": "13898572800",
+			"priceUsd": "55.79",
+			"country": "United States"
+		},
+		{
+			"rank": "147",
+			"name": "Expedia Group",
+			"symbol": "EXPE",
+			"marketCap": "13826129920",
+			"priceUsd": "92.48",
+			"country": "United States"
+		},
+		{
+			"rank": "148",
+			"name": "NetApp",
+			"symbol": "NTAP",
+			"marketCap": "13689919488",
+			"priceUsd": "64",
+			"country": "United States"
+		},
+		{
+			"rank": "149",
+			"name": "Coinbase",
+			"symbol": "COIN",
+			"marketCap": "13628051456",
+			"priceUsd": "58.1",
+			"country": "United States"
+		},
+		{
+			"rank": "150",
+			"name": "Disco Corp.",
+			"symbol": "6146.T",
+			"marketCap": "13581979645",
+			"priceUsd": "125.41",
+			"country": "Japan"
+		},
+		{
+			"rank": "151",
+			"name": "Snap",
+			"symbol": "SNAP",
+			"marketCap": "13486903296",
+			"priceUsd": "8.42",
+			"country": "United States"
+		},
+		{
+			"rank": "152",
+			"name": "EPAM Systems",
+			"symbol": "EPAM",
+			"marketCap": "13412456448",
+			"priceUsd": "231.82",
+			"country": "United States"
+		},
+		{
+			"rank": "153",
+			"name": "Grab Holdings",
+			"symbol": "GRAB",
+			"marketCap": "12917250048",
+			"priceUsd": "3.34",
+			"country": "Singapore"
+		},
+		{
+			"rank": "154",
+			"name": "Okta",
+			"symbol": "OKTA",
+			"marketCap": "12782073856",
+			"priceUsd": "79.25",
+			"country": "United States"
+		},
+		{
+			"rank": "155",
+			"name": "Lasertec",
+			"symbol": "6920.T",
+			"marketCap": "12730663069",
+			"priceUsd": "141.17",
+			"country": "Japan"
+		},
+		{
+			"rank": "156",
+			"name": "Dynatrace",
+			"symbol": "DT",
+			"marketCap": "12706725888",
+			"priceUsd": "43.96",
+			"country": "United States"
+		},
+		{
+			"rank": "157",
+			"name": "Lenovo",
+			"symbol": "0992.HK",
+			"marketCap": "12564520126",
+			"priceUsd": "1.04",
+			"country": "Hong Kong"
+		},
+		{
+			"rank": "158",
+			"name": "NICE",
+			"symbol": "NICE",
+			"marketCap": "12409121792",
+			"priceUsd": "188.52",
+			"country": "Israel"
+		},
+		{
+			"rank": "159",
+			"name": "Akamai",
+			"symbol": "AKAM",
+			"marketCap": "12402721792",
+			"priceUsd": "79.35",
+			"country": "United States"
+		},
+		{
+			"rank": "160",
+			"name": "NEC Corp",
+			"symbol": "6701.T",
+			"marketCap": "12364750852",
+			"priceUsd": "46.37",
+			"country": "Japan"
+		},
+		{
+			"rank": "161",
+			"name": "Bentley Systems",
+			"symbol": "BSY",
+			"marketCap": "12264878080",
+			"priceUsd": "42.07",
+			"country": "United States"
+		},
+		{
+			"rank": "162",
+			"name": "Entegris",
+			"symbol": "ENTG",
+			"marketCap": "11890725888",
+			"priceUsd": "79.45",
+			"country": "United States"
+		},
+		{
+			"rank": "163",
+			"name": "Trimble",
+			"symbol": "TRMB",
+			"marketCap": "11780370432",
+			"priceUsd": "47.55",
+			"country": "United States"
+		},
+		{
+			"rank": "164",
+			"name": "Seagate Technology",
+			"symbol": "STX",
+			"marketCap": "11656645632",
+			"priceUsd": "56.29",
+			"country": "Ireland"
+		},
+		{
+			"rank": "165",
+			"name": "ZoomInfo",
+			"symbol": "ZI",
+			"marketCap": "11642396672",
+			"priceUsd": "21.11",
+			"country": "United States"
+		},
+		{
+			"rank": "166",
+			"name": "Lattice Semiconductor",
+			"symbol": "LSCC",
+			"marketCap": "11642351616",
+			"priceUsd": "84.58",
+			"country": "United States"
+		},
+		{
+			"rank": "167",
+			"name": "Etsy",
+			"symbol": "ETSY",
+			"marketCap": "11444598784",
+			"priceUsd": "92.78",
+			"country": "United States"
+		},
+		{
+			"rank": "168",
+			"name": "Jack Henry &amp; Associates",
+			"symbol": "JKHY",
+			"marketCap": "11255165952",
+			"priceUsd": "154.2",
+			"country": "United States"
+		},
+		{
+			"rank": "169",
+			"name": "Zillow",
+			"symbol": "Z",
+			"marketCap": "11239837696",
+			"priceUsd": "48.25",
+			"country": "United States"
+		},
+		{
+			"rank": "170",
+			"name": "OpenText",
+			"symbol": "OTEX",
+			"marketCap": "11205282816",
+			"priceUsd": "41.43",
+			"country": "Canada"
+		},
+		{
+			"rank": "171",
+			"name": "AspenTech",
+			"symbol": "AZPN",
+			"marketCap": "11132978176",
+			"priceUsd": "171.65",
+			"country": "United States"
+		},
+		{
+			"rank": "172",
+			"name": "Yonyou",
+			"symbol": "600588.SS",
+			"marketCap": "10908309730",
+			"priceUsd": "3.18",
+			"country": "China"
+		},
+		{
+			"rank": "173",
+			"name": "Gen Digital",
+			"symbol": "GEN",
+			"marketCap": "10897148928",
+			"priceUsd": "17.05",
+			"country": "United States"
+		},
+		{
+			"rank": "174",
+			"name": "Amdocs",
+			"symbol": "DOX",
+			"marketCap": "10891507712",
+			"priceUsd": "90.32",
+			"country": "United States"
+		},
+		{
+			"rank": "175",
+			"name": "Qualtrics",
+			"symbol": "XM",
+			"marketCap": "10851385344",
+			"priceUsd": "17.895",
+			"country": "United States"
+		},
+		{
+			"rank": "176",
+			"name": "Leidos",
+			"symbol": "LDOS",
+			"marketCap": "10847849472",
+			"priceUsd": "79.07",
+			"country": "United States"
+		},
+		{
+			"rank": "177",
+			"name": "GoDaddy",
+			"symbol": "GDDY",
+			"marketCap": "10844931072",
+			"priceUsd": "70.05",
+			"country": "United States"
+		},
+		{
+			"rank": "178",
+			"name": "Delivery Hero",
+			"symbol": "DHER.F",
+			"marketCap": "10780574003",
+			"priceUsd": "41.78",
+			"country": "Germany"
+		},
+		{
+			"rank": "179",
+			"name": "Unity Software",
+			"symbol": "U",
+			"marketCap": "10731269120",
+			"priceUsd": "28.35",
+			"country": "United States"
+		},
+		{
+			"rank": "180",
+			"name": "Entain",
+			"symbol": "ENT.L",
+			"marketCap": "10640585827",
+			"priceUsd": "18.07",
+			"country": "Isle of Man"
+		},
+		{
+			"rank": "181",
+			"name": "Manhattan Associates",
+			"symbol": "MANH",
+			"marketCap": "10513644544",
+			"priceUsd": "169.5",
+			"country": "United States"
+		},
+		{
+			"rank": "182",
+			"name": "Oracle Corp Japan",
+			"symbol": "4716.T",
+			"marketCap": "10486616658",
+			"priceUsd": "81.83",
+			"country": "Japan"
+		},
+		{
+			"rank": "183",
+			"name": "Adevinta",
+			"symbol": "ADE.OL",
+			"marketCap": "10388375920",
+			"priceUsd": "8.15",
+			"country": "Norway"
+		},
+		{
+			"rank": "184",
+			"name": "Logitech",
+			"symbol": "LOGI",
+			"marketCap": "10353387520",
+			"priceUsd": "64.53",
+			"country": "Switzerland"
+		},
+		{
+			"rank": "185",
+			"name": "Toast",
+			"symbol": "TOST",
+			"marketCap": "10246734848",
+			"priceUsd": "19.35",
+			"country": "United States"
+		},
+		{
+			"rank": "186",
+			"name": "Sage Group",
+			"symbol": "SGE.L",
+			"marketCap": "10212173043",
+			"priceUsd": "9.93",
+			"country": "United Kingdom"
+		},
+		{
+			"rank": "187",
+			"name": "Twilio",
+			"symbol": "TWLO",
+			"marketCap": "10141122560",
+			"priceUsd": "54.84",
+			"country": "United States"
+		},
+		{
+			"rank": "188",
+			"name": "DocuSign",
+			"symbol": "DOCU",
+			"marketCap": "9974227968",
+			"priceUsd": "49.3",
+			"country": "United States"
+		},
+		{
+			"rank": "189",
+			"name": "Samsara",
+			"symbol": "IOT",
+			"marketCap": "9931360256",
+			"priceUsd": "18.94",
+			"country": "United States"
+		},
+		{
+			"rank": "190",
+			"name": "Advantech",
+			"symbol": "2395.TW",
+			"marketCap": "9808215264",
+			"priceUsd": "12.6",
+			"country": "Taiwan"
+		},
+		{
+			"rank": "191",
+			"name": "Xero",
+			"symbol": "XRO.AX",
+			"marketCap": "9804601111",
+			"priceUsd": "64.58",
+			"country": "New Zealand"
+		},
+		{
+			"rank": "192",
+			"name": "Paylocity",
+			"symbol": "PCTY",
+			"marketCap": "9685825536",
+			"priceUsd": "173.55",
+			"country": "United States"
+		},
+		{
+			"rank": "193",
+			"name": "Qorvo",
+			"symbol": "QRVO",
+			"marketCap": "9406565376",
+			"priceUsd": "94.17",
+			"country": "United States"
+		},
+		{
+			"rank": "194",
+			"name": "Juniper Networks",
+			"symbol": "JNPR",
+			"marketCap": "9294008320",
+			"priceUsd": "28.9",
+			"country": "United States"
+		},
+		{
+			"rank": "195",
+			"name": "Zalando",
+			"symbol": "ZAL.DE",
+			"marketCap": "9174439027",
+			"priceUsd": "35.43",
+			"country": "Germany"
+		},
+		{
+			"rank": "196",
+			"name": "Ceridian",
+			"symbol": "CDAY",
+			"marketCap": "9089468416",
+			"priceUsd": "58.63",
+			"country": "United States"
+		},
+		{
+			"rank": "197",
+			"name": "Match Group",
+			"symbol": "MTCH",
+			"marketCap": "9044250624",
+			"priceUsd": "32.48",
+			"country": "United States"
+		},
+		{
+			"rank": "198",
+			"name": "Yandex",
+			"symbol": "YNDX.ME",
+			"marketCap": "8955784436",
+			"priceUsd": "24.77",
+			"country": "Netherlands"
+		},
+		{
+			"rank": "199",
+			"name": "Nemetschek",
+			"symbol": "NEM.F",
+			"marketCap": "8479551064",
+			"priceUsd": "73.2",
+			"country": "Germany"
+		},
+		{
+			"rank": "200",
+			"name": "Vipshop",
+			"symbol": "VIPS",
+			"marketCap": "8451545600",
+			"priceUsd": "15.01",
+			"country": "China"
+		},
+		{
+			"rank": "201",
+			"name": "Novatek Microelectronics",
+			"symbol": "3034.TW",
+			"marketCap": "8450438924",
+			"priceUsd": "13.89",
+			"country": "Taiwan"
+		},
+		{
+			"rank": "202",
+			"name": "Rakuten",
+			"symbol": "4755.T",
+			"marketCap": "8231519558",
+			"priceUsd": "5.18",
+			"country": "Japan"
+		},
+		{
+			"rank": "203",
+			"name": "Bilibili",
+			"symbol": "BILI",
+			"marketCap": "8205826048",
+			"priceUsd": "19.98",
+			"country": "China"
+		},
+		{
+			"rank": "204",
+			"name": "F5 Networks",
+			"symbol": "FFIV",
+			"marketCap": "8165193216",
+			"priceUsd": "135.04",
+			"country": "United States"
+		},
+		{
+			"rank": "205",
+			"name": "Rohm",
+			"symbol": "6963.T",
+			"marketCap": "8114484026",
+			"priceUsd": "82.68",
+			"country": "Japan"
+		},
+		{
+			"rank": "206",
+			"name": "Allegro.eu",
+			"symbol": "ALE.WA",
+			"marketCap": "8054988942",
+			"priceUsd": "7.63",
+			"country": "Poland"
+		},
+		{
+			"rank": "207",
+			"name": "Robinhood",
+			"symbol": "HOOD",
+			"marketCap": "7983770112",
+			"priceUsd": "8.91",
+			"country": "United States"
+		},
+		{
+			"rank": "208",
+			"name": "Unimicron",
+			"symbol": "3037.TW",
+			"marketCap": "7976297992",
+			"priceUsd": "5.23",
+			"country": "Taiwan"
+		},
+		{
+			"rank": "209",
+			"name": "Roku",
+			"symbol": "ROKU",
+			"marketCap": "7843131904",
+			"priceUsd": "55.71",
+			"country": "United States"
+		},
+		{
+			"rank": "210",
+			"name": "Procore",
+			"symbol": "PCOR",
+			"marketCap": "7774723072",
+			"priceUsd": "55.37",
+			"country": "United States"
+		},
+		{
+			"rank": "211",
+			"name": "Monotaro",
+			"symbol": "3064.T",
+			"marketCap": "7689879513",
+			"priceUsd": "15.48",
+			"country": "Japan"
+		},
+		{
+			"rank": "212",
+			"name": "Krafton",
+			"symbol": "259960.KS",
+			"marketCap": "7685006280",
+			"priceUsd": "163.27",
+			"country": "South Korea"
+		},
+		{
+			"rank": "213",
+			"name": "National Instruments",
+			"symbol": "NATI",
+			"marketCap": "7629514240",
+			"priceUsd": "58.02",
+			"country": "United States"
+		},
+		{
+			"rank": "214",
+			"name": "Dropbox",
+			"symbol": "DBX",
+			"marketCap": "7574947328",
+			"priceUsd": "21.42",
+			"country": "United States"
+		},
+		{
+			"rank": "215",
+			"name": "GoTo",
+			"symbol": "GOTO.JK",
+			"marketCap": "7535958831",
+			"priceUsd": "0.01",
+			"country": "Indonesia"
+		},
+		{
+			"rank": "216",
+			"name": "UiPath",
+			"symbol": "PATH",
+			"marketCap": "7516961792",
+			"priceUsd": "13.41",
+			"country": "United States"
+		},
+		{
+			"rank": "217",
+			"name": "Supermicro",
+			"symbol": "SMCI",
+			"marketCap": "7328451072",
+			"priceUsd": "136.63",
+			"country": "United States"
+		},
+		{
+			"rank": "218",
+			"name": "Genpact",
+			"symbol": "G",
+			"marketCap": "7214517760",
+			"priceUsd": "39.28",
+			"country": "Bermuda"
+		},
+		{
+			"rank": "219",
+			"name": "Allegro MicroSystems",
+			"symbol": "ALGM",
+			"marketCap": "7206446080",
+			"priceUsd": "37.63",
+			"country": "United States"
+		},
+		{
+			"rank": "220",
+			"name": "BE Semiconductor",
+			"symbol": "BESI.AS",
+			"marketCap": "7175588336",
+			"priceUsd": "93.12",
+			"country": "Netherlands"
+		},
+		{
+			"rank": "221",
+			"name": "ASUS",
+			"symbol": "2357.TW",
+			"marketCap": "7101354545",
+			"priceUsd": "9.56",
+			"country": "Taiwan"
+		},
+		{
+			"rank": "222",
+			"name": "Trend Micro",
+			"symbol": "4704.T",
+			"marketCap": "7042326162",
+			"priceUsd": "51.09",
+			"country": "Japan"
+		},
+		{
+			"rank": "223",
+			"name": "Pure Storage",
+			"symbol": "PSTG",
+			"marketCap": "7008023552",
+			"priceUsd": "22.75",
+			"country": "United States"
+		},
+		{
+			"rank": "224",
+			"name": "Konami Holdings",
+			"symbol": "9766.T",
+			"marketCap": "6876931624",
+			"priceUsd": "51.48",
+			"country": "Japan"
+		},
+		{
+			"rank": "225",
+			"name": "GlobalWafers",
+			"symbol": "6488.TWO",
+			"marketCap": "6870649652",
+			"priceUsd": "15.79",
+			"country": "Taiwan"
+		},
+		{
+			"rank": "226",
+			"name": "Zomato",
+			"symbol": "ZOMATO.NS",
+			"marketCap": "6853839573",
+			"priceUsd": "0.8",
+			"country": "India"
+		},
+		{
+			"rank": "227",
+			"name": "ZOZO",
+			"symbol": "3092.T",
+			"marketCap": "6784187720",
+			"priceUsd": "22.63",
+			"country": "Japan"
+		},
+		{
+			"rank": "228",
+			"name": "Confluent",
+			"symbol": "CFLT",
+			"marketCap": "6716273664",
+			"priceUsd": "22.68",
+			"country": "United States"
+		},
+		{
+			"rank": "229",
+			"name": "Doximity",
+			"symbol": "DOCS",
+			"marketCap": "6647880704",
+			"priceUsd": "34.34",
+			"country": "United States"
+		},
+		{
+			"rank": "230",
+			"name": "Nanya Technology",
+			"symbol": "2408.TW",
+			"marketCap": "6640054599",
+			"priceUsd": "2.14",
+			"country": "Taiwan"
+		},
+		{
+			"rank": "231",
+			"name": "Descartes Systems",
+			"symbol": "DSGX",
+			"marketCap": "6578230784",
+			"priceUsd": "77.32",
+			"country": "Canada"
+		},
+		{
+			"rank": "232",
+			"name": "AppLovin",
+			"symbol": "APP",
+			"marketCap": "6541706752",
+			"priceUsd": "17.62",
+			"country": "United States"
+		},
+		{
+			"rank": "233",
+			"name": "NCsoft",
+			"symbol": "036570.KS",
+			"marketCap": "6466959079",
+			"priceUsd": "318.45",
+			"country": "South Korea"
+		},
+		{
+			"rank": "234",
+			"name": "Kakao Pay",
+			"symbol": "377300.KS",
+			"marketCap": "6353082179",
+			"priceUsd": "47.44",
+			"country": "South Korea"
+		},
+		{
+			"rank": "235",
+			"name": "Wiwynn",
+			"symbol": "6669.TW",
+			"marketCap": "6322684409",
+			"priceUsd": "36.16",
+			"country": "Taiwan"
+		},
+		{
+			"rank": "236",
+			"name": "Embracer Group",
+			"symbol": "EMBRAC-B.ST",
+			"marketCap": "6300308551",
+			"priceUsd": "5",
+			"country": "Sweden"
+		},
+		{
+			"rank": "237",
+			"name": "Perfect World Entertainment",
+			"symbol": "002624.SZ",
+			"marketCap": "6146640195",
+			"priceUsd": "3.17",
+			"country": "China"
+		},
+		{
+			"rank": "238",
+			"name": "Realtek",
+			"symbol": "2379.TW",
+			"marketCap": "6122852642",
+			"priceUsd": "11.94",
+			"country": "Taiwan"
+		},
+		{
+			"rank": "239",
+			"name": "Coupa",
+			"symbol": "COUP",
+			"marketCap": "6116578816",
+			"priceUsd": "80.97",
+			"country": "United States"
+		},
+		{
+			"rank": "240",
+			"name": "Carsales",
+			"symbol": "CAR.AX",
+			"marketCap": "6084489458",
+			"priceUsd": "16.15",
+			"country": "Australia"
+		},
+		{
+			"rank": "241",
+			"name": "Nan Ya PCB",
+			"symbol": "8046.TW",
+			"marketCap": "6028463923",
+			"priceUsd": "9.33",
+			"country": "Taiwan"
+		},
+		{
+			"rank": "242",
+			"name": "Globant",
+			"symbol": "GLOB",
+			"marketCap": "5982868480",
+			"priceUsd": "140.99",
+			"country": "Luxembourg"
+		},
+		{
+			"rank": "243",
+			"name": "monday.com",
+			"symbol": "MNDY",
+			"marketCap": "5943368704",
+			"priceUsd": "124.5",
+			"country": "Israel"
+		},
+		{
+			"rank": "244",
+			"name": "Silergy",
+			"symbol": "6415.TW",
+			"marketCap": "5878392873",
+			"priceUsd": "15.41",
+			"country": "China"
+		},
+		{
+			"rank": "245",
+			"name": "Futu Holdings",
+			"symbol": "FUTU",
+			"marketCap": "5761175040",
+			"priceUsd": "41.26",
+			"country": "Hong Kong"
+		},
+		{
+			"rank": "246",
+			"name": "Kingsoft",
+			"symbol": "3888.HK",
+			"marketCap": "5749743346",
+			"priceUsd": "4.23",
+			"country": "China"
+		},
+		{
+			"rank": "247",
+			"name": "Topicus",
+			"symbol": "TOI.V",
+			"marketCap": "5737178336",
+			"priceUsd": "70.06",
+			"country": "Canada"
+		},
+		{
+			"rank": "248",
+			"name": "CCC Intelligent Solutions",
+			"symbol": "CCCS",
+			"marketCap": "5705091072",
+			"priceUsd": "9.08",
+			"country": "United States"
+		},
+		{
+			"rank": "249",
+			"name": "CyberArk",
+			"symbol": "CYBR",
+			"marketCap": "5696519680",
+			"priceUsd": "138.7",
+			"country": "Israel"
+		},
+		{
+			"rank": "250",
+			"name": "HashiCorp",
+			"symbol": "HCP",
+			"marketCap": "5680736256",
+			"priceUsd": "29.69",
+			"country": "United States"
+		},
+		{
+			"rank": "251",
+			"name": "Bumble",
+			"symbol": "BMBL",
+			"marketCap": "5664526848",
+			"priceUsd": "17.34",
+			"country": "United States"
+		},
+		{
+			"rank": "252",
+			"name": "iQIYI",
+			"symbol": "IQ",
+			"marketCap": "5663628800",
+			"priceUsd": "5.92",
+			"country": "China"
+		},
+		{
+			"rank": "253",
+			"name": "Temenos",
+			"symbol": "TEMN.SW",
+			"marketCap": "5659978878",
+			"priceUsd": "78.75",
+			"country": "Switzerland"
+		},
+		{
+			"rank": "254",
+			"name": "Nutanix",
+			"symbol": "NTNX",
+			"marketCap": "5644623360",
+			"priceUsd": "24.53",
+			"country": "United States"
+		},
+		{
+			"rank": "255",
+			"name": "Paytm",
+			"symbol": "PAYTM.NS",
+			"marketCap": "5643851026",
+			"priceUsd": "8.9",
+			"country": "India"
+		},
+		{
+			"rank": "256",
+			"name": "Nuvei",
+			"symbol": "NVEI",
+			"marketCap": "5590199808",
+			"priceUsd": "41.25",
+			"country": "Canada"
+		},
+		{
+			"rank": "257",
+			"name": "SPS Commerce",
+			"symbol": "SPSC",
+			"marketCap": "5589518336",
+			"priceUsd": "153",
+			"country": "United States"
+		},
+		{
+			"rank": "258",
+			"name": "Elastic NV",
+			"symbol": "ESTC",
+			"marketCap": "5548313088",
+			"priceUsd": "57.5",
+			"country": "United States"
+		},
+		{
+			"rank": "259",
+			"name": "Altair Engineering",
+			"symbol": "ALTR",
+			"marketCap": "5459950592",
+			"priceUsd": "67.65",
+			"country": "United States"
+		},
+		{
+			"rank": "260",
+			"name": "Smartsheet",
+			"symbol": "SMAR",
+			"marketCap": "5330498560",
+			"priceUsd": "40.11",
+			"country": "United States"
+		},
+		{
+			"rank": "261",
+			"name": "Soitec",
+			"symbol": "SOI.PA",
+			"marketCap": "5281387400",
+			"priceUsd": "148.57",
+			"country": "France"
+		},
+		{
+			"rank": "262",
+			"name": "Tata Elxsi",
+			"symbol": "TATAELXSI.NS",
+			"marketCap": "5196973746",
+			"priceUsd": "83.44",
+			"country": "India"
+		},
+		{
+			"rank": "263",
+			"name": "SoFi",
+			"symbol": "SOFI",
+			"marketCap": "5143654400",
+			"priceUsd": "5.47",
+			"country": "United States"
+		},
+		{
+			"rank": "264",
+			"name": "Wolfspeed",
+			"symbol": "WOLF",
+			"marketCap": "5140775936",
+			"priceUsd": "41.3",
+			"country": "United States"
+		},
+		{
+			"rank": "265",
+			"name": "Global-e",
+			"symbol": "GLBE",
+			"marketCap": "5126325248",
+			"priceUsd": "31.36",
+			"country": "Israel"
+		},
+		{
+			"rank": "266",
+			"name": "Clarivate",
+			"symbol": "CLVT",
+			"marketCap": "5113875968",
+			"priceUsd": "7.57",
+			"country": "United Kingdom"
+		},
+		{
+			"rank": "267",
+			"name": "New Relic",
+			"symbol": "NEWR",
+			"marketCap": "5063626752",
+			"priceUsd": "73.51",
+			"country": "United States"
+		},
+		{
+			"rank": "268",
+			"name": "SentinelOne",
+			"symbol": "S",
+			"marketCap": "5045094912",
+			"priceUsd": "17.48",
+			"country": "United States"
+		},
+		{
+			"rank": "269",
+			"name": "Alight",
+			"symbol": "ALIT",
+			"marketCap": "5035216896",
+			"priceUsd": "9.04",
+			"country": "United States"
+		},
+		{
+			"rank": "270",
+			"name": "Ocado",
+			"symbol": "OCDO.L",
+			"marketCap": "5003401271",
+			"priceUsd": "6.05",
+			"country": "United Kingdom"
+		},
+		{
+			"rank": "271",
+			"name": "Vanguard International Semiconductor",
+			"symbol": "5347.TWO",
+			"marketCap": "4860647288",
+			"priceUsd": "2.97",
+			"country": "Taiwan"
+		},
+		{
+			"rank": "272",
+			"name": "Telus International",
+			"symbol": "TIXT",
+			"marketCap": "4851568640",
+			"priceUsd": "17.91",
+			"country": "Canada"
+		},
+		{
+			"rank": "273",
+			"name": "Tower Semiconductor",
+			"symbol": "TSEM",
+			"marketCap": "4794918912",
+			"priceUsd": "42.79",
+			"country": "Israel"
+		},
+		{
+			"rank": "274",
+			"name": "Workiva",
+			"symbol": "WK",
+			"marketCap": "4714888192",
+			"priceUsd": "88.31",
+			"country": "United States"
+		},
+		{
+			"rank": "275",
+			"name": "Sega Sammy Holdings",
+			"symbol": "6460.T",
+			"marketCap": "4663965246",
+			"priceUsd": "21.13",
+			"country": "Japan"
+		},
+		{
+			"rank": "276",
+			"name": "GitLab",
+			"symbol": "GTLB",
+			"marketCap": "4585878016",
+			"priceUsd": "30.21",
+			"country": "United States"
+		},
+		{
+			"rank": "277",
+			"name": "Wix.com",
+			"symbol": "WIX",
+			"marketCap": "4581247488",
+			"priceUsd": "77.93",
+			"country": "Israel"
+		},
+		{
+			"rank": "278",
+			"name": "Power Integrations",
+			"symbol": "POWI",
+			"marketCap": "4548531712",
+			"priceUsd": "79.31",
+			"country": "United States"
+		},
+		{
+			"rank": "279",
+			"name": "Teradata",
+			"symbol": "TDC",
+			"marketCap": "4529076224",
+			"priceUsd": "44.25",
+			"country": "United States"
+		},
+		{
+			"rank": "280",
+			"name": "Nykaa",
+			"symbol": "NYKAA.NS",
+			"marketCap": "4528193586",
+			"priceUsd": "1.59",
+			"country": "India"
+		},
+		{
+			"rank": "281",
+			"name": "DoubleVerify",
+			"symbol": "DV",
+			"marketCap": "4514649088",
+			"priceUsd": "27.17",
+			"country": "United States"
+		},
+		{
+			"rank": "282",
+			"name": "eMemory Technology",
+			"symbol": "3529.TWO",
+			"marketCap": "4509849789",
+			"priceUsd": "60.44",
+			"country": "Taiwan"
+		},
+		{
+			"rank": "283",
+			"name": "HelloFresh",
+			"symbol": "HFG.DE",
+			"marketCap": "4484506461",
+			"priceUsd": "26.12",
+			"country": "Germany"
+		},
+		{
+			"rank": "284",
+			"name": "CyberAgent",
+			"symbol": "4751.T",
+			"marketCap": "4474153762",
+			"priceUsd": "8.84",
+			"country": "Japan"
+		},
+		{
+			"rank": "285",
+			"name": "Coherent",
+			"symbol": "COHR",
+			"marketCap": "4458883500",
+			"priceUsd": "32.15",
+			"country": "United States"
+		},
+		{
+			"rank": "286",
+			"name": "Wayfair",
+			"symbol": "W",
+			"marketCap": "4446182912",
+			"priceUsd": "39.97",
+			"country": "United States"
+		},
+		{
+			"rank": "287",
+			"name": "Hisense Visual Technology",
+			"symbol": "600060.SS",
+			"marketCap": "4402743666",
+			"priceUsd": "3.37",
+			"country": "China"
+		},
+		{
+			"rank": "288",
+			"name": "Schibsted",
+			"symbol": "SCHA.OL",
+			"marketCap": "4383054049",
+			"priceUsd": "19.96",
+			"country": "Norway"
+		},
+		{
+			"rank": "289",
+			"name": "Silicon Labs",
+			"symbol": "SLAB",
+			"marketCap": "4380375552",
+			"priceUsd": "136.9",
+			"country": "United States"
+		},
+		{
+			"rank": "290",
+			"name": "Clearwater Analytics",
+			"symbol": "CWAN",
+			"marketCap": "4375409152",
+			"priceUsd": "14.66",
+			"country": "United States"
+		},
+		{
+			"rank": "291",
+			"name": "Teladoc Health",
+			"symbol": "TDOC",
+			"marketCap": "4270176512",
+			"priceUsd": "26.09",
+			"country": "United States"
+		},
+		{
+			"rank": "292",
+			"name": "Technoprobe",
+			"symbol": "TPRO.MI",
+			"marketCap": "4268682883",
+			"priceUsd": "7.11",
+			"country": "Italy"
+		},
+		{
+			"rank": "293",
+			"name": "Qualys",
+			"symbol": "QLYS",
+			"marketCap": "4260277760",
+			"priceUsd": "115.31",
+			"country": "United States"
+		},
+		{
+			"rank": "294",
+			"name": "dLocal",
+			"symbol": "DLO",
+			"marketCap": "4260041984",
+			"priceUsd": "14.5",
+			"country": "Uruguay"
+		},
+		{
+			"rank": "295",
+			"name": "SimCorp",
+			"symbol": "SIM.CO",
+			"marketCap": "4219288339",
+			"priceUsd": "107.09",
+			"country": "Denmark"
+		},
+		{
+			"rank": "296",
+			"name": "Onto Innovation",
+			"symbol": "ONTO",
+			"marketCap": "4217144576",
+			"priceUsd": "86.16",
+			"country": "United States"
+		},
+		{
+			"rank": "297",
+			"name": "Tenable",
+			"symbol": "TENB",
+			"marketCap": "4201739520",
+			"priceUsd": "36.59",
+			"country": "United States"
+		},
+		{
+			"rank": "298",
+			"name": "Informatica",
+			"symbol": "INFA",
+			"marketCap": "4199566080",
+			"priceUsd": "14.67",
+			"country": "United States"
+		},
+		{
+			"rank": "299",
+			"name": "Cvent",
+			"symbol": "CVT",
+			"marketCap": "4154197248",
+			"priceUsd": "8.45",
+			"country": "United States"
+		},
+		{
+			"rank": "300",
+			"name": "Five9",
+			"symbol": "FIVN",
+			"marketCap": "4109967616",
+			"priceUsd": "57.45",
+			"country": "United States"
+		},
+		{
+			"rank": "301",
+			"name": "Powerchip Semiconductor Manufacturing",
+			"symbol": "6770.TW",
+			"marketCap": "4053619793",
+			"priceUsd": "1",
+			"country": "Taiwan"
+		},
+		{
+			"rank": "302",
+			"name": "Maxar Technologies",
+			"symbol": "MAXR",
+			"marketCap": "4003368448",
+			"priceUsd": "52.99",
+			"country": "United States"
+		},
+		{
+			"rank": "303",
+			"name": "Paycor",
+			"symbol": "PYCR",
+			"marketCap": "4001613824",
+			"priceUsd": "22.68",
+			"country": "United States"
+		},
+		{
+			"rank": "304",
+			"name": "Just Eat Takeaway",
+			"symbol": "TKWY.AS",
+			"marketCap": "3939746835",
+			"priceUsd": "17.91",
+			"country": "Netherlands"
+		},
+		{
+			"rank": "305",
+			"name": "Axcelis Technologies",
+			"symbol": "ACLS",
+			"marketCap": "3928429056",
+			"priceUsd": "120.04",
+			"country": "United States"
+		},
+		{
+			"rank": "306",
+			"name": "Freshworks",
+			"symbol": "FRSH",
+			"marketCap": "3924607488",
+			"priceUsd": "13.48",
+			"country": "United States"
+		},
+		{
+			"rank": "307",
+			"name": "Lufax",
+			"symbol": "LU",
+			"marketCap": "3919696128",
+			"priceUsd": "1.71",
+			"country": "China"
+		},
+		{
+			"rank": "308",
+			"name": "Weibo",
+			"symbol": "WB",
+			"marketCap": "3884420096",
+			"priceUsd": "16.2",
+			"country": "China"
+		},
+		{
+			"rank": "309",
+			"name": "Box",
+			"symbol": "BOX",
+			"marketCap": "3878810624",
+			"priceUsd": "26.88",
+			"country": "United States"
+		},
+		{
+			"rank": "310",
+			"name": "MicroStrategy",
+			"symbol": "MSTR",
+			"marketCap": "3818540288",
+			"priceUsd": "294.67",
+			"country": "United States"
+		},
+		{
+			"rank": "311",
+			"name": "Nikon",
+			"symbol": "NINOY",
+			"marketCap": "3796865280",
+			"priceUsd": "10.53",
+			"country": "Japan"
+		},
+		{
+			"rank": "312",
+			"name": "Jubilant FoodWorks",
+			"symbol": "JUBLFOOD.NS",
+			"marketCap": "3784464844",
+			"priceUsd": "5.74",
+			"country": "India"
+		},
+		{
+			"rank": "313",
+			"name": "Kinaxis",
+			"symbol": "KXS.TO",
+			"marketCap": "3780161768",
+			"priceUsd": "133.68",
+			"country": "Canada"
+		},
+		{
+			"rank": "314",
+			"name": "Blackbaud",
+			"symbol": "BLKB",
+			"marketCap": "3778013952",
+			"priceUsd": "70.14",
+			"country": "United States"
+		},
+		{
+			"rank": "315",
+			"name": "Playtika",
+			"symbol": "PLTK",
+			"marketCap": "3769439488",
+			"priceUsd": "10.17",
+			"country": "Israel"
+		},
+		{
+			"rank": "316",
+			"name": "NEXTDC",
+			"symbol": "NXT.AX",
+			"marketCap": "3755314172",
+			"priceUsd": "8.19",
+			"country": "Australia"
+		},
+		{
+			"rank": "317",
+			"name": "Certara",
+			"symbol": "CERT",
+			"marketCap": "3738159872",
+			"priceUsd": "23.42",
+			"country": "United States"
+		},
+		{
+			"rank": "318",
+			"name": "Squarespace",
+			"symbol": "SQSP",
+			"marketCap": "3738083072",
+			"priceUsd": "27.66",
+			"country": "United States"
+		},
+		{
+			"rank": "319",
+			"name": "Autohome",
+			"symbol": "ATHM",
+			"marketCap": "3710873344",
+			"priceUsd": "29.61",
+			"country": "China"
+		},
+		{
+			"rank": "320",
+			"name": "Ubisoft",
+			"symbol": "UBI.PA",
+			"marketCap": "3649388304",
+			"priceUsd": "29.17",
+			"country": "France"
+		},
+		{
+			"rank": "321",
+			"name": "Instructure Holdings",
+			"symbol": "INST",
+			"marketCap": "3647236352",
+			"priceUsd": "25.42",
+			"country": "United States"
+		},
+		{
+			"rank": "322",
+			"name": "Pegasystems",
+			"symbol": "PEGA",
+			"marketCap": "3639507712",
+			"priceUsd": "43.87",
+			"country": "United States"
+		},
+		{
+			"rank": "323",
+			"name": "Asana",
+			"symbol": "ASAN",
+			"marketCap": "3605505024",
+			"priceUsd": "16.64",
+			"country": "United States"
+		},
+		{
+			"rank": "324",
+			"name": "TietoEVRY",
+			"symbol": "TIETO.HE",
+			"marketCap": "3463822987",
+			"priceUsd": "29.26",
+			"country": "Finland"
+		},
+		{
+			"rank": "325",
+			"name": "PB Fintech",
+			"symbol": "POLICYBZR.NS",
+			"marketCap": "3404538738",
+			"priceUsd": "7.56",
+			"country": "India"
+		},
+		{
+			"rank": "326",
+			"name": "Mercari",
+			"symbol": "4385.T",
+			"marketCap": "3332769147",
+			"priceUsd": "20.65",
+			"country": "Japan"
+		},
+		{
+			"rank": "327",
+			"name": "Softcat",
+			"symbol": "SCT.L",
+			"marketCap": "3325175017",
+			"priceUsd": "16.67",
+			"country": "United Kingdom"
+		},
+		{
+			"rank": "328",
+			"name": "Bayanat AI",
+			"symbol": "BAYANAT.AE",
+			"marketCap": "3305592194",
+			"priceUsd": "1.29",
+			"country": "United Arab Emirates"
+		},
+		{
+			"rank": "329",
+			"name": "Lumentum",
+			"symbol": "LITE",
+			"marketCap": "3280464896",
+			"priceUsd": "47.89",
+			"country": "United States"
+		},
+		{
+			"rank": "330",
+			"name": "Flywire",
+			"symbol": "FLYW",
+			"marketCap": "3276268288",
+			"priceUsd": "29.62",
+			"country": "United States"
+		},
+		{
+			"rank": "331",
+			"name": "ASM Pacific Technology",
+			"symbol": "0522.HK",
+			"marketCap": "3275098972",
+			"priceUsd": "7.94",
+			"country": "Hong Kong"
+		},
+		{
+			"rank": "332",
+			"name": "Aixtron",
+			"symbol": "AIXA.F",
+			"marketCap": "3274650889",
+			"priceUsd": "29.07",
+			"country": "Germany"
+		},
+		{
+			"rank": "333",
+			"name": "Remitly",
+			"symbol": "RELY",
+			"marketCap": "3234585600",
+			"priceUsd": "18.18",
+			"country": "United States"
+		},
+		{
+			"rank": "334",
+			"name": "Lyft",
+			"symbol": "LYFT",
+			"marketCap": "3229170432",
+			"priceUsd": "8.54",
+			"country": "United States"
+		},
+		{
+			"rank": "335",
+			"name": "LifeStance Health Group",
+			"symbol": "LFST",
+			"marketCap": "3202485504",
+			"priceUsd": "8.5",
+			"country": "United States"
+		},
+		{
+			"rank": "336",
+			"name": "BlackLine",
+			"symbol": "BL",
+			"marketCap": "3184941824",
+			"priceUsd": "52.76",
+			"country": "United States"
+		},
+		{
+			"rank": "337",
+			"name": "NCR Corporation",
+			"symbol": "NCR",
+			"marketCap": "3178656000",
+			"priceUsd": "22.64",
+			"country": "United States"
+		},
+		{
+			"rank": "338",
+			"name": "United Internet",
+			"symbol": "UTDI.F",
+			"marketCap": "3145224913",
+			"priceUsd": "16.21",
+			"country": "Germany"
+		},
+		{
+			"rank": "339",
+			"name": "Sanmina",
+			"symbol": "SANM",
+			"marketCap": "3112216320",
+			"priceUsd": "53.33",
+			"country": "United States"
+		},
+		{
+			"rank": "340",
+			"name": "Vertex",
+			"symbol": "VERX",
+			"marketCap": "3102197504",
+			"priceUsd": "20.54",
+			"country": "United States"
+		},
+		{
+			"rank": "341",
+			"name": "Envestnet",
+			"symbol": "ENV",
+			"marketCap": "3075750400",
+			"priceUsd": "56.57",
+			"country": "United States"
+		},
+		{
+			"rank": "342",
+			"name": "Synaptics",
+			"symbol": "SYNA",
+			"marketCap": "3037016320",
+			"priceUsd": "76.84",
+			"country": "United States"
+		},
+		{
+			"rank": "343",
+			"name": "Sprinklr",
+			"symbol": "CXM",
+			"marketCap": "3020635136",
+			"priceUsd": "11.36",
+			"country": "United States"
+		},
+		{
+			"rank": "344",
+			"name": "SUSE S.A.",
+			"symbol": "SUSE.DE",
+			"marketCap": "3013468834",
+			"priceUsd": "17.79",
+			"country": "Luxembourg"
+		},
+		{
+			"rank": "345",
+			"name": "Vishay Intertechnology",
+			"symbol": "VSH",
+			"marketCap": "3012300800",
+			"priceUsd": "21.5",
+			"country": "United States"
+		},
+		{
+			"rank": "346",
+			"name": "Endava",
+			"symbol": "DAVA",
+			"marketCap": "3001459968",
+			"priceUsd": "52.74",
+			"country": "United Kingdom"
+		},
+		{
+			"rank": "347",
+			"name": "EVO Payments",
+			"symbol": "EVOP",
+			"marketCap": "2995331584",
+			"priceUsd": "33.99",
+			"country": "United States"
+		},
+		{
+			"rank": "348",
+			"name": "KPIT Technologies",
+			"symbol": "KPITTECH.NS",
+			"marketCap": "2980492991",
+			"priceUsd": "10.87",
+			"country": "India"
+		},
+		{
+			"rank": "349",
+			"name": "DigitalOcean",
+			"symbol": "DOCN",
+			"marketCap": "2957034752",
+			"priceUsd": "33.21",
+			"country": "United States"
+		},
+		{
+			"rank": "350",
+			"name": "360 DigiTech",
+			"symbol": "QFIN",
+			"marketCap": "2938660864",
+			"priceUsd": "17.78",
+			"country": "China"
+		},
+		{
+			"rank": "351",
+			"name": "TeamViewer",
+			"symbol": "TMV.DE",
+			"marketCap": "2932229099",
+			"priceUsd": "16.53",
+			"country": "Germany"
+		},
+		{
+			"rank": "352",
+			"name": "Omnicell",
+			"symbol": "OMCL",
+			"marketCap": "2929478400",
+			"priceUsd": "65",
+			"country": "United States"
+		},
+		{
+			"rank": "353",
+			"name": "BlackBerry",
+			"symbol": "BB",
+			"marketCap": "2890123008",
+			"priceUsd": "4.98",
+			"country": "Canada"
+		},
+		{
+			"rank": "354",
+			"name": "Acer",
+			"symbol": "2353.TW",
+			"marketCap": "2879202213",
+			"priceUsd": "0.96",
+			"country": "Taiwan"
+		},
+		{
+			"rank": "355",
+			"name": "Rapid7",
+			"symbol": "RPD",
+			"marketCap": "2871925760",
+			"priceUsd": "47.61",
+			"country": "United States"
+		},
+		{
+			"rank": "356",
+			"name": "Calix",
+			"symbol": "CALX",
+			"marketCap": "2823323392",
+			"priceUsd": "42.62",
+			"country": "United States"
+		},
+		{
+			"rank": "357",
+			"name": "Rumble",
+			"symbol": "RUM",
+			"marketCap": "2757804288",
+			"priceUsd": "9.88",
+			"country": "United States"
+		},
+		{
+			"rank": "358",
+			"name": "Commvault",
+			"symbol": "CVLT",
+			"marketCap": "2748047616",
+			"priceUsd": "61.68",
+			"country": "United States"
+		},
+		{
+			"rank": "359",
+			"name": "Braze",
+			"symbol": "BRZE",
+			"marketCap": "2741649664",
+			"priceUsd": "28.49",
+			"country": "United States"
+		},
+		{
+			"rank": "360",
+			"name": "PowerSchool",
+			"symbol": "PWSC",
+			"marketCap": "2739490304",
+			"priceUsd": "16.82",
+			"country": "United States"
+		},
+		{
+			"rank": "361",
+			"name": "EngageSmart",
+			"symbol": "ESMT",
+			"marketCap": "2729599488",
+			"priceUsd": "16.37",
+			"country": "United States"
+		},
+		{
+			"rank": "362",
+			"name": "CompuGroup Medical",
+			"symbol": "COP.DE",
+			"marketCap": "2721810828",
+			"priceUsd": "52.11",
+			"country": "Germany"
+		},
+		{
+			"rank": "363",
+			"name": "MakeMyTrip",
+			"symbol": "MMYT",
+			"marketCap": "2691856128",
+			"priceUsd": "25.57",
+			"country": "India"
+		},
+		{
+			"rank": "364",
+			"name": "PagerDuty",
+			"symbol": "PD",
+			"marketCap": "2682558208",
+			"priceUsd": "29.13",
+			"country": "United States"
+		},
+		{
+			"rank": "365",
+			"name": "Nova Measuring Instruments",
+			"symbol": "NVMI",
+			"marketCap": "2673991424",
+			"priceUsd": "93.09",
+			"country": "Israel"
+		},
+		{
+			"rank": "366",
+			"name": "Software AG",
+			"symbol": "SOW.F",
+			"marketCap": "2659384572",
+			"priceUsd": "35.95",
+			"country": "Germany"
+		},
+		{
+			"rank": "367",
+			"name": "Ambarella",
+			"symbol": "AMBA",
+			"marketCap": "2652758784",
+			"priceUsd": "67.02",
+			"country": "United States"
+		},
+		{
+			"rank": "368",
+			"name": "Kulicke and Soffa Industries",
+			"symbol": "KLIC",
+			"marketCap": "2651859968",
+			"priceUsd": "46.78",
+			"country": "Singapore"
+		},
+		{
+			"rank": "369",
+			"name": "ACI Worldwide",
+			"symbol": "ACIW",
+			"marketCap": "2638724096",
+			"priceUsd": "24.36",
+			"country": "United States"
+		},
+		{
+			"rank": "370",
+			"name": "Darktrace",
+			"symbol": "DARK.L",
+			"marketCap": "2612333340",
+			"priceUsd": "3.7",
+			"country": "United Kingdom"
+		},
+		{
+			"rank": "371",
+			"name": "Appian",
+			"symbol": "APPN",
+			"marketCap": "2585684992",
+			"priceUsd": "35.5",
+			"country": "United States"
+		},
+		{
+			"rank": "372",
+			"name": "RingCentral",
+			"symbol": "RNG",
+			"marketCap": "2581985280",
+			"priceUsd": "26.69",
+			"country": "United States"
+		},
+		{
+			"rank": "373",
+			"name": "CD Projekt",
+			"symbol": "CDR.WA",
+			"marketCap": "2581463769",
+			"priceUsd": "25.84",
+			"country": "Poland"
+		},
+		{
+			"rank": "374",
+			"name": "Vivint Smart Home",
+			"symbol": "VVNT",
+			"marketCap": "2576327936",
+			"priceUsd": "12",
+			"country": "United States"
+		},
+		{
+			"rank": "375",
+			"name": "Alteryx",
+			"symbol": "AYX",
+			"marketCap": "2558028544",
+			"priceUsd": "36.31",
+			"country": "United States"
+		},
+		{
+			"rank": "376",
+			"name": "Varonis",
+			"symbol": "VRNS",
+			"marketCap": "2545821440",
+			"priceUsd": "23.19",
+			"country": "United States"
+		},
+		{
+			"rank": "377",
+			"name": "Duck Creek Technologies",
+			"symbol": "DCT",
+			"marketCap": "2523732992",
+			"priceUsd": "18.99",
+			"country": "United States"
+		},
+		{
+			"rank": "378",
+			"name": "Impinj",
+			"symbol": "PI",
+			"marketCap": "2523138560",
+			"priceUsd": "94.63",
+			"country": "United States"
+		},
+		{
+			"rank": "379",
+			"name": "Getty Images",
+			"symbol": "GETY",
+			"marketCap": "2522570496",
+			"priceUsd": "6.3",
+			"country": "United States"
+		},
+		{
+			"rank": "380",
+			"name": "nCino",
+			"symbol": "NCNO",
+			"marketCap": "2518148608",
+			"priceUsd": "22.51",
+			"country": "United States"
+		},
+		{
+			"rank": "381",
+			"name": "Hims &amp; Hers Health",
+			"symbol": "HIMS",
+			"marketCap": "2480358912",
+			"priceUsd": "11.85",
+			"country": "United States"
+		},
+		{
+			"rank": "382",
+			"name": "Paradox Interactive",
+			"symbol": "PDX.ST",
+			"marketCap": "2462532618",
+			"priceUsd": "23.32",
+			"country": "Sweden"
+		},
+		{
+			"rank": "383",
+			"name": "Luminar Technologies",
+			"symbol": "LAZR",
+			"marketCap": "2450351360",
+			"priceUsd": "6.49",
+			"country": "United States"
+		},
+		{
+			"rank": "384",
+			"name": "Intapp",
+			"symbol": "INTA",
+			"marketCap": "2418743296",
+			"priceUsd": "37.94",
+			"country": "United States"
+		},
+		{
+			"rank": "385",
+			"name": "Marqeta",
+			"symbol": "MQ",
+			"marketCap": "2411076096",
+			"priceUsd": "4.46",
+			"country": "United States"
+		},
+		{
+			"rank": "386",
+			"name": "Progress Software",
+			"symbol": "PRGS",
+			"marketCap": "2332520448",
+			"priceUsd": "53.86",
+			"country": "United States"
+		},
+		{
+			"rank": "387",
+			"name": "EverCommerce",
+			"symbol": "EVCM",
+			"marketCap": "2320841216",
+			"priceUsd": "12.31",
+			"country": "United States"
+		},
+		{
+			"rank": "388",
+			"name": "Xerox",
+			"symbol": "XRX",
+			"marketCap": "2311991296",
+			"priceUsd": "14.73",
+			"country": "United States"
+		},
+		{
+			"rank": "389",
+			"name": "WIN Semiconductors",
+			"symbol": "3105.TWO",
+			"marketCap": "2310109024",
+			"priceUsd": "5.45",
+			"country": "Taiwan"
+		},
+		{
+			"rank": "390",
+			"name": "Lumen",
+			"symbol": "LUMN",
+			"marketCap": "2309958912",
+			"priceUsd": "2.3",
+			"country": "United States"
+		},
+		{
+			"rank": "391",
+			"name": "N-Able",
+			"symbol": "NABL",
+			"marketCap": "2302780672",
+			"priceUsd": "12.65",
+			"country": "United States"
+		},
+		{
+			"rank": "392",
+			"name": "Chindata",
+			"symbol": "CD",
+			"marketCap": "2261922048",
+			"priceUsd": "6.17",
+			"country": "China"
+		},
+		{
+			"rank": "393",
+			"name": "IndiaMART",
+			"symbol": "INDIAMART.NS",
+			"marketCap": "2255363365",
+			"priceUsd": "73.67",
+			"country": "India"
+		},
+		{
+			"rank": "394",
+			"name": "VisEra Technologies",
+			"symbol": "6789.TW",
+			"marketCap": "2245711871",
+			"priceUsd": "7.12",
+			"country": "Taiwan"
+		},
+		{
+			"rank": "395",
+			"name": "Sprout Social",
+			"symbol": "SPT",
+			"marketCap": "2234743296",
+			"priceUsd": "40.34",
+			"country": "United States"
+		},
+		{
+			"rank": "396",
+			"name": "Qt Group",
+			"symbol": "QTCOM.HE",
+			"marketCap": "2215963318",
+			"priceUsd": "87.27",
+			"country": "Finland"
+		},
+		{
+			"rank": "397",
+			"name": "Jamf",
+			"symbol": "JAMF",
+			"marketCap": "2215647744",
+			"priceUsd": "17.87",
+			"country": "United States"
+		},
+		{
+			"rank": "398",
+			"name": "Playtech",
+			"symbol": "PTEC.L",
+			"marketCap": "2208757072",
+			"priceUsd": "7.14",
+			"country": "Isle of Man"
+		},
+		{
+			"rank": "399",
+			"name": "Verint Systems",
+			"symbol": "VRNT",
+			"marketCap": "2199928320",
+			"priceUsd": "33.79",
+			"country": "United States"
+		},
+		{
+			"rank": "400",
+			"name": "Lightspeed POS",
+			"symbol": "LSPD",
+			"marketCap": "2199705088",
+			"priceUsd": "14.59",
+			"country": "Canada"
+		},
+		{
+			"rank": "401",
+			"name": "Jfrog",
+			"symbol": "FROG",
+			"marketCap": "2183735040",
+			"priceUsd": "21.47",
+			"country": "United States"
+		},
+		{
+			"rank": "402",
+			"name": "C3 AI",
+			"symbol": "AI",
+			"marketCap": "2157798144",
+			"priceUsd": "19.23",
+			"country": "United States"
+		},
+		{
+			"rank": "403",
+			"name": "FormFactor",
+			"symbol": "FORM",
+			"marketCap": "2157619712",
+			"priceUsd": "27.97",
+			"country": "United States"
+		},
+		{
+			"rank": "404",
+			"name": "SoftwareONE",
+			"symbol": "SWON.SW",
+			"marketCap": "2150707161",
+			"priceUsd": "13.87",
+			"country": "Switzerland"
+		},
+		{
+			"rank": "405",
+			"name": "Nordic Semiconductor",
+			"symbol": "NOD.OL",
+			"marketCap": "2137786323",
+			"priceUsd": "11.14",
+			"country": "Norway"
+		},
+		{
+			"rank": "406",
+			"name": "OVH Groupe",
+			"symbol": "OVH.PA",
+			"marketCap": "2093515420",
+			"priceUsd": "10.99",
+			"country": "France"
+		},
+		{
+			"rank": "407",
+			"name": "NETSCOUT",
+			"symbol": "NTCT",
+			"marketCap": "2084872448",
+			"priceUsd": "29.38",
+			"country": "United States"
+		},
+		{
+			"rank": "408",
+			"name": "THG (The Hut Group)",
+			"symbol": "THG.L",
+			"marketCap": "2071271391",
+			"priceUsd": "1.2",
+			"country": "United Kingdom"
+		},
+		{
+			"rank": "409",
+			"name": "Siltronic",
+			"symbol": "WAF.F",
+			"marketCap": "2070215915",
+			"priceUsd": "68.26",
+			"country": "Germany"
+		},
+		{
+			"rank": "410",
+			"name": "JOYY",
+			"symbol": "YY",
+			"marketCap": "2038890240",
+			"priceUsd": "29.71",
+			"country": "China"
+		},
+		{
+			"rank": "411",
+			"name": "Silicon Motion",
+			"symbol": "SIMO",
+			"marketCap": "2013123840",
+			"priceUsd": "60.26",
+			"country": "Hong Kong"
+		},
+		{
+			"rank": "412",
+			"name": "Payoneer",
+			"symbol": "PAYO",
+			"marketCap": "1997152000",
+			"priceUsd": "5.56",
+			"country": "United States"
+		},
+		{
+			"rank": "413",
+			"name": "Schr\u00f6dinger",
+			"symbol": "SDGR",
+			"marketCap": "1984239488",
+			"priceUsd": "27.74",
+			"country": "United States"
+		},
+		{
+			"rank": "414",
+			"name": "Exclusive Networks",
+			"symbol": "EXN.PA",
+			"marketCap": "1964757254",
+			"priceUsd": "21.46",
+			"country": "France"
+		},
+		{
+			"rank": "415",
+			"name": "Yelp",
+			"symbol": "YELP",
+			"marketCap": "1937271040",
+			"priceUsd": "28.03",
+			"country": "United States"
+		},
+		{
+			"rank": "416",
+			"name": "Kainos Group",
+			"symbol": "KNOS.L",
+			"marketCap": "1929230769",
+			"priceUsd": "15.48",
+			"country": "United Kingdom"
+		},
+		{
+			"rank": "417",
+			"name": "Shutterstock",
+			"symbol": "SSTK",
+			"marketCap": "1920065536",
+			"priceUsd": "53.26",
+			"country": "United States"
+		},
+		{
+			"rank": "418",
+			"name": "Agilysys",
+			"symbol": "AGYS",
+			"marketCap": "1919382784",
+			"priceUsd": "76.14",
+			"country": "United States"
+		},
+		{
+			"rank": "419",
+			"name": "Formosa Sumco Technology",
+			"symbol": "3532.TW",
+			"marketCap": "1908499078",
+			"priceUsd": "4.92",
+			"country": "Taiwan"
+		},
+		{
+			"rank": "420",
+			"name": "MaxLinear",
+			"symbol": "MXL",
+			"marketCap": "1907549312",
+			"priceUsd": "23.85",
+			"country": "United States"
+		},
+		{
+			"rank": "421",
+			"name": "SiTime",
+			"symbol": "SITM",
+			"marketCap": "1869854336",
+			"priceUsd": "85.18",
+			"country": "United States"
+		},
+		{
+			"rank": "422",
+			"name": "Riot Blockchain",
+			"symbol": "RIOT",
+			"marketCap": "1818525440",
+			"priceUsd": "10.49",
+			"country": "United States"
+		},
+		{
+			"rank": "423",
+			"name": "Corsair Gaming",
+			"symbol": "CRSR",
+			"marketCap": "1812212608",
+			"priceUsd": "17.76",
+			"country": "United States"
+		},
+		{
+			"rank": "424",
+			"name": "ZipRecruiter",
+			"symbol": "ZIP",
+			"marketCap": "1769030016",
+			"priceUsd": "17.31",
+			"country": "United States"
+		},
+		{
+			"rank": "425",
+			"name": "Criteo",
+			"symbol": "CRTO",
+			"marketCap": "1764915200",
+			"priceUsd": "31.52",
+			"country": "France"
+		},
+		{
+			"rank": "426",
+			"name": "Getnet",
+			"symbol": "GET",
+			"marketCap": "1754718720",
+			"priceUsd": "1.88",
+			"country": "Brazil"
+		},
+		{
+			"rank": "427",
+			"name": "ForgeRock",
+			"symbol": "FORG",
+			"marketCap": "1735462400",
+			"priceUsd": "19.67",
+			"country": "United States"
+		},
+		{
+			"rank": "428",
+			"name": "Zeta Global",
+			"symbol": "ZETA",
+			"marketCap": "1734061952",
+			"priceUsd": "8.27",
+			"country": "United States"
+		},
+		{
+			"rank": "429",
+			"name": "Aurora Innovation",
+			"symbol": "AUR",
+			"marketCap": "1711594496",
+			"priceUsd": "1.45",
+			"country": "United States"
+		},
+		{
+			"rank": "430",
+			"name": "Coursera",
+			"symbol": "COUR",
+			"marketCap": "1704632064",
+			"priceUsd": "11.31",
+			"country": "United States"
+		},
+		{
+			"rank": "431",
+			"name": "Asseco",
+			"symbol": "ACP.WA",
+			"marketCap": "1664993472",
+			"priceUsd": "20.06",
+			"country": "Poland"
+		},
+		{
+			"rank": "432",
+			"name": "DeNA",
+			"symbol": "2432.T",
+			"marketCap": "1655808895",
+			"priceUsd": "14.87",
+			"country": "Japan"
+		},
+		{
+			"rank": "433",
+			"name": "AvidXchange",
+			"symbol": "AVDX",
+			"marketCap": "1632355456",
+			"priceUsd": "8.12",
+			"country": "United States"
+		},
+		{
+			"rank": "434",
+			"name": "Mixi",
+			"symbol": "2121.T",
+			"marketCap": "1615397724",
+			"priceUsd": "22.26",
+			"country": "Japan"
+		},
+		{
+			"rank": "435",
+			"name": "VIZIO",
+			"symbol": "VZIO",
+			"marketCap": "1605968384",
+			"priceUsd": "8.49",
+			"country": "United States"
+		},
+		{
+			"rank": "436",
+			"name": "Trainline",
+			"symbol": "TRN.L",
+			"marketCap": "1605636986",
+			"priceUsd": "3.34",
+			"country": "United Kingdom"
+		},
+		{
+			"rank": "437",
+			"name": "Cohu",
+			"symbol": "COHU",
+			"marketCap": "1593951744",
+			"priceUsd": "33.75",
+			"country": "United States"
+		},
+		{
+			"rank": "438",
+			"name": "Bukalapak.com",
+			"symbol": "BUKA.JK",
+			"marketCap": "1593067252",
+			"priceUsd": "0.02",
+			"country": "Indonesia"
+		},
+		{
+			"rank": "439",
+			"name": "Fastly",
+			"symbol": "FSLY",
+			"marketCap": "1583689984",
+			"priceUsd": "12.47",
+			"country": "United States"
+		},
+		{
+			"rank": "440",
+			"name": "Phreesia",
+			"symbol": "PHR",
+			"marketCap": "1582509312",
+			"priceUsd": "29.66",
+			"country": "United States"
+		},
+		{
+			"rank": "441",
+			"name": "Perion Network",
+			"symbol": "PERI",
+			"marketCap": "1569740032",
+			"priceUsd": "33.74",
+			"country": "Israel"
+		},
+		{
+			"rank": "442",
+			"name": "Atoss",
+			"symbol": "AOF.F",
+			"marketCap": "1566823341",
+			"priceUsd": "196.35",
+			"country": "Germany"
+		},
+		{
+			"rank": "443",
+			"name": "Marathon Digital Holdings",
+			"symbol": "MARA",
+			"marketCap": "1560414592",
+			"priceUsd": "9.33",
+			"country": "United States"
+		},
+		{
+			"rank": "444",
+			"name": "CSG International",
+			"symbol": "CSGS",
+			"marketCap": "1544209920",
+			"priceUsd": "48.74",
+			"country": "United States"
+		},
+		{
+			"rank": "445",
+			"name": "LiveRamp",
+			"symbol": "RAMP",
+			"marketCap": "1541174656",
+			"priceUsd": "23.78",
+			"country": "United States"
+		},
+		{
+			"rank": "446",
+			"name": "LegalZoom",
+			"symbol": "LZ",
+			"marketCap": "1529592064",
+			"priceUsd": "8",
+			"country": "United States"
+		},
+		{
+			"rank": "447",
+			"name": "Enghouse Systems",
+			"symbol": "ENGH.TO",
+			"marketCap": "1509920884",
+			"priceUsd": "27.32",
+			"country": "Canada"
+		},
+		{
+			"rank": "448",
+			"name": "Harmonic",
+			"symbol": "HLIT",
+			"marketCap": "1501065344",
+			"priceUsd": "13.48",
+			"country": "United States"
+		},
+		{
+			"rank": "449",
+			"name": "secunet",
+			"symbol": "YSN.F",
+			"marketCap": "1495947019",
+			"priceUsd": "218.29",
+			"country": "Germany"
+		},
+		{
+			"rank": "450",
+			"name": "Sumo Logic",
+			"symbol": "SUMO",
+			"marketCap": "1494017664",
+			"priceUsd": "12.03",
+			"country": "United States"
+		},
+		{
+			"rank": "451",
+			"name": "PDF Solutions",
+			"symbol": "PDFS",
+			"marketCap": "1467625216",
+			"priceUsd": "38.78",
+			"country": "United States"
+		},
+		{
+			"rank": "452",
+			"name": "PROG Holdings",
+			"symbol": "PRG",
+			"marketCap": "1428964096",
+			"priceUsd": "30.57",
+			"country": "United States"
+		},
+		{
+			"rank": "453",
+			"name": "SolarWinds",
+			"symbol": "SWI",
+			"marketCap": "1419252992",
+			"priceUsd": "8.67",
+			"country": "United States"
+		},
+		{
+			"rank": "454",
+			"name": "Momentive Global",
+			"symbol": "MNTV",
+			"marketCap": "1411965312",
+			"priceUsd": "9.37",
+			"country": "United States"
+		},
+		{
+			"rank": "455",
+			"name": "Semrush",
+			"symbol": "SEMR",
+			"marketCap": "1397378432",
+			"priceUsd": "9.84",
+			"country": "United States"
+		},
+		{
+			"rank": "456",
+			"name": "Nagarro",
+			"symbol": "NA9.DE",
+			"marketCap": "1391379142",
+			"priceUsd": "101",
+			"country": "Germany"
+		},
+		{
+			"rank": "457",
+			"name": "E2open",
+			"symbol": "ETWO",
+			"marketCap": "1388038912",
+			"priceUsd": "4.59",
+			"country": "United States"
+		},
+		{
+			"rank": "458",
+			"name": "Kontron AG",
+			"symbol": "KTN.F",
+			"marketCap": "1375867731",
+			"priceUsd": "21.62",
+			"country": "Austria"
+		},
+		{
+			"rank": "459",
+			"name": "Revolve",
+			"symbol": "RVLV",
+			"marketCap": "1353492352",
+			"priceUsd": "18.44",
+			"country": "United States"
+		},
+		{
+			"rank": "460",
+			"name": "Amplitude",
+			"symbol": "AMPL",
+			"marketCap": "1340565632",
+			"priceUsd": "11.6",
+			"country": "United States"
+		},
+		{
+			"rank": "461",
+			"name": "Spirent",
+			"symbol": "SPT.L",
+			"marketCap": "1325780393",
+			"priceUsd": "2.18",
+			"country": "United Kingdom"
+		},
+		{
+			"rank": "462",
+			"name": "Allscripts",
+			"symbol": "MDRX",
+			"marketCap": "1315490432",
+			"priceUsd": "12.04",
+			"country": "United States"
+		},
+		{
+			"rank": "463",
+			"name": "Udemy",
+			"symbol": "UDMY",
+			"marketCap": "1315104128",
+			"priceUsd": "8.96",
+			"country": "United States"
+		},
+		{
+			"rank": "464",
+			"name": "Q2",
+			"symbol": "QTWO",
+			"marketCap": "1314697344",
+			"priceUsd": "22.59",
+			"country": "United States"
+		},
+		{
+			"rank": "465",
+			"name": "SIGNA Sports United",
+			"symbol": "SSU",
+			"marketCap": "1294507136",
+			"priceUsd": "3.34",
+			"country": "Germany"
+		},
+		{
+			"rank": "466",
+			"name": "MeridianLink",
+			"symbol": "MLNK",
+			"marketCap": "1293552256",
+			"priceUsd": "16.04",
+			"country": "United States"
+		},
+		{
+			"rank": "467",
+			"name": "Paya",
+			"symbol": "PAYA",
+			"marketCap": "1289819520",
+			"priceUsd": "9.74",
+			"country": "United States"
+		},
+		{
+			"rank": "468",
+			"name": "GungHo Online Entertainment",
+			"symbol": "3765.T",
+			"marketCap": "1281681466",
+			"priceUsd": "20.71",
+			"country": "Japan"
+		},
+		{
+			"rank": "469",
+			"name": "AMTD Digital",
+			"symbol": "HKD",
+			"marketCap": "1267365888",
+			"priceUsd": "6.62",
+			"country": "Hong Kong"
+		},
+		{
+			"rank": "470",
+			"name": "UCT (Ultra Clean Holdings)",
+			"symbol": "UCTT",
+			"marketCap": "1262797056",
+			"priceUsd": "27.79",
+			"country": "United States"
+		},
+		{
+			"rank": "471",
+			"name": "Bytes Technology",
+			"symbol": "BYIT.L",
+			"marketCap": "1261078370",
+			"priceUsd": "5.27",
+			"country": "United Kingdom"
+		},
+		{
+			"rank": "472",
+			"name": "Donnelley Financial Solutions",
+			"symbol": "DFIN",
+			"marketCap": "1250412800",
+			"priceUsd": "42.49",
+			"country": "United States"
+		},
+		{
+			"rank": "473",
+			"name": "Docebo",
+			"symbol": "DCBO",
+			"marketCap": "1239212160",
+			"priceUsd": "37.65",
+			"country": "Canada"
+		},
+		{
+			"rank": "474",
+			"name": "IonQ",
+			"symbol": "IONQ",
+			"marketCap": "1236199168",
+			"priceUsd": "6.15",
+			"country": "United States"
+		},
+		{
+			"rank": "475",
+			"name": "Sabre",
+			"symbol": "SABR",
+			"marketCap": "1235244672",
+			"priceUsd": "3.72",
+			"country": "United States"
+		},
+		{
+			"rank": "476",
+			"name": "Sapiens",
+			"symbol": "SPNS",
+			"marketCap": "1233875584",
+			"priceUsd": "22.37",
+			"country": "Israel"
+		},
+		{
+			"rank": "477",
+			"name": "tuya",
+			"symbol": "TUYA",
+			"marketCap": "1226439168",
+			"priceUsd": "2.13",
+			"country": "China"
+		},
+		{
+			"rank": "478",
+			"name": "Compass",
+			"symbol": "COMP",
+			"marketCap": "1211826048",
+			"priceUsd": "2.64",
+			"country": "United States"
+		},
+		{
+			"rank": "479",
+			"name": "Chegg",
+			"symbol": "CHGG",
+			"marketCap": "1209131648",
+			"priceUsd": "10.1",
+			"country": "United States"
+		},
+		{
+			"rank": "480",
+			"name": "PROS",
+			"symbol": "PRO",
+			"marketCap": "1208202368",
+			"priceUsd": "26.24",
+			"country": "United States"
+		},
+		{
+			"rank": "481",
+			"name": "Semtech",
+			"symbol": "SMTC",
+			"marketCap": "1198233600",
+			"priceUsd": "18.77",
+			"country": "United States"
+		},
+		{
+			"rank": "482",
+			"name": "Himax",
+			"symbol": "HIMX",
+			"marketCap": "1189523968",
+			"priceUsd": "6.82",
+			"country": "Taiwan"
+		},
+		{
+			"rank": "483",
+			"name": "Cimpress",
+			"symbol": "CMPR",
+			"marketCap": "1189259648",
+			"priceUsd": "45.18",
+			"country": "Ireland"
+		},
+		{
+			"rank": "484",
+			"name": "3D Systems",
+			"symbol": "DDD",
+			"marketCap": "1184936064",
+			"priceUsd": "9.09",
+			"country": "United States"
+		},
+		{
+			"rank": "485",
+			"name": "Digital Turbine",
+			"symbol": "APPS",
+			"marketCap": "1182429440",
+			"priceUsd": "11.92",
+			"country": "United States"
+		},
+		{
+			"rank": "486",
+			"name": "Hesai Group",
+			"symbol": "HSAI",
+			"marketCap": "1181284352",
+			"priceUsd": "9.41",
+			"country": "China"
+		},
+		{
+			"rank": "487",
+			"name": "Alkami Technology",
+			"symbol": "ALKT",
+			"marketCap": "1146879104",
+			"priceUsd": "12.35",
+			"country": "United States"
+		},
+		{
+			"rank": "488",
+			"name": "Model N",
+			"symbol": "MODN",
+			"marketCap": "1146380160",
+			"priceUsd": "30.38",
+			"country": "United States"
+		},
+		{
+			"rank": "489",
+			"name": "X-FAB",
+			"symbol": "XFAB.PA",
+			"marketCap": "1140630632",
+			"priceUsd": "8.73",
+			"country": "Belgium"
+		},
+		{
+			"rank": "490",
+			"name": "ePlus",
+			"symbol": "PLUS",
+			"marketCap": "1138481792",
+			"priceUsd": "42.31",
+			"country": "United States"
+		},
+		{
+			"rank": "491",
+			"name": "AT&amp;S Austria Technologie &amp; Systemtechnik",
+			"symbol": "ATS.VI",
+			"marketCap": "1134121717",
+			"priceUsd": "29.19",
+			"country": "Austria"
+		},
+		{
+			"rank": "492",
+			"name": "indie Semiconductor",
+			"symbol": "INDI",
+			"marketCap": "1131027584",
+			"priceUsd": "8.06",
+			"country": "United States"
+		},
+		{
+			"rank": "493",
+			"name": "Lemonade",
+			"symbol": "LMND",
+			"marketCap": "1129375616",
+			"priceUsd": "16.26",
+			"country": "United States"
+		},
+		{
+			"rank": "494",
+			"name": "Opera",
+			"symbol": "OPRA",
+			"marketCap": "1128418048",
+			"priceUsd": "12.56",
+			"country": "Norway"
+		},
+		{
+			"rank": "495",
+			"name": "Credo Technology",
+			"symbol": "CRDO",
+			"marketCap": "1126137856",
+			"priceUsd": "7.58",
+			"country": "United States"
+		},
+		{
+			"rank": "496",
+			"name": "TANLA",
+			"symbol": "TANLA.NS",
+			"marketCap": "1122344229",
+			"priceUsd": "8.35",
+			"country": "India"
+		},
+		{
+			"rank": "497",
+			"name": "Digi International",
+			"symbol": "DGII",
+			"marketCap": "1116987520",
+			"priceUsd": "31.25",
+			"country": "United States"
+		},
+		{
+			"rank": "498",
+			"name": "Terveystalo",
+			"symbol": "TTALO.HE",
+			"marketCap": "1110468011",
+			"priceUsd": "8.78",
+			"country": "Finland"
+		},
+		{
+			"rank": "499",
+			"name": "Redfin",
+			"symbol": "RDFN",
+			"marketCap": "1110266112",
+			"priceUsd": "10.02",
+			"country": "United States"
+		},
+		{
+			"rank": "500",
+			"name": "Upstart",
+			"symbol": "UPST",
+			"marketCap": "1105064960",
+			"priceUsd": "13.38",
+			"country": "United States"
+		},
+		{
+			"rank": "501",
+			"name": "Sterling Check",
+			"symbol": "STER",
+			"marketCap": "1104978432",
+			"priceUsd": "11.27",
+			"country": "United States"
+		},
+		{
+			"rank": "502",
+			"name": "Grindr",
+			"symbol": "GRND",
+			"marketCap": "1096987136",
+			"priceUsd": "6.31",
+			"country": "United States"
+		},
+		{
+			"rank": "503",
+			"name": "Truecaller",
+			"symbol": "TRUE-B.ST",
+			"marketCap": "1093600185",
+			"priceUsd": "3.02",
+			"country": "Sweden"
+		},
+		{
+			"rank": "504",
+			"name": "Olo",
+			"symbol": "OLO",
+			"marketCap": "1083498368",
+			"priceUsd": "6.8",
+			"country": "United States"
+		},
+		{
+			"rank": "505",
+			"name": "Cerence",
+			"symbol": "CRNC",
+			"marketCap": "1071231680",
+			"priceUsd": "26.63",
+			"country": "United States"
+		},
+		{
+			"rank": "506",
+			"name": "Cellebrite",
+			"symbol": "CLBT",
+			"marketCap": "1061060480",
+			"priceUsd": "5.45",
+			"country": "Israel"
+		},
+		{
+			"rank": "507",
+			"name": "Fiverr",
+			"symbol": "FVRR",
+			"marketCap": "1059097856",
+			"priceUsd": "28.05",
+			"country": "Israel"
+		},
+		{
+			"rank": "508",
+			"name": "TomTom",
+			"symbol": "TOM2.AS",
+			"marketCap": "1054130093",
+			"priceUsd": "8.14",
+			"country": "Netherlands"
+		},
+		{
+			"rank": "509",
+			"name": "Zuora",
+			"symbol": "ZUO",
+			"marketCap": "1050124992",
+			"priceUsd": "7.75",
+			"country": "United States"
+		},
+		{
+			"rank": "510",
+			"name": "Navitas Semiconductor",
+			"symbol": "NVTS",
+			"marketCap": "1040971200",
+			"priceUsd": "6.47",
+			"country": "Ireland"
+		},
+		{
+			"rank": "511",
+			"name": "Pushpay Holdings",
+			"symbol": "PPH.NZ",
+			"marketCap": "1036207865",
+			"priceUsd": "0.9",
+			"country": "New Zealand"
+		},
+		{
+			"rank": "512",
+			"name": "AST SpaceMobile",
+			"symbol": "ASTS",
+			"marketCap": "1025801472",
+			"priceUsd": "5.05",
+			"country": "United States"
+		},
+		{
+			"rank": "513",
+			"name": "EaseMyTrip",
+			"symbol": "EASEMYTRIP.NS",
+			"marketCap": "1023096511",
+			"priceUsd": "0.59",
+			"country": "India"
+		},
+		{
+			"rank": "514",
+			"name": "A10 Networks",
+			"symbol": "ATEN",
+			"marketCap": "1018825472",
+			"priceUsd": "13.75",
+			"country": "United States"
+		},
+		{
+			"rank": "515",
+			"name": "Veeco",
+			"symbol": "VECO",
+			"marketCap": "992843776",
+			"priceUsd": "19.25",
+			"country": "United States"
+		},
+		{
+			"rank": "516",
+			"name": "GB Group (GBG)",
+			"symbol": "GBG.L",
+			"marketCap": "989656847",
+			"priceUsd": "3.88",
+			"country": "United Kingdom"
+		},
+		{
+			"rank": "517",
+			"name": "23andMe",
+			"symbol": "ME",
+			"marketCap": "987657856",
+			"priceUsd": "2.16",
+			"country": "United States"
+		},
+		{
+			"rank": "518",
+			"name": "Everbridge",
+			"symbol": "EVBG",
+			"marketCap": "985807680",
+			"priceUsd": "24.38",
+			"country": "United States"
+		},
+		{
+			"rank": "519",
+			"name": "Stratasys",
+			"symbol": "SSYS",
+			"marketCap": "981561600",
+			"priceUsd": "14.35",
+			"country": "Israel"
+		},
+		{
+			"rank": "520",
+			"name": "Yext",
+			"symbol": "YEXT",
+			"marketCap": "959745344",
+			"priceUsd": "7.86",
+			"country": "United States"
+		},
+		{
+			"rank": "521",
+			"name": "Gree",
+			"symbol": "3632.T",
+			"marketCap": "958277379",
+			"priceUsd": "5.53",
+			"country": "Japan"
+		},
+		{
+			"rank": "522",
+			"name": "TechTarget",
+			"symbol": "TTGT",
+			"marketCap": "956714560",
+			"priceUsd": "33.37",
+			"country": "United States"
+		},
+		{
+			"rank": "523",
+			"name": "Avid Technology",
+			"symbol": "AVID",
+			"marketCap": "955435904",
+			"priceUsd": "21.76",
+			"country": "United States"
+		},
+		{
+			"rank": "524",
+			"name": "ChipMOS Technologies",
+			"symbol": "IMOS",
+			"marketCap": "953060800",
+			"priceUsd": "25.16",
+			"country": "Taiwan"
+		},
+		{
+			"rank": "525",
+			"name": "Hypoport",
+			"symbol": "HYQ.F",
+			"marketCap": "939439777",
+			"priceUsd": "149",
+			"country": "Germany"
+		},
+		{
+			"rank": "526",
+			"name": "Photronics",
+			"symbol": "PLAB",
+			"marketCap": "927123072",
+			"priceUsd": "14.84",
+			"country": "United States"
+		},
+		{
+			"rank": "527",
+			"name": "Mensch und Maschine",
+			"symbol": "MUM.F",
+			"marketCap": "923159704",
+			"priceUsd": "55.06",
+			"country": "Germany"
+		},
+		{
+			"rank": "528",
+			"name": "Overstock.com",
+			"symbol": "OSTK",
+			"marketCap": "898104192",
+			"priceUsd": "19.87",
+			"country": "United States"
+		},
+		{
+			"rank": "529",
+			"name": "Paysafe",
+			"symbol": "PSFE",
+			"marketCap": "884082816",
+			"priceUsd": "14.43",
+			"country": "United States"
+		},
+		{
+			"rank": "530",
+			"name": "WalkMe",
+			"symbol": "WKME",
+			"marketCap": "882466880",
+			"priceUsd": "9.57",
+			"country": "Israel"
+		},
+		{
+			"rank": "531",
+			"name": "Genius Sports",
+			"symbol": "GENI",
+			"marketCap": "876817856",
+			"priceUsd": "4.06",
+			"country": "United Kingdom"
+		},
+		{
+			"rank": "532",
+			"name": "AvePoint",
+			"symbol": "AVPT",
+			"marketCap": "847897600",
+			"priceUsd": "4.43",
+			"country": "United States"
+		},
+		{
+			"rank": "533",
+			"name": "u-blox",
+			"symbol": "UBXN.SW",
+			"marketCap": "845440000",
+			"priceUsd": "119.72",
+			"country": "Switzerland"
+		},
+		{
+			"rank": "534",
+			"name": "LiveChat Software",
+			"symbol": "LVC.WA",
+			"marketCap": "845042747",
+			"priceUsd": "32.82",
+			"country": "Poland"
+		},
+		{
+			"rank": "535",
+			"name": "Youdao",
+			"symbol": "DAO",
+			"marketCap": "832233792",
+			"priceUsd": "6.7",
+			"country": "China"
+		},
+		{
+			"rank": "536",
+			"name": "Ichor Systems",
+			"symbol": "ICHR",
+			"marketCap": "823708800",
+			"priceUsd": "28.37",
+			"country": "United States"
+		},
+		{
+			"rank": "537",
+			"name": "Protolabs",
+			"symbol": "PRLB",
+			"marketCap": "815859136",
+			"priceUsd": "30.58",
+			"country": "United States"
+		},
+		{
+			"rank": "538",
+			"name": "Riskified",
+			"symbol": "RSKD",
+			"marketCap": "815148672",
+			"priceUsd": "4.72",
+			"country": "Israel"
+		},
+		{
+			"rank": "539",
+			"name": "Simulations Plus",
+			"symbol": "SLP",
+			"marketCap": "808866560",
+			"priceUsd": "40.45",
+			"country": "United States"
+		},
+		{
+			"rank": "540",
+			"name": "PAR Technology",
+			"symbol": "PAR",
+			"marketCap": "807189184",
+			"priceUsd": "29.47",
+			"country": "United States"
+		},
+		{
+			"rank": "541",
+			"name": "SMART Global Holdings",
+			"symbol": "SGH",
+			"marketCap": "802813056",
+			"priceUsd": "16.36",
+			"country": "United States"
+		},
+		{
+			"rank": "542",
+			"name": "i3 Verticals",
+			"symbol": "IIIV",
+			"marketCap": "780826368",
+			"priceUsd": "23.49",
+			"country": "United States"
+		},
+		{
+			"rank": "543",
+			"name": "New Work",
+			"symbol": "NWO.F",
+			"marketCap": "777641043",
+			"priceUsd": "138.36",
+			"country": "Germany"
+		},
+		{
+			"rank": "544",
+			"name": "Wirtualna Polska (WP Holding)",
+			"symbol": "WPL.WA",
+			"marketCap": "774239726",
+			"priceUsd": "26.44",
+			"country": "Poland"
+		},
+		{
+			"rank": "545",
+			"name": "Matterport",
+			"symbol": "MTTR",
+			"marketCap": "772095424",
+			"priceUsd": "2.61",
+			"country": "United States"
+		},
+		{
+			"rank": "546",
+			"name": "Huya",
+			"symbol": "HUYA",
+			"marketCap": "770085440",
+			"priceUsd": "3.21",
+			"country": "China"
+		},
+		{
+			"rank": "547",
+			"name": "Neowiz Games",
+			"symbol": "095660.KQ",
+			"marketCap": "768930850",
+			"priceUsd": "36.33",
+			"country": "South Korea"
+		},
+		{
+			"rank": "548",
+			"name": "Nextdoor",
+			"symbol": "KIND",
+			"marketCap": "767776192",
+			"priceUsd": "2.05",
+			"country": "United States"
+		},
+		{
+			"rank": "549",
+			"name": "ANI Pharmaceuticals",
+			"symbol": "ANIP",
+			"marketCap": "762901632",
+			"priceUsd": "42.58",
+			"country": "United States"
+		},
+		{
+			"rank": "550",
+			"name": "Aehr Test Systems",
+			"symbol": "AEHR",
+			"marketCap": "755496384",
+			"priceUsd": "26.66",
+			"country": "United States"
+		},
+		{
+			"rank": "551",
+			"name": "Rover",
+			"symbol": "ROVR",
+			"marketCap": "747581760",
+			"priceUsd": "4.04",
+			"country": "United States"
+		},
+		{
+			"rank": "552",
+			"name": "LendingClub",
+			"symbol": "LC",
+			"marketCap": "738298304",
+			"priceUsd": "6.87",
+			"country": "United States"
+		},
+		{
+			"rank": "553",
+			"name": "Secureworks",
+			"symbol": "SCWX",
+			"marketCap": "734710336",
+			"priceUsd": "8.57",
+			"country": "United States"
+		},
+		{
+			"rank": "554",
+			"name": "Couchbase",
+			"symbol": "BASE",
+			"marketCap": "725073472",
+			"priceUsd": "15.76",
+			"country": "United States"
+		},
+		{
+			"rank": "555",
+			"name": "Snap One",
+			"symbol": "SNPO",
+			"marketCap": "720303552",
+			"priceUsd": "9.45",
+			"country": "United States"
+		},
+		{
+			"rank": "556",
+			"name": "MapmyIndia",
+			"symbol": "MAPMYINDIA.NS",
+			"marketCap": "719804800",
+			"priceUsd": "13.52",
+			"country": "India"
+		},
+		{
+			"rank": "557",
+			"name": "Thryv",
+			"symbol": "THRY",
+			"marketCap": "716325568",
+			"priceUsd": "20.57",
+			"country": "United States"
+		},
+		{
+			"rank": "558",
+			"name": "Zhihu",
+			"symbol": "ZH",
+			"marketCap": "715984448",
+			"priceUsd": "1.05",
+			"country": "China"
+		},
+		{
+			"rank": "559",
+			"name": "VTEX",
+			"symbol": "VTEX",
+			"marketCap": "711856256",
+			"priceUsd": "3.71",
+			"country": "United Kingdom"
+		},
+		{
+			"rank": "560",
+			"name": "Consensus Cloud Solutions",
+			"symbol": "CCSI",
+			"marketCap": "710894720",
+			"priceUsd": "36.16",
+			"country": "United States"
+		},
+		{
+			"rank": "561",
+			"name": "Com2uS",
+			"symbol": "078340.KQ",
+			"marketCap": "701650125",
+			"priceUsd": "56.42",
+			"country": "South Korea"
+		},
+		{
+			"rank": "562",
+			"name": "Taboola.com",
+			"symbol": "TBLA",
+			"marketCap": "697209984",
+			"priceUsd": "2.34",
+			"country": "United States"
+		},
+		{
+			"rank": "563",
+			"name": "Nano Dimension",
+			"symbol": "NNDM",
+			"marketCap": "684073664",
+			"priceUsd": "2.65",
+			"country": "United States"
+		},
+		{
+			"rank": "564",
+			"name": "Karooooo",
+			"symbol": "KARO",
+			"marketCap": "680924224",
+			"priceUsd": "22",
+			"country": "Singapore"
+		},
+		{
+			"rank": "565",
+			"name": "NerdWallet",
+			"symbol": "NRDS",
+			"marketCap": "679772864",
+			"priceUsd": "8.86",
+			"country": "United States"
+		},
+		{
+			"rank": "566",
+			"name": "Locaweb",
+			"symbol": "LWSA3.SA",
+			"marketCap": "676093970",
+			"priceUsd": "1.15",
+			"country": "Brazil"
+		},
+		{
+			"rank": "567",
+			"name": "Team17",
+			"symbol": "TM17.L",
+			"marketCap": "663571342",
+			"priceUsd": "4.55",
+			"country": "United Kingdom"
+		},
+		{
+			"rank": "568",
+			"name": "Alpha &amp; Omega Semiconductor",
+			"symbol": "AOSL",
+			"marketCap": "663155968",
+			"priceUsd": "24",
+			"country": "United States"
+		},
+		{
+			"rank": "569",
+			"name": "Wemade",
+			"symbol": "112040.KQ",
+			"marketCap": "662087935",
+			"priceUsd": "40.37",
+			"country": "South Korea"
+		},
+		{
+			"rank": "570",
+			"name": "PubMatic",
+			"symbol": "PUBM",
+			"marketCap": "658363840",
+			"priceUsd": "12.56",
+			"country": "United States"
+		},
+		{
+			"rank": "571",
+			"name": "Mastek",
+			"symbol": "MASTEK.NS",
+			"marketCap": "648179523",
+			"priceUsd": "21.19",
+			"country": "India"
+		},
+		{
+			"rank": "572",
+			"name": "stem",
+			"symbol": "STEM",
+			"marketCap": "646959040",
+			"priceUsd": "4.16",
+			"country": "United States"
+		},
+		{
+			"rank": "573",
+			"name": "Grid Dynamics",
+			"symbol": "GDYN",
+			"marketCap": "643363520",
+			"priceUsd": "8.59",
+			"country": "United States"
+		},
+		{
+			"rank": "574",
+			"name": "Exscientia",
+			"symbol": "EXAI",
+			"marketCap": "637641984",
+			"priceUsd": "5.17",
+			"country": "United Kingdom"
+		},
+		{
+			"rank": "575",
+			"name": "COLOPL",
+			"symbol": "3668.T",
+			"marketCap": "632231370",
+			"priceUsd": "4.93",
+			"country": "Japan"
+		},
+		{
+			"rank": "576",
+			"name": "Conduent",
+			"symbol": "CNDT",
+			"marketCap": "626931392",
+			"priceUsd": "2.87",
+			"country": "United States"
+		},
+		{
+			"rank": "577",
+			"name": "Arlo Technologies",
+			"symbol": "ARLO",
+			"marketCap": "625521728",
+			"priceUsd": "6.89",
+			"country": "United States"
+		},
+		{
+			"rank": "578",
+			"name": "PlayWay",
+			"symbol": "PLW.WA",
+			"marketCap": "613935745",
+			"priceUsd": "93.02",
+			"country": "Poland"
+		},
+		{
+			"rank": "579",
+			"name": "Expensify",
+			"symbol": "EXFY",
+			"marketCap": "612740928",
+			"priceUsd": "7.43",
+			"country": "United States"
+		},
+		{
+			"rank": "580",
+			"name": "Pagaya Technologies",
+			"symbol": "PGY",
+			"marketCap": "610121536",
+			"priceUsd": "0.8269",
+			"country": "Israel"
+		},
+		{
+			"rank": "581",
+			"name": "ACM Research",
+			"symbol": "ACMR",
+			"marketCap": "602590784",
+			"priceUsd": "10.07",
+			"country": "United States"
+		},
+		{
+			"rank": "582",
+			"name": "CEVA",
+			"symbol": "CEVA",
+			"marketCap": "600152064",
+			"priceUsd": "25.63",
+			"country": "United States"
+		},
+		{
+			"rank": "583",
+			"name": "Vimeo",
+			"symbol": "VMEO",
+			"marketCap": "590198144",
+			"priceUsd": "3.56",
+			"country": "United States"
+		},
+		{
+			"rank": "584",
+			"name": "Playstudios",
+			"symbol": "MYPS",
+			"marketCap": "587971712",
+			"priceUsd": "4.43",
+			"country": "United States"
+		},
+		{
+			"rank": "585",
+			"name": "SoundHound AI",
+			"symbol": "SOUN",
+			"marketCap": "584957760",
+			"priceUsd": "2.72",
+			"country": "United States"
+		},
+		{
+			"rank": "586",
+			"name": "Repay Holdings",
+			"symbol": "RPAY",
+			"marketCap": "581520512",
+			"priceUsd": "6.27",
+			"country": "United States"
+		},
+		{
+			"rank": "587",
+			"name": "Yalla Group",
+			"symbol": "YALA",
+			"marketCap": "571834752",
+			"priceUsd": "3.66",
+			"country": "United Arab Emirates"
+		},
+		{
+			"rank": "588",
+			"name": "nLIGHT",
+			"symbol": "LASR",
+			"marketCap": "566475456",
+			"priceUsd": "12.37",
+			"country": "United States"
+		},
+		{
+			"rank": "589",
+			"name": "American Well",
+			"symbol": "AMWL",
+			"marketCap": "564546688",
+			"priceUsd": "2.01",
+			"country": "United States"
+		},
+		{
+			"rank": "590",
+			"name": "Allied Motion Technologies",
+			"symbol": "AMOT",
+			"marketCap": "562545472",
+			"priceUsd": "34.8",
+			"country": "United States"
+		},
+		{
+			"rank": "591",
+			"name": "OneSpan",
+			"symbol": "OSPN",
+			"marketCap": "548107136",
+			"priceUsd": "13.72",
+			"country": "United States"
+		},
+		{
+			"rank": "592",
+			"name": "Perfect Corp.",
+			"symbol": "PERF",
+			"marketCap": "536918528",
+			"priceUsd": "4.54",
+			"country": "Taiwan"
+		},
+		{
+			"rank": "593",
+			"name": "Lightwave Logic",
+			"symbol": "LWLG",
+			"marketCap": "535814080",
+			"priceUsd": "4.7",
+			"country": "United States"
+		},
+		{
+			"rank": "594",
+			"name": "SmartRent",
+			"symbol": "SMRT",
+			"marketCap": "534268736",
+			"priceUsd": "2.68",
+			"country": "United States"
+		},
+		{
+			"rank": "595",
+			"name": "BigCommerce",
+			"symbol": "BIGC",
+			"marketCap": "528075968",
+			"priceUsd": "7.08",
+			"country": "United States"
+		},
+		{
+			"rank": "596",
+			"name": "Materialise NV",
+			"symbol": "MTLS",
+			"marketCap": "523335360",
+			"priceUsd": "8.86",
+			"country": "Belgium"
+		},
+		{
+			"rank": "597",
+			"name": "BrainChip",
+			"symbol": "BRN.AX",
+			"marketCap": "517127019",
+			"priceUsd": "0.29",
+			"country": "Australia"
+		},
+		{
+			"rank": "598",
+			"name": "Ebix",
+			"symbol": "EBIX",
+			"marketCap": "516073440",
+			"priceUsd": "16.7",
+			"country": "United States"
+		},
+		{
+			"rank": "599",
+			"name": "Intchains Group",
+			"symbol": "ICG",
+			"marketCap": "512173696",
+			"priceUsd": "8.54",
+			"country": "China"
+		},
+		{
+			"rank": "600",
+			"name": "CI&amp;T",
+			"symbol": "CINT",
+			"marketCap": "499126208",
+			"priceUsd": "3.73",
+			"country": "Brazil"
+		},
+		{
+			"rank": "601",
+			"name": "Cantaloupe",
+			"symbol": "CTLP",
+			"marketCap": "486226720",
+			"priceUsd": "6.71",
+			"country": "United States"
+		},
+		{
+			"rank": "602",
+			"name": "Cipher Mining",
+			"symbol": "CIFR",
+			"marketCap": "484186944",
+			"priceUsd": "1.95",
+			"country": "United States"
+		},
+		{
+			"rank": "603",
+			"name": "Domo",
+			"symbol": "DOMO",
+			"marketCap": "483916512",
+			"priceUsd": "13.89",
+			"country": "United States"
+		},
+		{
+			"rank": "604",
+			"name": "Canaan",
+			"symbol": "CAN",
+			"marketCap": "469302784",
+			"priceUsd": "2.49",
+			"country": "China"
+		},
+		{
+			"rank": "605",
+			"name": "Pearl Abyss",
+			"symbol": "263750.KQ",
+			"marketCap": "467250929",
+			"priceUsd": "35.89",
+			"country": "South Korea"
+		},
+		{
+			"rank": "606",
+			"name": "Sohu.com",
+			"symbol": "SOHU",
+			"marketCap": "465237376",
+			"priceUsd": "13.79",
+			"country": "China"
+		},
+		{
+			"rank": "607",
+			"name": "Infibeam Avenues",
+			"symbol": "INFIBEAM.NS",
+			"marketCap": "461072831",
+			"priceUsd": "0.17",
+			"country": "India"
+		},
+		{
+			"rank": "608",
+			"name": "Nazara Technologies",
+			"symbol": "NAZARA.NS",
+			"marketCap": "461019697",
+			"priceUsd": "6.97",
+			"country": "India"
+		},
+		{
+			"rank": "609",
+			"name": "Absolute Software",
+			"symbol": "ABST",
+			"marketCap": "452043488",
+			"priceUsd": "8.57",
+			"country": "Canada"
+		},
+		{
+			"rank": "610",
+			"name": "UP Fintech (Tiger Brokers)",
+			"symbol": "TIGR",
+			"marketCap": "448342880",
+			"priceUsd": "2.9",
+			"country": "China"
+		},
+		{
+			"rank": "611",
+			"name": "Liquidity Services",
+			"symbol": "LQDT",
+			"marketCap": "445182144",
+			"priceUsd": "14.1",
+			"country": "United States"
+		},
+		{
+			"rank": "612",
+			"name": "Trustpilot Group",
+			"symbol": "TRST.L",
+			"marketCap": "439134669",
+			"priceUsd": "1.03",
+			"country": "Denmark"
+		},
+		{
+			"rank": "613",
+			"name": "Similarweb",
+			"symbol": "SMWB",
+			"marketCap": "437014208",
+			"priceUsd": "5.69",
+			"country": "Israel"
+		},
+		{
+			"rank": "614",
+			"name": "Hippo",
+			"symbol": "HIPO",
+			"marketCap": "430890912",
+			"priceUsd": "18.5",
+			"country": "United States"
+		},
+		{
+			"rank": "615",
+			"name": "SkyWater Technology",
+			"symbol": "SKYT",
+			"marketCap": "427416000",
+			"priceUsd": "9.63",
+			"country": "United States"
+		},
+		{
+			"rank": "616",
+			"name": "Troops",
+			"symbol": "TROO",
+			"marketCap": "426711584",
+			"priceUsd": "4.2",
+			"country": "Hong Kong"
+		},
+		{
+			"rank": "617",
+			"name": "Ituran",
+			"symbol": "ITRN",
+			"marketCap": "423686080",
+			"priceUsd": "21.07",
+			"country": "Israel"
+		},
+		{
+			"rank": "618",
+			"name": "trivago",
+			"symbol": "TRVG",
+			"marketCap": "418682976",
+			"priceUsd": "1.225",
+			"country": "Germany"
+		},
+		{
+			"rank": "619",
+			"name": "Newegg",
+			"symbol": "NEGG",
+			"marketCap": "415534912",
+			"priceUsd": "1.1",
+			"country": "United States"
+		},
+		{
+			"rank": "620",
+			"name": "Xiao-I",
+			"symbol": "AIXI",
+			"marketCap": "413548608",
+			"priceUsd": "5.74",
+			"country": "China"
+		},
+		{
+			"rank": "621",
+			"name": "American Software",
+			"symbol": "AMSWA",
+			"marketCap": "411433088",
+			"priceUsd": "12.18",
+			"country": "United States"
+		},
+		{
+			"rank": "622",
+			"name": "DoubleDown Interactive",
+			"symbol": "DDI",
+			"marketCap": "410797696",
+			"priceUsd": "8.29",
+			"country": "United States"
+		},
+		{
+			"rank": "623",
+			"name": "Microvision",
+			"symbol": "MVIS",
+			"marketCap": "410159200",
+			"priceUsd": "2.33",
+			"country": "United States"
+		},
+		{
+			"rank": "624",
+			"name": "Xperi",
+			"symbol": "XPER",
+			"marketCap": "408641472",
+			"priceUsd": "9.71",
+			"country": "United States"
+		},
+		{
+			"rank": "625",
+			"name": "Mitek Systems",
+			"symbol": "MITK",
+			"marketCap": "406591648",
+			"priceUsd": "9.1",
+			"country": "United States"
+		},
+		{
+			"rank": "626",
+			"name": "OPTiM",
+			"symbol": "3694.T",
+			"marketCap": "404046380",
+			"priceUsd": "7.34",
+			"country": "Japan"
+		},
+		{
+			"rank": "627",
+			"name": "NETGEAR",
+			"symbol": "NTGR",
+			"marketCap": "403259808",
+			"priceUsd": "13.88",
+			"country": "United States"
+		},
+		{
+			"rank": "628",
+			"name": "Digimarc",
+			"symbol": "DMRC",
+			"marketCap": "400960384",
+			"priceUsd": "19.78",
+			"country": "United States"
+		},
+		{
+			"rank": "629",
+			"name": "Webzen",
+			"symbol": "069080.KQ",
+			"marketCap": "399629713",
+			"priceUsd": "12.76",
+			"country": "South Korea"
+		},
+		{
+			"rank": "630",
+			"name": "BigBear.ai",
+			"symbol": "BBAI",
+			"marketCap": "398657504",
+			"priceUsd": "2.79",
+			"country": "United States"
+		},
+		{
+			"rank": "631",
+			"name": "Velo3D",
+			"symbol": "VLD",
+			"marketCap": "398474976",
+			"priceUsd": "2.07",
+			"country": "United States"
+		},
+		{
+			"rank": "632",
+			"name": "QuinStreet",
+			"symbol": "QNST",
+			"marketCap": "397086816",
+			"priceUsd": "7.38",
+			"country": "United States"
+		},
+		{
+			"rank": "633",
+			"name": "Hut 8 Mining",
+			"symbol": "HUT",
+			"marketCap": "395645504",
+			"priceUsd": "1.79",
+			"country": "Canada"
+		},
+		{
+			"rank": "634",
+			"name": "ON24",
+			"symbol": "ONTF",
+			"marketCap": "388605920",
+			"priceUsd": "8.41",
+			"country": "United States"
+		},
+		{
+			"rank": "635",
+			"name": "Vacasa",
+			"symbol": "VCSA",
+			"marketCap": "387869728",
+			"priceUsd": "0.8485",
+			"country": "United States"
+		},
+		{
+			"rank": "636",
+			"name": "Gravity Co.",
+			"symbol": "GRVY",
+			"marketCap": "383996192",
+			"priceUsd": "55.26",
+			"country": "South Korea"
+		},
+		{
+			"rank": "637",
+			"name": "Magnachip",
+			"symbol": "MX",
+			"marketCap": "381384128",
+			"priceUsd": "8.76",
+			"country": "Luxembourg"
+		},
+		{
+			"rank": "638",
+			"name": "MYT Netherlands Parent (Mytheresa)",
+			"symbol": "MYTE",
+			"marketCap": "378570144",
+			"priceUsd": "4.46",
+			"country": "Germany"
+		},
+		{
+			"rank": "639",
+			"name": "Computer Programs and Systems",
+			"symbol": "CPSI",
+			"marketCap": "376332160",
+			"priceUsd": "25.9",
+			"country": "United States"
+		},
+		{
+			"rank": "640",
+			"name": "SciPlay",
+			"symbol": "SCPL",
+			"marketCap": "371820288",
+			"priceUsd": "16.95",
+			"country": "United States"
+		},
+		{
+			"rank": "641",
+			"name": "ShotSpotter",
+			"symbol": "SSTI",
+			"marketCap": "370772544",
+			"priceUsd": "30.28",
+			"country": "United States"
+		},
+		{
+			"rank": "642",
+			"name": "Despegar",
+			"symbol": "DESP",
+			"marketCap": "365952448",
+			"priceUsd": "5.54",
+			"country": "Argentina"
+		},
+		{
+			"rank": "643",
+			"name": "Weave Communications",
+			"symbol": "WEAV",
+			"marketCap": "361539360",
+			"priceUsd": "5.45",
+			"country": "United States"
+		},
+		{
+			"rank": "644",
+			"name": "System1",
+			"symbol": "SST",
+			"marketCap": "358764288",
+			"priceUsd": "3.16",
+			"country": "United States"
+		},
+		{
+			"rank": "645",
+			"name": "MediaAlpha",
+			"symbol": "MAX",
+			"marketCap": "357588000",
+			"priceUsd": "5.94",
+			"country": "United States"
+		},
+		{
+			"rank": "646",
+			"name": "Rimini Street",
+			"symbol": "RMNI",
+			"marketCap": "354766848",
+			"priceUsd": "3.99",
+			"country": "United States"
+		},
+		{
+			"rank": "647",
+			"name": "TeraWulf",
+			"symbol": "WULF",
+			"marketCap": "354093440",
+			"priceUsd": "1.67",
+			"country": "United States"
+		},
+		{
+			"rank": "648",
+			"name": "Stitch Fix",
+			"symbol": "SFIX",
+			"marketCap": "353272000",
+			"priceUsd": "3.14",
+			"country": "United States"
+		},
+		{
+			"rank": "649",
+			"name": "LivePerson",
+			"symbol": "LPSN",
+			"marketCap": "350102976",
+			"priceUsd": "4.3",
+			"country": "United States"
+		},
+		{
+			"rank": "650",
+			"name": "Innoviz",
+			"symbol": "INVZ",
+			"marketCap": "347621088",
+			"priceUsd": "2.55",
+			"country": "Israel"
+		},
+		{
+			"rank": "651",
+			"name": "Agora.io",
+			"symbol": "API",
+			"marketCap": "346061376",
+			"priceUsd": "3.39",
+			"country": "China"
+		},
+		{
+			"rank": "652",
+			"name": "CS Disco",
+			"symbol": "LAW",
+			"marketCap": "344182240",
+			"priceUsd": "5.77",
+			"country": "United States"
+		},
+		{
+			"rank": "653",
+			"name": "11 bit studios",
+			"symbol": "11B.WA",
+			"marketCap": "338291221",
+			"priceUsd": "142.13",
+			"country": "Poland"
+		},
+		{
+			"rank": "654",
+			"name": "CleanSpark",
+			"symbol": "CLSK",
+			"marketCap": "330689856",
+			"priceUsd": "4.24",
+			"country": "United States"
+		},
+		{
+			"rank": "655",
+			"name": "8x8",
+			"symbol": "EGHT",
+			"marketCap": "328969696",
+			"priceUsd": "2.91",
+			"country": "United States"
+		},
+		{
+			"rank": "656",
+			"name": "Qudian",
+			"symbol": "QD",
+			"marketCap": "325692736",
+			"priceUsd": "1.29",
+			"country": "China"
+		},
+		{
+			"rank": "657",
+			"name": "ThredUp",
+			"symbol": "TDUP",
+			"marketCap": "323901920",
+			"priceUsd": "3.15",
+			"country": "United States"
+		},
+		{
+			"rank": "658",
+			"name": "AudioCodes",
+			"symbol": "AUDC",
+			"marketCap": "322974688",
+			"priceUsd": "9.99",
+			"country": "Israel"
+		},
+		{
+			"rank": "659",
+			"name": "Digital Bros",
+			"symbol": "DIB.MI",
+			"marketCap": "322856017",
+			"priceUsd": "22.63",
+			"country": "Italy"
+		},
+		{
+			"rank": "660",
+			"name": "Applied Blockchain",
+			"symbol": "APLD",
+			"marketCap": "321716096",
+			"priceUsd": "3.39",
+			"country": "United States"
+		},
+		{
+			"rank": "661",
+			"name": "Marvelous",
+			"symbol": "7844.T",
+			"marketCap": "316964426",
+			"priceUsd": "5.25",
+			"country": "Japan"
+		},
+		{
+			"rank": "662",
+			"name": "1-800-PetMeds",
+			"symbol": "PETS",
+			"marketCap": "313101856",
+			"priceUsd": "14.85",
+			"country": "United States"
+		},
+		{
+			"rank": "663",
+			"name": "SOPHiA GENETICS",
+			"symbol": "SOPH",
+			"marketCap": "305760512",
+			"priceUsd": "4.76",
+			"country": "Switzerland"
+		},
+		{
+			"rank": "664",
+			"name": "Comtech Telecommunications",
+			"symbol": "CMTL",
+			"marketCap": "303995136",
+			"priceUsd": "10.91",
+			"country": "United States"
+		},
+		{
+			"rank": "665",
+			"name": "eMudhra",
+			"symbol": "EMUDHRA.NS",
+			"marketCap": "303949364",
+			"priceUsd": "3.89",
+			"country": "India"
+		},
+		{
+			"rank": "666",
+			"name": "Rackspace Technology",
+			"symbol": "RXT",
+			"marketCap": "303249344",
+			"priceUsd": "1.39",
+			"country": "United States"
+		},
+		{
+			"rank": "667",
+			"name": "Focus Entertainment",
+			"symbol": "ALFOC.PA",
+			"marketCap": "301651825",
+			"priceUsd": "48.22",
+			"country": "France"
+		},
+		{
+			"rank": "668",
+			"name": "Velodyne Lidar",
+			"symbol": "VLDR",
+			"marketCap": "300235328",
+			"priceUsd": "1.26",
+			"country": "United States"
+		},
+		{
+			"rank": "669",
+			"name": "2U",
+			"symbol": "TWOU",
+			"marketCap": "299160160",
+			"priceUsd": "3.72",
+			"country": "United States"
+		},
+		{
+			"rank": "670",
+			"name": "Cigniti Technologies",
+			"symbol": "CIGNITITEC.NS",
+			"marketCap": "296214301",
+			"priceUsd": "10.88",
+			"country": "India"
+		},
+		{
+			"rank": "671",
+			"name": "Cognyte Software",
+			"symbol": "CGNT",
+			"marketCap": "296023200",
+			"priceUsd": "4.3",
+			"country": "Israel"
+		},
+		{
+			"rank": "672",
+			"name": "Tucows",
+			"symbol": "TCX",
+			"marketCap": "290777440",
+			"priceUsd": "26.85",
+			"country": "Canada"
+		},
+		{
+			"rank": "673",
+			"name": "Jumia",
+			"symbol": "JMIA",
+			"marketCap": "290642368",
+			"priceUsd": "2.91",
+			"country": "Germany"
+		},
+		{
+			"rank": "674",
+			"name": "Priority Technology Holdings",
+			"symbol": "PRTH",
+			"marketCap": "279599104",
+			"priceUsd": "3.66",
+			"country": "United States"
+		},
+		{
+			"rank": "675",
+			"name": "People Can Fly",
+			"symbol": "PCF.WA",
+			"marketCap": "279516827",
+			"priceUsd": "9.29",
+			"country": "Poland"
+		},
+		{
+			"rank": "676",
+			"name": "Nerdy",
+			"symbol": "NRDY",
+			"marketCap": "277775808",
+			"priceUsd": "2.91",
+			"country": "United States"
+		},
+		{
+			"rank": "677",
+			"name": "Asure Software",
+			"symbol": "ASUR",
+			"marketCap": "275893888",
+			"priceUsd": "13.47",
+			"country": "United States"
+		},
+		{
+			"rank": "678",
+			"name": "Baozun",
+			"symbol": "BZUN",
+			"marketCap": "274623840",
+			"priceUsd": "4.63",
+			"country": "China"
+		},
+		{
+			"rank": "679",
+			"name": "Unisys",
+			"symbol": "UIS",
+			"marketCap": "270325056",
+			"priceUsd": "3.89",
+			"country": "United States"
+		},
+		{
+			"rank": "680",
+			"name": "Aeva Technologies",
+			"symbol": "AEVA",
+			"marketCap": "268118176",
+			"priceUsd": "1.22",
+			"country": "United States"
+		},
+		{
+			"rank": "681",
+			"name": "MSTC Limited",
+			"symbol": "MSTCLTD.NS",
+			"marketCap": "266698626",
+			"priceUsd": "3.79",
+			"country": "India"
+		},
+		{
+			"rank": "682",
+			"name": "Faro Technologies",
+			"symbol": "FARO",
+			"marketCap": "266234384",
+			"priceUsd": "13.13",
+			"country": "United States"
+		},
+		{
+			"rank": "683",
+			"name": "LiveVox",
+			"symbol": "LVOX",
+			"marketCap": "264507920",
+			"priceUsd": "2.85",
+			"country": "United States"
+		},
+		{
+			"rank": "684",
+			"name": "Appen",
+			"symbol": "APX.AX",
+			"marketCap": "263334490",
+			"priceUsd": "2.12",
+			"country": "Australia"
+		},
+		{
+			"rank": "685",
+			"name": "Forge Global",
+			"symbol": "FRGE",
+			"marketCap": "259267440",
+			"priceUsd": "1.49",
+			"country": "United States"
+		},
+		{
+			"rank": "686",
+			"name": "CarParts.com",
+			"symbol": "PRTS",
+			"marketCap": "259119840",
+			"priceUsd": "4.6",
+			"country": "United States"
+		},
+		{
+			"rank": "687",
+			"name": "Spok Holdings",
+			"symbol": "SPOK",
+			"marketCap": "257943296",
+			"priceUsd": "12.86",
+			"country": "United States"
+		},
+		{
+			"rank": "688",
+			"name": "Skillz",
+			"symbol": "SKLZ",
+			"marketCap": "257417472",
+			"priceUsd": "0.6092",
+			"country": "United States"
+		},
+		{
+			"rank": "689",
+			"name": "HIVE Blockchain Technologies",
+			"symbol": "HIVE",
+			"marketCap": "257163136",
+			"priceUsd": "3.07",
+			"country": "Canada"
+		},
+		{
+			"rank": "690",
+			"name": "Vuzix",
+			"symbol": "VUZI",
+			"marketCap": "256623264",
+			"priceUsd": "4.06",
+			"country": "United States"
+		},
+		{
+			"rank": "691",
+			"name": "Bitfarms",
+			"symbol": "BITF",
+			"marketCap": "255247440",
+			"priceUsd": "1.07",
+			"country": "Canada"
+		},
+		{
+			"rank": "692",
+			"name": "Valens Semiconductor",
+			"symbol": "VLN",
+			"marketCap": "250860400",
+			"priceUsd": "2.45",
+			"country": "Israel"
+		},
+		{
+			"rank": "693",
+			"name": "OptimizeRx",
+			"symbol": "OPRX",
+			"marketCap": "248932064",
+			"priceUsd": "14.54",
+			"country": "United States"
+		},
+		{
+			"rank": "694",
+			"name": "Frontier Developments",
+			"symbol": "FDEV.L",
+			"marketCap": "248057375",
+			"priceUsd": "6.29",
+			"country": "United Kingdom"
+		},
+		{
+			"rank": "695",
+			"name": "TuSimple",
+			"symbol": "TSP",
+			"marketCap": "246021728",
+			"priceUsd": "1.09",
+			"country": "United States"
+		},
+		{
+			"rank": "696",
+			"name": "LendingTree",
+			"symbol": "TREE",
+			"marketCap": "242592064",
+			"priceUsd": "18.79",
+			"country": "United States"
+		},
+		{
+			"rank": "697",
+			"name": "TrueCar",
+			"symbol": "TRUE",
+			"marketCap": "240773872",
+			"priceUsd": "2.7",
+			"country": "United States"
+		},
+		{
+			"rank": "698",
+			"name": "Cian",
+			"symbol": "CIAN",
+			"marketCap": "237563120",
+			"priceUsd": "3.4",
+			"country": "Russia"
+		},
+		{
+			"rank": "699",
+			"name": "Kaltura",
+			"symbol": "KLTR",
+			"marketCap": "237293760",
+			"priceUsd": "1.76",
+			"country": "United States"
+		},
+		{
+			"rank": "700",
+			"name": "Accelya",
+			"symbol": "ACCELYA.NS",
+			"marketCap": "237093721",
+			"priceUsd": "15.88",
+			"country": "India"
+		},
+		{
+			"rank": "701",
+			"name": "eGain",
+			"symbol": "EGAN",
+			"marketCap": "236490048",
+			"priceUsd": "7.36",
+			"country": "United States"
+		},
+		{
+			"rank": "702",
+			"name": "Nacon",
+			"symbol": "NACON.PA",
+			"marketCap": "235855350",
+			"priceUsd": "2.72",
+			"country": "France"
+		},
+		{
+			"rank": "703",
+			"name": "Silicom",
+			"symbol": "SILC",
+			"marketCap": "235726960",
+			"priceUsd": "34.89",
+			"country": "Israel"
+		},
+		{
+			"rank": "704",
+			"name": "Atomera",
+			"symbol": "ATOM",
+			"marketCap": "231670816",
+			"priceUsd": "9.49",
+			"country": "United States"
+		},
+		{
+			"rank": "705",
+			"name": "Red Violet",
+			"symbol": "RDVT",
+			"marketCap": "229947536",
+			"priceUsd": "16.47",
+			"country": "United States"
+		},
+		{
+			"rank": "706",
+			"name": "NextNav",
+			"symbol": "NN",
+			"marketCap": "228157088",
+			"priceUsd": "2.13",
+			"country": "United States"
+		},
+		{
+			"rank": "707",
+			"name": "gumi",
+			"symbol": "3903.T",
+			"marketCap": "221508284",
+			"priceUsd": "5.64",
+			"country": "Japan"
+		},
+		{
+			"rank": "708",
+			"name": "GigaCloud Technology",
+			"symbol": "GCT",
+			"marketCap": "214309248",
+			"priceUsd": "5.26",
+			"country": "China"
+		},
+		{
+			"rank": "709",
+			"name": "Lesaka Technologies",
+			"symbol": "LSAK",
+			"marketCap": "209559408",
+			"priceUsd": "3.46",
+			"country": "South Africa"
+		},
+		{
+			"rank": "710",
+			"name": "CI Games",
+			"symbol": "CI7.F",
+			"marketCap": "207154344",
+			"priceUsd": "1.07",
+			"country": "Poland"
+		},
+		{
+			"rank": "711",
+			"name": "OneConnect",
+			"symbol": "OCFT",
+			"marketCap": "206407040",
+			"priceUsd": "4.94",
+			"country": "China"
+		},
+		{
+			"rank": "712",
+			"name": "Transphorm",
+			"symbol": "TGAN",
+			"marketCap": "204816848",
+			"priceUsd": "3.45",
+			"country": "United States"
+		},
+		{
+			"rank": "713",
+			"name": "Pexip",
+			"symbol": "PEXIP.OL",
+			"marketCap": "204581272",
+			"priceUsd": "2.02",
+			"country": "Norway"
+		},
+		{
+			"rank": "714",
+			"name": "UNITED",
+			"symbol": "2497.T",
+			"marketCap": "203382028",
+			"priceUsd": "10.38",
+			"country": "Japan"
+		},
+		{
+			"rank": "715",
+			"name": "Nucleus Software Exports",
+			"symbol": "NUCLEUS.NS",
+			"marketCap": "201993433",
+			"priceUsd": "7.54",
+			"country": "India"
+		},
+		{
+			"rank": "716",
+			"name": "Skillsoft",
+			"symbol": "SKIL",
+			"marketCap": "198978448",
+			"priceUsd": "1.21",
+			"country": "United States"
+		},
+		{
+			"rank": "717",
+			"name": "The Original BARK Company",
+			"symbol": "BARK",
+			"marketCap": "193660304",
+			"priceUsd": "1.09",
+			"country": "United States"
+		},
+		{
+			"rank": "718",
+			"name": "Iteris",
+			"symbol": "ITI",
+			"marketCap": "190345632",
+			"priceUsd": "4.45",
+			"country": "United States"
+		},
+		{
+			"rank": "719",
+			"name": "Bit Digital",
+			"symbol": "BTBT",
+			"marketCap": "188180944",
+			"priceUsd": "2.28",
+			"country": "United States"
+		},
+		{
+			"rank": "720",
+			"name": "ContextLogic (wish.com)",
+			"symbol": "WISH",
+			"marketCap": "187098160",
+			"priceUsd": "7.94",
+			"country": "United States"
+		},
+		{
+			"rank": "721",
+			"name": "Fabasoft",
+			"symbol": "FAA.DE",
+			"marketCap": "186959024",
+			"priceUsd": "17",
+			"country": "Austria"
+		},
+		{
+			"rank": "722",
+			"name": "SYLA Technologies",
+			"symbol": "SYT",
+			"marketCap": "185124688",
+			"priceUsd": "7.21",
+			"country": "Japan"
+		},
+		{
+			"rank": "723",
+			"name": "eHealth",
+			"symbol": "EHTH",
+			"marketCap": "185089440",
+			"priceUsd": "6.68",
+			"country": "United States"
+		},
+		{
+			"rank": "724",
+			"name": "PLAID,Inc.",
+			"symbol": "4165.T",
+			"marketCap": "183077937",
+			"priceUsd": "4.68",
+			"country": "Japan"
+		},
+		{
+			"rank": "725",
+			"name": "Starbox Group",
+			"symbol": "STBX",
+			"marketCap": "181068752",
+			"priceUsd": "3.33",
+			"country": "Malaysia"
+		},
+		{
+			"rank": "726",
+			"name": "Iris Energy",
+			"symbol": "IREN",
+			"marketCap": "180343904",
+			"priceUsd": "3.28",
+			"country": "Australia"
+		},
+		{
+			"rank": "727",
+			"name": "Paysign",
+			"symbol": "PAYS",
+			"marketCap": "174708112",
+			"priceUsd": "3.33",
+			"country": "United States"
+		},
+		{
+			"rank": "728",
+			"name": "Babylon Holdings",
+			"symbol": "BBLN",
+			"marketCap": "173279776",
+			"priceUsd": "6.97",
+			"country": "United Kingdom"
+		},
+		{
+			"rank": "729",
+			"name": "Mynaric",
+			"symbol": "MYNA",
+			"marketCap": "172319360",
+			"priceUsd": "7.6",
+			"country": "Germany"
+		},
+		{
+			"rank": "730",
+			"name": "Ouster",
+			"symbol": "OUST",
+			"marketCap": "172275968",
+			"priceUsd": "4.46",
+			"country": "United States"
+		},
+		{
+			"rank": "731",
+			"name": "Blend Labs",
+			"symbol": "BLND",
+			"marketCap": "171593664",
+			"priceUsd": "0.704",
+			"country": "United States"
+		},
+		{
+			"rank": "732",
+			"name": "Drecom",
+			"symbol": "3793.T",
+			"marketCap": "171387299",
+			"priceUsd": "6.02",
+			"country": "Japan"
+		},
+		{
+			"rank": "733",
+			"name": "Bigtincan",
+			"symbol": "BTH.AX",
+			"marketCap": "171364686",
+			"priceUsd": "0.28",
+			"country": "Australia"
+		},
+		{
+			"rank": "734",
+			"name": "iHuman",
+			"symbol": "IH",
+			"marketCap": "168999520",
+			"priceUsd": "3.18",
+			"country": "China"
+		},
+		{
+			"rank": "735",
+			"name": "Scienjoy",
+			"symbol": "SJ",
+			"marketCap": "168509920",
+			"priceUsd": "4.15",
+			"country": "China"
+		},
+		{
+			"rank": "736",
+			"name": "Arteris",
+			"symbol": "AIP",
+			"marketCap": "164590256",
+			"priceUsd": "4.66",
+			"country": "United States"
+		},
+		{
+			"rank": "737",
+			"name": "BlackSky Technology",
+			"symbol": "BKSY",
+			"marketCap": "164322080",
+			"priceUsd": "1.18",
+			"country": "United States"
+		},
+		{
+			"rank": "738",
+			"name": "Markforged",
+			"symbol": "MKFG",
+			"marketCap": "155919728",
+			"priceUsd": "0.7942",
+			"country": "United States"
+		},
+		{
+			"rank": "739",
+			"name": "Ceragon Networks",
+			"symbol": "CRNT",
+			"marketCap": "151841344",
+			"priceUsd": "1.8",
+			"country": "Israel"
+		},
+		{
+			"rank": "740",
+			"name": "Identiv",
+			"symbol": "INVE",
+			"marketCap": "148108976",
+			"priceUsd": "6.52",
+			"country": "United States"
+		},
+		{
+			"rank": "741",
+			"name": "kneat.com",
+			"symbol": "FOBK.F",
+			"marketCap": "147267803",
+			"priceUsd": "1.82",
+			"country": "Ireland"
+		},
+		{
+			"rank": "742",
+			"name": "M\u00e9liuz",
+			"symbol": "CASH3.SA",
+			"marketCap": "146011653",
+			"priceUsd": "0.17",
+			"country": "Brazil"
+		},
+		{
+			"rank": "743",
+			"name": "Veritone",
+			"symbol": "VERI",
+			"marketCap": "145658448",
+			"priceUsd": "3.98",
+			"country": "United States"
+		},
+		{
+			"rank": "744",
+			"name": "Backblaze",
+			"symbol": "BLZE",
+			"marketCap": "144318256",
+			"priceUsd": "4.18",
+			"country": "United States"
+		},
+		{
+			"rank": "745",
+			"name": "WM Technology",
+			"symbol": "MAPS",
+			"marketCap": "143423184",
+			"priceUsd": "0.7912",
+			"country": "United States"
+		},
+		{
+			"rank": "746",
+			"name": "Talkspace",
+			"symbol": "TALK",
+			"marketCap": "143249216",
+			"priceUsd": "0.878",
+			"country": "United States"
+		},
+		{
+			"rank": "747",
+			"name": "O2Micro",
+			"symbol": "OIIM",
+			"marketCap": "143016304",
+			"priceUsd": "4.9",
+			"country": "Cayman Islands"
+		},
+		{
+			"rank": "748",
+			"name": "Doma",
+			"symbol": "DOMA",
+			"marketCap": "141900192",
+			"priceUsd": "0.4248",
+			"country": "United States"
+		},
+		{
+			"rank": "749",
+			"name": "Arqit Quantum",
+			"symbol": "ARQQ",
+			"marketCap": "141361136",
+			"priceUsd": "1.14",
+			"country": "United Kingdom"
+		},
+		{
+			"rank": "750",
+			"name": "Tabula Rasa HealthCare",
+			"symbol": "TRHC",
+			"marketCap": "141309904",
+			"priceUsd": "5.26",
+			"country": "United States"
+		},
+		{
+			"rank": "751",
+			"name": "The RealReal",
+			"symbol": "REAL",
+			"marketCap": "137237008",
+			"priceUsd": "1.37",
+			"country": "United States"
+		},
+		{
+			"rank": "752",
+			"name": "Arbe Robotics",
+			"symbol": "ARBE",
+			"marketCap": "136180800",
+			"priceUsd": "2.1",
+			"country": "Israel"
+		},
+		{
+			"rank": "753",
+			"name": "Foresight Autonomous Holdings",
+			"symbol": "FRSX",
+			"marketCap": "133306560",
+			"priceUsd": "2.0637",
+			"country": "Israel"
+		},
+		{
+			"rank": "754",
+			"name": "Lantronix",
+			"symbol": "LTRX",
+			"marketCap": "133293256",
+			"priceUsd": "3.65",
+			"country": "United States"
+		},
+		{
+			"rank": "755",
+			"name": "Absci",
+			"symbol": "ABSI",
+			"marketCap": "131338920",
+			"priceUsd": "1.42",
+			"country": "United States"
+		},
+		{
+			"rank": "756",
+			"name": "E INC (E Automotive)",
+			"symbol": "EINC.TO",
+			"marketCap": "130917795",
+			"priceUsd": "2.47",
+			"country": "Canada"
+		},
+		{
+			"rank": "757",
+			"name": "RumbleON",
+			"symbol": "RMBL",
+			"marketCap": "130899280",
+			"priceUsd": "7.97",
+			"country": "United States"
+		},
+		{
+			"rank": "758",
+			"name": "Focus Universal",
+			"symbol": "FCUV",
+			"marketCap": "130834392",
+			"priceUsd": "2.02",
+			"country": "United States"
+		},
+		{
+			"rank": "759",
+			"name": "Userjoy Technology",
+			"symbol": "3546.TWO",
+			"marketCap": "129988789",
+			"priceUsd": "2.7",
+			"country": "Taiwan"
+		},
+		{
+			"rank": "760",
+			"name": "Gorilla Technology",
+			"symbol": "GRRR",
+			"marketCap": "129044616",
+			"priceUsd": "1.8803",
+			"country": "Taiwan"
+		},
+		{
+			"rank": "761",
+			"name": "Telos",
+			"symbol": "TLS",
+			"marketCap": "126197104",
+			"priceUsd": "1.8",
+			"country": "United States"
+		},
+		{
+			"rank": "762",
+			"name": "StarTek",
+			"symbol": "SRT",
+			"marketCap": "124894344",
+			"priceUsd": "3.1",
+			"country": "United States"
+		},
+		{
+			"rank": "763",
+			"name": "Mister Spex",
+			"symbol": "MRX.F",
+			"marketCap": "124866048",
+			"priceUsd": "3.69",
+			"country": "Germany"
+		},
+		{
+			"rank": "764",
+			"name": "KLab",
+			"symbol": "3656.T",
+			"marketCap": "124635204",
+			"priceUsd": "3.08",
+			"country": "Japan"
+		},
+		{
+			"rank": "765",
+			"name": "AdTheorent",
+			"symbol": "ADTH",
+			"marketCap": "123750192",
+			"priceUsd": "1.41",
+			"country": "United States"
+		},
+		{
+			"rank": "766",
+			"name": "Serverworks",
+			"symbol": "4434.T",
+			"marketCap": "121921301",
+			"priceUsd": "15.74",
+			"country": "Japan"
+		},
+		{
+			"rank": "767",
+			"name": "Bakkt Holdings",
+			"symbol": "BKKT",
+			"marketCap": "118153456",
+			"priceUsd": "1.43",
+			"country": "United States"
+		},
+		{
+			"rank": "768",
+			"name": "Park City Group",
+			"symbol": "PCYG",
+			"marketCap": "117111136",
+			"priceUsd": "6.36",
+			"country": "United States"
+		},
+		{
+			"rank": "769",
+			"name": "Sylogist",
+			"symbol": "SYZ.TO",
+			"marketCap": "113108015",
+			"priceUsd": "4.76",
+			"country": "Canada"
+		},
+		{
+			"rank": "770",
+			"name": "Sequans Communications",
+			"symbol": "SQNS",
+			"marketCap": "111698576",
+			"priceUsd": "2.3",
+			"country": "France"
+		},
+		{
+			"rank": "771",
+			"name": "Upland Software",
+			"symbol": "UPLD",
+			"marketCap": "110945488",
+			"priceUsd": "3.42",
+			"country": "United States"
+		},
+		{
+			"rank": "772",
+			"name": "Latch",
+			"symbol": "LTCH",
+			"marketCap": "110464480",
+			"priceUsd": "0.76",
+			"country": "United States"
+		},
+		{
+			"rank": "773",
+			"name": "Groupon",
+			"symbol": "GRPN",
+			"marketCap": "108396768",
+			"priceUsd": "3.53",
+			"country": "United States"
+		},
+		{
+			"rank": "774",
+			"name": "Akili",
+			"symbol": "AKLI",
+			"marketCap": "105436496",
+			"priceUsd": "1.35",
+			"country": "United States"
+		},
+		{
+			"rank": "775",
+			"name": "Allot",
+			"symbol": "ALLT",
+			"marketCap": "105165368",
+			"priceUsd": "2.81",
+			"country": "Israel"
+		},
+		{
+			"rank": "776",
+			"name": "Xunlei",
+			"symbol": "XNET",
+			"marketCap": "103634064",
+			"priceUsd": "1.6004",
+			"country": "China"
+		},
+		{
+			"rank": "777",
+			"name": "Starbreeze",
+			"symbol": "STAR-B.ST",
+			"marketCap": "102064519",
+			"priceUsd": "0.14",
+			"country": "Sweden"
+		},
+		{
+			"rank": "778",
+			"name": "Streamline Health Solutions",
+			"symbol": "STRM",
+			"marketCap": "100810064",
+			"priceUsd": "1.72",
+			"country": "United States"
+		},
+		{
+			"rank": "779",
+			"name": "PowerFleet",
+			"symbol": "PWFL",
+			"marketCap": "100689144",
+			"priceUsd": "2.79",
+			"country": "United States"
+		},
+		{
+			"rank": "780",
+			"name": "Quantum",
+			"symbol": "QMCO",
+			"marketCap": "99954248",
+			"priceUsd": "0.95",
+			"country": "United States"
+		},
+		{
+			"rank": "781",
+			"name": "Spire Global",
+			"symbol": "SPIR",
+			"marketCap": "98723984",
+			"priceUsd": "0.6759",
+			"country": "United States"
+		},
+		{
+			"rank": "782",
+			"name": "Geospace Technologies",
+			"symbol": "GEOS",
+			"marketCap": "96775472",
+			"priceUsd": "7.37",
+			"country": "United States"
+		},
+		{
+			"rank": "783",
+			"name": "Rubicon Technologies",
+			"symbol": "RBT",
+			"marketCap": "95076000",
+			"priceUsd": "0.5",
+			"country": "United States"
+		},
+		{
+			"rank": "784",
+			"name": "ZeroFox",
+			"symbol": "ZFOX",
+			"marketCap": "93203880",
+			"priceUsd": "0.786",
+			"country": "United States"
+		},
+		{
+			"rank": "785",
+			"name": "geechs",
+			"symbol": "7060.T",
+			"marketCap": "92447593",
+			"priceUsd": "8.97",
+			"country": "Japan"
+		},
+		{
+			"rank": "786",
+			"name": "Quick Heal",
+			"symbol": "QUICKHEAL.NS",
+			"marketCap": "90599764",
+			"priceUsd": "1.71",
+			"country": "India"
+		},
+		{
+			"rank": "787",
+			"name": "KORE",
+			"symbol": "KORE",
+			"marketCap": "88785008",
+			"priceUsd": "1.16",
+			"country": "United States"
+		},
+		{
+			"rank": "788",
+			"name": "Allied Tecnologia",
+			"symbol": "ALLD3.SA",
+			"marketCap": "87084445",
+			"priceUsd": "0.93",
+			"country": "Brazil"
+		},
+		{
+			"rank": "789",
+			"name": "Wag! Group",
+			"symbol": "PET",
+			"marketCap": "86961952",
+			"priceUsd": "2.32",
+			"country": "United States"
+		},
+		{
+			"rank": "790",
+			"name": "Rekor Systems",
+			"symbol": "REKR",
+			"marketCap": "83920952",
+			"priceUsd": "1.31",
+			"country": "United States"
+		},
+		{
+			"rank": "791",
+			"name": "Synchronoss",
+			"symbol": "SNCR",
+			"marketCap": "83865016",
+			"priceUsd": "0.897",
+			"country": "United States"
+		},
+		{
+			"rank": "792",
+			"name": "Porch Group",
+			"symbol": "PRCH",
+			"marketCap": "83809136",
+			"priceUsd": "0.886",
+			"country": "United States"
+		},
+		{
+			"rank": "793",
+			"name": "HUB Cyber Security",
+			"symbol": "HUBC",
+			"marketCap": "79840000",
+			"priceUsd": "0.64",
+			"country": "Israel"
+		},
+		{
+			"rank": "794",
+			"name": "Smith Micro Software",
+			"symbol": "SMSI",
+			"marketCap": "78774664",
+			"priceUsd": "1.3",
+			"country": "United States"
+		},
+		{
+			"rank": "795",
+			"name": "Pixelworks",
+			"symbol": "PXLW",
+			"marketCap": "77998056",
+			"priceUsd": "1.4",
+			"country": "United States"
+		},
+		{
+			"rank": "796",
+			"name": "CalAmp",
+			"symbol": "CAMP",
+			"marketCap": "77843792",
+			"priceUsd": "2.08",
+			"country": "United States"
+		},
+		{
+			"rank": "797",
+			"name": "Quicklogic",
+			"symbol": "QUIK",
+			"marketCap": "75823208",
+			"priceUsd": "5.54",
+			"country": "United States"
+		},
+		{
+			"rank": "798",
+			"name": "enish",
+			"symbol": "3667.T",
+			"marketCap": "72219470",
+			"priceUsd": "4.19",
+			"country": "Japan"
+		},
+		{
+			"rank": "799",
+			"name": "AgileThought",
+			"symbol": "AGIL",
+			"marketCap": "69045264",
+			"priceUsd": "1.38",
+			"country": "United States"
+		},
+		{
+			"rank": "800",
+			"name": "3i Infotech",
+			"symbol": "3IINFOLTD.NS",
+			"marketCap": "68602845",
+			"priceUsd": "0.41",
+			"country": "India"
+		},
+		{
+			"rank": "801",
+			"name": "Embark Technology",
+			"symbol": "EMBK",
+			"marketCap": "68391952",
+			"priceUsd": "2.92",
+			"country": "United States"
+		},
+		{
+			"rank": "802",
+			"name": "Cheetah Mobile",
+			"symbol": "CMCM",
+			"marketCap": "67598888",
+			"priceUsd": "2.33",
+			"country": "China"
+		},
+		{
+			"rank": "803",
+			"name": "Natural Health Trends",
+			"symbol": "NHTC",
+			"marketCap": "67163928",
+			"priceUsd": "5.83",
+			"country": "United States"
+		},
+		{
+			"rank": "804",
+			"name": "Argo Blockchain",
+			"symbol": "ARBK",
+			"marketCap": "64984200",
+			"priceUsd": "1.36",
+			"country": "United Kingdom"
+		},
+		{
+			"rank": "805",
+			"name": "Yunji",
+			"symbol": "YJ",
+			"marketCap": "63579600",
+			"priceUsd": "0.315",
+			"country": "China"
+		},
+		{
+			"rank": "806",
+			"name": "Phunware",
+			"symbol": "PHUN",
+			"marketCap": "63421700",
+			"priceUsd": "0.61",
+			"country": "United States"
+		},
+		{
+			"rank": "807",
+			"name": "Cepton",
+			"symbol": "CPTN",
+			"marketCap": "63362792",
+			"priceUsd": "0.4042",
+			"country": "United States"
+		},
+		{
+			"rank": "808",
+			"name": "Viomi Technology",
+			"symbol": "VIOT",
+			"marketCap": "62238728",
+			"priceUsd": "0.9007",
+			"country": "China"
+		},
+		{
+			"rank": "809",
+			"name": "Aterian",
+			"symbol": "ATER",
+			"marketCap": "61463560",
+			"priceUsd": "0.7588",
+			"country": "United States"
+		},
+		{
+			"rank": "810",
+			"name": "Dave Inc.",
+			"symbol": "DAVE",
+			"marketCap": "61370492",
+			"priceUsd": "5.15",
+			"country": "United States"
+		},
+		{
+			"rank": "811",
+			"name": "Sarcos Technology and Robotics",
+			"symbol": "STRC",
+			"marketCap": "60297312",
+			"priceUsd": "0.3908",
+			"country": "United States"
+		},
+		{
+			"rank": "812",
+			"name": "Cazoo",
+			"symbol": "CZOO",
+			"marketCap": "60050948",
+			"priceUsd": "1.56",
+			"country": "United Kingdom"
+		},
+		{
+			"rank": "813",
+			"name": "Nano Labs",
+			"symbol": "NA",
+			"marketCap": "59650684",
+			"priceUsd": "1.07",
+			"country": "China"
+		},
+		{
+			"rank": "814",
+			"name": "Rigetti Computing",
+			"symbol": "RGTI",
+			"marketCap": "58567424",
+			"priceUsd": "0.4517",
+			"country": "United States"
+		},
+		{
+			"rank": "815",
+			"name": "Compugen",
+			"symbol": "CGEN",
+			"marketCap": "57803068",
+			"priceUsd": "0.665",
+			"country": "Israel"
+		},
+		{
+			"rank": "816",
+			"name": "The Glimpse Group",
+			"symbol": "VRAR",
+			"marketCap": "55342660",
+			"priceUsd": "3.95",
+			"country": "United States"
+		},
+		{
+			"rank": "817",
+			"name": "Mobile Factory",
+			"symbol": "3912.T",
+			"marketCap": "55087150",
+			"priceUsd": "7.08",
+			"country": "Japan"
+		},
+		{
+			"rank": "818",
+			"name": "ATARI",
+			"symbol": "ALATA.PA",
+			"marketCap": "54042364",
+			"priceUsd": "0.14",
+			"country": "France"
+		},
+		{
+			"rank": "819",
+			"name": "D-Wave Quantum",
+			"symbol": "QBTS",
+			"marketCap": "52955252",
+			"priceUsd": "0.4164",
+			"country": "Canada"
+		},
+		{
+			"rank": "820",
+			"name": "Red Cat Holdings",
+			"symbol": "RCAT",
+			"marketCap": "49160532",
+			"priceUsd": "0.9028",
+			"country": "United States"
+		},
+		{
+			"rank": "821",
+			"name": "Nippon Ichi Software",
+			"symbol": "3851.T",
+			"marketCap": "46358507",
+			"priceUsd": "9.2",
+			"country": "Japan"
+		},
+		{
+			"rank": "822",
+			"name": "Vinco Ventures",
+			"symbol": "BBIG",
+			"marketCap": "46212172",
+			"priceUsd": "0.1856",
+			"country": "United States"
+		},
+		{
+			"rank": "823",
+			"name": "Stronghold Digital Mining",
+			"symbol": "SDIG",
+			"marketCap": "46201916",
+			"priceUsd": "0.9051",
+			"country": "United States"
+		},
+		{
+			"rank": "824",
+			"name": "Castellum",
+			"symbol": "CTM",
+			"marketCap": "45539328",
+			"priceUsd": "0.96",
+			"country": "United States"
+		},
+		{
+			"rank": "825",
+			"name": "BitNile",
+			"symbol": "NILE",
+			"marketCap": "44776812",
+			"priceUsd": "0.1225",
+			"country": "United States"
+		},
+		{
+			"rank": "826",
+			"name": "Tose Software",
+			"symbol": "4728.T",
+			"marketCap": "43599973",
+			"priceUsd": "5.75",
+			"country": "Japan"
+		},
+		{
+			"rank": "827",
+			"name": "Intellicheck",
+			"symbol": "IDN",
+			"marketCap": "42335620",
+			"priceUsd": "2.224",
+			"country": "United States"
+		},
+		{
+			"rank": "828",
+			"name": "Wejo Group",
+			"symbol": "WEJO",
+			"marketCap": "42042676",
+			"priceUsd": "0.383",
+			"country": "United Kingdom"
+		},
+		{
+			"rank": "829",
+			"name": "Bird Global",
+			"symbol": "BRDS",
+			"marketCap": "41304592",
+			"priceUsd": "0.1287",
+			"country": "United States"
+		},
+		{
+			"rank": "830",
+			"name": "Exela Technologies",
+			"symbol": "XELA",
+			"marketCap": "40901820",
+			"priceUsd": "0.0321",
+			"country": "United States"
+		},
+		{
+			"rank": "831",
+			"name": "CISO Global (Cerberus Cyber Sentinel)",
+			"symbol": "CISO",
+			"marketCap": "38790680",
+			"priceUsd": "0.2516",
+			"country": "United States"
+		},
+		{
+			"rank": "832",
+			"name": "Cyxtera Technologies",
+			"symbol": "CYXT",
+			"marketCap": "37505936",
+			"priceUsd": "0.208",
+			"country": "United States"
+		},
+		{
+			"rank": "833",
+			"name": "Shift Technologies",
+			"symbol": "SFT",
+			"marketCap": "37385848",
+			"priceUsd": "2.17",
+			"country": "United States"
+		},
+		{
+			"rank": "834",
+			"name": "IronNet",
+			"symbol": "IRNT",
+			"marketCap": "36885752",
+			"priceUsd": "0.33",
+			"country": "United States"
+		},
+		{
+			"rank": "835",
+			"name": "ReWalk Robotics",
+			"symbol": "RWLK",
+			"marketCap": "36752756",
+			"priceUsd": "0.6179",
+			"country": "Israel"
+		},
+		{
+			"rank": "836",
+			"name": "AppTech Payments",
+			"symbol": "APCX",
+			"marketCap": "36693412",
+			"priceUsd": "1.99",
+			"country": "United States"
+		},
+		{
+			"rank": "837",
+			"name": "Helbiz",
+			"symbol": "HLBZ",
+			"marketCap": "36295920",
+			"priceUsd": "0.1167",
+			"country": "United States"
+		},
+		{
+			"rank": "838",
+			"name": "Energous",
+			"symbol": "WATT",
+			"marketCap": "35502480",
+			"priceUsd": "0.39",
+			"country": "United States"
+		},
+		{
+			"rank": "839",
+			"name": "AEye",
+			"symbol": "LIDR",
+			"marketCap": "35372516",
+			"priceUsd": "0.2096",
+			"country": "United States"
+		},
+		{
+			"rank": "840",
+			"name": "AgEagle Aerial Systems",
+			"symbol": "UAVS",
+			"marketCap": "35153560",
+			"priceUsd": "0.386",
+			"country": "United States"
+		},
+		{
+			"rank": "841",
+			"name": "RealNetworks",
+			"symbol": "RNWK",
+			"marketCap": "34821656",
+			"priceUsd": "0.73",
+			"country": "United States"
+		},
+		{
+			"rank": "842",
+			"name": "Satixfy Communications",
+			"symbol": "SATX",
+			"marketCap": "33917560",
+			"priceUsd": "0.42",
+			"country": "Israel"
+		},
+		{
+			"rank": "843",
+			"name": "Diebold Nixdorf",
+			"symbol": "DBD",
+			"marketCap": "32942824",
+			"priceUsd": "0.4138",
+			"country": "United States"
+		},
+		{
+			"rank": "844",
+			"name": "Silicon Studio",
+			"symbol": "3907.T",
+			"marketCap": "32942386",
+			"priceUsd": "11.17",
+			"country": "Japan"
+		},
+		{
+			"rank": "845",
+			"name": "Appirits",
+			"symbol": "4174.T",
+			"marketCap": "32404481",
+			"priceUsd": "7.94",
+			"country": "Japan"
+		},
+		{
+			"rank": "846",
+			"name": "UpHealth",
+			"symbol": "UPH",
+			"marketCap": "32058394",
+			"priceUsd": "1.91",
+			"country": "United States"
+		},
+		{
+			"rank": "847",
+			"name": "Cyngn",
+			"symbol": "CYN",
+			"marketCap": "32033620",
+			"priceUsd": "0.95",
+			"country": "United States"
+		},
+		{
+			"rank": "848",
+			"name": "Sphere 3D",
+			"symbol": "ANY",
+			"marketCap": "30347854",
+			"priceUsd": "0.4105",
+			"country": "Canada"
+		},
+		{
+			"rank": "849",
+			"name": "BIT Mining (500.com)",
+			"symbol": "BTCM",
+			"marketCap": "29575864",
+			"priceUsd": "2.78",
+			"country": "China"
+		},
+		{
+			"rank": "850",
+			"name": "Renren",
+			"symbol": "RENN",
+			"marketCap": "28743878",
+			"priceUsd": "1.08",
+			"country": "China"
+		},
+		{
+			"rank": "851",
+			"name": "Duos Technologies Group",
+			"symbol": "DUOT",
+			"marketCap": "28407534",
+			"priceUsd": "3.97",
+			"country": "United States"
+		},
+		{
+			"rank": "852",
+			"name": "Treasure Global",
+			"symbol": "TGL",
+			"marketCap": "26623674",
+			"priceUsd": "1.54",
+			"country": "Malaysia"
+		},
+		{
+			"rank": "853",
+			"name": "Core Scientific",
+			"symbol": "CORZ",
+			"marketCap": "26534932",
+			"priceUsd": "0.0751",
+			"country": "United States"
+		},
+		{
+			"rank": "854",
+			"name": "Rockley Photonics",
+			"symbol": "RKLY",
+			"marketCap": "25540714",
+			"priceUsd": "0.1924",
+			"country": "United Kingdom"
+		},
+		{
+			"rank": "855",
+			"name": "Greenidge Generation Holdings",
+			"symbol": "GREE",
+			"marketCap": "25192940",
+			"priceUsd": "0.4213",
+			"country": "United States"
+		},
+		{
+			"rank": "856",
+			"name": "Onion Global",
+			"symbol": "OG",
+			"marketCap": "25018084",
+			"priceUsd": "0.238",
+			"country": "China"
+		},
+		{
+			"rank": "857",
+			"name": "NJ Holdings",
+			"symbol": "9421.T",
+			"marketCap": "24994879",
+			"priceUsd": "4.72",
+			"country": "Japan"
+		},
+		{
+			"rank": "858",
+			"name": "SOS Limited",
+			"symbol": "SOS",
+			"marketCap": "24510930",
+			"priceUsd": "3.88",
+			"country": "China"
+		},
+		{
+			"rank": "859",
+			"name": "Avaya Holdings",
+			"symbol": "AVYA",
+			"marketCap": "23908978",
+			"priceUsd": "0.2753",
+			"country": "United States"
+		},
+		{
+			"rank": "860",
+			"name": "Spark Networks",
+			"symbol": "LOV",
+			"marketCap": "23891868",
+			"priceUsd": "0.91",
+			"country": "Germany"
+		},
+		{
+			"rank": "861",
+			"name": "Shapeways",
+			"symbol": "SHPW",
+			"marketCap": "21828048",
+			"priceUsd": "0.44",
+			"country": "United States"
+		},
+		{
+			"rank": "862",
+			"name": "SeaChange",
+			"symbol": "SEAC",
+			"marketCap": "21350442",
+			"priceUsd": "0.4222",
+			"country": "United States"
+		},
+		{
+			"rank": "863",
+			"name": "Marpai",
+			"symbol": "MRAI",
+			"marketCap": "21309680",
+			"priceUsd": "0.7345",
+			"country": "United States"
+		},
+		{
+			"rank": "864",
+			"name": "Ekso Bionics",
+			"symbol": "EKSO",
+			"marketCap": "21199554",
+			"priceUsd": "1.57",
+			"country": "United States"
+		},
+		{
+			"rank": "865",
+			"name": "WonderPlanet",
+			"symbol": "4199.T",
+			"marketCap": "20921674",
+			"priceUsd": "8.34",
+			"country": "Japan"
+		},
+		{
+			"rank": "866",
+			"name": "The9",
+			"symbol": "NCTY",
+			"marketCap": "20797408",
+			"priceUsd": "0.8201",
+			"country": "China"
+		},
+		{
+			"rank": "867",
+			"name": "Super League Gaming",
+			"symbol": "SLGG",
+			"marketCap": "20299718",
+			"priceUsd": "0.5398",
+			"country": "United States"
+		},
+		{
+			"rank": "868",
+			"name": "Beamr Imaging",
+			"symbol": "BMR",
+			"marketCap": "20024512",
+			"priceUsd": "1.515",
+			"country": "Israel"
+		},
+		{
+			"rank": "869",
+			"name": "American Virtual Cloud",
+			"symbol": "AVCT",
+			"marketCap": "19417060",
+			"priceUsd": "0.598",
+			"country": "United States"
+		},
+		{
+			"rank": "870",
+			"name": "Nogin",
+			"symbol": "NOGN",
+			"marketCap": "19240920",
+			"priceUsd": "1.8",
+			"country": "United States"
+		},
+		{
+			"rank": "871",
+			"name": "Fr8Tech \r\n (Freight Technologies)",
+			"symbol": "FRGT",
+			"marketCap": "17664484",
+			"priceUsd": "1.85",
+			"country": "United States"
+		},
+		{
+			"rank": "872",
+			"name": "Triterras",
+			"symbol": "TRIRF",
+			"marketCap": "16077712",
+			"priceUsd": "0.2101",
+			"country": "Singapore"
+		},
+		{
+			"rank": "873",
+			"name": "Remark Holdings",
+			"symbol": "MARK",
+			"marketCap": "15406420",
+			"priceUsd": "1.13",
+			"country": "United States"
+		},
+		{
+			"rank": "874",
+			"name": "Rail Vision",
+			"symbol": "RVSN",
+			"marketCap": "15393129",
+			"priceUsd": "0.9566",
+			"country": "Israel"
+		},
+		{
+			"rank": "875",
+			"name": "ADVFN",
+			"symbol": "AFN.L",
+			"marketCap": "13770983",
+			"priceUsd": "0.3",
+			"country": "United Kingdom"
+		},
+		{
+			"rank": "876",
+			"name": "Guardforce AI",
+			"symbol": "GFAI",
+			"marketCap": "12338761",
+			"priceUsd": "7.62",
+			"country": "Singapore"
+		},
+		{
+			"rank": "877",
+			"name": "OLB Group",
+			"symbol": "OLB",
+			"marketCap": "12275233",
+			"priceUsd": "0.8079",
+			"country": "United States"
+		},
+		{
+			"rank": "878",
+			"name": "WeTrade Group",
+			"symbol": "WETG",
+			"marketCap": "11976561",
+			"priceUsd": "0.0614",
+			"country": "China"
+		},
+		{
+			"rank": "879",
+			"name": "Jump Networks",
+			"symbol": "JUMPNET.NS",
+			"marketCap": "11669324",
+			"priceUsd": "0.12",
+			"country": "India"
+		},
+		{
+			"rank": "880",
+			"name": "Marin Software",
+			"symbol": "MRIN",
+			"marketCap": "10919880",
+			"priceUsd": "0.6334",
+			"country": "United States"
+		},
+		{
+			"rank": "881",
+			"name": "Socket Mobile",
+			"symbol": "SCKT",
+			"marketCap": "10766224",
+			"priceUsd": "1.51",
+			"country": "United States"
+		},
+		{
+			"rank": "882",
+			"name": "Advanced Human Imaging",
+			"symbol": "AHI",
+			"marketCap": "10560200",
+			"priceUsd": "0.35",
+			"country": "Australia"
+		},
+		{
+			"rank": "883",
+			"name": "Netcapital",
+			"symbol": "NCPL",
+			"marketCap": "10111632",
+			"priceUsd": "1.57",
+			"country": "United States"
+		},
+		{
+			"rank": "884",
+			"name": "Blackboxstocks",
+			"symbol": "BLBX",
+			"marketCap": "9405912",
+			"priceUsd": "2.99",
+			"country": "United States"
+		},
+		{
+			"rank": "885",
+			"name": "SaverOne 2014",
+			"symbol": "SVRE",
+			"marketCap": "9056573",
+			"priceUsd": "1.63",
+			"country": "Israel"
+		},
+		{
+			"rank": "886",
+			"name": "Pintec Technology",
+			"symbol": "PT",
+			"marketCap": "8417621",
+			"priceUsd": "0.97",
+			"country": "China"
+		},
+		{
+			"rank": "887",
+			"name": "Cemtrex",
+			"symbol": "CETX",
+			"marketCap": "8064028",
+			"priceUsd": "9.74",
+			"country": "United States"
+		},
+		{
+			"rank": "888",
+			"name": "Zoomd Technologies",
+			"symbol": "ZOMD.V",
+			"marketCap": "7989245",
+			"priceUsd": "0.08",
+			"country": "Canada"
+		},
+		{
+			"rank": "889",
+			"name": "Trust Stamp",
+			"symbol": "IDAI",
+			"marketCap": "7563351",
+			"priceUsd": "1.33",
+			"country": "United States"
+		},
+		{
+			"rank": "890",
+			"name": "IMTE",
+			"symbol": "IMTE",
+			"marketCap": "7313221",
+			"priceUsd": "0.463299",
+			"country": "Australia"
+		},
+		{
+			"rank": "891",
+			"name": "Versus Systems",
+			"symbol": "VS",
+			"marketCap": "6838016",
+			"priceUsd": "0.64",
+			"country": "Canada"
+		},
+		{
+			"rank": "892",
+			"name": "Verb Technology",
+			"symbol": "VERB",
+			"marketCap": "6490022",
+			"priceUsd": "1.69",
+			"country": "United States"
+		},
+		{
+			"rank": "893",
+			"name": "Mobilicom",
+			"symbol": "MOB",
+			"marketCap": "6442418",
+			"priceUsd": "1.27",
+			"country": "Australia"
+		},
+		{
+			"rank": "894",
+			"name": "Swvl Holdings",
+			"symbol": "SWVL",
+			"marketCap": "6323850",
+			"priceUsd": "1.17",
+			"country": "United Arab Emirates"
+		},
+		{
+			"rank": "895",
+			"name": "Tricida",
+			"symbol": "TCDA",
+			"marketCap": "6267056",
+			"priceUsd": "0.108",
+			"country": "United States"
+		},
+		{
+			"rank": "896",
+			"name": "BIO-key International",
+			"symbol": "BKYI",
+			"marketCap": "6126387",
+			"priceUsd": "0.6666",
+			"country": "United States"
+		},
+		{
+			"rank": "897",
+			"name": "Onfolio Holdings",
+			"symbol": "ONFO",
+			"marketCap": "5953383",
+			"priceUsd": "1.165",
+			"country": "United States"
+		},
+		{
+			"rank": "898",
+			"name": "Inpixon",
+			"symbol": "INPX",
+			"marketCap": "5782459",
+			"priceUsd": "0.336",
+			"country": "United States"
+		},
+		{
+			"rank": "899",
+			"name": "Missfresh",
+			"symbol": "MF",
+			"marketCap": "5365388",
+			"priceUsd": "0.6829",
+			"country": "China"
+		},
+		{
+			"rank": "900",
+			"name": "Kidpik",
+			"symbol": "PIK",
+			"marketCap": "4920441",
+			"priceUsd": "0.64",
+			"country": "United States"
+		},
+		{
+			"rank": "901",
+			"name": "Oblong",
+			"symbol": "OBLG",
+			"marketCap": "4335021",
+			"priceUsd": "1.68",
+			"country": "United States"
+		},
+		{
+			"rank": "902",
+			"name": "Pear Therapeutics",
+			"symbol": "PEAR",
+			"marketCap": "4167979",
+			"priceUsd": "0.0292",
+			"country": "United States"
+		},
+		{
+			"rank": "903",
+			"name": "G Medical Innovations",
+			"symbol": "GMVD",
+			"marketCap": "3939576",
+			"priceUsd": "0.4003",
+			"country": "Israel"
+		},
+		{
+			"rank": "904",
+			"name": "Cryptyde",
+			"symbol": "TYDE",
+			"marketCap": "3801250",
+			"priceUsd": "0.0571",
+			"country": "United States"
+		},
+		{
+			"rank": "905",
+			"name": "Grom Social Enterprises",
+			"symbol": "GROM",
+			"marketCap": "3329240",
+			"priceUsd": "0.4568",
+			"country": "United States"
+		},
+		{
+			"rank": "906",
+			"name": "Quanergy Systems",
+			"symbol": "QNGY",
+			"marketCap": "1196165",
+			"priceUsd": "0.074",
+			"country": "United States"
+		},
+		{
+			"rank": "907",
+			"name": "Pareteum Corporation",
+			"symbol": "TEUM",
+			"marketCap": "14270",
+			"priceUsd": "0",
+			"country": "United States"
+		},
+		{
+			"rank": "908",
+			"name": "Winc",
+			"symbol": "WBEVQ",
+			"marketCap": "13297",
+			"priceUsd": "0.0006",
+			"country": "United States"
+		},
+		{
+			"rank": "909",
+			"name": "Ozon",
+			"symbol": "OZON.ME",
+			"marketCap": "0",
+			"priceUsd": "0",
+			"country": "United States"
+		}
+	]
+}
