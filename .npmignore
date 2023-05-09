@@ -1,4 +1,6 @@
 
+docs/
 src/
+tests/
 
-/*.rx
+Makefile
