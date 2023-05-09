@@ -157,7 +157,7 @@ josn @colors.json colors :10 --table
 |     | `Package`   | `Version`   |
 | --- | ----------- | ----------- |
 | 1   | `json5`     | `^2.2.3`    |
-| 2   | `whichtype` | `^0.9.1`    |
+| 2   | `whichtype` | `^0.10.0`   |
 
 
 
