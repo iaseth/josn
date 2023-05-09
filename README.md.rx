@@ -71,6 +71,18 @@ Now you should be able to run the `josn` command in your terminal.
 		The slice syntax is heavily inspired by its counterpart in `Python`.
 
 
+## Demos
+`josn` comes with a bunch of demo JSON files to get you started.
+| Title | Name | Source | Description |
+| ----- | ---- | ------ | ----------- |{% for demo in parse("src/demos.json").demos %}
+| {{ demo.title }} | [`{{ demo.filename }}`](https://github.com/iaseth/josn/tree/master/demojsons/{{ demo.filename }}) | {{ gh.link(demo.repo) }} | {{ demo.description }} |{% endfor %}
+
+Use the following command to view the list of available demo JSON files in your `josn` installation:
+=> josn --print-demos
+You can open a demo file with the `@demoname` syntax:
+=> josn @colors.json colors :10 --table
+
+
 ## Package details
 {{ npm.packageDetails() }}
 

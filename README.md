@@ -15,6 +15,7 @@ You can view the source file [here](https://github.com/iaseth/josn/blob/master/R
     * [Table of contents](#table-of-contents)
     * [Installation](#installation)
     * [Usage](#usage)
+    * [Demos](#demos)
     * [Package details](#package-details)
     * [Dependencies](#dependencies)
     * [Dev dependencies](#dev-dependencies)
@@ -118,12 +119,33 @@ Now you should be able to run the `josn` command in your terminal.
         The slice syntax is heavily inspired by its counterpart in `Python`.
 
 
+## Demos
+`josn` comes with a bunch of demo JSON files to get you started.
+| Title | Name | Source | Description |
+| ----- | ---- | ------ | ----------- |
+| HTML Colors | [`colors.json`](https://github.com/iaseth/josn/tree/master/demojsons/colors.json) | [`iaseth/html-color-names`](https://github.com/iaseth/html-color-names) |  |
+| HTML Color Palettes | [`colorpalettes.json`](https://github.com/iaseth/josn/tree/master/demojsons/colorpalettes.json) | [`iaseth/html-color-names`](https://github.com/iaseth/html-color-names) |  |
+| YC Company Data | [`yc-companies.json`](https://github.com/iaseth/josn/tree/master/demojsons/yc-companies.json) | [`iaseth/top-100-yc-companies`](https://github.com/iaseth/top-100-yc-companies) |  |
+| YC Color Palettes | [`yc-palettes.json`](https://github.com/iaseth/josn/tree/master/demojsons/yc-palettes.json) | [`iaseth/top-100-yc-companies`](https://github.com/iaseth/top-100-yc-companies) |  |
+| YC Tailwind Colors | [`yc-tailwind.json`](https://github.com/iaseth/josn/tree/master/demojsons/yc-tailwind.json) | [`iaseth/top-100-yc-companies`](https://github.com/iaseth/top-100-yc-companies) |  |
+| Big Tech Market Cap Data | [`bigtech-market-cap.json`](https://github.com/iaseth/josn/tree/master/demojsons/bigtech-market-cap.json) | [`iaseth/bigtech-json-data`](https://github.com/iaseth/bigtech-json-data) |  |
+
+Use the following command to view the list of available demo JSON files in your `josn` installation:
+```
+josn --print-demos
+```
+You can open a demo file with the `@demoname` syntax:
+```
+josn @colors.json colors :10 --table
+```
+
+
 ## Package details
 | `Name`        | `Value`                               |
 | ------------- | ------------------------------------- |
 | `Name`        | `josn-cli`                            |
 | `Description` | `JOSN is a command line JSON viewer.` |
-| `Version`     | `0.8.14`                              |
+| `Version`     | `0.8.15`                              |
 | `Author`      | `iaseth`                              |
 | `Homepage`    | `https://github.com/iaseth/josn`      |
 | `Repository`  | `iaseth/josn`                         |

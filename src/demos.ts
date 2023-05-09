@@ -3,7 +3,7 @@ import demosJson from './demos.json';
 
 
 export interface DemoJson {
-	name: string,
+	title: string,
 	filename: string,
 	description: string,
 	repo: string,
