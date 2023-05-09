@@ -88,6 +88,24 @@ export class Transformer {
 			}
 			break;
 
+		case "flat":
+			if (whichtype.isObjectOfObjects(this.element)) {
+				const keyName = this.modifier || "key";
+				const result = Object.keys(this.element).map(k => {
+					return {
+						...this.element[k],
+						[keyName]: k,
+					};
+				});
+				return result;
+			} else if (whichtype.isObjectOfArrays(this.element)) {
+				const result = Object.keys(this.element).map(key => [key, ...this.element[key]]);
+				return result;
+			} else {
+				console.log("Cannot flatten an object!");
+				return null;
+			}
+
 		default:
 			// nothing to do by default
 		}
