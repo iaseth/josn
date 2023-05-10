@@ -68,9 +68,12 @@ export function getCmdOptions (flagArgs: string[]) : CmdOptions {
 	const cmdOptions: CmdOptions = new CmdOptions();
 
 	const singleFlags = flagArgs.filter(isSingleFlag);
+	const singleFlagsString = singleFlags.join("");
 	const doubleFlags = flagArgs.filter(isDoubleFlag);
+
 	flags.forEach(flag => {
-		if (singleFlags.includes(flag.singleFlag) || doubleFlags.includes(flag.doubleFlag)) {
+		const singleFlagChar = flag.singleFlag[1];
+		if (singleFlagsString.includes(singleFlagChar) || doubleFlags.includes(flag.doubleFlag)) {
 			(cmdOptions as any)[flag.name] = true;
 		}
 	});
