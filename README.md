@@ -9,7 +9,9 @@ I have created a similar tool ([`jsonplus`](https://github.com/iaseth/jsonplus))
 I am using [`readmix`](https://github.com/iaseth/readmix) for generating this README.
 You can view the source file [here](https://github.com/iaseth/josn/blob/master/README.md.rx).
 
-JOSN uses [`whichtype`](https://github.com/iaseth/whichtype) for checking types of variables.
+Three of my other projects, [`whichtype`](https://github.com/iaseth/whichtype), [`jslice`](https://github.com/iaseth/jslice)
+and [`jtransform`](https://github.com/iaseth/jtransform), actually started out as modules within `josn`,
+but were later made separate packages to allow for easier testing and code reuse.
 
 
 ## Table of contents

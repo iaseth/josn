@@ -9,7 +9,9 @@ I have created a similar tool ({{ gh.link("iaseth/jsonplus", "jsonplus") }}) in 
 I am using {{ gh.link("iaseth/readmix", "readmix") }} for generating this README.
 You can view the source file [here](https://github.com/iaseth/josn/blob/master/README.md.rx).
 
-JOSN uses {{ gh.link("iaseth/whichtype", "whichtype") }} for checking types of variables.
+Three of my other projects, {{ gh.link("iaseth/whichtype", "whichtype") }}, {{ gh.link("iaseth/jslice", "jslice") }}
+and {{ gh.link("iaseth/jtransform", "jtransform") }}, actually started out as modules within `josn`,
+but were later made separate packages to allow for easier testing and code reuse.
 
 
 ## Table of contents
