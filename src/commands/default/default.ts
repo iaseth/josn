@@ -6,7 +6,7 @@ import { hasAColon } from 'whichtype';
 import { CmdOptions } from "../../cmdoptions";
 import { parseJsonFile } from '../../parse';
 import { Transformer } from './transformer';
-import { findArrayIndex, findObjectKey } from '../../utils';
+import { findArrayIndex, findObjectKey } from './findsimilar';
 import { demos } from '../../demos';
 
 

@@ -1,5 +1,2 @@
 
-export {
-	findArrayIndex,
-	findObjectKey,
-} from "./findsimilar";
+export const NAME = "I am just an empty module.";
