@@ -1,6 +1,5 @@
 const whichtype = require('whichtype');
-
-import jtransform from "jtransform";
+const jtransform = require('jtransform');
 
 
 
