@@ -1,6 +1,6 @@
 const whichtype = require('whichtype');
 
-import { transforms } from "../../../utils";
+import jtransform from "jtransform";
 
 
 
@@ -204,9 +204,9 @@ export class Transformer {
 
 		case "capital": break;
 		case "lower":
-			return this.element.map(transforms.toLower);
+			return this.element.map(jtransform.toLower);
 		case "upper":
-			return this.element.map(transforms.toUpper);
+			return this.element.map(jtransform.toUpper);
 		case "prefix":
 			const prefix = this.modifier;
 			return this.element.map((x: string) => prefix + x);
