@@ -1,11 +1,12 @@
 import fs from 'fs';
 import path from 'path';
 import { isSlice, slice } from 'jslice';
+import { hasAColon } from 'whichtype';
 
 import { CmdOptions } from "../../cmdoptions";
 import { parseJsonFile } from '../../parse';
 import { Transformer } from './transformer';
-import { findSimilarKey, hasAColon } from '../../utils';
+import { findSimilarKey } from '../../utils';
 import { demos } from '../../demos';
 
 

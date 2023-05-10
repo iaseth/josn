@@ -1,4 +1,4 @@
-import { isDoubleFlag, isSingleFlag } from "./utils";
+import { isDoubleFlag, isSingleFlag } from 'whichtype';
 
 
 

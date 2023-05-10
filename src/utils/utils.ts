@@ -1,3 +1,2 @@
 
-export * from "./args";
-export * from "./object";
+export { findSimilarKey } from "./object";
