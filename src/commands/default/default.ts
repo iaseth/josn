@@ -1,11 +1,11 @@
 import fs from 'fs';
 import path from 'path';
+import { isSlice, slice } from 'jslice';
 
 import { CmdOptions } from "../../cmdoptions";
 import { parseJsonFile } from '../../parse';
-import { SliceArg } from './slicearg';
 import { Transformer } from './transformer';
-import { findSimilarKey, hasAColon, isSlice } from '../../utils';
+import { findSimilarKey, hasAColon } from '../../utils';
 import { demos } from '../../demos';
 
 
@@ -96,8 +96,12 @@ export function defaultCommand (cmdOptions: CmdOptions, nonFlagArgs: string[]) {
 			// keyArg has a colon somewhere, like ":keys" or "5:10" or "map:name"
 			if (isSlice(keyArg)) {
 				// do pythonesque array slicing
-				const sliceArg = new SliceArg(keyArg, currentJo);
-				newJo = sliceArg.slice();
+				if (isArray) {
+					newJo = slice(currentJo, keyArg);
+				} else {
+					console.log(`Cannot slice an object: '${keyArg}'`);
+					return;
+				}
 			} else {
 				const transformer = new Transformer(keyArg, currentJo);
 				newJo = transformer.result();

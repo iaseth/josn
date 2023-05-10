@@ -40,19 +40,6 @@ export function hasAColon (arg: string) : boolean {
 	return arg.includes(":");
 }
 
-export function isSlice (arg: string) : boolean {
-	const parts = arg.split(":");
-	if (parts.length !== 2) return false;
-
-	const [lhs, rhs] = parts;
-	if (lhs === "" || isNumeric(lhs)) {
-		if (rhs === "" || isNumeric(rhs)) {
-			return true;
-		}
-	}
-	return false;
-}
-
 
 
 export function isSingleFlag (x: string) {

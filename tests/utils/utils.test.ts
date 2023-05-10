@@ -91,25 +91,3 @@ test("hasAColon", () => {
 	expect(hasAColon("--")).toBe(false);
 	expect(hasAColon("-x")).toBe(false);
 });
-
-test("isSlice", () => {
-	const { isSlice } = josnlib;
-
-	expect(isSlice(":")).toBe(true);
-	expect(isSlice(":10")).toBe(true);
-	expect(isSlice("5:")).toBe(true);
-	expect(isSlice("-25:")).toBe(true);
-	expect(isSlice(":-5")).toBe(true);
-	expect(isSlice("15:50")).toBe(true);
-
-	expect(isSlice("foo:")).toBe(false);
-	expect(isSlice(":bar")).toBe(false);
-	expect(isSlice("foo:bar")).toBe(false);
-	expect(isSlice("x:x")).toBe(false);
-	expect(isSlice("x:x:3")).toBe(false);
-
-	expect(isSlice("foo")).toBe(false);
-	expect(isSlice("10")).toBe(false);
-	expect(isSlice("--")).toBe(false);
-	expect(isSlice("x")).toBe(false);
-});

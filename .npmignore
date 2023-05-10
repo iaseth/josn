@@ -4,3 +4,5 @@ src/
 tests/
 
 Makefile
+
+syntax.md.rx

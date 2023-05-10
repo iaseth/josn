@@ -172,8 +172,9 @@ josn @colors colors :10 --table
 ## Dependencies
 |     | `Package`   | `Version`   |
 | --- | ----------- | ----------- |
-| 1   | `json5`     | `^2.2.3`    |
-| 2   | `whichtype` | `^1.0.2`    |
+| 1   | `jslice`    | `^0.9.0`    |
+| 2   | `json5`     | `^2.2.3`    |
+| 3   | `whichtype` | `^1.0.2`    |
 
 
 
