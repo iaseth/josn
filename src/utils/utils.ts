@@ -1,2 +1,5 @@
 
-export { findSimilarKey } from "./object";
+export {
+	findArrayIndex,
+	findObjectKey,
+} from "./findsimilar";

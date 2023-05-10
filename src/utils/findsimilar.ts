@@ -2,7 +2,12 @@ import { CmdOptions } from "../cmdoptions";
 
 
 
-export function findSimilarKey (object: any, keyArg: string, cmdOptions: CmdOptions) {
+export function findArrayIndex (arr: any[], keyArg: string) {
+	const argNum = parseInt(keyArg);
+	return argNum;
+}
+
+export function findObjectKey (object: any, keyArg: string, cmdOptions: CmdOptions) {
 	const objectKeys = [...Object.keys(object)];
 	if (objectKeys.find(k => k === keyArg)) {
 		return keyArg;

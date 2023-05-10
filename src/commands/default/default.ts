@@ -6,7 +6,7 @@ import { hasAColon } from 'whichtype';
 import { CmdOptions } from "../../cmdoptions";
 import { parseJsonFile } from '../../parse';
 import { Transformer } from './transformer';
-import { findSimilarKey } from '../../utils';
+import { findArrayIndex, findObjectKey } from '../../utils';
 import { demos } from '../../demos';
 
 
@@ -109,11 +109,11 @@ export function defaultCommand (cmdOptions: CmdOptions, nonFlagArgs: string[]) {
 			}
 		} else {
 			if (isArray) {
-				const idx = isArray ? parseInt(keyArg) : 0;
+				const actualIndex = findArrayIndex(currentJo, keyArg);
 				// using at() because idx can also be negative
-				newJo = currentJo.at(idx);
+				newJo = currentJo.at(actualIndex);
 			} else if (isObject) {
-				const actualKey = findSimilarKey(currentJo, keyArg, cmdOptions);
+				const actualKey = findObjectKey(currentJo, keyArg, cmdOptions);
 				newJo = currentJo[actualKey];
 			}
 		}
