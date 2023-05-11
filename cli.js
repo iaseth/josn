@@ -27,6 +27,8 @@ function main () {
 		commands.printDemosCommand(cmdOptions);
 	} else if (cmdOptions.printFlags) {
 		commands.printFlagsCommand(cmdOptions);
+	} else if (cmdOptions.green) {
+		commands.greenCommand(cmdOptions);
 	} else if (cmdOptions.help) {
 		commands.helpCommand(cmdOptions);
 	} else if (cmdOptions.license) {

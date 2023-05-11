@@ -1,6 +1,7 @@
 import { CmdOptions, flags } from "../cmdoptions";
 import { demos } from "../demos";
 import { defaultCommand } from "./defaultCommand";
+import { greenCommand } from "./greenCommand";
 import { helpCommand } from "./helpCommand";
 import { licenseCommand } from "./licenseCommand";
 import { versionCommand } from "./versionCommand";
@@ -25,6 +26,7 @@ export const commands = {
 	printDemosCommand,
 	printFlagsCommand,
 
+	greenCommand,
 	helpCommand,
 	licenseCommand,
 	versionCommand,
