@@ -29,6 +29,8 @@ function main () {
 		commands.printFlagsCommand(cmdOptions);
 	} else if (cmdOptions.help) {
 		commands.helpCommand(cmdOptions);
+	} else if (cmdOptions.version) {
+		commands.versionCommand(cmdOptions);
 	} else {
 		commands.defaultCommand(cmdOptions, nonFlagArgs);
 	}

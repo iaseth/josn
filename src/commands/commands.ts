@@ -2,6 +2,7 @@ import { CmdOptions, flags } from "../cmdoptions";
 import { demos } from "../demos";
 import { defaultCommand } from "./defaultCommand";
 import { helpCommand } from "./helpCommand";
+import { versionCommand } from "./versionCommand";
 
 
 
@@ -24,5 +25,7 @@ export const commands = {
 	printFlagsCommand,
 
 	helpCommand,
+	versionCommand,
+
 	defaultCommand,
 };
