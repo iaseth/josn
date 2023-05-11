@@ -1,6 +1,6 @@
 {
   "name": "josn-cli",
-  "version": "0.16.0",
+  "version": "0.17.0",
   "description": "JOSN is a command line JSON viewer.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -24,7 +24,7 @@
     "jslice": "^0.9.0",
     "json5": "^2.2.3",
     "jtransform": "^0.3.0",
-    "whichtype": "^1.3.0"
+    "whichtype": "^1.4.0"
   },
   "devDependencies": {
     "@types/jest": "^29.5.1",
