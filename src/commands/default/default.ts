@@ -113,7 +113,7 @@ export function defaultCommand (cmdOptions: CmdOptions, nonFlagArgs: string[]) {
 				// using at() because idx can also be negative
 				newJo = currentJo.at(actualIndex);
 			} else if (isObject) {
-				const actualKey = findObjectKey(currentJo, keyArg, cmdOptions);
+				const actualKey = findObjectKey(keyArg, currentJo, cmdOptions);
 				newJo = currentJo[actualKey];
 			}
 		}

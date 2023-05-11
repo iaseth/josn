@@ -7,7 +7,7 @@ export function findArrayIndex (keyArg: string, arr: any[]) {
 	return argNum;
 }
 
-export function findObjectKey (object: any, keyArg: string, cmdOptions: CmdOptions) {
+export function findObjectKey (keyArg: string, object: any, cmdOptions: CmdOptions) {
 	const objectKeys = [...Object.keys(object)];
 	if (objectKeys.find(k => k === keyArg)) {
 		return keyArg;
