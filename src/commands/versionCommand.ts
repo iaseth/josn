@@ -2,6 +2,12 @@ import { CmdOptions } from "../cmdoptions";
 
 
 
-export function versionCommand (cmdOptions: CmdOptions) {
-	console.log(`The app is at 0.19.0.`);
+export function versionCommand (cmdOptions: CmdOptions, packageJson: any) {
+	const rows = [];
+	rows.push(["Package", packageJson.name]);
+	rows.push(["Version", packageJson.version]);
+	rows.push(["Description", packageJson.description]);
+	rows.push(["Author", packageJson.author]);
+	rows.push(["License", packageJson.license]);
+	console.table(rows);
 }

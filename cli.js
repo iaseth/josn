@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 const whichtype = require("whichtype");
 const josnlib = require("./dist");
+const packageJson = require("./package.json");
 
 
 
@@ -21,20 +22,20 @@ function main () {
 	}
 
 	const { commands } = josnlib;
-	if (cmdOptions.printArgs) {
-		commands.printArgsCommand(cmdOptions, args);
-	} else if (cmdOptions.printDemos) {
-		commands.printDemosCommand(cmdOptions);
-	} else if (cmdOptions.printFlags) {
-		commands.printFlagsCommand(cmdOptions);
-	} else if (cmdOptions.green) {
+	if (cmdOptions.green) {
 		commands.greenCommand(cmdOptions);
 	} else if (cmdOptions.help) {
 		commands.helpCommand(cmdOptions);
 	} else if (cmdOptions.license) {
 		commands.licenseCommand(cmdOptions);
+	} else if (cmdOptions.printArgs) {
+		commands.printArgsCommand(cmdOptions, args);
+	} else if (cmdOptions.printDemos) {
+		commands.printDemosCommand(cmdOptions);
+	} else if (cmdOptions.printFlags) {
+		commands.printFlagsCommand(cmdOptions);
 	} else if (cmdOptions.version) {
-		commands.versionCommand(cmdOptions);
+		commands.versionCommand(cmdOptions, packageJson);
 	} else {
 		commands.defaultCommand(cmdOptions, nonFlagArgs);
 	}
