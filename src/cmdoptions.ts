@@ -11,6 +11,7 @@ export class CmdOptions {
 	help: boolean = false;
 	ignoreCase: boolean = false;
 	list: boolean = false;           // just list all the input files
+	license: boolean = false;        // just print the license
 	minify: boolean = false;
 	noIgnoreCase: boolean = false;
 	plaintext: boolean = false;      // Output plaintext
@@ -44,6 +45,7 @@ export const flags: FlagType[] = [
 	{isCommand: false, name: "force", singleFlag: "-F", doubleFlag: "--force", description: "Force update files."},
 	{isCommand: true, name: "help", singleFlag: "-h", doubleFlag: "--help", description: "Show help."},
 	{isCommand: false, name: "ignoreCase", singleFlag: "-i", doubleFlag: "--ignore-case", description: "Ignore case (default)."},
+	{isCommand: true, name: "license", singleFlag: "", doubleFlag: "--license", description: "Print the LICENSE."},
 	{isCommand: true, name: "list", singleFlag: "-l", doubleFlag: "--list", description: "List all input files."},
 	{isCommand: false, name: "minify", singleFlag: "-m", doubleFlag: "--minify", description: "Minify the output."},
 	{isCommand: false, name: "noIgnoreCase", singleFlag: "-n", doubleFlag: "--no-ignore-case", description: "Do not ignore case."},
