@@ -47,10 +47,10 @@ export function defaultCommand (cmdOptions: CmdOptions, nonFlagArgs: string[]) {
 	} else {
 		const stat = fs.statSync(inputPath);
 		if (stat.isDirectory()) {
-			console.log(`Input path is a directory: '${inputPath}'`);
+			// console.log(`Input path is a directory: '${inputPath}'`);
 			const packageJsonPath = path.join(inputPath, "package.json");
 			if (fs.existsSync(packageJsonPath)) {
-				console.log(`Found: ${packageJsonPath}`);
+				// console.log(`Found: ${packageJsonPath}`);
 				jsonPath = packageJsonPath;
 			} else {
 				const files = fs.readdirSync(inputPath);
@@ -59,9 +59,9 @@ export function defaultCommand (cmdOptions: CmdOptions, nonFlagArgs: string[]) {
 					console.log(`Found No JSON files in directory: ${inputPath}`);
 					return;
 				} else if (jsonFiles.length === 1) {
-					console.log(`Found exactly 1 JSON file in directory: ${inputPath}`);
+					// console.log(`Found exactly 1 JSON file in directory: ${inputPath}`);
 					const loneJsonPath = path.join(inputPath, jsonFiles[0]);
-					console.log(`Found: ${loneJsonPath}`);
+					// console.log(`Found: ${loneJsonPath}`);
 					jsonPath = loneJsonPath;
 				} else {
 					console.log(`Found ${jsonFiles.length} JSON files in directory: ${inputPath}`);
@@ -76,7 +76,7 @@ export function defaultCommand (cmdOptions: CmdOptions, nonFlagArgs: string[]) {
 
 	const jo: any = parseJsonFile(jsonPath);
 	if (jo === null) {
-		console.log(`File parsed to NULL data: ${jsonPath}`);
+		console.log(`Couldn't parse file: '${jsonPath}'`);
 		return;
 	}
 
