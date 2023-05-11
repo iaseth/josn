@@ -125,6 +125,7 @@ export function defaultCommand (cmdOptions: CmdOptions, nonFlagArgs: string[]) {
 		currentJo = newJo;
 	}
 
+	// default indentation is 1 TAB
 	let indentation: string|number = "\t";
 	if (cmdOptions.minify) indentation = 0;
 	else if (cmdOptions.spaces2) indentation = 2;
@@ -134,6 +135,7 @@ export function defaultCommand (cmdOptions: CmdOptions, nonFlagArgs: string[]) {
 	if (cmdOptions.table) {
 		console.table(currentJo);
 	} else if (cmdOptions.console) {
+		// this happens by default anyway
 		console.log(currentJo);
 	} else if (cmdOptions.dir) {
 		console.dir(currentJo);
