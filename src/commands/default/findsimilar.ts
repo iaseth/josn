@@ -2,7 +2,7 @@ import { CmdOptions } from "../../cmdoptions";
 
 
 
-export function findArrayIndex (arr: any[], keyArg: string) {
+export function findArrayIndex (keyArg: string, arr: any[]) {
 	const argNum = parseInt(keyArg);
 	return argNum;
 }

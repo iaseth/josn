@@ -109,7 +109,7 @@ export function defaultCommand (cmdOptions: CmdOptions, nonFlagArgs: string[]) {
 			}
 		} else {
 			if (isArray) {
-				const actualIndex = findArrayIndex(currentJo, keyArg);
+				const actualIndex = findArrayIndex(keyArg, currentJo);
 				// using at() because idx can also be negative
 				newJo = currentJo.at(actualIndex);
 			} else if (isObject) {
