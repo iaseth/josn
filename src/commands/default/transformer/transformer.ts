@@ -40,6 +40,8 @@ export class Transformer {
 			case "reverse": case "r": this.command = "reverse"; break;
 			case "unique": case "u": this.command = "unique"; break;
 
+			case "shell": case "$": this.command = "shell"; break;
+
 			// work on array of strings
 			case "capital": this.command = "capital"; break;
 			case "lower": this.command = "lower"; break;
@@ -149,6 +151,16 @@ export class Transformer {
 		}
 	}
 
+	executeShellCommand () {
+		if (this.modifier) {
+			console.log(`Excecuting shell command: "${this.modifier}"`);
+			console.log(`\tDone.`);
+		} else {
+			console.log(`Shell command NOT specified!`);
+		}
+		return this.element;
+	}
+
 
 	transformArray () : any {
 		switch (this.command) {
@@ -200,6 +212,9 @@ export class Transformer {
 
 		case "unique":
 			return [...new Set(this.element)];
+
+		case "shell":
+			return this.executeShellCommand();
 
 		case "capital": break;
 		case "lower":
