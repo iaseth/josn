@@ -13,6 +13,7 @@ export class CmdOptions {
 	list: boolean = false;           // just list all the input files
 	minify: boolean = false;
 	noIgnoreCase: boolean = false;
+	plaintext: boolean = false;      // Output plaintext
 	printArgs: boolean = false;
 	printDemos: boolean = false;
 	printFlags: boolean = false;
@@ -46,6 +47,8 @@ export const flags: FlagType[] = [
 	{isCommand: true, name: "list", singleFlag: "-L", doubleFlag: "--list", description: "List all input files."},
 	{isCommand: false, name: "minify", singleFlag: "-m", doubleFlag: "--minify", description: "Minify the output."},
 	{isCommand: false, name: "noIgnoreCase", singleFlag: "-n", doubleFlag: "--no-ignore-case", description: "Do not ignore case."},
+
+	{isCommand: false, name: "plaintext", singleFlag: "-p", doubleFlag: "--plaintext", description: "Output plaintext."},
 	{isCommand: true, name: "printArgs", singleFlag: "", doubleFlag: "--print-args", description: "Just print the arguments."},
 	{isCommand: true, name: "printDemos", singleFlag: "", doubleFlag: "--print-demos", description: "Just print the demos."},
 	{isCommand: true, name: "printFlags", singleFlag: "", doubleFlag: "--print-flags", description: "Just print the flags."},

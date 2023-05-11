@@ -137,8 +137,11 @@ export function defaultCommand (cmdOptions: CmdOptions, nonFlagArgs: string[]) {
 		console.log(currentJo);
 	} else if (cmdOptions.dir) {
 		console.dir(currentJo);
-	} else {
+	} else if (cmdOptions.plaintext) {
 		const currentJoString = JSON.stringify(currentJo, null, indentation);
 		console.log(currentJoString);
+	} else {
+		// directly log the object by default
+		console.log(currentJo);
 	}
 }
