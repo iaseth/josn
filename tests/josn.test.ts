@@ -1,5 +1,5 @@
 const josnlib = require("../dist");
-const { findArrayIndex, findObjectKey } = require("../dist/commands/default/findsimilar");
+const { findArrayIndex, findObjectKey } = require("../dist/commands/defaultCommand/findsimilar");
 
 const ten = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 

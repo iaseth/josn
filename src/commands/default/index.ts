@@ -1,2 +1,0 @@
-
-export { defaultCommand } from "./default";

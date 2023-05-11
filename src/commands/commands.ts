@@ -1,6 +1,7 @@
 import { CmdOptions, flags } from "../cmdoptions";
 import { demos } from "../demos";
-import { defaultCommand } from "./default";
+import { defaultCommand } from "./defaultCommand";
+import { helpCommand } from "./helpCommand";
 
 
 
@@ -15,12 +16,6 @@ export function printDemosCommand (cmdOptions: CmdOptions) {
 
 export function printFlagsCommand (cmdOptions: CmdOptions) {
 	console.log(cmdOptions);
-}
-
-export function helpCommand (cmdOptions: CmdOptions) {
-	const commandFlags = flags.filter(flag => flag.isCommand);
-	console.log(`List of available commands:`);
-	commandFlags.forEach((c, i) => console.log(`\tcommand #${i+1}: ${c.doubleFlag.padEnd(15)} => ${c.description}`));
 }
 
 export const commands = {
