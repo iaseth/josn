@@ -163,7 +163,7 @@ josn @colors colors :10 --table
 | -------------- | ------------------------------------- |
 | `Name`         | `josn-cli`                            |
 | `Description`  | `JOSN is a command line JSON viewer.` |
-| `Version`      | `0.24.0`                              |
+| `Version`      | `0.25.0`                              |
 | `Author`       | `iaseth`                              |
 | `Homepage`     | `https://github.com/iaseth/josn`      |
 | `Repository`   | `iaseth/josn`                         |
@@ -175,7 +175,7 @@ josn @colors colors :10 --table
 ## Dependencies
 |     | `Package`   | `Version`   |
 | --- | ----------- | ----------- |
-| 1   | `josnlib`   | `^0.9.0`    |
+| 1   | `josnlib`   | `^0.10.0`   |
 | 2   | `whichtype` | `^1.4.0`    |
 
 
