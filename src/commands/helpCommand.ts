@@ -1,4 +1,4 @@
-import { CmdOptions, flags } from "../josnlib";
+import { CmdOptions, flags } from "josnlib";
 
 
 

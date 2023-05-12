@@ -1,4 +1,4 @@
-import { CmdOptions } from "../josnlib";
+import { CmdOptions } from "josnlib";
 
 
 

@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 const whichtype = require("whichtype");
-const josnlib = require("./dist");
+const josnlib = require("josnlib");
+const josncli = require("./dist");
 const packageJson = require("./package.json");
 
 
@@ -21,7 +22,7 @@ function main () {
 		return;
 	}
 
-	const { commands } = josnlib;
+	const { commands } = josncli;
 	if (cmdOptions.green) {
 		commands.greenCommand(cmdOptions);
 	} else if (cmdOptions.help) {

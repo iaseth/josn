@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 
-import { CmdOptions, josn } from "../../josnlib";
+import { CmdOptions, josn } from "josnlib";
 import { parseJsonFile } from '../../parse';
 import { demos } from '../../demos';
 
