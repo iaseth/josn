@@ -1,4 +1,4 @@
 
-export { flags, getCmdOptions } from './cmdoptions';
+export { flags, getCmdOptions } from './josnlib';
 export { parseJsonFile } from './parse';
 export { commands } from './commands';

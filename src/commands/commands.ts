@@ -1,4 +1,4 @@
-import { CmdOptions, flags } from "../cmdoptions";
+import { CmdOptions, flags } from "../josnlib";
 import { demos } from "../demos";
 import { defaultCommand } from "./defaultCommand";
 import { greenCommand } from "./greenCommand";

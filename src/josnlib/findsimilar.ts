@@ -1,4 +1,4 @@
-import { CmdOptions } from "../../../cmdoptions";
+import { CmdOptions } from "./cmdoptions";
 
 
 

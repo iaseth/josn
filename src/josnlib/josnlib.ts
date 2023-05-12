@@ -2,7 +2,7 @@ import { isSlice, slice } from 'jslice';
 import { hasAColon } from 'whichtype';
 import { Transformer } from './transformer';
 import { findArrayIndex, findObjectKey } from './findsimilar';
-import { CmdOptions } from '../../../cmdoptions';
+import { CmdOptions } from './cmdoptions';
 
 
 
