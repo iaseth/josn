@@ -17,7 +17,7 @@ export function getInputFilePath (inputPath: string): string|null {
 			// console.log(`Demo Found: ${demoPath}`);
 			return demoPath;
 		} else {
-			console.log(`Demo NOT Found: ${filename}`);
+			console.log(`Demo NOT Found: '${filename}'`);
 			return null;
 		}
 	}
@@ -40,7 +40,7 @@ export function getInputFilePath (inputPath: string): string|null {
 			const files = fs.readdirSync(inputPath);
 			const jsonFiles = files.filter(f => f.endsWith(".json"));
 			if (jsonFiles.length === 0) {
-				console.log(`Found No JSON files in directory: ${inputPath}`);
+				console.log(`Found No JSON files in directory: '${inputPath}'`);
 				return null;
 			} else if (jsonFiles.length === 1) {
 				// console.log(`Found exactly 1 JSON file in directory: ${inputPath}`);
@@ -48,10 +48,12 @@ export function getInputFilePath (inputPath: string): string|null {
 				// console.log(`Found: ${loneJsonPath}`);
 				return loneJsonPath;
 			} else {
-				console.log(`Found ${jsonFiles.length} JSON files in directory: ${inputPath}`);
-				jsonFiles.forEach((jsonFile, idx) => {
-					console.log(`\tFile #${idx+1} => ${jsonFile}`);
-				});
+				console.log(`Found ${jsonFiles.length} JSON files in directory: '${inputPath}'`);
+				const files = jsonFiles.map((filename, i) => ({
+					Filename: filename,
+					Path: path.join(inputPath, filename)
+				}));
+				console.table(files);
 				return null;
 			}
 		}
