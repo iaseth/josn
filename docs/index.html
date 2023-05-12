@@ -47,7 +47,12 @@
 <p><a href="https://www.npmjs.com/package/josn-cli"><code>josn-cli</code></a> is a command-line <code>JSON</code> viewer, written in <code>JavaScript</code> and <code>TypeScript</code>.</p>
 <p>I felt the need for a JSON browser when I was working on <a href="https://github.com/iaseth/top-100-yc-companies"><code>iaseth/top-100-yc-companies</code></a>.
 I primarily use it to verify the JSON data collected in my web scraping projects.
-I have created a similar tool (<a href="https://github.com/iaseth/jsonplus"><code>jsonplus</code></a>) in <code>C++</code>.</p>
+I have created a similar tool (<a href="https://github.com/iaseth/jsonplus"><code>jsonplus</code></a>) in <code>C++</code>,
+which is a lot more limited in functionality.</p>
+<p>Four of my other projects, <a href="https://github.com/iaseth/josnlib"><code>josnlib</code></a>, <a href="https://github.com/iaseth/whichtype"><code>whichtype</code></a>,
+<a href="https://github.com/iaseth/jslice"><code>jslice</code></a> and <a href="https://github.com/iaseth/jtransform"><code>jtransform</code></a>,
+actually started out as modules within <code>josn</code>,
+but were later made separate packages to allow for easier testing and code reuse.</p>
 <p>I am using <a href="https://github.com/iaseth/readmix"><code>readmix</code></a> for generating this README.
 You can view the source file <a href="https://github.com/iaseth/josn/blob/master/README.md.rx">here</a>.</p>
 <h2 id="table-of-contents">Table of contents</h2>
@@ -55,7 +60,9 @@ You can view the source file <a href="https://github.com/iaseth/josn/blob/master
 <li><a href="#josn">josn</a><ul>
 <li><a href="#table-of-contents">Table of contents</a></li>
 <li><a href="#installation">Installation</a></li>
+<li><a href="#updating-josn">Updating JOSN</a></li>
 <li><a href="#usage">Usage</a></li>
+<li><a href="#demos">Demos</a></li>
 <li><a href="#package-details">Package details</a></li>
 <li><a href="#dependencies">Dependencies</a></li>
 <li><a href="#dev-dependencies">Dev dependencies</a></li>
@@ -68,6 +75,10 @@ You can view the source file <a href="https://github.com/iaseth/josn/blob/master
 <pre><code>npm i -g josn-cli
 </code></pre>
 <p>Now you should be able to run the <code>josn</code> command in your terminal.</p>
+<h2 id="updating-josn">Updating JOSN</h2>
+<p>You can update <code>josn</code> with the following command:</p>
+<pre><code>npm i -g josn-cli@latest
+</code></pre>
 <h2 id="usage">Usage</h2>
 <ul>
 <li><p><strong>Printing whole files</strong></p>
@@ -83,7 +94,8 @@ You can view the source file <a href="https://github.com/iaseth/josn/blob/master
 </li>
 <li>When you supply a <code>path</code> that is a directory but it does not contain a <code>package.json</code>, <code>josn</code> will try to find a <code>json</code> file in that directory:<pre><code>josn mydata/
 </code></pre>
-</li>
+  If the directory contains a single <code>JSON</code> file, then <code>josn</code> will select it.
+  Otherwise, it will list all the <code>JSON</code> files in that directory.</li>
 </ul>
 </li>
 <li><p><strong>Printing an object</strong></p>
@@ -118,7 +130,7 @@ You can view the source file <a href="https://github.com/iaseth/josn/blob/master
 <li>This will print the first element of the data array:<pre><code>josn data.json data 0
 </code></pre>
 </li>
-<li>You can also use negative indices to select an element from the end:<pre><code>josn data.json data -1
+<li>You can also use negative indexes to select an element from the end:<pre><code>josn data.json data -1
 </code></pre>
   This will print last element of <code>data</code> array.</li>
 <li>You can use a <code>colonArg</code> for selecting just the <code>even</code> or <code>odd</code> elements in an Array:<pre><code>josn data.json data :even
@@ -136,6 +148,63 @@ You can view the source file <a href="https://github.com/iaseth/josn/blob/master
 </ul>
 </li>
 </ul>
+<h2 id="demos">Demos</h2>
+<p><code>JOSN</code> comes with a bunch of demo JSON files to get you started.</p>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Name</th>
+<th>Source</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>HTML Colors</td>
+<td><a href="https://github.com/iaseth/josn/tree/master/demojsons/colors.json"><code>colors.json</code></a></td>
+<td><a href="https://github.com/iaseth/html-color-names"><code>iaseth/html-color-names</code></a></td>
+<td></td>
+</tr>
+<tr>
+<td>HTML Color Palettes</td>
+<td><a href="https://github.com/iaseth/josn/tree/master/demojsons/colorpalettes.json"><code>colorpalettes.json</code></a></td>
+<td><a href="https://github.com/iaseth/html-color-names"><code>iaseth/html-color-names</code></a></td>
+<td></td>
+</tr>
+<tr>
+<td>YC Company Data</td>
+<td><a href="https://github.com/iaseth/josn/tree/master/demojsons/yc-companies.json"><code>yc-companies.json</code></a></td>
+<td><a href="https://github.com/iaseth/top-100-yc-companies"><code>iaseth/top-100-yc-companies</code></a></td>
+<td></td>
+</tr>
+<tr>
+<td>YC Color Palettes</td>
+<td><a href="https://github.com/iaseth/josn/tree/master/demojsons/yc-palettes.json"><code>yc-palettes.json</code></a></td>
+<td><a href="https://github.com/iaseth/top-100-yc-companies"><code>iaseth/top-100-yc-companies</code></a></td>
+<td></td>
+</tr>
+<tr>
+<td>YC Tailwind Colors</td>
+<td><a href="https://github.com/iaseth/josn/tree/master/demojsons/yc-tailwind.json"><code>yc-tailwind.json</code></a></td>
+<td><a href="https://github.com/iaseth/top-100-yc-companies"><code>iaseth/top-100-yc-companies</code></a></td>
+<td></td>
+</tr>
+<tr>
+<td>Big Tech Market Cap Data</td>
+<td><a href="https://github.com/iaseth/josn/tree/master/demojsons/bigtech-market-cap.json"><code>bigtech-market-cap.json</code></a></td>
+<td><a href="https://github.com/iaseth/bigtech-json-data"><code>iaseth/bigtech-json-data</code></a></td>
+<td></td>
+</tr>
+</tbody></table>
+<p>Use the following command to view the list of available demo JSON files in your <code>josn</code> installation:</p>
+<pre><code>josn --print-demos
+</code></pre>
+<p>You can open a demo file with the <code>@demoname</code> syntax:</p>
+<pre><code>josn @colors.json colors :10 --table
+</code></pre>
+<p>You can omit the extension <code>.json</code> for demos:</p>
+<pre><code>josn @colors colors :10 --table
+</code></pre>
 <h2 id="package-details">Package details</h2>
 <table>
 <thead>
@@ -154,7 +223,7 @@ You can view the source file <a href="https://github.com/iaseth/josn/blob/master
 </tr>
 <tr>
 <td><code>Version</code></td>
-<td><code>0.8.8</code></td>
+<td><code>0.28.0</code></td>
 </tr>
 <tr>
 <td><code>Author</code></td>
@@ -172,6 +241,10 @@ You can view the source file <a href="https://github.com/iaseth/josn/blob/master
 <td><code>License</code></td>
 <td><code>MIT</code></td>
 </tr>
+<tr>
+<td><code>Dependencies</code></td>
+<td><code>2</code></td>
+</tr>
 </tbody></table>
 <h2 id="dependencies">Dependencies</h2>
 <table>
@@ -184,8 +257,13 @@ You can view the source file <a href="https://github.com/iaseth/josn/blob/master
 </thead>
 <tbody><tr>
 <td>1</td>
-<td><code>json5</code></td>
-<td><code>^2.2.3</code></td>
+<td><code>josnlib</code></td>
+<td><code>^0.11.0</code></td>
+</tr>
+<tr>
+<td>2</td>
+<td><code>whichtype</code></td>
+<td><code>^1.4.0</code></td>
 </tr>
 </tbody></table>
 <h2 id="dev-dependencies">Dev dependencies</h2>
