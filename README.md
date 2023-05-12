@@ -4,14 +4,16 @@
 
 I felt the need for a JSON browser when I was working on [`iaseth/top-100-yc-companies`](https://github.com/iaseth/top-100-yc-companies).
 I primarily use it to verify the JSON data collected in my web scraping projects.
-I have created a similar tool ([`jsonplus`](https://github.com/iaseth/jsonplus)) in `C++`.
+I have created a similar tool ([`jsonplus`](https://github.com/iaseth/jsonplus)) in `C++`,
+which is a lot more limited in functionality.
+
+Four of my other projects, [`josnlib`](https://github.com/iaseth/josnlib), [`whichtype`](https://github.com/iaseth/whichtype),
+[`jslice`](https://github.com/iaseth/jslice) and [`jtransform`](https://github.com/iaseth/jtransform),
+actually started out as modules within `josn`,
+but were later made separate packages to allow for easier testing and code reuse.
 
 I am using [`readmix`](https://github.com/iaseth/readmix) for generating this README.
 You can view the source file [here](https://github.com/iaseth/josn/blob/master/README.md.rx).
-
-Three of my other projects, [`whichtype`](https://github.com/iaseth/whichtype), [`jslice`](https://github.com/iaseth/jslice)
-and [`jtransform`](https://github.com/iaseth/jtransform), actually started out as modules within `josn`,
-but were later made separate packages to allow for easier testing and code reuse.
 
 
 ## Table of contents

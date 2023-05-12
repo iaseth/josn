@@ -1,17 +1,19 @@
 
 # josn
-{{ "josn-cli" | NpmLink }} is a command-line `JSON` viewer, written in `JavaScript` and `TypeScript`.
+{{ npm.link("josn-cli") }} is a command-line `JSON` viewer, written in `JavaScript` and `TypeScript`.
 
 I felt the need for a JSON browser when I was working on {{ gh.link("iaseth/top-100-yc-companies") }}.
 I primarily use it to verify the JSON data collected in my web scraping projects.
-I have created a similar tool ({{ gh.link("iaseth/jsonplus", "jsonplus") }}) in `C++`.
+I have created a similar tool ({{ gh.link("iaseth/jsonplus", "jsonplus") }}) in `C++`,
+which is a lot more limited in functionality.
+
+Four of my other projects, {{ gh.link("iaseth/josnlib", "josnlib") }}, {{ gh.link("iaseth/whichtype", "whichtype") }},
+{{ gh.link("iaseth/jslice", "jslice") }} and {{ gh.link("iaseth/jtransform", "jtransform") }},
+actually started out as modules within `josn`,
+but were later made separate packages to allow for easier testing and code reuse.
 
 I am using {{ gh.link("iaseth/readmix", "readmix") }} for generating this README.
 You can view the source file [here](https://github.com/iaseth/josn/blob/master/README.md.rx).
-
-Three of my other projects, {{ gh.link("iaseth/whichtype", "whichtype") }}, {{ gh.link("iaseth/jslice", "jslice") }}
-and {{ gh.link("iaseth/jtransform", "jtransform") }}, actually started out as modules within `josn`,
-but were later made separate packages to allow for easier testing and code reuse.
 
 
 ## Table of contents
