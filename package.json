@@ -1,6 +1,6 @@
 {
   "name": "josn-cli",
-  "version": "0.28.0",
+  "version": "0.29.0",
   "description": "JOSN is a command line JSON viewer.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -21,8 +21,8 @@
   "repository": "iaseth/josn",
   "license": "MIT",
   "dependencies": {
-    "josnlib": "^0.11.0",
-    "whichtype": "^1.4.0"
+    "josnlib": "^0.12.0",
+    "whichtype": "^1.5.0"
   },
   "devDependencies": {
     "@types/jest": "^29.5.1",
