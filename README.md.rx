@@ -98,6 +98,13 @@ You can omit the extension `.json` for demos:
 => josn @colors colors :10 --table
 
 
+## List of flags
+
+| Short | Long | Description |
+| ----- | ---- | ----------- |{% for flag in parse("node_modules/josnlib/dist/flags.json").flags %}
+| {{ flag.singleFlag }} | {{ flag.doubleFlag }} | {{ flag.description }} |{% endfor %}
+
+
 ## Package details
 {{ npm.packageDetails() }}
 

@@ -23,6 +23,7 @@ You can view the source file [here](https://github.com/iaseth/josn/blob/master/R
     * [Updating JOSN](#updating-josn)
     * [Usage](#usage)
     * [Demos](#demos)
+    * [List of flags](#list-of-flags)
     * [Package details](#package-details)
     * [Dependencies](#dependencies)
     * [Dev dependencies](#dev-dependencies)
@@ -160,12 +161,43 @@ josn @colors colors :10 --table
 ```
 
 
+## List of flags
+
+| Short | Long | Description |
+| ----- | ---- | ----------- |
+| -c | --console | Use console.log() for printing selected object. |
+| -d | --dir | Use console.dir() for printing selected object. |
+| -D | --debug | Turns debug mode ON. |
+| -E | --exact | Turns exact mode ON. |
+| -F | --force | Force update files. |
+| -g | --green | Green is for the environment. |
+| -h | --help | Show help. |
+| -i | --ignore-case | Ignore case (default). |
+|  | --license | Print the LICENSE. |
+| -l | --list | List all input files. |
+| -m | --minify | Minify the output. |
+| -n | --no-ignore-case | Do not ignore case. |
+| -p | --plaintext | Output plaintext. |
+|  | --print-args | Just print the arguments. |
+|  | --print-demos | Just print the demos. |
+|  | --print-flags | Just print the flags. |
+| -q | --quiet | Turns quiet mode ON. |
+| -s | --spaces2 | Indent with 2 spaces. |
+| -S | --spaces4 | Indent with 4 spaces. |
+| -t | --table | Print output as a table. |
+| -T | --tabs | Indent with Tabs. |
+| -v | --version | Print version. |
+| -w | --watch | Watch input files for changes. |
+| -x | --experimental | Turns experimental mode ON. |
+| -Z | --zen | Turns zen mode ON. |
+
+
 ## Package details
 | `Name`         | `Value`                               |
 | -------------- | ------------------------------------- |
 | `Name`         | `josn-cli`                            |
 | `Description`  | `JOSN is a command line JSON viewer.` |
-| `Version`      | `0.29.0`                              |
+| `Version`      | `0.30.0`                              |
 | `Author`       | `iaseth`                              |
 | `Homepage`     | `https://github.com/iaseth/josn`      |
 | `Repository`   | `iaseth/josn`                         |
@@ -177,7 +209,7 @@ josn @colors colors :10 --table
 ## Dependencies
 |     | `Package`   | `Version`   |
 | --- | ----------- | ----------- |
-| 1   | `josnlib`   | `^0.12.0`   |
+| 1   | `josnlib`   | `^0.13.0`   |
 | 2   | `whichtype` | `^1.5.0`    |
 
 
