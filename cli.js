@@ -8,7 +8,7 @@ const packageJson = require("./package.json");
 function main () {
 	const [,, ...args] = process.argv;
 
-	const [nonFlagArgs, flagArgs] = josnlib.classifyArgs(args);
+	const [flagArgs, nonFlagArgs] = josnlib.classifyArgs(args);
 	const cmdOptions = josnlib.getCmdOptions(flagArgs);
 
 	const commandFlags = josnlib.flags.filter(flag => flag.isCommand);
