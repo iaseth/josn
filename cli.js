@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-const whichtype = require("whichtype");
 const josnlib = require("josnlib");
 const josncli = require("./dist");
 const packageJson = require("./package.json");
@@ -9,8 +8,7 @@ const packageJson = require("./package.json");
 function main () {
 	const [,, ...args] = process.argv;
 
-	const nonFlagArgs = args.filter(whichtype.isNotFlag);
-	const flagArgs = args.filter(whichtype.isFlag);
+	const [nonFlagArgs, flagArgs] = josnlib.classifyArgs(args);
 	const cmdOptions = josnlib.getCmdOptions(flagArgs);
 
 	const commandFlags = josnlib.flags.filter(flag => flag.isCommand);
