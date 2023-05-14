@@ -162,34 +162,33 @@ josn @colors colors :10 --table
 
 
 ## List of flags
-
-| Short | Long | Description |
-| ----- | ---- | ----------- |
-| -c | --console | Use console.log() for printing selected object. |
-| -d | --dir | Use console.dir() for printing selected object. |
-| -D | --debug | Turns debug mode ON. |
-| -E | --exact | Turns exact mode ON. |
-| -F | --force | Force update files. |
-| -g | --green | Green is for the environment. |
-| -h | --help | Show help. |
-| -i | --ignore-case | Ignore case (default). |
-|  | --license | Print the LICENSE. |
-| -l | --list | List all input files. |
-| -m | --minify | Minify the output. |
-| -n | --no-ignore-case | Do not ignore case. |
-| -p | --plaintext | Output plaintext. |
-|  | --print-args | Just print the arguments. |
-|  | --print-demos | Just print the demos. |
-|  | --print-flags | Just print the flags. |
-| -q | --quiet | Turns quiet mode ON. |
-| -s | --spaces2 | Indent with 2 spaces. |
-| -S | --spaces4 | Indent with 4 spaces. |
-| -t | --table | Print output as a table. |
-| -T | --tabs | Indent with Tabs. |
-| -v | --version | Print version. |
-| -w | --watch | Watch input files for changes. |
-| -x | --experimental | Turns experimental mode ON. |
-| -Z | --zen | Turns zen mode ON. |
+| Short | Long | Description | Status |
+| ----- | ---- | ----------- | ------ |
+| -c | --console | Use console.log() for printing selected object. | &check; |
+| -d | --dir | Use console.dir() for printing selected object. | &check; |
+| -D | --debug | Turns debug mode ON. | &cross; |
+| -E | --exact | Turns exact mode ON. | &cross; |
+| -F | --force | Force update files. | &cross; |
+| -g | --green | Green is for the environment. | &cross; |
+| -h | --help | Show help. | &check; |
+| -i | --ignore-case | Ignore case (default). | &cross; |
+|  | --license | Print the LICENSE. | &cross; |
+| -l | --list | List all input files. | &cross; |
+| -m | --minify | Minify the output. | &check; |
+| -n | --no-ignore-case | Do not ignore case. | &cross; |
+| -p | --plaintext | Output plaintext. | &cross; |
+|  | --print-args | Just print the arguments. | &check; |
+|  | --print-demos | Just print the demos. | &check; |
+|  | --print-flags | Just print the flags. | &check; |
+| -q | --quiet | Turns quiet mode ON. | &cross; |
+| -s | --spaces2 | Indent with 2 spaces. | &check; |
+| -S | --spaces4 | Indent with 4 spaces. | &check; |
+| -t | --table | Print output as a table. | &check; |
+| -T | --tabs | Indent with Tabs. | &check; |
+| -v | --version | Print version. | &check; |
+| -w | --watch | Watch input files for changes. | &cross; |
+| -x | --experimental | Turns experimental mode ON. | &cross; |
+| -Z | --zen | Turns zen mode ON. | &cross; |
 
 
 ## Package details
@@ -197,7 +196,7 @@ josn @colors colors :10 --table
 | -------------- | ------------------------------------- |
 | `Name`         | `josn-cli`                            |
 | `Description`  | `JOSN is a command line JSON viewer.` |
-| `Version`      | `0.32.0`                              |
+| `Version`      | `0.33.0`                              |
 | `Author`       | `iaseth`                              |
 | `Homepage`     | `https://github.com/iaseth/josn`      |
 | `Repository`   | `iaseth/josn`                         |
@@ -209,7 +208,7 @@ josn @colors colors :10 --table
 ## Dependencies
 |     | `Package`   | `Version`   |
 | --- | ----------- | ----------- |
-| 1   | `josnlib`   | `^0.15.0`   |
+| 1   | `josnlib`   | `^0.16.0`   |
 
 
 

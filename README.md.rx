@@ -99,10 +99,9 @@ You can omit the extension `.json` for demos:
 
 
 ## List of flags
-
-| Short | Long | Description |
-| ----- | ---- | ----------- |{% for flag in parse("node_modules/josnlib/dist/flags.json").flags %}
-| {{ flag.singleFlag }} | {{ flag.doubleFlag }} | {{ flag.description }} |{% endfor %}
+| Short | Long | Description | Status |
+| ----- | ---- | ----------- | ------ |{% for flag in parse("node_modules/josnlib/dist/flags.json").flags %}
+| {{ flag.singleFlag }} | {{ flag.doubleFlag }} | {{ flag.description }} | {{ "&check;" if flag.isDone else "&cross;" }} |{% endfor %}
 
 
 ## Package details
