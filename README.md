@@ -181,6 +181,7 @@ josn @colors colors :10 --table
 |  | --print-demos | Just print the demos. | &check; |
 |  | --print-flags | Just print the flags. | &check; |
 | -q | --quiet | Turns quiet mode ON. | &cross; |
+|  | --repl | Opens the REPL. | &cross; |
 | -s | --spaces2 | Indent with 2 spaces. | &check; |
 | -S | --spaces4 | Indent with 4 spaces. | &check; |
 | -t | --table | Print output as a table. | &check; |
@@ -196,7 +197,7 @@ josn @colors colors :10 --table
 | -------------- | ------------------------------------- |
 | `Name`         | `josn-cli`                            |
 | `Description`  | `JOSN is a command line JSON viewer.` |
-| `Version`      | `0.33.0`                              |
+| `Version`      | `0.34.0`                              |
 | `Author`       | `iaseth`                              |
 | `Homepage`     | `https://github.com/iaseth/josn`      |
 | `Repository`   | `iaseth/josn`                         |
@@ -208,7 +209,7 @@ josn @colors colors :10 --table
 ## Dependencies
 |     | `Package`   | `Version`   |
 | --- | ----------- | ----------- |
-| 1   | `josnlib`   | `^0.16.0`   |
+| 1   | `josnlib`   | `^0.18.0`   |
 
 
 
